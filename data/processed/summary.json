@@ -1,0 +1,267 @@
+{
+  "by_year": {
+    "2022": {
+      "auction_type": "mega",
+      "dates": "2022-02-12/13",
+      "players_in_ledger": 267,
+      "sold": 117,
+      "unsold": 150,
+      "total_spend_cr": 398.9,
+      "with_bid_ladder": 28,
+      "by_team": {
+        "CSK": {
+          "buys": 12,
+          "spend": 37.55
+        },
+        "MI": {
+          "buys": 8,
+          "spend": 28.75
+        },
+        "RCB": {
+          "buys": 10,
+          "spend": 31.55
+        },
+        "KKR": {
+          "buys": 12,
+          "spend": 42.15
+        },
+        "SRH": {
+          "buys": 11,
+          "spend": 33.35
+        },
+        "DC": {
+          "buys": 15,
+          "spend": 37.8
+        },
+        "PBKS": {
+          "buys": 13,
+          "spend": 52.4
+        },
+        "RR": {
+          "buys": 9,
+          "spend": 43.75
+        },
+        "GT": {
+          "buys": 11,
+          "spend": 34.8
+        },
+        "LSG": {
+          "buys": 16,
+          "spend": 56.8
+        }
+      }
+    },
+    "2023": {
+      "auction_type": "mini",
+      "dates": "2022-12-23",
+      "players_in_ledger": 151,
+      "sold": 80,
+      "unsold": 71,
+      "total_spend_cr": 164.25,
+      "with_bid_ladder": 25,
+      "by_team": {
+        "CSK": {
+          "buys": 7,
+          "spend": 18.95
+        },
+        "MI": {
+          "buys": 8,
+          "spend": 19.0
+        },
+        "RCB": {
+          "buys": 7,
+          "spend": 7.0
+        },
+        "KKR": {
+          "buys": 8,
+          "spend": 5.4
+        },
+        "SRH": {
+          "buys": 13,
+          "spend": 35.45
+        },
+        "DC": {
+          "buys": 5,
+          "spend": 14.5
+        },
+        "PBKS": {
+          "buys": 6,
+          "spend": 20.0
+        },
+        "RR": {
+          "buys": 9,
+          "spend": 9.85
+        },
+        "GT": {
+          "buys": 7,
+          "spend": 14.8
+        },
+        "LSG": {
+          "buys": 10,
+          "spend": 19.3
+        }
+      }
+    },
+    "2024": {
+      "auction_type": "mini",
+      "dates": "2023-12-19",
+      "players_in_ledger": 83,
+      "sold": 72,
+      "unsold": 11,
+      "total_spend_cr": 234.85,
+      "with_bid_ladder": 21,
+      "by_team": {
+        "CSK": {
+          "buys": 6,
+          "spend": 30.4
+        },
+        "MI": {
+          "buys": 8,
+          "spend": 16.7
+        },
+        "RCB": {
+          "buys": 6,
+          "spend": 20.4
+        },
+        "KKR": {
+          "buys": 10,
+          "spend": 31.35
+        },
+        "SRH": {
+          "buys": 6,
+          "spend": 30.8
+        },
+        "DC": {
+          "buys": 9,
+          "spend": 19.05
+        },
+        "PBKS": {
+          "buys": 8,
+          "spend": 24.95
+        },
+        "RR": {
+          "buys": 5,
+          "spend": 14.3
+        },
+        "GT": {
+          "buys": 8,
+          "spend": 34.7
+        },
+        "LSG": {
+          "buys": 6,
+          "spend": 12.2
+        }
+      }
+    },
+    "2025": {
+      "auction_type": "mega",
+      "dates": "2024-11-24/25",
+      "players_in_ledger": 323,
+      "sold": 182,
+      "unsold": 141,
+      "total_spend_cr": 639.15,
+      "with_bid_ladder": 108,
+      "by_team": {
+        "CSK": {
+          "buys": 20,
+          "spend": 54.95
+        },
+        "MI": {
+          "buys": 18,
+          "spend": 44.8
+        },
+        "RCB": {
+          "buys": 19,
+          "spend": 82.25
+        },
+        "KKR": {
+          "buys": 15,
+          "spend": 50.95
+        },
+        "SRH": {
+          "buys": 15,
+          "spend": 44.8
+        },
+        "DC": {
+          "buys": 19,
+          "spend": 72.8
+        },
+        "PBKS": {
+          "buys": 23,
+          "spend": 110.15
+        },
+        "RR": {
+          "buys": 14,
+          "spend": 40.7
+        },
+        "GT": {
+          "buys": 20,
+          "spend": 68.85
+        },
+        "LSG": {
+          "buys": 19,
+          "spend": 68.9
+        }
+      }
+    },
+    "2026": {
+      "auction_type": "mini",
+      "dates": "2025-12-16",
+      "players_in_ledger": 156,
+      "sold": 77,
+      "unsold": 79,
+      "total_spend_cr": 215.45,
+      "with_bid_ladder": 27,
+      "by_team": {
+        "CSK": {
+          "buys": 9,
+          "spend": 41.0
+        },
+        "MI": {
+          "buys": 5,
+          "spend": 2.2
+        },
+        "RCB": {
+          "buys": 8,
+          "spend": 16.15
+        },
+        "KKR": {
+          "buys": 13,
+          "spend": 63.85
+        },
+        "SRH": {
+          "buys": 10,
+          "spend": 20.05
+        },
+        "DC": {
+          "buys": 8,
+          "spend": 21.45
+        },
+        "PBKS": {
+          "buys": 4,
+          "spend": 8.0
+        },
+        "RR": {
+          "buys": 9,
+          "spend": 13.4
+        },
+        "GT": {
+          "buys": 5,
+          "spend": 10.95
+        },
+        "LSG": {
+          "buys": 6,
+          "spend": 18.4
+        }
+      }
+    }
+  },
+  "overall": {
+    "players_in_ledger": 980,
+    "sold": 528,
+    "unsold": 452,
+    "total_spend_cr": 1652.6,
+    "lots_with_bid_ladder": 209,
+    "note": "spend uses hammer price; overseas mini-cap paid amounts (e.g. 2026 Green 18cr) noted per-lot"
+  }
+}

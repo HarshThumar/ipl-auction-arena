@@ -1,0 +1,14 @@
+{
+  "season": 2023,
+  "auction_type": "mini",
+  "source_snapshot_url": "http://web.archive.org/web/20221224140118/https://www.espncricinfo.com/live-blog/2023-ipl-auction-live-updates-1350286",
+  "captured_utc": "2022-12-24T14:01:18Z",
+  "lots_total": 151,
+  "sold": 80,
+  "unsold": 71,
+  "with_full_bid_steps": 9,
+  "with_partial_bid_steps": 16,
+  "final_two_only": 1,
+  "outcome_only": 125,
+  "regenerated_from": "2023_bids.json"
+}

@@ -1,0 +1,75 @@
+{
+  "year": 2024,
+  "sources_used": [
+    "ESPNcricinfo live blog (archived mid-auction snapshot, front half)",
+    "Wikipedia: List_of_2024_Indian_Premier_League_personnel_changes (Sold players table, full outcomes)",
+    "secondary tracker Wayback (attempted primary; only mid-auction snapshots available)"
+  ],
+  "secondary_readable": false,
+  "secondary_note": "Only same-day MID-AUCTION snapshots exist on Wayback (auction page 2023-12-19 10:46 UTC, teams page 08:58 UTC). No post-auction snapshot archived; page is a client-rendered live widget with no embedded full-result JSON. Unusable as an independent full-outcome source; Wikipedia used as backup per task.",
+  "espn_lots": 36,
+  "lots_added": 47,
+  "total_after": 83,
+  "n_sold_total": 72,
+  "n_matched": 21,
+  "mismatches": [],
+  "unsold_in_espn_but_sold_later": [
+    {
+      "player": "Manish Pandey",
+      "espn": "unsold(for now)",
+      "wiki_winner": "KKR",
+      "wiki_price_cr": 0.5
+    },
+    {
+      "player": "Rilee Rossouw",
+      "espn": "unsold(for now)",
+      "wiki_winner": "PBKS",
+      "wiki_price_cr": 8.0
+    },
+    {
+      "player": "Lockie Ferguson",
+      "espn": "unsold(for now)",
+      "wiki_winner": "RCB",
+      "wiki_price_cr": 2.0
+    },
+    {
+      "player": "Mujeeb Ur Rahman",
+      "espn": "unsold(for now)",
+      "wiki_winner": "KKR",
+      "wiki_price_cr": 2.0
+    }
+  ],
+  "corrections_applied": [],
+  "needs_human_review": [
+    {
+      "issue": "Players ESPN narrated as 'unsold (for now)' that Wikipedia lists as SOLD (re-entered in accelerated/second round). ESPN lots left untouched (sold:false reflects the mid-auction moment, not the final outcome). Not duplicated, not auto-flipped.",
+      "players": [
+        {
+          "player": "Manish Pandey",
+          "espn": "unsold(for now)",
+          "wiki_winner": "KKR",
+          "wiki_price_cr": 0.5
+        },
+        {
+          "player": "Rilee Rossouw",
+          "espn": "unsold(for now)",
+          "wiki_winner": "PBKS",
+          "wiki_price_cr": 8.0
+        },
+        {
+          "player": "Lockie Ferguson",
+          "espn": "unsold(for now)",
+          "wiki_winner": "RCB",
+          "wiki_price_cr": 2.0
+        },
+        {
+          "player": "Mujeeb Ur Rahman",
+          "espn": "unsold(for now)",
+          "wiki_winner": "KKR",
+          "wiki_price_cr": 2.0
+        }
+      ]
+    }
+  ],
+  "notes": "All 21 ESPN-sold lots cross-match Wikipedia exactly on winner and price (hammer=paid). Harry Brook confirmed DC 4.0cr (Wikipedia 400 lakh); the blog's mid-text '3.2cr' is a mid-bid artifact, already corrected in the existing file. Starc KKR 24.75 and Cummins SRH 20.5 present and correct. Base prices for appended lots converted from Wikipedia Lakhs to crore. No separate Wikipedia 'unsold players' table exists, so notable-unsold beyond ESPN's 15 were not appended (would require an un-sourced list)."
+}

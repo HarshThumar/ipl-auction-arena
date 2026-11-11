@@ -1,0 +1,1461 @@
+{
+  "season": 2024,
+  "auction_type": "mini",
+  "auction_dates": "2023-12-19",
+  "source_snapshot_url": "http://web.archive.org/web/20231219105252/https://www.espncricinfo.com/live-blog/ipl-2024-auction-live-blog-1413398",
+  "captured_utc": "2023-12-19T10:52:52Z",
+  "currency": "INR_crore",
+  "lots": [
+    {
+      "player": "Rovman Powell",
+      "base_price": 1,
+      "sold": true,
+      "winner": "RR",
+      "final_price": 7.4,
+      "final_two": [
+        "RR",
+        "KKR"
+      ],
+      "bid_steps": [
+        {
+          "team": "KKR",
+          "price": 2
+        },
+        {
+          "team": "RR",
+          "price": 5.4
+        },
+        {
+          "team": "KKR",
+          "price": 7.2
+        },
+        {
+          "team": "RR",
+          "price": 7.4
+        }
+      ],
+      "narration_quote": "Powell sold to RR for 7.4 crore",
+      "confidence": "partial",
+      "notes": ""
+    },
+    {
+      "player": "Rilee Rossouw",
+      "base_price": 2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 8.0,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Rilee Rossouw is unsold",
+      "confidence": "outcome_only",
+      "notes": "'unsold for now'; may return later; flipped unsold->sold on re-entry (accelerated round); source: Wikipedia List_of_2024_IPL_personnel_changes"
+    },
+    {
+      "player": "Harry Brook",
+      "base_price": 2,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 4,
+      "final_two": [
+        "DC",
+        "RR"
+      ],
+      "bid_steps": [
+        {
+          "team": "DC",
+          "price": 3.2
+        },
+        {
+          "team": "RR",
+          "price": 3.4
+        },
+        {
+          "team": "RR",
+          "price": 3.8
+        },
+        {
+          "team": "DC",
+          "price": 4
+        }
+      ],
+      "narration_quote": "That's the closing bid. Sold to DC for 4 crore",
+      "confidence": "partial",
+      "notes": "Blog has a misleading mid-text 'Sold to DC for 3.2 crore'; actual close is 4 crore to DC"
+    },
+    {
+      "player": "Travis Head",
+      "base_price": 2,
+      "sold": true,
+      "winner": "SRH",
+      "final_price": 6.8,
+      "final_two": [
+        "SRH",
+        "CSK"
+      ],
+      "bid_steps": [
+        {
+          "team": "SRH",
+          "price": 4
+        },
+        {
+          "team": "CSK",
+          "price": 5
+        },
+        {
+          "team": "SRH",
+          "price": 6
+        },
+        {
+          "team": "CSK",
+          "price": 6.2
+        },
+        {
+          "team": "SRH",
+          "price": 6.8
+        }
+      ],
+      "narration_quote": "Head sold to SRH for 6.8 crore",
+      "confidence": "full",
+      "notes": ""
+    },
+    {
+      "player": "Karun Nair",
+      "base_price": 0.5,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Nair is unsold for now",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Steven Smith",
+      "base_price": 2,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No bids for Steven Smith ... Unsold",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Manish Pandey",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 0.5,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Pandey is also unsold",
+      "confidence": "outcome_only",
+      "notes": "flipped unsold->sold on re-entry (accelerated round); source: Wikipedia List_of_2024_IPL_personnel_changes"
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "base_price": 1.5,
+      "sold": true,
+      "winner": "SRH",
+      "final_price": 1.5,
+      "final_two": [
+        "SRH",
+        ""
+      ],
+      "bid_steps": [
+        {
+          "team": "SRH",
+          "price": 1.5
+        }
+      ],
+      "narration_quote": "SRH starts the bid at 1.50 crore. And that is the closing bid",
+      "confidence": "full",
+      "notes": "Unopposed single bid at base price"
+    },
+    {
+      "player": "Rachin Ravindra",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "CSK",
+      "final_price": 1.8,
+      "final_two": [
+        "CSK",
+        "PBKS"
+      ],
+      "bid_steps": [
+        {
+          "team": "CSK",
+          "price": 1
+        },
+        {
+          "team": "PBKS",
+          "price": 1.1
+        },
+        {
+          "team": "CSK",
+          "price": 1.8
+        }
+      ],
+      "narration_quote": "CSK have snapped up Rachin Ravindra for INR 1.8 crore",
+      "confidence": "partial",
+      "notes": "DC also bid early (no price attributed)"
+    },
+    {
+      "player": "Shardul Thakur",
+      "base_price": 2,
+      "sold": true,
+      "winner": "CSK",
+      "final_price": 4,
+      "final_two": [
+        "CSK",
+        "SRH"
+      ],
+      "bid_steps": [
+        {
+          "team": "SRH",
+          "price": 2.2
+        },
+        {
+          "team": "CSK",
+          "price": 3.4
+        },
+        {
+          "team": "CSK",
+          "price": 4
+        }
+      ],
+      "narration_quote": "CSK have picked up Shardul Thakur for INR 4 crore",
+      "confidence": "partial",
+      "notes": ""
+    },
+    {
+      "player": "Pat Cummins",
+      "base_price": 2,
+      "sold": true,
+      "winner": "SRH",
+      "final_price": 20.5,
+      "final_two": [
+        "SRH",
+        "RCB"
+      ],
+      "bid_steps": [
+        {
+          "team": "CSK",
+          "price": 4.8
+        },
+        {
+          "team": "RCB",
+          "price": 5
+        },
+        {
+          "team": "RCB",
+          "price": 7.4
+        },
+        {
+          "team": "RCB",
+          "price": 7.8
+        },
+        {
+          "team": "SRH",
+          "price": 8.4
+        },
+        {
+          "team": "SRH",
+          "price": 10
+        },
+        {
+          "team": "SRH",
+          "price": 12
+        },
+        {
+          "team": "RCB",
+          "price": 12.75
+        },
+        {
+          "team": "SRH",
+          "price": 17
+        },
+        {
+          "team": "SRH",
+          "price": 20
+        },
+        {
+          "team": "SRH",
+          "price": 20.5
+        }
+      ],
+      "narration_quote": "Pat Cummins is going to Sunrisers Hyderabad for INR 20.50 crore",
+      "confidence": "full",
+      "notes": "Record IPL price at the time; CSK and MI also bid early"
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 0.5,
+      "final_two": [
+        "GT",
+        ""
+      ],
+      "bid_steps": [
+        {
+          "team": "GT",
+          "price": 0.5
+        }
+      ],
+      "narration_quote": "Gujarat start the bidding and close it. Omarzai goes to Titans for INR 50 lakh",
+      "confidence": "full",
+      "notes": "Unopposed single bid at base price"
+    },
+    {
+      "player": "Gerald Coetzee",
+      "base_price": 2,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 5,
+      "final_two": [
+        "MI",
+        "LSG"
+      ],
+      "bid_steps": [
+        {
+          "team": "MI",
+          "price": 3.4
+        },
+        {
+          "team": "MI",
+          "price": 5
+        }
+      ],
+      "narration_quote": "Gerald Coetzee goes to Mumbai Indians for 5 crore",
+      "confidence": "partial",
+      "notes": "CSK opened; MI and LSG were the two going forward at the end"
+    },
+    {
+      "player": "Harshal Patel",
+      "base_price": 2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 11.75,
+      "final_two": [
+        "PBKS",
+        "LSG"
+      ],
+      "bid_steps": [
+        {
+          "team": "GT",
+          "price": 2
+        },
+        {
+          "team": "GT",
+          "price": 4
+        },
+        {
+          "team": "LSG",
+          "price": 11
+        },
+        {
+          "team": "PBKS",
+          "price": 11.75
+        }
+      ],
+      "narration_quote": "Kings it is who snap up Harshal for INR 11.75 crore",
+      "confidence": "partial",
+      "notes": ""
+    },
+    {
+      "player": "Daryl Mitchell",
+      "base_price": null,
+      "sold": true,
+      "winner": "CSK",
+      "final_price": 14,
+      "final_two": [
+        "CSK",
+        "PBKS"
+      ],
+      "bid_steps": [
+        {
+          "team": "DC",
+          "price": 1
+        },
+        {
+          "team": "PBKS",
+          "price": 5
+        },
+        {
+          "team": "DC",
+          "price": 6
+        },
+        {
+          "team": "PBKS",
+          "price": 7
+        },
+        {
+          "team": "PBKS",
+          "price": 8.2
+        },
+        {
+          "team": "PBKS",
+          "price": 9.4
+        },
+        {
+          "team": "PBKS",
+          "price": 10.25
+        },
+        {
+          "team": "DC",
+          "price": 11.5
+        },
+        {
+          "team": "CSK",
+          "price": 12
+        },
+        {
+          "team": "CSK",
+          "price": 13.75
+        },
+        {
+          "team": "CSK",
+          "price": 14
+        }
+      ],
+      "narration_quote": "Daryl Mitchell goes to Chennai Super Kings for INR 14 crore",
+      "confidence": "full",
+      "notes": "Base price not stated in blog (DC opened at 1cr). Narration says 'Kings raised paddle for a 14 crore bid' then states sale to CSK for 14cr; explicit final = CSK 14cr"
+    },
+    {
+      "player": "Chris Woakes",
+      "base_price": 2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 4.2,
+      "final_two": [
+        "KKR",
+        "PBKS"
+      ],
+      "bid_steps": [
+        {
+          "team": "KKR",
+          "price": 4
+        },
+        {
+          "team": "PBKS",
+          "price": 4.2
+        }
+      ],
+      "narration_quote": "Chris Woakes goes to Punjab Kings for INR 4.20 crore",
+      "confidence": "partial",
+      "notes": ""
+    },
+    {
+      "player": "Phil Salt",
+      "base_price": 1.5,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No interest for Salt. Unsold",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Tristan Stubbs",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 0.5,
+      "final_two": [
+        "DC",
+        ""
+      ],
+      "bid_steps": [
+        {
+          "team": "DC",
+          "price": 0.5
+        }
+      ],
+      "narration_quote": "Sold to DC for his base price of 50 lakh",
+      "confidence": "full",
+      "notes": "Unopposed bid at base price"
+    },
+    {
+      "player": "KS Bharat",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 0.5,
+      "final_two": [
+        "KKR",
+        ""
+      ],
+      "bid_steps": [
+        {
+          "team": "KKR",
+          "price": 0.5
+        }
+      ],
+      "narration_quote": "Sold to KKR for his base price of 50 lakh",
+      "confidence": "full",
+      "notes": "Unopposed bid at base price"
+    },
+    {
+      "player": "Josh Inglis",
+      "base_price": 2,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Unsold. He could return later",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Kusal Mendis",
+      "base_price": 0.5,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No bids at all for Mendis",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Lockie Ferguson",
+      "base_price": 2,
+      "sold": true,
+      "winner": "RCB",
+      "final_price": 2.0,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No love for Lockie",
+      "confidence": "outcome_only",
+      "notes": "flipped unsold->sold on re-entry (accelerated round); source: Wikipedia List_of_2024_IPL_personnel_changes"
+    },
+    {
+      "player": "Josh Hazlewood",
+      "base_price": 2,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No takers for Hazlewood. Unsold",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Chetan Sakariya",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 0.5,
+      "final_two": [
+        "KKR",
+        ""
+      ],
+      "bid_steps": [
+        {
+          "team": "KKR",
+          "price": 0.5
+        }
+      ],
+      "narration_quote": "Sold to KKR for his base price of 50 lakh",
+      "confidence": "full",
+      "notes": "Unopposed bid at base price"
+    },
+    {
+      "player": "Alzarri Joseph",
+      "base_price": 1,
+      "sold": true,
+      "winner": "RCB",
+      "final_price": 11.5,
+      "final_two": [
+        "RCB",
+        "LSG"
+      ],
+      "bid_steps": [
+        {
+          "team": "DC",
+          "price": 3
+        },
+        {
+          "team": "LSG",
+          "price": 5.2
+        },
+        {
+          "team": "LSG",
+          "price": 6.4
+        },
+        {
+          "team": "RCB",
+          "price": 11.5
+        }
+      ],
+      "narration_quote": "Joseph sold to RCB for 11.5 crore",
+      "confidence": "partial",
+      "notes": "CSK opened the bidding"
+    },
+    {
+      "player": "Umesh Yadav",
+      "base_price": 2,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 5.8,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [
+        {
+          "team": "GT",
+          "price": 3.4
+        },
+        {
+          "team": "GT",
+          "price": 5.8
+        }
+      ],
+      "narration_quote": "Sold to GT for 5.8 crore",
+      "confidence": "partial",
+      "notes": "SRH and DC also bid; closing underbidder not explicitly stated"
+    },
+    {
+      "player": "Shivam Mavi",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "LSG",
+      "final_price": 6.4,
+      "final_two": [
+        "LSG",
+        "RCB"
+      ],
+      "bid_steps": [
+        {
+          "team": "LSG",
+          "price": 4
+        },
+        {
+          "team": "LSG",
+          "price": 6
+        },
+        {
+          "team": "LSG",
+          "price": 6.4
+        }
+      ],
+      "narration_quote": "Sold to LSG for 6.4 crore in the end",
+      "confidence": "partial",
+      "notes": ""
+    },
+    {
+      "player": "Mitchell Starc",
+      "base_price": 2,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 24.75,
+      "final_two": [
+        "KKR",
+        "GT"
+      ],
+      "bid_steps": [
+        {
+          "team": "MI",
+          "price": 8
+        },
+        {
+          "team": "KKR",
+          "price": 9.8
+        },
+        {
+          "team": "GT",
+          "price": 12
+        },
+        {
+          "team": "KKR",
+          "price": 15
+        },
+        {
+          "team": "GT",
+          "price": 15.5
+        },
+        {
+          "team": "GT",
+          "price": 18
+        },
+        {
+          "team": "GT",
+          "price": 20
+        },
+        {
+          "team": "GT",
+          "price": 21
+        },
+        {
+          "team": "GT",
+          "price": 24
+        },
+        {
+          "team": "KKR",
+          "price": 24.75
+        }
+      ],
+      "narration_quote": "Sold to KKR for 24.75 crore!",
+      "confidence": "full",
+      "notes": "All-time record IPL price; DC and MI bid early. Intermediate 19cr/20.5cr marks not clearly team-attributed so omitted"
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "SRH",
+      "final_price": 1.6,
+      "final_two": [
+        "SRH",
+        "DC"
+      ],
+      "bid_steps": [
+        {
+          "team": "SRH",
+          "price": 1
+        },
+        {
+          "team": "DC",
+          "price": 1.1
+        },
+        {
+          "team": "SRH",
+          "price": 1.6
+        }
+      ],
+      "narration_quote": "Sold to SRH for 1.6 crore. DC pull out",
+      "confidence": "partial",
+      "notes": ""
+    },
+    {
+      "player": "Dilshan Madushanka",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 4.6,
+      "final_two": [
+        "MI",
+        "LSG"
+      ],
+      "bid_steps": [
+        {
+          "team": "MI",
+          "price": 3
+        },
+        {
+          "team": "MI",
+          "price": 4.6
+        }
+      ],
+      "narration_quote": "Mahela gets Madushanka for 4.6 crore",
+      "confidence": "partial",
+      "notes": "LSG opened the bidding"
+    },
+    {
+      "player": "Waqar Salamkheil",
+      "base_price": 0.5,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Unsold",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Adil Rashid",
+      "base_price": 2,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Unsold",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Akeal Hosein",
+      "base_price": 0.5,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No love for Hosein. Unsold",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Tabraiz Shamsi",
+      "base_price": 0.5,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No bids for Shamsi",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Ish Sodhi",
+      "base_price": 0.75,
+      "sold": false,
+      "winner": null,
+      "final_price": null,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "No takers for Sodhi",
+      "confidence": "outcome_only",
+      "notes": ""
+    },
+    {
+      "player": "Mujeeb Ur Rahman",
+      "base_price": 2,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 2.0,
+      "final_two": [
+        "",
+        ""
+      ],
+      "bid_steps": [],
+      "narration_quote": "Mujeeb is also unsold",
+      "confidence": "outcome_only",
+      "notes": "flipped unsold->sold on re-entry (accelerated round); source: Wikipedia List_of_2024_IPL_personnel_changes"
+    },
+    {
+      "player": "Shubham Dubey",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "RR",
+      "final_price": 5.8,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Sameer Rizvi",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "CSK",
+      "final_price": 8.4,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Angkrish Raghuvanshi",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Arshin Kulkarni",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "LSG",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Shahrukh Khan",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 7.4,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Ramandeep Singh",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Tom Kohler-Cadmore",
+      "base_price": 0.4,
+      "sold": true,
+      "winner": "RR",
+      "final_price": 0.4,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Ricky Bhui",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Kumar Kushagra",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 7.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Yash Dayal",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "RCB",
+      "final_price": 5.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Sushant Mishra",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 2.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Kartik Tyagi",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 5.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Rasikh Dar",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Akash Singh",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "SRH",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Manav Suthar",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Manimaran Siddharth",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "LSG",
+      "final_price": 2.4,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Shreyas Gopal",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "base_price": 1.5,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 1.5,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Ashton Turner",
+      "base_price": 1.0,
+      "sold": true,
+      "winner": "LSG",
+      "final_price": 1.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Tom Curran",
+      "base_price": 1.5,
+      "sold": true,
+      "winner": "RCB",
+      "final_price": 1.5,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "David Willey",
+      "base_price": 2.0,
+      "sold": true,
+      "winner": "LSG",
+      "final_price": 2.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Spencer Johnson",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 10.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "base_price": 2.0,
+      "sold": true,
+      "winner": "CSK",
+      "final_price": 2.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Jhye Richardson",
+      "base_price": 1.5,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 5.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Nuwan Thushara",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 4.8,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Naman Dhir",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Anshul Kamboj",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Sumit Kumar",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 1.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Ashutosh Sharma",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Vishwanath Singh",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Shashank Singh",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Tanay Thyagarajan",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Robin Minz",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "GT",
+      "final_price": 3.6,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Prince Choudary",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Jhathavedh Subramanyan",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "SRH",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Arshad Khan",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "LSG",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Mohammad Nabi",
+      "base_price": 1.5,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 1.5,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Shai Hope",
+      "base_price": 0.75,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 0.75,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Gus Atkinson",
+      "base_price": 1.0,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 1.0,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Swastik Chhikara",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "DC",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Abid Mushtaq",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "RR",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Shivalik Sharma",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "MI",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Swapnil Singh",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "RCB",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Avanish Rao Aravelly",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "CSK",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Nandre Burger",
+      "base_price": 0.5,
+      "sold": true,
+      "winner": "RR",
+      "final_price": 0.5,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Sakib Hussain",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "KKR",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    },
+    {
+      "player": "Saurav Chauhan",
+      "base_price": 0.2,
+      "sold": true,
+      "winner": "RCB",
+      "final_price": 0.2,
+      "final_two": [],
+      "bid_steps": [],
+      "narration_quote": "",
+      "confidence": "outcome_only",
+      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+    }
+  ],
+  "coverage": {
+    "lots_total_mentioned": 83,
+    "with_full_bid_steps": 9,
+    "with_partial_bid_steps": 12,
+    "final_two_only": 0,
+    "outcome_only": 62,
+    "espn_front_half": 36,
+    "appended_back_half": 47
+  },
+  "provenance": {
+    "front_half": "ESPNcricinfo blog (bid detail)",
+    "back_half": "Wikipedia (outcomes only)",
+    "note": "bid ladders exist only for lots ESPN narrated before its snapshot cutoff"
+  }
+}

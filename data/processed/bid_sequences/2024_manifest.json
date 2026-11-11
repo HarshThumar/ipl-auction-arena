@@ -1,0 +1,19 @@
+{
+  "season": 2024,
+  "auction_type": "mini",
+  "source_snapshot_url": "http://web.archive.org/web/20231219105252/https://www.espncricinfo.com/live-blog/ipl-2024-auction-live-blog-1413398",
+  "captured_utc": "2023-12-19T10:52:52Z",
+  "lots_total": 83,
+  "sold": 72,
+  "unsold": 11,
+  "with_full_bid_steps": 9,
+  "with_partial_bid_steps": 12,
+  "final_two_only": 0,
+  "outcome_only": 62,
+  "regenerated_from": "2024_bids.json",
+  "provenance": {
+    "front_half": "ESPNcricinfo blog (bid detail)",
+    "back_half": "Wikipedia (outcomes only)",
+    "note": "bid ladders exist only for lots ESPN narrated before its snapshot cutoff"
+  }
+}

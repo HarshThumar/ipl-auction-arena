@@ -1,0 +1,312 @@
+{
+  "2022": {
+    "PBKS": {
+      "buys": 23,
+      "spend": 68.55,
+      "indian": 16,
+      "overseas": 7
+    },
+    "RR": {
+      "buys": 21,
+      "spend": 61.05,
+      "indian": 14,
+      "overseas": 7
+    },
+    "KKR": {
+      "buys": 21,
+      "spend": 47.5,
+      "indian": 15,
+      "overseas": 6
+    },
+    "GT": {
+      "buys": 20,
+      "spend": 51.85,
+      "indian": 13,
+      "overseas": 7
+    },
+    "RCB": {
+      "buys": 19,
+      "spend": 56.25,
+      "indian": 12,
+      "overseas": 7
+    },
+    "LSG": {
+      "buys": 18,
+      "spend": 59.0,
+      "indian": 12,
+      "overseas": 6
+    },
+    "DC": {
+      "buys": 20,
+      "spend": 47.4,
+      "indian": 14,
+      "overseas": 6
+    },
+    "CSK": {
+      "buys": 21,
+      "spend": 45.05,
+      "indian": 14,
+      "overseas": 7
+    },
+    "SRH": {
+      "buys": 20,
+      "spend": 67.9,
+      "indian": 13,
+      "overseas": 7
+    },
+    "MI": {
+      "buys": 21,
+      "spend": 47.9,
+      "indian": 14,
+      "overseas": 7
+    }
+  },
+  "2023": {
+    "GT": {
+      "buys": 7,
+      "spend": 14.8,
+      "indian": 4,
+      "overseas": 3
+    },
+    "SRH": {
+      "buys": 13,
+      "spend": 35.7,
+      "indian": 9,
+      "overseas": 4
+    },
+    "CSK": {
+      "buys": 7,
+      "spend": 18.95,
+      "indian": 5,
+      "overseas": 2
+    },
+    "PBKS": {
+      "buys": 6,
+      "spend": 20.0,
+      "indian": 4,
+      "overseas": 2
+    },
+    "RR": {
+      "buys": 9,
+      "spend": 9.55,
+      "indian": 5,
+      "overseas": 4
+    },
+    "MI": {
+      "buys": 8,
+      "spend": 20.5,
+      "indian": 5,
+      "overseas": 3
+    },
+    "LSG": {
+      "buys": 10,
+      "spend": 21.4,
+      "indian": 6,
+      "overseas": 4
+    },
+    "DC": {
+      "buys": 5,
+      "spend": 15.0,
+      "indian": 3,
+      "overseas": 2
+    },
+    "RCB": {
+      "buys": 7,
+      "spend": 6.5,
+      "indian": 5,
+      "overseas": 2
+    },
+    "KKR": {
+      "buys": 8,
+      "spend": 5.4,
+      "indian": 5,
+      "overseas": 3
+    }
+  },
+  "2024": {
+    "DC": {
+      "buys": 9,
+      "spend": 19.05,
+      "indian": 5,
+      "overseas": 4
+    },
+    "SRH": {
+      "buys": 6,
+      "spend": 30.8,
+      "indian": 3,
+      "overseas": 3
+    },
+    "RR": {
+      "buys": 5,
+      "spend": 14.3,
+      "indian": 2,
+      "overseas": 3
+    },
+    "CSK": {
+      "buys": 6,
+      "spend": 30.4,
+      "indian": 3,
+      "overseas": 3
+    },
+    "GT": {
+      "buys": 8,
+      "spend": 34.7,
+      "indian": 6,
+      "overseas": 2
+    },
+    "MI": {
+      "buys": 8,
+      "spend": 16.7,
+      "indian": 4,
+      "overseas": 4
+    },
+    "PBKS": {
+      "buys": 8,
+      "spend": 24.95,
+      "indian": 6,
+      "overseas": 2
+    },
+    "KKR": {
+      "buys": 10,
+      "spend": 31.35,
+      "indian": 6,
+      "overseas": 4
+    },
+    "RCB": {
+      "buys": 6,
+      "spend": 20.4,
+      "indian": 3,
+      "overseas": 3
+    },
+    "LSG": {
+      "buys": 6,
+      "spend": 12.2,
+      "indian": 4,
+      "overseas": 2
+    }
+  },
+  "2025": {
+    "GT": {
+      "buys": 20,
+      "spend": 68.85,
+      "indian": 14,
+      "overseas": 6
+    },
+    "PBKS": {
+      "buys": 23,
+      "spend": 110.15,
+      "indian": 15,
+      "overseas": 8
+    },
+    "LSG": {
+      "buys": 19,
+      "spend": 68.9,
+      "indian": 14,
+      "overseas": 5
+    },
+    "DC": {
+      "buys": 19,
+      "spend": 72.8,
+      "indian": 13,
+      "overseas": 6
+    },
+    "RCB": {
+      "buys": 19,
+      "spend": 82.25,
+      "indian": 11,
+      "overseas": 8
+    },
+    "SRH": {
+      "buys": 15,
+      "spend": 44.8,
+      "indian": 11,
+      "overseas": 4
+    },
+    "CSK": {
+      "buys": 20,
+      "spend": 54.95,
+      "indian": 14,
+      "overseas": 6
+    },
+    "KKR": {
+      "buys": 15,
+      "spend": 50.95,
+      "indian": 9,
+      "overseas": 5
+    },
+    "RR": {
+      "buys": 14,
+      "spend": 40.7,
+      "indian": 9,
+      "overseas": 5
+    },
+    "MI": {
+      "buys": 18,
+      "spend": 44.8,
+      "indian": 9,
+      "overseas": 8
+    }
+  },
+  "2026": {
+    "KKR": {
+      "buys": 13,
+      "spend": 63.85,
+      "indian": 7,
+      "overseas": 6
+    },
+    "CSK": {
+      "buys": 9,
+      "spend": 41.0,
+      "indian": 5,
+      "overseas": 4
+    },
+    "DC": {
+      "buys": 8,
+      "spend": 21.45,
+      "indian": 3,
+      "overseas": 5
+    },
+    "LSG": {
+      "buys": 6,
+      "spend": 18.4,
+      "indian": 3,
+      "overseas": 3
+    },
+    "RCB": {
+      "buys": 8,
+      "spend": 16.15,
+      "indian": 6,
+      "overseas": 2
+    },
+    "SRH": {
+      "buys": 10,
+      "spend": 20.05,
+      "indian": 8,
+      "overseas": 2
+    },
+    "MI": {
+      "buys": 5,
+      "spend": 2.2,
+      "indian": 4,
+      "overseas": 1
+    },
+    "RR": {
+      "buys": 9,
+      "spend": 13.4,
+      "indian": 8,
+      "overseas": 1
+    },
+    "GT": {
+      "buys": 5,
+      "spend": 10.95,
+      "indian": 2,
+      "overseas": 3
+    },
+    "PBKS": {
+      "buys": 4,
+      "spend": 8.0,
+      "indian": 2,
+      "overseas": 2
+    }
+  }
+}

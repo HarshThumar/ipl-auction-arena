@@ -1,0 +1,727 @@
+{
+  "season": 2024,
+  "source": "Wikipedia List_of_2024_Indian_Premier_League_personnel_changes (CC BY-SA)",
+  "sold_count": 72,
+  "lots": [
+    {
+      "player": "Harry Brook",
+      "nationality": "Overseas",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "DC",
+      "final_price": 4.0,
+      "raw_country": "ENG"
+    },
+    {
+      "player": "Travis Head",
+      "nationality": "Overseas",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "SRH",
+      "final_price": 6.8,
+      "raw_country": "AUS"
+    },
+    {
+      "player": "Rovman Powell",
+      "nationality": "Overseas",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 1.0,
+      "team": "RR",
+      "final_price": 7.4,
+      "raw_country": "WIN"
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 1.5,
+      "team": "SRH",
+      "final_price": 1.5,
+      "raw_country": "SL"
+    },
+    {
+      "player": "Rachin Ravindra",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "CSK",
+      "final_price": 1.8,
+      "raw_country": "NZ"
+    },
+    {
+      "player": "Shardul Thakur",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "CSK",
+      "final_price": 4.0,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "GT",
+      "final_price": 0.5,
+      "raw_country": "AFG"
+    },
+    {
+      "player": "Pat Cummins",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "SRH",
+      "final_price": 20.5,
+      "raw_country": "AUS"
+    },
+    {
+      "player": "Gerald Coetzee",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "MI",
+      "final_price": 5.0,
+      "raw_country": "SA"
+    },
+    {
+      "player": "Harshal Patel",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "PBKS",
+      "final_price": 11.75,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Daryl Mitchell",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 1.0,
+      "team": "CSK",
+      "final_price": 14.0,
+      "raw_country": "NZ"
+    },
+    {
+      "player": "Chris Woakes",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "PBKS",
+      "final_price": 4.2,
+      "raw_country": "ENG"
+    },
+    {
+      "player": "Tristan Stubbs",
+      "nationality": "Overseas",
+      "role": "wicketkeeper",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "DC",
+      "final_price": 0.5,
+      "raw_country": "SA"
+    },
+    {
+      "player": "K. S. Bharat",
+      "nationality": "India",
+      "role": "wicketkeeper",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "KKR",
+      "final_price": 0.5,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Chetan Sakariya",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "KKR",
+      "final_price": 0.5,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Alzarri Joseph",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 1.0,
+      "team": "RCB",
+      "final_price": 11.5,
+      "raw_country": "WIN"
+    },
+    {
+      "player": "Umesh Yadav",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "GT",
+      "final_price": 5.8,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Shivam Mavi",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "LSG",
+      "final_price": 6.4,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Mitchell Starc",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "KKR",
+      "final_price": 24.75,
+      "raw_country": "AUS"
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "SRH",
+      "final_price": 1.6,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Dilshan Madushanka",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "MI",
+      "final_price": 4.6,
+      "raw_country": "SL"
+    },
+    {
+      "player": "Shubham Dubey",
+      "nationality": "India",
+      "role": "batter",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "RR",
+      "final_price": 5.8,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Sameer Rizvi",
+      "nationality": "India",
+      "role": "batter",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "CSK",
+      "final_price": 8.4,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Angkrish Raghuvanshi",
+      "nationality": "India",
+      "role": "batter",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "KKR",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Arshin Kulkarni",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "LSG",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Shahrukh Khan",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "GT",
+      "final_price": 7.4,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Ramandeep Singh",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "KKR",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Tom Kohler-Cadmore",
+      "nationality": "Overseas",
+      "role": "wicketkeeper",
+      "capped": "uncapped",
+      "base_price": 0.4,
+      "team": "RR",
+      "final_price": 0.4,
+      "raw_country": "ENG"
+    },
+    {
+      "player": "Ricky Bhui",
+      "nationality": "India",
+      "role": "wicketkeeper",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "DC",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Kumar Kushagra",
+      "nationality": "India",
+      "role": "wicketkeeper",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "DC",
+      "final_price": 7.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Yash Dayal",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "RCB",
+      "final_price": 5.0,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Sushant Mishra",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "GT",
+      "final_price": 2.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Kartik Tyagi",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "GT",
+      "final_price": 5.0,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Rasikh Dar",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "DC",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Akash Singh",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "SRH",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Manav Suthar",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "GT",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Manimaran Siddharth",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "LSG",
+      "final_price": 2.4,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Shreyas Gopal",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "MI",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "nationality": "Overseas",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 1.5,
+      "team": "KKR",
+      "final_price": 1.5,
+      "raw_country": "WIN"
+    },
+    {
+      "player": "Ashton Turner",
+      "nationality": "Overseas",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 1.0,
+      "team": "LSG",
+      "final_price": 1.0,
+      "raw_country": "AUS"
+    },
+    {
+      "player": "Tom Curran",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 1.5,
+      "team": "RCB",
+      "final_price": 1.5,
+      "raw_country": "ENG"
+    },
+    {
+      "player": "David Willey",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "LSG",
+      "final_price": 2.0,
+      "raw_country": "ENG"
+    },
+    {
+      "player": "Spencer Johnson",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "GT",
+      "final_price": 10.0,
+      "raw_country": "AUS"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "CSK",
+      "final_price": 2.0,
+      "raw_country": "Bangladesh"
+    },
+    {
+      "player": "Jhye Richardson",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 1.5,
+      "team": "DC",
+      "final_price": 5.0,
+      "raw_country": "AUS"
+    },
+    {
+      "player": "Nuwan Thushara",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "MI",
+      "final_price": 4.8,
+      "raw_country": "SL"
+    },
+    {
+      "player": "Naman Dhir",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "MI",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Anshul Kamboj",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "MI",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Sumit Kumar",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "DC",
+      "final_price": 1.0,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Ashutosh Sharma",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "PBKS",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Vishwanath Singh",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "PBKS",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Shashank Singh",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "PBKS",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Tanay Thyagarajan",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "PBKS",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Robin Minz",
+      "nationality": "India",
+      "role": "wicketkeeper",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "GT",
+      "final_price": 3.6,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Prince Choudary",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "PBKS",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Jhathavedh Subramanyan",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "SRH",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Manish Pandey",
+      "nationality": "India",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "KKR",
+      "final_price": 0.5,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Rilee Rossouw",
+      "nationality": "Overseas",
+      "role": "batter",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "PBKS",
+      "final_price": 8.0,
+      "raw_country": "RSA"
+    },
+    {
+      "player": "Lockie Ferguson",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "RCB",
+      "final_price": 2.0,
+      "raw_country": "NZ"
+    },
+    {
+      "player": "Mujeeb Ur Rahman",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 2.0,
+      "team": "KKR",
+      "final_price": 2.0,
+      "raw_country": "AFG"
+    },
+    {
+      "player": "Arshad Khan",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "LSG",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Mohammad Nabi",
+      "nationality": "Overseas",
+      "role": "all-rounder",
+      "capped": "capped",
+      "base_price": 1.5,
+      "team": "MI",
+      "final_price": 1.5,
+      "raw_country": "AFG"
+    },
+    {
+      "player": "Shai Hope",
+      "nationality": "Overseas",
+      "role": "wicketkeeper",
+      "capped": "capped",
+      "base_price": 0.75,
+      "team": "DC",
+      "final_price": 0.75,
+      "raw_country": "WIN"
+    },
+    {
+      "player": "Gus Atkinson",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 1.0,
+      "team": "KKR",
+      "final_price": 1.0,
+      "raw_country": "ENG"
+    },
+    {
+      "player": "Swastik Chhikara",
+      "nationality": "India",
+      "role": "batter",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "DC",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Abid Mushtaq",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "RR",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Shivalik Sharma",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "MI",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Swapnil Singh",
+      "nationality": "India",
+      "role": "all-rounder",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "RCB",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Avanish Rao Aravelly",
+      "nationality": "India",
+      "role": "wicketkeeper",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "CSK",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Nandre Burger",
+      "nationality": "Overseas",
+      "role": "bowler",
+      "capped": "capped",
+      "base_price": 0.5,
+      "team": "RR",
+      "final_price": 0.5,
+      "raw_country": "RSA"
+    },
+    {
+      "player": "Sakib Hussain",
+      "nationality": "India",
+      "role": "bowler",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "KKR",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    },
+    {
+      "player": "Saurav Chauhan",
+      "nationality": "India",
+      "role": "batter",
+      "capped": "uncapped",
+      "base_price": 0.2,
+      "team": "RCB",
+      "final_price": 0.2,
+      "raw_country": "IND"
+    }
+  ]
+}

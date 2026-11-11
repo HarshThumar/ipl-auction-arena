@@ -1,0 +1,304 @@
+{
+  "year": 2025,
+  "auction": "IPL 2025 mega auction (24-25 Nov 2024, Jeddah)",
+  "sources_used": [
+    "ESPNcricinfo auction live-blog raw (__NEXT_DATA__, the file under audit)",
+    "secondary tracker via Wayback 20241203/20241204 ([path withheld] + [path withheld]) - PARTIAL",
+    "Wikipedia: List_of_2025_Indian_Premier_League_personnel_changes (action=parse wikitext) - PRIMARY independent cross-match"
+  ],
+  "secondary_readable": "partial",
+  "secondary_notes": "Landing page gave only TOP PICKS (Pant 27 LSG, Shreyas 26.75 PBKS, Venkatesh 23.75 KKR - all three confirm ESPN) plus team-level spend totals; the per-player sold list loads via uncaptured JS/API, so full player-level cross-match used Wikipedia.",
+  "n_sold_lots": 182,
+  "n_matched": 171,
+  "n_price_mismatch": 8,
+  "n_winner_mismatch": 1,
+  "n_only_in_espn": 2,
+  "n_only_in_source": 0,
+  "inferred_finals_checked": 65,
+  "inferred_finals_wrong": [
+    {
+      "player": "R Ashwin",
+      "issue": "WINNER_MISMATCH",
+      "espn": [
+        "RR",
+        9.75
+      ],
+      "wiki": [
+        "CSK",
+        9.75
+      ]
+    },
+    {
+      "player": "Shubham Dubey",
+      "issue": "PRICE_MISMATCH",
+      "espn": [
+        "RR",
+        0.65
+      ],
+      "wiki": [
+        "RR",
+        0.8
+      ]
+    },
+    {
+      "player": "Anshul Kamboj",
+      "issue": "PRICE_MISMATCH",
+      "espn": [
+        "CSK",
+        2.0
+      ],
+      "wiki": [
+        "CSK",
+        3.4
+      ]
+    },
+    {
+      "player": "Swapnil Singh",
+      "issue": "PRICE_MISMATCH",
+      "espn": [
+        "RCB",
+        0.35
+      ],
+      "wiki": [
+        "RCB",
+        0.5
+      ]
+    },
+    {
+      "player": "Deepak Hooda",
+      "issue": "PRICE_MISMATCH",
+      "espn": [
+        "CSK",
+        0.8
+      ],
+      "wiki": [
+        "CSK",
+        1.7
+      ]
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "issue": "PRICE_MISMATCH",
+      "espn": [
+        "PBKS",
+        2.2
+      ],
+      "wiki": [
+        "PBKS",
+        2.4
+      ]
+    }
+  ],
+  "mismatches": [
+    {
+      "player": "Jake Fraser-McGurk",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "DC",
+      "espn_price": 5.5,
+      "source_team": "DC",
+      "source_price": 9.0,
+      "inferred": false,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "R Ashwin",
+      "status": "WINNER_MISMATCH",
+      "espn_team": "RR",
+      "espn_price": 9.75,
+      "source_team": "CSK",
+      "source_price": 9.75,
+      "inferred": true,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Shubham Dubey",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "RR",
+      "espn_price": 0.65,
+      "source_team": "RR",
+      "source_price": 0.8,
+      "inferred": true,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Himmat Singh",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "LSG",
+      "espn_price": null,
+      "source_team": "LSG",
+      "source_price": 0.3,
+      "inferred": false,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Anshul Kamboj",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "CSK",
+      "espn_price": 2.0,
+      "source_team": "CSK",
+      "source_price": 3.4,
+      "inferred": true,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Swapnil Singh",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "RCB",
+      "espn_price": 0.35,
+      "source_team": "RCB",
+      "source_price": 0.5,
+      "inferred": true,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Digvesh Singh",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "LSG",
+      "espn_price": null,
+      "source_team": "LSG",
+      "source_price": 0.3,
+      "inferred": false,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Deepak Hooda",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "CSK",
+      "espn_price": 0.8,
+      "source_team": "CSK",
+      "source_price": 1.7,
+      "inferred": true,
+      "resolution": "auto-corrected"
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "status": "PRICE_MISMATCH",
+      "espn_team": "PBKS",
+      "espn_price": 2.2,
+      "source_team": "PBKS",
+      "source_price": 2.4,
+      "inferred": true,
+      "resolution": "auto-corrected"
+    }
+  ],
+  "only_in_espn": [
+    {
+      "player": "Satyanarayana Raju",
+      "espn_team": "MI",
+      "espn_price": 0.3,
+      "note": "Confirmed correct in raw ESPN body; absent from Wikipedia sold tables (Wikipedia gap, not an ESPN error)"
+    },
+    {
+      "player": "Moeen",
+      "espn_team": "KKR",
+      "espn_price": 2.0,
+      "note": "Confirmed correct in raw ESPN body; absent from Wikipedia sold tables (Wikipedia gap, not an ESPN error)"
+    }
+  ],
+  "only_in_source": [],
+  "internal_consistency_issues": [
+    {
+      "type": "FINAL_LT_LASTSTEP",
+      "player": "Jake Fraser-McGurk",
+      "detail": "final_price 5.5 was below last captured bid step 9.0; resolved by correction to 9.0 (RTM match price).",
+      "status": "corrected"
+    },
+    {
+      "type": "WINNER_NOT_IN_FINALTWO",
+      "players": [
+        "Arshdeep Singh",
+        "Ishan Kishan",
+        "T Natarajan",
+        "Naman Dhir"
+      ],
+      "detail": "Winning team absent from final_two. By-design artifact: final_two is derived only from captured bid steps, so an RTM winner or an uncaptured closing bid is not in it. Winner and price independently confirmed correct for all four. Not a data error.",
+      "status": "by-design/no-action"
+    }
+  ],
+  "corrections_applied": [
+    {
+      "player": "Jake Fraser-McGurk",
+      "field": "final_price",
+      "before": 5.5,
+      "after": 9.0,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"PBKS final bid 9 crore. DC use RTM to get JFM back\"; video summary \"DC buy JFM for INR 9 crore\"; Wiki 9.0 (RTM dagger)"
+    },
+    {
+      "player": "R Ashwin",
+      "field": "winner",
+      "before": "RR",
+      "after": "CSK",
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"bid reached 9.75 crore, and it is with CSK. RR tap out...returns home\"; Wiki CSK. Price 9.75 already correct"
+    },
+    {
+      "player": "Shubham Dubey",
+      "field": "final_price",
+      "before": 0.65,
+      "after": 0.8,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"RR have him at INR 80 lakh\" (final); Wiki 0.8"
+    },
+    {
+      "player": "Himmat Singh",
+      "field": "final_price",
+      "before": null,
+      "after": 0.3,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"Goes for base price\" (uncapped base 30 lakh); Wiki 0.3"
+    },
+    {
+      "player": "Anshul Kamboj",
+      "field": "final_price",
+      "before": 2.0,
+      "after": 3.4,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"CSK get Kamboj at INR 3.4 crore\"; Wiki 3.4"
+    },
+    {
+      "player": "Swapnil Singh",
+      "field": "final_price",
+      "before": 0.35,
+      "after": 0.5,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"RCB opt for the RTM and DC raise the price to INR 50 lakh. RCB...get him back\"; Wiki 0.5 (RTM dagger)"
+    },
+    {
+      "player": "Digvesh Singh",
+      "field": "final_price",
+      "before": null,
+      "after": 0.3,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"goes to LSG at base price\" (30 lakh); Wiki 0.3"
+    },
+    {
+      "player": "Deepak Hooda",
+      "field": "final_price",
+      "before": 0.8,
+      "after": 1.7,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"CSK come in to get it up to INR 1.7 crore. CSK have the winning bid\"; Wiki 1.7"
+    },
+    {
+      "player": "Azmatullah Omarzai",
+      "field": "final_price",
+      "before": 2.2,
+      "after": 2.4,
+      "precheck_old_matched": true,
+      "evidence": "Raw: \"PBKS raise it to INR 2.4 crore and CSK back out. Omarzai will play for PBKS\"; Wiki 2.4"
+    }
+  ],
+  "needs_human_review": [
+    {
+      "item": "secondary tracker full player-level list",
+      "reason": "Not machine-readable from Wayback (JS/API not archived); only top-3 picks and team totals verifiable there. Wikipedia used as the independent cross-source instead."
+    },
+    {
+      "item": "Wikipedia missing 2 sold players (Moeen Ali -> KKR 2.0; Satyanarayana Raju -> MI 0.3)",
+      "reason": "Both confirmed correct in the raw ESPN body; Wikipedia table lists 180 rows though its own infobox says 182. ESPN is the more complete/correct record here; no change made. Flagged for awareness only."
+    }
+  ],
+  "notes": "Internal consistency strong: all 182 winners are valid franchise codes, bid_steps non-decreasing, and after the JFM fix final_price>=last captured step everywhere. 9 double-confirmed corrections applied (raw ESPN body AND Wikipedia agree in every case): 6 were intermediate/pre-RTM or non-final closing bids recorded instead of the true final (JFM 5.5->9.0 RTM, Swapnil 0.35->0.5 RTM, Azmatullah 2.2->2.4, Anshul Kamboj 2.0->3.4, Deepak Hooda 0.8->1.7, Shubham Dubey 0.65->0.8); 2 base-price nulls filled (Himmat, Digvesh = 0.3); 1 winner fix (Ashwin RR->CSK, the underbidder had been recorded as winner, price 9.75 was right). Of 65 inferred finals, 59 confirmed correct and 6 wrong (now corrected). secondary tracker only partially readable. Sanity picks Pant/Shreyas/Venkatesh confirmed by BOTH secondary tracker and Wikipedia.",
+  "verified_utc": "2026-11-11T16:13:10.651023Z"
+}

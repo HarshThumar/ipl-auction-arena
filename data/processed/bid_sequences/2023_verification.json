@@ -1,0 +1,127 @@
+{
+  "year": 2023,
+  "auction": "IPL 2023 mini auction (23 Dec 2022, Kochi)",
+  "sources_used": [
+    "ESPNcricinfo live-blog Wayback snapshot (audited file, 2023_bids.json / 2023_auction_blog_raw.html)",
+    "PRIMARY independent: secondary tracker [path withheld] (Wayback 20221225081630) - only 3 featured top buys statically archived",
+    "BACKUP independent: Wikipedia 'List_of_2023_Indian_Premier_League_personnel_changes' (wikitext API) - full 80-row Sold players table"
+  ],
+  "secondary_readable": false,
+  "secondary_note": "secondary tracker auction page is an Angular/client-rendered app; the Wayback snapshot statically captured only 3 featured 'top buys' (Ben Stokes CSK 16.25cr, Cameron Green MI 17.50cr, Sam Curran PBKS 18.50cr - all three MATCH the ESPN file). The full player-by-player list loads from an uncaptured API, so secondary tracker is NOT usable for a full cross-match. Wikipedia used as the independent cross-match source.",
+  "n_sold_lots": 80,
+  "pinned_summary_claim": "80 players sold for 167 crore",
+  "sold_count_matches_pinned_80": true,
+  "espn_sum_known_final_price_cr": 164.25,
+  "espn_sold_with_null_price": [
+    "Jaydev Unadkat",
+    "Jhye Richardson",
+    "Ishant Sharma",
+    "Upendra Yadav"
+  ],
+  "spend_note": "ESPN sum of stated prices = 164.25cr across 76 priced sold lots; 4 sold lots carry explicit null price (sold at/near base, number not stated in body). Wikipedia values for the 3 base-sale nulls (Unadkat 0.5, Richardson 1.5, Ishant 0.5) + Upendra 0.25 bring the total to ~166.75cr, consistent with the pinned 167cr claim.",
+  "n_matched": 76,
+  "n_price_mismatch": 3,
+  "n_winner_mismatch": 1,
+  "n_only_in_espn": 0,
+  "n_only_in_source": 0,
+  "mismatches": [
+    {
+      "player": "Upendra Yadav",
+      "type": "WINNER_MISMATCH",
+      "resolution": "CORRECTED",
+      "espn_recorded": {
+        "winner": "MI",
+        "final_price": null
+      },
+      "wikipedia": {
+        "winner": "SRH",
+        "final_price_cr": 0.25
+      },
+      "espn_post_title": "Upendra Yadav to SRH",
+      "note": "ESPN title + Wikipedia agree on SRH; body 'Sold to MI' was the error. Winner corrected MI->SRH."
+    },
+    {
+      "player": "Prerak Mankad",
+      "type": "PRICE_MISMATCH",
+      "resolution": "UNCHANGED_NEEDS_REVIEW",
+      "espn_recorded": {
+        "winner": "LSG",
+        "final_price": 0.2
+      },
+      "wikipedia": {
+        "winner": "LSG",
+        "final_price_cr": 1.8
+      },
+      "note": "Winner matches (LSG). Price conflict: ESPN body says sole bid at base 20 lakh ('first bid and that's the final bid'); Wikipedia lists 180 lakh (1.8cr). Not double-confirmed; ESPN value kept. Wikipedia figure looks anomalous for a sole-bid base sale."
+    },
+    {
+      "player": "Donovan Ferreira",
+      "type": "PRICE_MISMATCH",
+      "resolution": "UNCHANGED_RECONCILABLE",
+      "espn_recorded": {
+        "winner": "RR",
+        "final_price": 0.5
+      },
+      "wikipedia": {
+        "winner": "RR",
+        "final_price_cr": 0.2
+      },
+      "note": "Winner matches (RR). ESPN body explicitly 'Sold to RR for 50 lakh' (0.5cr) after KKR pushed; Wikipedia lists 20 lakh (base only, raise not captured). Reconcilable; ESPN value kept."
+    },
+    {
+      "player": "Rajan Kumar",
+      "type": "PRICE_MISMATCH",
+      "resolution": "UNCHANGED_NEEDS_REVIEW",
+      "espn_recorded": {
+        "winner": "RCB",
+        "final_price": 0.7
+      },
+      "wikipedia": {
+        "winner": "RCB",
+        "final_price_cr": 0.2
+      },
+      "note": "Winner matches (RCB). Price conflict: ESPN body truncated at '70 lakh for now' (0.7cr, already flagged uncertain in source file); Wikipedia lists 20 lakh (0.2cr). Ambiguous; ESPN value kept pending review."
+    }
+  ],
+  "internal_consistency_issues": [],
+  "internal_consistency_note": "Automated checks passed with 0 issues: all 80 winners in the valid 10-team set; all bid_steps non-decreasing; every final_price >= last bid step; final_two[0] equals winner for all sold lots; unsold lots carry null winner/price. The 4 null-price sold lots use explicit null (schema-valid, not errors).",
+  "corrections_applied": [
+    {
+      "player": "Upendra Yadav",
+      "field": "winner (and final_two ordering)",
+      "before": {
+        "winner": "MI",
+        "final_two": [
+          "MI",
+          "SRH"
+        ],
+        "final_price": null,
+        "confidence": "final_two_only",
+        "notes": "Post TITLE says 'to SRH' but the running commentary body says 'Sold to MI' - body treated as authoritative. Sale price not stated (null). FLAG: title/body conflict."
+      },
+      "after": {
+        "winner": "SRH",
+        "final_two": [
+          "SRH",
+          "MI"
+        ],
+        "final_price": null,
+        "confidence": "final_two_only",
+        "notes": "Winner corrected MI->SRH during verification. ESPN post TITLE ('Upendra Yadav to SRH') and independent source Wikipedia (SRH, 25 lakh) both say SRH; the ESPN commentary body ('Sold to MI') was the lone erroneous element and is overruled. Sale price not stated in ESPN body (null); Wikipedia lists 0.25cr (25 lakh)."
+      },
+      "evidence": "ESPN post title 'Upendra Yadav to SRH' + Wikipedia 'List of 2023 IPL personnel changes' (SRH, 25 lakh). ESPN body 'Sold to MI' overruled.",
+      "rule": "double-confirmed (two independent lines of evidence: source blog's own post title + independent Wikipedia table)"
+    }
+  ],
+  "needs_human_review": [
+    {
+      "player": "Prerak Mankad",
+      "issue": "price ESPN 0.2cr vs Wikipedia 1.8cr; ESPN=sole base bid, Wikipedia figure anomalous"
+    },
+    {
+      "player": "Rajan Kumar",
+      "issue": "price ESPN 0.7cr (truncated body) vs Wikipedia 0.2cr; both uncertain"
+    }
+  ],
+  "notes": "Independent cross-match vs Wikipedia reconciled all 80 sold lots: 76 MATCH, 1 winner mismatch (Upendra Yadav - CORRECTED to SRH, double-confirmed by ESPN post title + Wikipedia), 3 price mismatches left unchanged (ESPN body authoritative / Wikipedia anomalous or base-only; none double-confirmed for change). secondary tracker unusable for full list (client-rendered); its 3 archived top buys all match. No ONLY_IN_ESPN or ONLY_IN_SOURCE after name-normalisation (disambiguation suffixes, initials, and spelling variants e.g. Vidwath=V Kaverappa, Donavon=Donovan Ferreira). Verified 2026-11-11."
+}

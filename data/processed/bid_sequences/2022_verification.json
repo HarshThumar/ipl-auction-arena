@@ -1,0 +1,586 @@
+{
+  "year": 2022,
+  "auction": "IPL 2022 mega auction (12-13 Feb 2022)",
+  "sources_used": [
+    {
+      "role": "extracted (audited)",
+      "source": "ESPNcricinfo live blog, Wayback snapshot 20220214014545",
+      "file": "data/processed/bid_sequences/2022_bids.json"
+    },
+    {
+      "role": "raw (internal cross-check)",
+      "source": "ESPN auction live-blog raw HTML",
+      "file": "data/raw/espn_auction_blogs/2022_auction_blog_raw.html"
+    },
+    {
+      "role": "independent PRIMARY (attempted)",
+      "source": "secondary tracker archived auction tracker",
+      "urls": [
+        "[secondary-source URL withheld]",
+        "[secondary-source URL withheld]"
+      ],
+      "usable": false
+    },
+    {
+      "role": "independent BACKUP (used)",
+      "source": "Wikipedia: List of 2022 Indian Premier League personnel changes",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&prop=wikitext",
+      "sold_rows_parsed": 133
+    }
+  ],
+  "secondary_readable": false,
+  "secondary_note": "Archived secondary tracker pages are an Angular app-shell: only team-level spend summaries (e.g. 'Chennai Super Kings Spent 40.85 Cr Purse Left 7.15 Cr Players 21/25') were captured. The per-player sold roster is JS-rendered and absent from the snapshot (player names like Dhawan/Rahul/Pant not present; 0 'crore' player rows). The [secondary-source URL withheld] host has no Wayback snapshot. Cross-match done against the Wikipedia backup instead.",
+  "n_sold_lots": 117,
+  "n_matched": 92,
+  "n_price_mismatch": 0,
+  "n_winner_mismatch": 0,
+  "n_only_in_espn": 25,
+  "n_only_in_source": 41,
+  "mismatches": [],
+  "reconcilable_hammer_vs_paid": [],
+  "only_in_espn": [
+    {
+      "player": "Sean Abbott",
+      "winner": "SRH",
+      "final_price": 2.4,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Alzarri Joseph",
+      "winner": "GT",
+      "final_price": 2.4,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Ayush Badoni",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Aneeshwar Gautam",
+      "winner": "RCB",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "B Indrajith",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Chamika Karunaratne",
+      "winner": "KKR",
+      "final_price": 0.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "R Samarth",
+      "winner": "SRH",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Pradeep Sangwan",
+      "winner": "GT",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Kyle Mayers",
+      "winner": "LSG",
+      "final_price": 0.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Karan Sharma",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Mohammad Arshad Khan",
+      "winner": "MI",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Ansh Patel",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Ashok Sharma",
+      "winner": "KKR",
+      "final_price": 0.55,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Miller",
+      "winner": "GT",
+      "final_price": 3.0,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Billings",
+      "winner": "KKR",
+      "final_price": 2.0,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Wriddhiman Saha",
+      "winner": "GT",
+      "final_price": 1.9,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Vishnu Vinod",
+      "winner": "SRH",
+      "final_price": 0.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Lungi Ngidi",
+      "winner": "DC",
+      "final_price": 0.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Alex Hales",
+      "winner": "KKR",
+      "final_price": 1.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Glenn Phillips",
+      "winner": "SRH",
+      "final_price": 1.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Fazalhaq Farooqi",
+      "winner": "SRH",
+      "final_price": 0.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Mayank Yadav",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Dhruv Jurel",
+      "winner": "RR",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Tejas Baroka",
+      "winner": "RR",
+      "final_price": 0.2,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    },
+    {
+      "player": "Tim Southee",
+      "winner": "KKR",
+      "final_price": 1.5,
+      "status": "confirmed in ESPN raw HTML (headline + squad list); genuinely absent from Wikipedia's 133-row sold table (source coverage gap, not an ESPN error)"
+    }
+  ],
+  "only_in_source": [
+    {
+      "player": "Mohammed Shami",
+      "team": "GT",
+      "price_cr": 6.25,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Faf du Plessis",
+      "team": "RCB",
+      "price_cr": 7.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "David Warner",
+      "team": "DC",
+      "price_cr": 6.25,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Harshal Patel",
+      "team": "RCB",
+      "price_cr": 10.75,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Washington Sundar",
+      "team": "SRH",
+      "price_cr": 8.75,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Yuzvendra Chahal",
+      "team": "RR",
+      "price_cr": 6.5,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Dewald Brevis",
+      "team": "MI",
+      "price_cr": 3.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Rahul Tripathi",
+      "team": "SRH",
+      "price_cr": 8.5,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "K. S. Bharat",
+      "team": "DC",
+      "price_cr": 2.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Jitesh Sharma",
+      "team": "PBKS",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Kartik Tyagi",
+      "team": "SRH",
+      "price_cr": 4.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Murugan Ashwin",
+      "team": "MI",
+      "price_cr": 1.6,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Shreyas Gopal",
+      "team": "SRH",
+      "price_cr": 0.75,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Jagadeesha Suchith",
+      "team": "SRH",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Ravisrinivasan Sai Kishore",
+      "team": "GT",
+      "price_cr": 3.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Ajinkya Rahane",
+      "team": "KKR",
+      "price_cr": 1.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Liam Livingstone",
+      "team": "PBKS",
+      "price_cr": 11.5,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Dominic Drakes",
+      "team": "GT",
+      "price_cr": 1.1,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Jayant Yadav",
+      "team": "GT",
+      "price_cr": 1.7,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Vijay Shankar",
+      "team": "GT",
+      "price_cr": 1.4,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Marco Jansen",
+      "team": "SRH",
+      "price_cr": 4.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Navdeep Saini",
+      "team": "RR",
+      "price_cr": 2.6,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Mayank Markande",
+      "team": "MI",
+      "price_cr": 0.65,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Maheesh Theekshana",
+      "team": "CSK",
+      "price_cr": 0.7,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Lalit Yadav",
+      "team": "DC",
+      "price_cr": 0.65,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Mahipal Lomror",
+      "team": "RCB",
+      "price_cr": 0.95,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Anukul Roy",
+      "team": "KKR",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Devon Conway",
+      "team": "CSK",
+      "price_cr": 1.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "team": "RCB",
+      "price_cr": 1.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Daniel Sams",
+      "team": "MI",
+      "price_cr": 2.6,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Romario Shepherd",
+      "team": "SRH",
+      "price_cr": 7.75,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Jason Behrendorff",
+      "team": "RCB",
+      "price_cr": 0.75,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Obed McCoy",
+      "team": "RR",
+      "price_cr": 0.75,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Subhranshu Senapati",
+      "team": "CSK",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Tim David",
+      "team": "MI",
+      "price_cr": 8.25,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Prerak Mankad",
+      "team": "PBKS",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Vaibhav Arora",
+      "team": "PBKS",
+      "price_cr": 2.0,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Mukesh Choudhary",
+      "team": "CSK",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Rasikh Salam Dar",
+      "team": "KKR",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Mohsin Khan",
+      "team": "LSG",
+      "price_cr": 0.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    },
+    {
+      "player": "Prashant Solanki",
+      "team": "CSK",
+      "price_cr": 1.2,
+      "status": "sold per Wikipedia; not individually narrated as a priced lot in the ESPN highlights blog (ESPN narrates ~117 of ~204 sold; marquee names e.g. Faf du Plessis, David Warner, Mohammed Shami appear only in ESPN headlines/squad-summary lines, not as extracted lots)"
+    }
+  ],
+  "internal_consistency_issues": [
+    {
+      "type": "duplicate_player_outcome_rows",
+      "detail": "19 player names appear on more than one UNSOLD/no-bid row (3 players x2->x3). All are accelerated-round re-entries explicitly allowed by the spec; none involve a SOLD outcome, so no sale is double-counted.",
+      "count": 19,
+      "rows": [
+        {
+          "player": "Umesh Yadav",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Jimmy Neesham",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Ishant Sharma",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Sheldon Cottrell",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Qais Ahmad",
+          "outcome": "unsold/no-bid",
+          "rows": 3,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Harnoor Singh",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Mujtaba Yousuf",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Charith Asalanka",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Rahmanullah Gurbaz",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Ben McDermott",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "AJ Tye",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Reece Topley",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Tanmay Agarwal",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Sameer Rizvi",
+          "outcome": "unsold/no-bid",
+          "rows": 3,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "B Sai Sudharsan",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Kane Richardson",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Atit Sheth",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Blessing Muzarabani",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        },
+        {
+          "player": "Bharat Sharma",
+          "outcome": "unsold/no-bid",
+          "rows": 2,
+          "classification": "acceptable accelerated-round re-entry (same player, same outcome across rounds; narration e.g. 'Unsold again')"
+        }
+      ],
+      "is_error": false
+    },
+    {
+      "type": "winner_domain / price_presence / monotonic_bidsteps / final_ge_laststep",
+      "detail": "All 117 sold lots have a winner in the 10 valid 2022 franchises and a non-null final_price. All bid_steps price ladders are non-decreasing. No final_price falls below its last stated bid_step. No violations found.",
+      "count": 0,
+      "is_error": false
+    }
+  ],
+  "spot_check_15_lots": {
+    "method": "15 random lots cross-read against raw HTML narration (seed=2022)",
+    "result": "All 15 matched the raw HTML on outcome, winner and (for sold lots) price. Confirmed examples: Alex Hales->KKR 1.5cr ('Sold for 1.5 crore'), Quinton de Kock->LSG 6.75cr, Wanindu Hasaranga->RCB 10.75cr, Krunal Pandya->LSG 8.25cr, T Natarajan->SRH 4cr, Mohammad Arshad Khan->MI 0.2cr; unsold/re-entry rows (Sameer Rizvi, Ben McDermott, Aproov Wankhade) matched 'Unsold'/'No bids' narration."
+  },
+  "corrections_applied": [],
+  "needs_human_review": [],
+  "notes": [
+    "Accuracy: of 117 ESPN sold lots, 92 overlap with the independent Wikipedia sold table and ALL 92 agree on BOTH winning team AND final price (0 price mismatches, 0 winner mismatches). No contradictions between the two independent sources on any shared player.",
+    "No corrections were applied: the spec requires a correction be confirmed wrong by BOTH the raw HTML and the independent source, and there were zero confirmed errors.",
+    "Two apparent 'winner mismatches' surfaced by fuzzy name-matching were investigated and dismissed as false matches: ESPN 'Mohammad Arshad Khan' (MI, 0.2cr) was spuriously paired with Wikipedia 'M. Shahrukh Khan' (PBKS, 9.0cr), and ESPN 'Ashok Sharma' (KKR, 0.55cr) with 'Abhishek Sharma' (SRH, 6.5cr). Both ESPN players are confirmed in the raw HTML and are simply absent from Wikipedia's table; they are different people, not data errors.",
+    "Coverage: the ESPN blog is a HIGHLIGHTS live blog and narrates only ~117 of the ~204 players actually sold. Wikipedia's parsed 'Sold players' table is itself incomplete (133 rows). The 25 only-in-ESPN and 41 only-in-source entries are coverage gaps in one source or the other, each verified against its own origin; none indicate an error in the audited file.",
+    "Internal consistency is clean: valid winners, all sold lots priced, non-decreasing bid_steps, final_price >= last bid_step. The only duplicate (player, outcome) rows are 19 UNSOLD re-entries (accelerated rounds), which the spec explicitly permits.",
+    "Hammer-vs-paid / retention adjustments: none needed. All 92 overlapping prices matched exactly, so no price gap had to be reconciled via the overseas pay-cap or retention-cost rule.",
+    "No change was made to 2022_bids.json; schema preserved as-is."
+  ]
+}

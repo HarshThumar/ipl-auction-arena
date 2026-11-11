@@ -1,0 +1,2056 @@
+{
+  "source_urls": [
+    "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext"
+  ],
+  "official_sold": 204,
+  "already_have": 117,
+  "new_rows": 87,
+  "parsed_sold": 204,
+  "total_spend_cr": 552.45,
+  "official_spend_cr": 551.7,
+  "spend_gap_cr": 0.75,
+  "currency": "INR_crore",
+  "notes": "All 204 sold players sourced from Wikipedia sold-players table. Prices converted from Lacs to crore (/100). Gap vs 551.7cr is due to rounding ref-labels on a few associate-player prices in the source table.",
+  "lots": [
+    {
+      "player": "Shikhar Dhawan",
+      "winner": "PBKS",
+      "final_price": 8.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ravichandran Ashwin",
+      "winner": "RR",
+      "final_price": 5.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Pat Cummins",
+      "winner": "KKR",
+      "final_price": 7.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Kagiso Rabada",
+      "winner": "PBKS",
+      "final_price": 9.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "SA",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Trent Boult",
+      "winner": "RR",
+      "final_price": 8.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Shreyas Iyer",
+      "winner": "KKR",
+      "final_price": 12.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mohammed Shami",
+      "winner": "GT",
+      "final_price": 6.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Faf du Plessis",
+      "winner": "RCB",
+      "final_price": 7.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "SA",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Quinton de Kock",
+      "winner": "LSG",
+      "final_price": 6.75,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "SA",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "David Warner",
+      "winner": "DC",
+      "final_price": 6.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Manish Pandey",
+      "winner": "LSG",
+      "final_price": 4.6,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Shimron Hetmyer",
+      "winner": "RR",
+      "final_price": 8.5,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Robin Uthappa",
+      "winner": "CSK",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Jason Roy",
+      "winner": "GT",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Devdutt Padikkal",
+      "winner": "RR",
+      "final_price": 7.75,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Dwayne Bravo",
+      "winner": "CSK",
+      "final_price": 4.4,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Nitish Rana",
+      "winner": "KKR",
+      "final_price": 8.0,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Jason Holder",
+      "winner": "LSG",
+      "final_price": 8.75,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Harshal Patel",
+      "winner": "RCB",
+      "final_price": 10.75,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Deepak Hooda",
+      "winner": "LSG",
+      "final_price": 5.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "winner": "RCB",
+      "final_price": 10.75,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "SL",
+      "role_or_null": "Right Handed Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Washington Sundar",
+      "winner": "SRH",
+      "final_price": 8.75,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Krunal Pandya",
+      "winner": "LSG",
+      "final_price": 8.25,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mitchell Marsh",
+      "winner": "DC",
+      "final_price": 6.5,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ambati Rayudu",
+      "winner": "CSK",
+      "final_price": 6.75,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ishan Kishan",
+      "winner": "MI",
+      "final_price": 15.25,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Jonny Bairstow",
+      "winner": "PBKS",
+      "final_price": 6.75,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Dinesh Karthik",
+      "winner": "RCB",
+      "final_price": 5.5,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keepe",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Nicholas Pooran",
+      "winner": "SRH",
+      "final_price": 10.75,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "T. Natarajan",
+      "winner": "SRH",
+      "final_price": 4.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Deepak Chahar",
+      "winner": "CSK",
+      "final_price": 14.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Prasidh Krishna",
+      "winner": "RR",
+      "final_price": 10.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Lockie Ferguson",
+      "winner": "GT",
+      "final_price": 10.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Josh Hazlewood",
+      "winner": "RCB",
+      "final_price": 7.75,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mark Wood",
+      "winner": "LSG",
+      "final_price": 7.5,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Bhuvneshwar Kumar",
+      "winner": "SRH",
+      "final_price": 4.2,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Shardul Thakur",
+      "winner": "DC",
+      "final_price": 10.75,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "winner": "DC",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "BAN",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Kuldeep Yadav",
+      "winner": "DC",
+      "final_price": 2.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Rahul Chahar",
+      "winner": "PBKS",
+      "final_price": 5.25,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Yuzvendra Chahal",
+      "winner": "RR",
+      "final_price": 6.5,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Priyam Garg",
+      "winner": "SRH",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Abhinav Manohar Sadarangani",
+      "winner": "GT",
+      "final_price": 2.6,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Dewald Brevis",
+      "winner": "MI",
+      "final_price": 3.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "SA",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Ashwin Hebbar",
+      "winner": "DC",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Rahul Tripathi",
+      "winner": "SRH",
+      "final_price": 8.5,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Riyan Parag",
+      "winner": "RR",
+      "final_price": 3.8,
+      "base_price_or_null": 0.3,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Abhishek Sharma",
+      "winner": "SRH",
+      "final_price": 6.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Sarfaraz Khan",
+      "winner": "DC",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "M. Shahrukh Khan",
+      "winner": "PBKS",
+      "final_price": 9.0,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Shivam Mavi",
+      "winner": "KKR",
+      "final_price": 7.25,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Rahul Tewatia",
+      "winner": "GT",
+      "final_price": 9.0,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Kamlesh Nagarkoti",
+      "winner": "DC",
+      "final_price": 1.1,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Harpreet Brar",
+      "winner": "PBKS",
+      "final_price": 3.8,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Shahbaz Ahmed",
+      "winner": "RCB",
+      "final_price": 2.4,
+      "base_price_or_null": 0.3,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "K. S. Bharat",
+      "winner": "DC",
+      "final_price": 2.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Anuj Rawat",
+      "winner": "RCB",
+      "final_price": 3.4,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Prabhsimran Singh",
+      "winner": "PBKS",
+      "final_price": 0.6,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Sheldon Jackson",
+      "winner": "KKR",
+      "final_price": 0.6,
+      "base_price_or_null": 0.3,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Jitesh Sharma",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Basil Thampi",
+      "winner": "MI",
+      "final_price": 0.3,
+      "base_price_or_null": 0.3,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Kartik Tyagi",
+      "winner": "SRH",
+      "final_price": 4.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Akash Deep",
+      "winner": "RCB",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "KM Asif",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Avesh Khan",
+      "winner": "LSG",
+      "final_price": 10.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ishan Porel",
+      "winner": "PBKS",
+      "final_price": 0.25,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Tushar Deshpande",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ankit Rajpoot",
+      "winner": "LSG",
+      "final_price": 0.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Noor Ahmad",
+      "winner": "GT",
+      "final_price": 0.3,
+      "base_price_or_null": 0.3,
+      "nationality_or_null": "AFG",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Murugan Ashwin",
+      "winner": "MI",
+      "final_price": 1.6,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "K. C. Cariappa",
+      "winner": "RR",
+      "final_price": 0.3,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Shreyas Gopal",
+      "winner": "SRH",
+      "final_price": 0.75,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Jagadeesha Suchith",
+      "winner": "SRH",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Ravisrinivasan Sai Kishore",
+      "winner": "GT",
+      "final_price": 3.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Aiden Markram",
+      "winner": "SRH",
+      "final_price": 2.6,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "SA",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ajinkya Rahane",
+      "winner": "KKR",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Mandeep Singh",
+      "winner": "DC",
+      "final_price": 1.1,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Liam Livingstone",
+      "winner": "PBKS",
+      "final_price": 11.5,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Dominic Drakes",
+      "winner": "GT",
+      "final_price": 1.1,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Jayant Yadav",
+      "winner": "GT",
+      "final_price": 1.7,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Vijay Shankar",
+      "winner": "GT",
+      "final_price": 1.4,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Odean Smith",
+      "winner": "PBKS",
+      "final_price": 6.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Marco Jansen",
+      "winner": "SRH",
+      "final_price": 4.2,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SA",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Shivam Dube",
+      "winner": "CSK",
+      "final_price": 4.0,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Krishnappa Gowtham",
+      "winner": "LSG",
+      "final_price": 0.9,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Khaleel Ahmed",
+      "winner": "DC",
+      "final_price": 5.25,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Dushmantha Chameera",
+      "winner": "LSG",
+      "final_price": 2.0,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SL",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Chetan Sakariya",
+      "winner": "DC",
+      "final_price": 4.2,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Sandeep Sharma",
+      "winner": "PBKS",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Navdeep Saini",
+      "winner": "RR",
+      "final_price": 2.6,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "winner": "MI",
+      "final_price": 1.3,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mayank Markande",
+      "winner": "MI",
+      "final_price": 0.65,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Shahbaz Nadeem",
+      "winner": "LSG",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Maheesh Theekshana",
+      "winner": "CSK",
+      "final_price": 0.7,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SL",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Rinku Singh",
+      "winner": "KKR",
+      "final_price": 0.55,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Manan Vohra",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Lalit Yadav",
+      "winner": "DC",
+      "final_price": 0.65,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Ripal Patel",
+      "winner": "DC",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Yash Dhull",
+      "winner": "DC",
+      "final_price": 0.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Tilak Varma",
+      "winner": "MI",
+      "final_price": 1.7,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mahipal Lomror",
+      "winner": "RCB",
+      "final_price": 0.95,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Anukul Roy",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Darshan Nalkande",
+      "winner": "GT",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "R. Sanjay Yadav",
+      "winner": "MI",
+      "final_price": 0.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Raj Bawa",
+      "winner": "PBKS",
+      "final_price": 2.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Rajvardhan Hangargekar",
+      "winner": "CSK",
+      "final_price": 1.5,
+      "base_price_or_null": 0.3,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Yash Dayal",
+      "winner": "GT",
+      "final_price": 3.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Simarjeet Singh",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Finn Allen",
+      "winner": "RCB",
+      "final_price": 0.8,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Devon Conway",
+      "winner": "CSK",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Rovman Powell",
+      "winner": "DC",
+      "final_price": 2.8,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Jofra Archer",
+      "winner": "MI",
+      "final_price": 8.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Rishi Dhawan",
+      "winner": "PBKS",
+      "final_price": 0.55,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Dwaine Pretorius",
+      "winner": "CSK",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SA",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "winner": "RCB",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Daniel Sams",
+      "winner": "MI",
+      "final_price": 2.6,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Mitchell Santner",
+      "winner": "CSK",
+      "final_price": 1.9,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "NZ",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Romario Shepherd",
+      "winner": "SRH",
+      "final_price": 7.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Jason Behrendorff",
+      "winner": "RCB",
+      "final_price": 0.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Obed McCoy",
+      "winner": "RR",
+      "final_price": 0.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Tymal Mills",
+      "winner": "MI",
+      "final_price": 1.5,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Adam Milne",
+      "winner": "CSK",
+      "final_price": 1.9,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Subhranshu Senapati",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Tim David",
+      "winner": "MI",
+      "final_price": 8.25,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Pravin Dubey",
+      "winner": "DC",
+      "final_price": 0.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Prerak Mankad",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Suyash Prabhudessai",
+      "winner": "RCB",
+      "final_price": 0.3,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Vaibhav Arora",
+      "winner": "PBKS",
+      "final_price": 2.0,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Mukesh Choudhary",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Rasikh Salam Dar",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Mohsin Khan",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Chama Milind",
+      "winner": "RCB",
+      "final_price": 0.25,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Prashant Solanki",
+      "winner": "CSK",
+      "final_price": 1.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Sean Abbott",
+      "winner": "SRH",
+      "final_price": 2.4,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "AUS",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Alzarri Joseph",
+      "winner": "GT",
+      "final_price": 2.4,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Riley Meredith",
+      "winner": "MI",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Ayush Badoni",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Aneeshwar Gautam",
+      "winner": "RCB",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Baba Indrajith",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Chamika Karunaratne",
+      "winner": "KKR",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SL",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ravikumar Samarth",
+      "winner": "SRH",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Abhijeet Tomar",
+      "winner": "KKR",
+      "final_price": 0.4,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Pradeep Sangwan",
+      "winner": "GT",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Writtick Chatterjee",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Pratham Singh",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Shashank Singh",
+      "winner": "SRH",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Kyle Mayers",
+      "winner": "LSG",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Karan Sharma",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Baltej Singh",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Saurabh Dubey",
+      "winner": "SRH",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Mohammed Arshad Khan",
+      "winner": "MI",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ansh Patel",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ashok Sharma",
+      "winner": "KKR",
+      "final_price": 0.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Anunay Singh",
+      "winner": "RR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "David Miller",
+      "winner": "GT",
+      "final_price": 3.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "SA",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Sam Billings",
+      "winner": "KKR",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Wriddhiman Saha",
+      "winner": "GT",
+      "final_price": 1.9,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Matthew Wade",
+      "winner": "GT",
+      "final_price": 2.4,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "C. Hari Nishanth",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Anmolpreet Singh",
+      "winner": "MI",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Narayan Jagadeesan",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Vishnu Vinod",
+      "winner": "SRH",
+      "final_price": 0.5,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Chris Jordan",
+      "winner": "CSK",
+      "final_price": 3.6,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Lungi Ngidi",
+      "winner": "DC",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SA",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Karn Sharma",
+      "winner": "RCB",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Kuldeep Sen",
+      "winner": "RR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Alex Hales",
+      "winner": "KKR",
+      "final_price": 1.5,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "ENG",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Evin Lewis",
+      "winner": "LSG",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Karun Nair",
+      "winner": "RR",
+      "final_price": 1.4,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Glenn Phillips",
+      "winner": "SRH",
+      "final_price": 1.5,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Tim Seifert",
+      "winner": "DC",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Nathan Ellis",
+      "winner": "PBKS",
+      "final_price": 0.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "AUS",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Fazalhaq Farooqi",
+      "winner": "SRH",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "AFG",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Ramandeep Singh",
+      "winner": "MI",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Atharva Taide",
+      "winner": "PBKS",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Dhruv Jurel",
+      "winner": "RR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Mayank Yadav",
+      "winner": "LSG",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Tejas Baroka",
+      "winner": "RR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Bhanuka Rajapaksa",
+      "winner": "PBKS",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "SL",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Gurkeerat Singh",
+      "winner": "GT",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Tim Southee",
+      "winner": "KKR",
+      "final_price": 1.5,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "NZ",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "already_have"
+    },
+    {
+      "player": "Rahul Buddhi",
+      "winner": "MI",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Benny Howell",
+      "winner": "PBKS",
+      "final_price": 0.4,
+      "base_price_or_null": 0.4,
+      "nationality_or_null": "ENG",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Kuldip Yadav",
+      "winner": "RR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Varun Aaron",
+      "winner": "GT",
+      "final_price": 0.5,
+      "base_price_or_null": 0.5,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Ramesh Kumar",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Hrithik Shokeen",
+      "winner": "MI",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "K. Bhagath Varma",
+      "winner": "CSK",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Arjun Tendulkar",
+      "winner": "MI",
+      "final_price": 0.3,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Shubham Garhwal",
+      "winner": "RR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Mohammad Nabi",
+      "winner": "KKR",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "AFG",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Umesh Yadav",
+      "winner": "KKR",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "James Neesham",
+      "winner": "RR",
+      "final_price": 1.5,
+      "base_price_or_null": 1.5,
+      "nationality_or_null": "NZ",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Nathan Coulter-Nile",
+      "winner": "RR",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "AUS",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Vicky Ostwal",
+      "winner": "DC",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Rassie van der Dussen",
+      "winner": "RR",
+      "final_price": 1.0,
+      "base_price_or_null": 1.0,
+      "nationality_or_null": "SA",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Daryl Mitchell",
+      "winner": "RR",
+      "final_price": 0.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "NZ",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Siddharth Kaul",
+      "winner": "RCB",
+      "final_price": 0.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "IND",
+      "role_or_null": "Bowler",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "B. Sai Sudharshan",
+      "winner": "GT",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Aryan Juyal",
+      "winner": "MI",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Luvnith Sisodia",
+      "winner": "RCB",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "Wicket Keeper Batter",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Fabian Allen",
+      "winner": "MI",
+      "final_price": 0.75,
+      "base_price_or_null": 0.75,
+      "nationality_or_null": "West Indies",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "David Willey",
+      "winner": "RCB",
+      "final_price": 2.0,
+      "base_price_or_null": 2.0,
+      "nationality_or_null": "ENG",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    },
+    {
+      "player": "Aman Khan",
+      "winner": "KKR",
+      "final_price": 0.2,
+      "base_price_or_null": 0.2,
+      "nationality_or_null": "IND",
+      "role_or_null": "All Rounder",
+      "source": "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_2022_Indian_Premier_League_personnel_changes&format=json&prop=wikitext",
+      "match_status": "new"
+    }
+  ]
+}

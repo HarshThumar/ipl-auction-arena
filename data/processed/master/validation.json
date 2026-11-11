@@ -1,0 +1,137 @@
+{
+  "2022": {
+    "sold": 204,
+    "official_sold": 204,
+    "sold_ok": true,
+    "spend": 552.45,
+    "official_spend": 551.7,
+    "unsold_narrated": 118,
+    "espn_sold_added": 0,
+    "espn_sold_added_players": [],
+    "bid_ladders_attached": 109,
+    "id_match": {
+      "exact": 52,
+      "alias": 45,
+      "collision": 5,
+      "unmatched": 102
+    },
+    "id_fill_pct": 47.5,
+    "price_disagreements": [
+      {
+        "player": "Aneeshwar Gautam",
+        "espn": 0.2,
+        "wiki": 1.0
+      }
+    ],
+    "nationality_missing_sold": 0,
+    "role_missing_sold": 0,
+    "capped_missing_sold": 0
+  },
+  "2023": {
+    "sold": 80,
+    "official_sold": 80,
+    "sold_ok": true,
+    "spend": 167.8,
+    "official_spend": 167,
+    "unsold_narrated": 71,
+    "espn_sold_added": 0,
+    "espn_sold_added_players": [],
+    "bid_ladders_attached": 77,
+    "id_match": {
+      "exact": 28,
+      "alias": 18,
+      "collision": 3,
+      "unmatched": 31
+    },
+    "id_fill_pct": 57.5,
+    "price_disagreements": [
+      {
+        "player": "Prerak Mankad",
+        "espn": 0.2,
+        "wiki": 1.8
+      },
+      {
+        "player": "Donavon Ferreira",
+        "espn": 0.5,
+        "wiki": 0.2
+      },
+      {
+        "player": "Rajan Kumar",
+        "espn": 0.7,
+        "wiki": 0.2
+      }
+    ],
+    "nationality_missing_sold": 0,
+    "role_missing_sold": 0,
+    "capped_missing_sold": 0
+  },
+  "2024": {
+    "sold": 72,
+    "official_sold": 72,
+    "sold_ok": true,
+    "spend": 234.85,
+    "official_spend": 230.45,
+    "unsold_narrated": 11,
+    "espn_sold_added": 0,
+    "espn_sold_added_players": [],
+    "bid_ladders_attached": 72,
+    "id_match": {
+      "exact": 19,
+      "alias": 20,
+      "collision": 4,
+      "unmatched": 29
+    },
+    "id_fill_pct": 54.2,
+    "price_disagreements": [],
+    "nationality_missing_sold": 0,
+    "role_missing_sold": 0,
+    "capped_missing_sold": 0
+  },
+  "2025": {
+    "sold": 182,
+    "official_sold": 182,
+    "sold_ok": true,
+    "spend": 639.15,
+    "official_spend": 639.15,
+    "unsold_narrated": 125,
+    "espn_sold_added": 2,
+    "espn_sold_added_players": [
+      "Moeen Ali(KKR 2.0)",
+      "Satyanarayana Raju(MI 0.3)"
+    ],
+    "bid_ladders_attached": 169,
+    "id_match": {
+      "exact": 54,
+      "alias": 46,
+      "collision": 2,
+      "unmatched": 80
+    },
+    "id_fill_pct": 54.9,
+    "price_disagreements": [],
+    "nationality_missing_sold": 2,
+    "role_missing_sold": 2,
+    "capped_missing_sold": 2
+  },
+  "2026": {
+    "sold": 77,
+    "official_sold": 77,
+    "sold_ok": true,
+    "spend": 215.45,
+    "official_spend": 215.45,
+    "unsold_narrated": 79,
+    "espn_sold_added": 0,
+    "espn_sold_added_players": [],
+    "bid_ladders_attached": 74,
+    "id_match": {
+      "exact": 19,
+      "alias": 16,
+      "collision": 0,
+      "unmatched": 42
+    },
+    "id_fill_pct": 45.5,
+    "price_disagreements": [],
+    "nationality_missing_sold": 0,
+    "role_missing_sold": 0,
+    "capped_missing_sold": 0
+  }
+}

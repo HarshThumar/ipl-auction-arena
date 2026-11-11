@@ -1,0 +1,14 @@
+{
+  "season": 2025,
+  "auction_type": "mega",
+  "source_snapshot_url": "http://web.archive.org/web/20241126235633/https://www.espncricinfo.com/auction/ipl-2025-auction-1460972/live-updates",
+  "captured_utc": "2024-11-26T23:19:53.721Z",
+  "lots_total": 323,
+  "sold": 182,
+  "unsold": 141,
+  "with_full_bid_steps": 37,
+  "with_partial_bid_steps": 71,
+  "final_two_only": 0,
+  "outcome_only": 215,
+  "regenerated_from": "2025_bids.json"
+}

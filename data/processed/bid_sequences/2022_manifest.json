@@ -1,0 +1,14 @@
+{
+  "season": 2022,
+  "auction_type": "mega",
+  "source_snapshot_url": "http://web.archive.org/web/20220214014545/https://www.espncricinfo.com/live-blog/live-blog-ipl-2022-auction-1300707",
+  "captured_utc": "2026-11-11T15:41:46Z",
+  "lots_total": 267,
+  "sold": 117,
+  "unsold": 150,
+  "with_full_bid_steps": 0,
+  "with_partial_bid_steps": 28,
+  "final_two_only": 0,
+  "outcome_only": 239,
+  "regenerated_from": "2022_bids.json"
+}

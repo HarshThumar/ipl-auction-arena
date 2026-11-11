@@ -1,0 +1,11 @@
+# Private context: never push
+HANDOVER.md
+CLAUDE.md
+
+# Data and caches
+data/raw/
+data/cache/
+*.parquet
+.env
+__pycache__/
+.venv/
