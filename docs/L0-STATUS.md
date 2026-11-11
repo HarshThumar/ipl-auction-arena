@@ -25,7 +25,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 | Licences attributed, no banned sources redistributed | ✅ (SOURCES.md) | G8 |
 
 ## Open items (WARN) — real gaps, not hidden
-1. **Player ID join = 91%, target was ≥99%.** The shortfall is entirely **uncapped domestic players who have never played a Cricsheet-tracked match**, so no ID exists to join to. Every *capped* player is matched and collisions were reviewed. **Decision needed:** accept 91% with this documented rationale (recommended — the 99% bar is unreachable via Cricsheet for never-played players), or add a non-Cricsheet ID source later.
+1. **Player ID join = 91%, target was ≥99%.** The shortfall is entirely **uncapped domestic players who have never played a Cricsheet-tracked match**, so no ID exists to join to. Every *capped* player is matched and collisions were reviewed. **DECISION — ACCEPTED (Harsh, 11 Nov 2026):** 91% stands as L0-sufficient. Rationale: the 99% bar is unreachable via Cricsheet for never-played players; all capped/known players are matched, which is what the price and DNA layers actually use. No second ID source will be chased for now; revisit only if a later level needs IDs for uncapped lots.
 2. **Spend vs official, small deltas (cr):** 2022 +0.75, 2023 +0.8, **2024 +4.4**, 2025/2026 exact. Sold *counts* match exactly, and the 2024 top prices all verify against the real auction (Starc 24.75, Cummins 20.5, D. Mitchell 14, Harshal 11.75…) — so no headline price is wrong. The deltas are all **small and positive** (≈2% in 2024), which points to either (a) rounding in the single "official total" figure hardcoded in the check, or (b) an included edge lot (bought-then-withdrawn, or an accelerated re-entry) that official totals treat differently. **Not a broken price.** Definitive resolution = a manual lot-by-lot diff against the official list (iplt20 is verify-only, no scraping); deferred, low severity.
 
 ## Blocked on data (cannot run yet, by design)
@@ -38,7 +38,7 @@ Convention established now, enforced when features begin: **every derived featur
 - [x] franchises.csv + rules_by_season.yaml with a source per row
 - [x] money in integer lakhs + FX table; hammer vs paid separated
 - [x] validation suite runs in one command
-- [ ] ID join decision recorded (91% accepted, or raised)
+- [x] ID join decision recorded — **91% accepted** (Harsh, 11 Nov 2026)
 - [ ] spend deltas explained or accepted
 - [ ] retentions loaded → squad/overseas checks un-blocked
 - [ ] point-in-time store exercised by the first real feature (L2)
