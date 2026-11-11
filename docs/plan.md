@@ -11,6 +11,7 @@
 | [research-and-paper.md](research-and-paper.md) | Prior art (AuctionIQ), pundit baselines, literature, **the paper assessment and venues** |
 | [architecture.md](architecture.md) | **Depth lock (12 Nov):** the deep bidder agent (L3) and the living auction world (L1/L4) — build spec |
 | [launch.md](launch.md) | Launch playbook (LinkedIn + Instagram): hooks, timing, demo clip, caption guardrails |
+| [stack.md](stack.md) | Tech stack & compute: the $0 rule, inference routing (local for bulk, Gemini live-only, one Cloudflare account), compute-time budget |
 
 ---
 
