@@ -9,6 +9,7 @@
 | [failure-register.md](failure-register.md) | **Every known failure mode** with how to detect it, the fix and its status. **No training until every High row is Closed** |
 | [rules-and-data.md](rules-and-data.md) | Sourced rules by season (2008–2027), franchise lineage, data sources and licences, data traps |
 | [research-and-paper.md](research-and-paper.md) | Prior art (AuctionIQ), pundit baselines, literature, **the paper assessment and venues** |
+| [architecture.md](architecture.md) | **Depth lock (12 Nov):** the deep bidder agent (L3) and the living auction world (L1/L4) — build spec |
 
 ---
 
@@ -26,13 +27,13 @@
 | # | Component | Notes |
 |---|---|---|
 | A | **Data foundation** (L0) | `franchises.csv`, `rules_by_season.yaml`, Cricsheet Register IDs, integer lakhs + FX, hammer vs paid, point-in-time store, validation suite |
-| B | **Auctioneer** (L1) | Deterministic, event-sourced, seeded; league-agnostic config; enforces max legal bid; **replays real auctions exactly** |
+| B | **Auctioneer** (L1) | Deterministic, event-sourced, seeded; league-agnostic config; enforces max legal bid; **replays real auctions exactly**. Living-auction depth: real sets / accelerated round / RTM + an auctioneer-agent voice — [architecture.md](architecture.md) Part B |
 | C | **Baselines** (L2) | Base price, last price, GBM/hedonic, **AuctionIQ** (MIT), single-prompt LLM, JioStar pundit mock |
-| D | **Bidder agent** (L3) | **Harsh writes this**. Stateless per lot; outputs `{action, max_price}` as JSON; **the LLM never does arithmetic**; commit-then-bid reservation price |
+| D | **Bidder agent** (L3) | **Harsh writes this**. Stateless per lot; outputs `{action, max_price}` as JSON; **the LLM never does arithmetic**; commit-then-bid reservation price. **Deep build (locked 12 Nov):** cognitive memory+reflection+planning, Scout/Treasurer/Strategist sub-agents, light opponent model, built v0→v6 — [architecture.md](architecture.md) Part A |
 | E | **Franchise DNA cards** | Facts computed in code, LLM only rephrases; time-sliced; names masked for the stereotype check |
 | F | **Expert-consensus needs** | Wayback as-of snapshots; verbatim quote required; split by team; distinct outlets; capped per outlet |
 | G | **Price model** | Interval-censored / hurdle model on final outcomes; era features |
-| H | **Arena + evaluation** (L4–L6) | ≥20 seeds, probabilities, calibration, KS validity tests, ablations (DNA / shuffled / none / + experts), bootstrap CIs |
+| H | **Arena + evaluation** (L4–L6) | ≥20 seeds, probabilities, calibration, KS validity tests, ablations (DNA / shuffled / none / + experts), bootstrap CIs. War-room deliberation + bidding micro-dynamics — [architecture.md](architecture.md) Part B |
 | I | **Pre-registration + site** (L7) | Zenodo/OSF DOI + public SHA-256 before the auction; per-franchise fan pages; 5-way scorecard after |
 | J | **Paper extras** (L8) | Partial bid reconstruction, Haile–Tamer bounds, **team-conditioned LoRA vs prompt DNA**. LoRA is tried before 16 Dec only if L0–L7 are on track by 10 Dec; otherwise it's done straight after the auction as part of the paper (same project) |
 

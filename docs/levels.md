@@ -1,6 +1,6 @@
 # Levels: IPL Auction Arena goals, from L0 to L9
 
-*Set 11 Nov 2026. Each level is harder than the one before it, and each has a "done when" test you can check. **No level may be skipped**, because each one is the gate for the next. The register rows each level must close are in brackets ([failure-register.md](failure-register.md)).*
+*Set 11 Nov 2026. Each level is harder than the one before it, and each has a "done when" test you can check. **No level may be skipped**, because each one is the gate for the next. The register rows each level must close are in brackets ([failure-register.md](failure-register.md)). The **depth** of L1/L3/L4 (how deep the agents and the auction go) is locked in [architecture.md](architecture.md) — read it with this file.*
 
 | Level | Name | Done when | Closes | Target date |
 |---|---|---|---|---|
@@ -18,3 +18,16 @@
 **Cut line if time runs short before 16 Dec:** L0–L4 and L7 are mandatory. L5 and L6 shrink to "report what we have, with CIs". L8–L9 are after the auction by design.
 
 **"10/10" means L7 + L6 + L5 done honestly.** That is a timestamped forecast nobody else made, scored in public against pundits and the best existing model, and it answers a real question.
+
+---
+
+## Depth lock (12 Nov 2026) — the showcase is agent craft; see [architecture.md](architecture.md)
+The purpose beyond the forecast is to **showcase how deep a well-engineered agent can be, inside an auction that feels real.** These deepen the existing levels (they do not add new numbered ones):
+
+| Level | Baseline "done when" (above) | Depth locked on top (architecture.md) |
+|---|---|---|
+| **L1** | engine replays real auctions, zero violations | **Living auction:** real player **sets**, **accelerated round**, **RTM**, live board; an **auctioneer agent** that calls the room (Part B, M1–M2) |
+| **L3** | one bidder, 0 invalid actions on the fuzz suite | **Deep bidder:** memory stream + reflection + planning (cognitive core), **Scout/Treasurer/Strategist** sub-agents, a **light opponent model** — built v0→v6, guardrails green throughout (Part A) |
+| **L4** | 10 agents pass KS validity tests, ≥20 seeds | **War-room deliberation** under time/partial-info budget; **bidding micro-dynamics** (wars, sniping cadence); Monte-Carlo distribution (Part B, M3–M6) |
+
+**Floor we never drop:** the guardrailed cognitive bidder + faithful engine + auctioneer + ≥20 seeds. **Encore (L8/paper):** deep theory-of-mind, strategic jump-bidding, a self-authored skill library, inter-agent trade negotiation, and the full broadcast UI.
