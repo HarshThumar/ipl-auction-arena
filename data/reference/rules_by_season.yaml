@@ -1,0 +1,199 @@
+# IPL auction rules by season, 2008-2027
+# Seeds the engine (L1) and era features (E4). Source: docs/rules-and-data.md (every row re-checked, register item G7).
+# MONEY: INR stored in integer LAKHS (1 crore = 100 lakh). USD-era (2008-2013) stored in usd; convert with fx_usd_inr.csv.
+# verified: false  => the value is UNVERIFIED in a primary source; do not rely on it for scoring.
+
+meta:
+  money_unit_inr: lakh          # 1 crore = 100 lakh
+  usd_years: [2008, 2009, 2010, 2011, 2012, 2013]
+  inr_from: 2014
+  squad_rule_from_2018: {squad_min: 18, squad_max: 25, overseas_max: 8}
+
+# --- Base prices & bid increments, 2025-2027 cycle (lakh) ---
+increments_2025_cycle:
+  base_price_uncapped_lakh: [30, 40, 50]
+  base_price_capped_lakh: [75, 100, 125, 150, 200]
+  increment_steps_lakh:
+    - {up_to_lakh: 100, step: 5}
+    - {from_lakh: 100, to_lakh: 200, step: 10}
+    - {from_lakh: 200, to_lakh: 500, step: 20}
+    - {above_lakh: 500, step: 25}
+  verified: true
+  source: https://www.iplt20.com/news/article/ipl-governing-council-announces-tata-ipl-player-regulations-2025-27
+earlier_increments:
+  verified: false
+  note: Pre-2025 increment tables UNVERIFIED; reconstruct per-year from bid ladders if needed (G6).
+
+seasons:
+  2008:
+    type: mega
+    date: 2008-02-20
+    teams: 8
+    purse_usd: 5000000
+    min_spend_usd: 3300000        # some sources say 3.0M
+    retention: none
+    rtm: false
+    icon_players: [Tendulkar, Ganguly, Dravid, Yuvraj, Sehwag]   # paid 15% above team top buy
+    squad_min: 16
+    overseas_max: null            # UNVERIFIED
+    verified: true
+    notes: First auction. Icon-player premium. Overseas squad cap unverified.
+    sources:
+      - https://en.wikipedia.org/wiki/List_of_2008_Indian_Premier_League_auctions_and_personnel_signings
+      - https://www.espn.com/cricket/story/_/id/21562612
+  2009:
+    type: mini
+    purse_usd: 2000000
+    verified: false
+    notes: "$2M cap UNVERIFIED."
+    sources: [https://www.business-standard.com/article/companies/3rd-edition-of-ipl-fails-to-attract-big-bucks-110012000027_1.html]
+  2010:
+    type: mini
+    date: 2010-01-19
+    purse_usd: 750000
+    per_player_cap_usd: 750000
+    verified: true
+    notes: "Secret tie-break - bids above the cap sealed, excess to BCCI (Pollard, Bond). Hammer != paid."
+    sources: [https://wisden.com/series/tata-ipl-2022/cricket-news/the-secret-tiebreaker-rule-that-decided-two-of-the-most-famous-auction-buys-in-ipl-history]
+  2011:
+    type: mega
+    purse_usd: 9000000
+    retention: {max: 4, max_indian: 3, cumulative_cost_m: [1.8, 3.1, 4.0, 4.5]}
+    rtm: false
+    verified: true
+    notes: KXIP, Deccan and KKR released everyone. Kochi & Pune joined.
+    sources: [https://www.espncricinfo.com/indian-premier-league-2011/content/story/491223.html]
+  2012:
+    type: mini
+    date: 2012-02-04
+    purse_usd: 2000000
+    verified: true
+    notes: Jadeja tie-break (CSK over Deccan). Hammer != paid.
+    sources: [docs/rules-and-data.md]
+  2013:
+    type: mini
+    date: 2013-02-03
+    squad_cap_usd: 12500000
+    verified: true
+    notes: 37 bought for $11.89M. SRH enters as a new franchise.
+    sources: [https://www.espncricinfo.com/page2/content/story/603119.html]
+  2014:
+    type: mega
+    first_inr_auction: true
+    purse_inr_lakh: 6000
+    min_spend_inr_lakh: 3600
+    retention: {max: 5, max_capped_indian: 4, cost_lakh: [1250, 950, 750, 550, 400], uncapped_lakh: 400}
+    rtm: {introduced: true, cards_by_retained: {"0": 3, "1-2": 2, "3-5": 1}}
+    squad_min: 16
+    squad_max: 27
+    overseas_max: 9
+    overseas_in_xi_max: 4
+    verified: true
+    sources: [https://www.iplt20.com/news/article/pepsi-ipl-2014-player-regulations]
+  2015: {type: mini, date: 2015-02-16, purse_inr_lakh: 6300, verified: true, sources: [docs/rules-and-data.md]}
+  2016: {type: mini, date: 2016-02-06, purse_inr_lakh: 6600, verified: true, notes: "RPS & GL drafted up to 5 CSK/RR players.", sources: [docs/rules-and-data.md]}
+  2017: {type: mini, purse_inr_lakh: 6600, verified: true, sources: [docs/rules-and-data.md]}
+  2018:
+    type: mega
+    purse_inr_lakh: 8000
+    min_spend_pct: 75
+    retention: {max_total: 5, max_by_retention: 3, retained_3_lakh: [1500, 1100, 700], retained_2_lakh: [1250, 850], retained_1_lakh: [1250], uncapped_lakh: 300}
+    rtm: {cards_if_none_retained: 3}
+    squad_min: 18
+    squad_max: 25
+    overseas_max: 8
+    verified: true
+    notes: Squad 18-25 and overseas <=8 from here on.
+    sources: [https://www.iplt20.com/news/article/ipl-player-policies-declared-for-2018-season]
+  2019: {type: mini, date: 2018-12-18, purse_inr_lakh: 8200, squad_min: 18, squad_max: 25, overseas_max: 8, verified: true, sources: [docs/rules-and-data.md]}
+  2020: {type: mini, date: 2019-12-19, purse_inr_lakh: 8500, squad_min: 18, squad_max: 25, overseas_max: 8, verified: true, sources: [docs/rules-and-data.md]}
+  2021: {type: mini, date: 2021-02-18, purse_inr_lakh: 8500, squad_min: 18, squad_max: 25, overseas_max: 8, verified: true, sources: [docs/rules-and-data.md]}
+  2022:
+    type: mega
+    teams: 10
+    purse_inr_lakh: 9000
+    retention: {max: 4, combos: ["3 Indian + 1 overseas", "2 + 2"], cost_lakh: [1600, 1200, 800, 600]}
+    rtm: false
+    squad_min: 18
+    squad_max: 25
+    overseas_max: 8
+    expansion: {GT: "up to 3 pre-auction picks", LSG: "up to 3 pre-auction picks"}
+    verified: true
+    sources:
+      - https://www.espncricinfo.com/story/ipl-2022-auction-purse-swells-to-inr-90-crore-1286198
+      - https://www.theweek.in/news/sports/2021/10/28/ipl-2022-retention-rules-all-you-need-to-know.html
+  2023:
+    type: mini
+    date: 2022-12-23
+    venue: Kochi
+    purse_inr_lakh: 9500
+    squad_min: 18
+    squad_max: 25
+    overseas_max: 8
+    impact_player: {introduced: true}
+    verified: true
+    sources: [docs/rules-and-data.md]
+  2024:
+    type: mini
+    purse_inr_lakh: 10000
+    squad_min: 18
+    squad_max: 25
+    overseas_max: 8
+    impact_player: true
+    verified: true
+    sources: [docs/rules-and-data.md]
+  2025:
+    type: mega
+    venue: Jeddah
+    date: 2024-11-24
+    purse_inr_lakh: 12000
+    salary_cap_lakh_by_year: {2025: 14600, 2026: 15100, 2027: 15700}
+    retention: {max_total: 6, max_capped: 5, max_uncapped: 2, cost_lakh: [1800, 1400, 1100, 1800, 1400], uncapped_lakh: 400, rtm_raise_rule: true}
+    squad_min: 18
+    squad_max: 25
+    overseas_max: 8
+    impact_player: true
+    match_fee_lakh: 7.5
+    verified: true
+    notes: 2025-27 cycle rules. Overseas pay cap in minis 1800 lakh; excess to BCCI (Indians exempt).
+    sources: [https://www.iplt20.com/news/article/ipl-governing-council-announces-tata-ipl-player-regulations-2025-27]
+  2026:
+    type: mini
+    date: 2025-12-16
+    venue: Abu Dhabi
+    purse_inr_lakh: 12500
+    rtm: false
+    slots: {total: 77, overseas: 31}
+    accelerated_round_after: 70
+    overseas_pay_cap_lakh: 1800
+    verified: false
+    notes: "Purse 125cr reported, NOT confirmed by BCCI. Green hammer 2520 lakh, PAID 1800 lakh (hammer != paid)."
+    sources: [https://africa.espn.com/cricket/story/_/id/47290249/ipl-auction-2026-faqs-where-how-much]
+  2027:
+    type: mini
+    date: 2026-12-16
+    venue: Goa
+    purse_inr_lakh: 13000
+    rtm: false
+    retention_deadline: 2026-11-17
+    registration_window: [2026-11-02, 2026-11-23]
+    preferred_lists: 2026-12-01
+    final_list: 2026-12-03
+    overseas_pay_cap_lakh: 1800
+    verified: false
+    notes: "Purse 130cr reported, UNCONFIRMED. Last mini of the 2025-27 cycle. Slots known only after retentions."
+    sources: [https://khelnow.com/cricket/ipl-2027-auction-bcci-extends-retention-202611]
+
+# --- 2025-27 cycle standing rules (apply 2025, 2026, 2027) ---
+cycle_2025_2027:
+  overseas_skipped_mega_cannot_enter_mini: true
+  overseas_pay_cap_mini_lakh: 1800     # excess to BCCI; Indian players exempt
+  purse_charged_full_hammer: UNVERIFIED
+  buy_then_withdraw_ban_seasons: 2
+  uncapped_definition: no international starting XI and no central contract in the last 5 years
+  impact_player_through_2027: true
+  overseas_in_xi_max_with_overseas_impact: 3
+  verified: true
+  sources:
+    - https://www.iplt20.com/news/article/ipl-governing-council-announces-tata-ipl-player-regulations-2025-27
+    - https://www.outlookindia.com/sports/cricket/indian-premier-league-2026-auction-overseas-player-salary-cap-explained-18-crore

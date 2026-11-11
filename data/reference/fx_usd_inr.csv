@@ -1,0 +1,7 @@
+year,auction_month,usd_inr_auction_month_approx,usd_inr_annual_avg_approx,verified,note,source
+2008,2008-02,39.8,43.5,false,Approximate. INR was unusually strong in early 2008.,RBI reference rate (historical) - replace with exact on-date rate for accounting
+2009,2009-03,51.0,48.4,false,Approximate (mini auction).,RBI reference rate (historical)
+2010,2010-01,45.9,45.7,false,Approximate.,RBI reference rate (historical)
+2011,2011-01,45.4,46.7,false,Approximate.,RBI reference rate (historical)
+2012,2012-02,49.3,53.4,false,Approximate.,RBI reference rate (historical)
+2013,2013-02,53.6,58.6,false,Approximate.,RBI reference rate (historical)
