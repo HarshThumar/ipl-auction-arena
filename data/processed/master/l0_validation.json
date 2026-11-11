@@ -2,8 +2,8 @@
   "summary": {
     "PASS": 9,
     "FAIL": 0,
-    "WARN": 2,
-    "BLOCKED": 2
+    "WARN": 4,
+    "BLOCKED": 0
   },
   "checks": [
     {
@@ -63,13 +63,13 @@
     },
     {
       "check": "squad size 18-25 within rules",
-      "status": "BLOCKED",
-      "detail": "needs retained players per team (historical retentions / 2027 retentions 17 Nov)"
+      "status": "WARN",
+      "detail": "50 team-seasons, sizes 20-26; outside 18-25: ['2024 SRH=26', '2026 SRH=26']"
     },
     {
       "check": "overseas <= season cap in full squad",
-      "status": "BLOCKED",
-      "detail": "same: auction buys alone are not the full squad"
+      "status": "WARN",
+      "detail": "over cap: ['2026 RCB=9>8'] (retained+bought; trades/replacements not modelled)"
     }
   ]
 }

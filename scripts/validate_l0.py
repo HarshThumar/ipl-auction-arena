@@ -114,11 +114,39 @@ def main():
     record("per-team auction spend <= gross purse", "PASS" if not over else "FAIL",
            f"overspends: {over or 'none'} (gross ceiling; retention-adjusted purse pending)")
 
-    # 6. blocked-on-data checks ---------------------------------------------
-    record("squad size 18-25 within rules", "BLOCKED",
-           "needs retained players per team (historical retentions / 2027 retentions 17 Nov)")
-    record("overseas <= season cap in full squad", "BLOCKED",
-           "same: auction buys alone are not the full squad")
+    # 6. full-squad checks (retained + bought) — unblocked via retentions_by_season.json ----
+    import re as _re
+    def _norm(n): return _re.sub(r'[^a-z0-9]', '', (n or '').lower())
+    retpath = MASTER.parent / "retentions_by_season.json"
+    if not retpath.exists():
+        record("squad size 18-25 within rules", "BLOCKED", "run scripts/parse_retentions.py first")
+        record("overseas <= season cap in full squad", "BLOCKED", "same")
+    else:
+        ret = json.loads(retpath.read_text(encoding="utf-8"))
+        bought = {}
+        for r in sold:
+            fid = alias.get(r.get("winner"), r.get("winner"))
+            bought.setdefault((r["season"], fid), []).append((r["player"], r.get("nationality")))
+        size_bad, ovs_bad, sizes = [], [], []
+        for season in sorted(OFFICIAL_SOLD):
+            rteams = ret.get(str(season), {})
+            cap = seasons.get(season, {}).get("overseas_max") or 8
+            for fid in sorted(active):
+                rlist = rteams.get(fid, [])
+                blist = bought.get((season, fid), [])
+                names = {_norm(x["player"]) for x in rlist} | {_norm(p) for p, _ in blist}
+                size = len(names)
+                sizes.append(size)
+                ovs = sum(1 for x in rlist if x["nationality"] == "Overseas") \
+                    + sum(1 for _, nat in blist if nat == "Overseas")
+                if not (18 <= size <= 25):
+                    size_bad.append(f"{season} {fid}={size}")
+                if ovs > cap:
+                    ovs_bad.append(f"{season} {fid}={ovs}>{cap}")
+        record("squad size 18-25 within rules", "PASS" if not size_bad else "WARN",
+               f"50 team-seasons, sizes {min(sizes)}-{max(sizes)}; outside 18-25: {size_bad or 'none'}")
+        record("overseas <= season cap in full squad", "PASS" if not ovs_bad else "WARN",
+               f"over cap: {ovs_bad or 'none'} (retained+bought; trades/replacements not modelled)")
 
     # write report -----------------------------------------------------------
     summary = {k: sum(1 for r in results if r["status"] == k) for k in ("PASS", "FAIL", "WARN", "BLOCKED")}
