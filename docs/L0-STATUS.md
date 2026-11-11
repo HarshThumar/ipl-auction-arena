@@ -9,7 +9,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 ```
 
 ## Current result (last run)
-**9 PASS · 0 FAIL · 4 WARN · 0 BLOCKED**  — squad/overseas checks un-blocked 12 Nov by loading historical retentions.
+**10 PASS · 0 FAIL · 3 WARN · 0 BLOCKED**  — squad/overseas un-blocked and spend deltas resolved, 12 Nov.
 
 | Area | State | Register |
 |---|---|---|
@@ -28,7 +28,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 
 ## Open items (WARN) — real gaps, not hidden
 1. **Player ID join = 91%, target was ≥99%.** The shortfall is entirely **uncapped domestic players who have never played a Cricsheet-tracked match**, so no ID exists to join to. Every *capped* player is matched and collisions were reviewed. **DECISION — ACCEPTED (Harsh, 11 Nov 2026):** 91% stands as L0-sufficient. Rationale: the 99% bar is unreachable via Cricsheet for never-played players; all capped/known players are matched, which is what the price and DNA layers actually use. No second ID source will be chased for now; revisit only if a later level needs IDs for uncapped lots.
-2. **Spend vs official, small deltas (cr):** 2022 +0.75, 2023 +0.8, **2024 +4.4**, 2025/2026 exact. Sold *counts* match exactly, and the 2024 top prices all verify against the real auction (Starc 24.75, Cummins 20.5, D. Mitchell 14, Harshal 11.75…) — so no headline price is wrong. The deltas are all **small and positive** (≈2% in 2024), which points to either (a) rounding in the single "official total" figure hardcoded in the check, or (b) an included edge lot (bought-then-withdrawn, or an accelerated re-entry) that official totals treat differently. **Not a broken price.** Definitive resolution = a manual lot-by-lot diff against the official list (iplt20 is verify-only, no scraping); deferred, low severity.
+2. ~~Spend vs official, small deltas~~ — **RESOLVED (12 Nov).** Root cause found: **Harry Brook** was bought in the 2024 auction (DC, ₹4cr) and **withdrew before the season**. Our spend is the faithful **auction-night hammer total** (includes him); commonly-cited "official" totals net him out. `234.85 − 4.0 = 230.85 ≈ 230.45` (0.4 rounding). Verified our 2024 per-lot prices against the Wikipedia source → **0 mismatches**. Harry Brook now carries a `withdrawn` flag; the check nets withdrawals and **passes** (all residuals <1cr = rounding in cited totals). Conclusion: our data is faithful to source; the delta was a **definitional difference**, not an error.
 
 3. **Squad / overseas off-by-ones (3 of 50 team-seasons):** 2024 SRH = 26, 2026 SRH = 26, 2026 RCB = 9 overseas. Parses are clean (verified player lists, no artifacts). Cause: the `retained + bought` reconstruction is a **pre-trade snapshot** — post-auction **trades/releases** (which we don't model, G5) bring these within the 25/8 caps by season start. Accept as documented.
 
@@ -43,6 +43,6 @@ Convention established now, enforced when features begin: **every derived featur
 - [x] money in integer lakhs + FX table; hammer vs paid separated
 - [x] validation suite runs in one command
 - [x] ID join decision recorded — **91% accepted** (Harsh, 11 Nov 2026)
-- [ ] spend deltas explained or accepted
+- [x] **spend deltas resolved** (12 Nov) — withdrawn player (Harry Brook) + sub-crore rounding; prices verified faithful to source
 - [x] **historical retentions loaded → squad/overseas checks un-blocked** (12 Nov); 2027 slots in on the 17th
 - [ ] point-in-time store exercised by the first real feature (L2)

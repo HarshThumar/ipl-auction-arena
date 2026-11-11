@@ -13,6 +13,10 @@ PROC = Path(__file__).resolve().parent.parent / "data" / "processed" / "master"
 OVERSEAS_MINI_PAY_CAP_LAKH = 1800          # rules_by_season.yaml cycle_2025_2027
 MINIS_WITH_CAP = {2026, 2027}              # overseas pay cap applies in minis of the 2025-27 cycle
 
+# players bought at auction who then WITHDREW before the season. Our spend is the faithful
+# auction-night hammer total (includes them); commonly-cited "official" totals net them out.
+KNOWN_WITHDRAWN = {(2024, "Harry Brook")}  # DC 4cr; verified against Wikipedia source
+
 def to_lakh(crore):
     if crore is None or crore == "":
         return None
@@ -33,13 +37,14 @@ def main():
             r["pay_capped"] = True
             capped_n += 1
         r["paid_lakh"] = paid
+        r["withdrawn"] = (r.get("season"), r.get("player")) in KNOWN_WITHDRAWN
 
     (PROC / "all_auctions_master.json").write_text(
         json.dumps(rows, ensure_ascii=False), encoding="utf-8")
 
     cols = ["season","auction_type","player","cricsheet_id","cricinfo_id","id_match",
             "nationality","role","capped","base_price","base_lakh","status","winner",
-            "final_price","hammer_lakh","paid_lakh","pay_capped","n_teams_in","teams_in",
+            "final_price","hammer_lakh","paid_lakh","pay_capped","withdrawn","n_teams_in","teams_in",
             "opener","final_two","ladder","confidence","bid_source","enrich_source",
             "redistributable","raw_country","price_note"]
     with open(PROC / "all_auctions_master.csv", "w", newline="", encoding="utf-8") as fh:

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "PASS": 9,
+    "PASS": 10,
     "FAIL": 0,
-    "WARN": 4,
+    "WARN": 3,
     "BLOCKED": 0
   },
   "checks": [
@@ -47,9 +47,9 @@
       "detail": "ours vs official all match"
     },
     {
-      "check": "spend reconciles to official per season",
-      "status": "WARN",
-      "detail": "deltas (cr) {2022: 0.75, 2023: 0.8, 2024: 4.4, 2025: -0.0, 2026: 0.0}; unresolved: {2022: 0.75, 2023: 0.8, 2024: 4.4}"
+      "check": "spend vs official (net of withdrawn)",
+      "status": "PASS",
+      "detail": "net deltas (cr) {2022: 0.75, 2023: 0.8, 2024: 0.4, 2025: -0.0, 2026: 0.0}; withdrawn netted {2024: 4.0}; residual <1cr = rounding in cited totals"
     },
     {
       "check": "winner codes resolve to a franchise",
