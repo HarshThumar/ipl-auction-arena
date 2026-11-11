@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "PASS": 9,
+    "FAIL": 0,
+    "WARN": 2,
+    "BLOCKED": 2
+  },
+  "checks": [
+    {
+      "check": "franchises source_url present",
+      "status": "PASS",
+      "detail": "15 rows, 10 active; missing source: none"
+    },
+    {
+      "check": "rules every season has a source",
+      "status": "PASS",
+      "detail": "20 seasons; missing source: none"
+    },
+    {
+      "check": "rules UNVERIFIED flagged (not hidden)",
+      "status": "PASS",
+      "detail": "3 seasons flagged verified=false: [2009, 2026, 2027]"
+    },
+    {
+      "check": "money is integer lakhs, paid<=hammer",
+      "status": "PASS",
+      "detail": "615 sold lots checked; violations: none"
+    },
+    {
+      "check": "hammer!=paid cap applied correctly (G5)",
+      "status": "PASS",
+      "detail": "1 overseas-mini lot(s) pay-capped: Cameron Green(2520->1800)"
+    },
+    {
+      "check": "player ID join rate (target >=99%)",
+      "status": "WARN",
+      "detail": "927/1019 = 91.0% (uncapped domestic players genuinely absent from Cricsheet)"
+    },
+    {
+      "check": "every CAPPED player has an ID",
+      "status": "PASS",
+      "detail": "314 capped rows; missing: none"
+    },
+    {
+      "check": "sold count == official per season",
+      "status": "PASS",
+      "detail": "ours vs official all match"
+    },
+    {
+      "check": "spend reconciles to official per season",
+      "status": "WARN",
+      "detail": "deltas (cr) {2022: 0.75, 2023: 0.8, 2024: 4.4, 2025: -0.0, 2026: 0.0}; unresolved: {2022: 0.75, 2023: 0.8, 2024: 4.4}"
+    },
+    {
+      "check": "winner codes resolve to a franchise",
+      "status": "PASS",
+      "detail": "unresolved team codes: none"
+    },
+    {
+      "check": "per-team auction spend <= gross purse",
+      "status": "PASS",
+      "detail": "overspends: none (gross ceiling; retention-adjusted purse pending)"
+    },
+    {
+      "check": "squad size 18-25 within rules",
+      "status": "BLOCKED",
+      "detail": "needs retained players per team (historical retentions / 2027 retentions 17 Nov)"
+    },
+    {
+      "check": "overseas <= season cap in full squad",
+      "status": "BLOCKED",
+      "detail": "same: auction buys alone are not the full squad"
+    }
+  ]
+}
