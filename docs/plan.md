@@ -10,6 +10,7 @@
 | [rules-and-data.md](rules-and-data.md) | Sourced rules by season (2008–2027), franchise lineage, data sources and licences, data traps |
 | [research-and-paper.md](research-and-paper.md) | Prior art (AuctionIQ), pundit baselines, literature, **the paper assessment and venues** |
 | [architecture.md](architecture.md) | **Depth lock (12 Nov):** the deep bidder agent (L3) and the living auction world (L1/L4) — build spec |
+| [launch.md](launch.md) | Launch playbook (LinkedIn + Instagram): hooks, timing, demo clip, caption guardrails |
 
 ---
 
