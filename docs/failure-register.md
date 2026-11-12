@@ -29,7 +29,7 @@
 | A7 | **Position/order bias** | M | Win rate by agent index (chi-square) | Seeded random tie-break; shuffle team order | [7] | Open |
 | A8 | **Collusion-like restraint** | M | Star prices and unsold rate vs real; isolated-agent rerun | No inter-agent messages | [9] | Open |
 | A9 | **Refusal / passivity** | M | Participation rate per agent | Neutral "simulation" framing; engagement threshold | [1] | Open |
-| A10 | **Crore/lakh arithmetic errors** | H | Unit-fuzz suite: 200 synthetic states → invalid-action rate | **All money is integer lakhs in code; the LLM never does arithmetic**; the auctioneer supplies next bid and purse-after | [1][10] | Open |
+| A10 | **Crore/lakh arithmetic errors** | H | Unit-fuzz suite: 200 synthetic states → invalid-action rate | **All money is integer lakhs in code; the LLM never does arithmetic**; the auctioneer supplies next bid and purse-after | [1][10] | In progress — data is integer lakhs; LLM-no-arithmetic + unit-fuzz suite land at L1/L3 |
 | A11 | **Pretraining reputation / hallucinated stats override our data** | H | **Name-swap / anonymised-player test**; check cited stats against our table | Stats in the prompt; anonymised-ID ablation | [11] | Open |
 | A12 | **Sycophancy to card wording** | M | Neutral vs loaded wording of the same card → spend delta | Numeric, neutral cards | [12] | Open |
 | A13 | **Persona drift** over 80+ lots | M | Card-consistency vs lot index | **Stateless calls**: re-inject card + state on every lot | [13] | Open |
@@ -66,8 +66,8 @@
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
 | D1 | **The model already knows the Dec 2025 results** | H | Probe "who bought X in IPL 2026, for how much?"; named vs anonymised scores; lookahead propensity | Backtest models with training cutoff **before Dec 2025** (check each); **the Gemini fallback can't be used for backtests**; the 16 Dec 2026 live run is the clean test | [23][24][11][31] | Open |
-| D2 | **Feature leakage** (stats/squads dated after the auction) | H | As-of timestamp on every feature | **Point-in-time feature store**; Kapoor & Narayanan checklist | [25] | Open |
-| D3 | **Survivorship** (defunct teams) | M | Franchise coverage | Defunct teams in the price model, not in DNA | UV | Open |
+| D2 | **Feature leakage** (stats/squads dated after the auction) | H | As-of timestamp on every feature | **Point-in-time feature store**; Kapoor & Narayanan checklist | [25] | In progress — `as_of` convention set (L0-STATUS.md); enforced from the first L2 feature |
+| D3 | **Survivorship** (defunct teams) | M | Franchise coverage | Defunct teams in the price model, not in DNA | UV | In progress — defunct franchises in `franchises.csv` |
 | D4 | **Small sample** (~70–80 sales per mini, ~7 buys per team) | H | Bootstrap CIs | Pooled/hierarchical models; **no per-team skill claims**; leave-one-auction-out | UV | Open |
 | D5 | **Overfitting / forking paths** on one backtest | H | Log every config tried | Freeze configs on Dec 2022 + Dec 2023; **pre-register**; run Dec 2025 once | [26] | Open |
 | D6 | **Wrong or weak baselines** | H | Must include base price, last price, the price model alone, **AuctionIQ rule agents**, **single-prompt LLM**, **JioStar pundit mock**, the expert-consensus-only rule | – | [1] | Open |
@@ -101,14 +101,14 @@
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| G1 | **Player entity resolution** | H | Join rate against official lists; collision report | **Cricsheet Register IDs** | UV | Open |
-| G2 | Renames / new vs renamed franchises | M | – | `franchises.csv` (rules-and-data.md §2) | – | Open |
-| G3 | **Units:** USD 2008–13, lakh/crore | H | Range checks | Integer lakhs + as-of FX table | rules-and-data.md | Open |
+| G1 | **Player entity resolution** | H | Join rate against official lists; collision report | **Cricsheet Register IDs** | UV | In progress — `validate_l0.py` (capped-ID check PASS; 91% overall accepted). Closes on first green CI |
+| G2 | Renames / new vs renamed franchises | M | – | `franchises.csv` (rules-and-data.md §2) | – | In progress — `franchises.csv` + winner-code check PASS. Closes on first green CI |
+| G3 | **Units:** USD 2008–13, lakh/crore | H | Range checks | Integer lakhs + as-of FX table | rules-and-data.md | In progress — integer lakhs + `fx_usd_inr.csv`; money check PASS. Closes on first green CI |
 | G4 | Accelerated rounds / re-entries | M | One lot ID per (auction, round, player) | – | [30] | Open |
-| G5 | **Hammer ≠ paid** (tie-breaks, 18cr overseas cap), withdrawals, replacements, trades | M | – | Store hammer and paid separately; status flags | [28] | Open |
+| G5 | **Hammer ≠ paid** (tie-breaks, 18cr overseas cap), withdrawals, replacements, trades | M | – | Store hammer and paid separately; status flags | [28] | In progress — hammer/paid/withdrawn columns; cap check PASS. Trades/replacements not modelled yet |
 | G6 | Increments differ by year | M | Consecutive bids match the table | Year-specific table | UV | Open |
-| G7 | **Rules table errors** (conflicting previews, e.g. 2026 purse 125 vs 151cr) | H | Every rule row has a source URL; conflicts listed | Prefer BCCI/iplt20 documents; mark UNVERIFIED | rules-and-data.md | Open |
-| G8 | **Licence violations** | M | Licence column per source | Don't redistribute iplt20 or CC BY-NC data; attribute ODC-BY / CC BY-SA | rules-and-data.md §3 | Open |
+| G7 | **Rules table errors** (conflicting previews, e.g. 2026 purse 125 vs 151cr) | H | Every rule row has a source URL; conflicts listed | Prefer BCCI/iplt20 documents; mark UNVERIFIED | rules-and-data.md | In progress — rules source + UNVERIFIED checks PASS. Closes on first green CI |
+| G8 | **Licence violations** | M | Licence column per source | Don't redistribute iplt20 or CC BY-NC data; attribute ODC-BY / CC BY-SA | rules-and-data.md §3 | In progress — SOURCES.md; no iplt20/CC BY-NC data in repo |
 
 ## H. Simulation validity
 

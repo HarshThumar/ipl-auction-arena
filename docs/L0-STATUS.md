@@ -35,6 +35,17 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 ## Resolved 12 Nov
 - **Historical retentions loaded** ([scripts/parse_retentions.py](../scripts/parse_retentions.py) → `data/processed/retentions_by_season.json`, 2022–26, from Wikipedia CC BY-SA). This un-blocked the squad-size and overseas-cap checks for all historical years. **2027 retentions land 17 Nov** and slot straight in.
 
+## Rebuild from scratch (reproducibility)
+Order matters — each step rewrites the master, so run all four in sequence:
+```
+python scripts/build_master.py data/processed/bid_sequences data/processed/enriched data/processed/master data/processed
+python scripts/idjoin.py apply
+python scripts/normalize_money.py
+python scripts/build_view.py data/processed/master
+python scripts/validate_l0.py
+```
+**Verified 12 Nov:** a clean rebuild in a temp folder matched the committed master exactly (1019 rows, 0 field differences). CI (`.github/workflows/l0.yml`) runs the gate on every push.
+
 ## Point-in-time store (D2 / C5)
 Convention established now, enforced when features begin: **every derived feature carries an `as_of` date**, and nothing dated after an auction may be used to predict that auction. The raw auction facts are naturally as-of their auction date. No model features exist yet (they start at L2), so there is nothing to leak yet — the mechanism is in place before the first feature is written.
 

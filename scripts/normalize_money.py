@@ -6,10 +6,10 @@ G5 (hammer != paid: the 2025-27 overseas mini pay cap of 1800 lakh, excess to BC
 Run:  python -I scripts/normalize_money.py
 Reads/writes: data/processed/master/all_auctions_master.{json,csv}
 """
-import json, csv
+import json, csv, sys
 from pathlib import Path
 
-PROC = Path(__file__).resolve().parent.parent / "data" / "processed" / "master"
+PROC = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent / "data" / "processed" / "master"
 OVERSEAS_MINI_PAY_CAP_LAKH = 1800          # rules_by_season.yaml cycle_2025_2027
 MINIS_WITH_CAP = {2026, 2027}              # overseas pay cap applies in minis of the 2025-27 cycle
 
