@@ -21,12 +21,12 @@
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
 | A1 | **Budget myopia:** spends early, then can't fill the squad minimum | H | Runs ending with slots × base > purse; purse-left curve vs real | Auctioneer computes **max legal bid = purse − (min slots left − 1) × min base** and rejects anything above it; send remaining needs every turn | AucArena: rule bidders beat most LLMs [1] | Open |
-| A2 | **Overbidding / winner's curse** on stars | H | Sim vs actual price on the top-10 lots; % of wins above the price model's p90 | **Commit-then-bid:** the agent declares a reservation price before the lot and code enforces it; show the price band | [1][2] | Open |
+| A2 | **Overbidding / winner's curse** on stars | H | Sim vs actual price on the top-10 lots; % of wins above the price model's p90 | **Ceiling discipline** (revised 12 Nov for live bidding): the agent sets a ceiling before bidding starts and code enforces it; it may raise it **once per lot, only in a huddle, only up to code's `max_affordable`**, logged with a reason; show the price band | [1][2] | Open |
 | A3 | **Ignoring remaining needs** (4th keeper) | H | Wins in roles where the gap = 0 | Structured role-gap vector each turn; post-hoc audit | [1] | Open |
-| A4 | **Non-monotonic / irrational bids** | M | Monotonicity checker; re-entry rate | Proxy bidding (one reservation price per lot; code runs the clock) | [1] | Open |
+| A4 | **Non-monotonic / irrational bids** | M | Monotonicity checker; re-entry rate | Code autopilot raises below the ceiling; the LLM only decides at 3 points (enter / huddle / final two); fuzz the decision points for contradictions | [1] | Open |
 | A5 | **Anchoring** on the base price or last bid | M | Change only the displayed base price; measure the shift | Show the valuation band first; anchor-shuffled tests | [4][3] | Open |
-| A6 | **Herding** | M | Bidders-per-lot distribution vs real | Agents see only public bids, never others' reasoning | [5][6] | Open |
-| A7 | **Position/order bias** | M | Win rate by agent index (chi-square) | Seeded random tie-break; shuffle team order | [7] | Open |
+| A6 | **Herding** | M | Bidders-per-lot distribution vs real | Agents see public bids live (as in the real room), never others' reasoning; compare herding with real bidders-per-lot | [5][6] | Open |
+| A7 | **Position/order bias** | M | Win rate by agent index (chi-square) | Seeded random pick among teams willing to raise at the same price; shuffle team order per seed | [7] | Open |
 | A8 | **Collusion-like restraint** | M | Star prices and unsold rate vs real; isolated-agent rerun | No inter-agent messages | [9] | Open |
 | A9 | **Refusal / passivity** | M | Participation rate per agent | Neutral "simulation" framing; engagement threshold | [1] | Open |
 | A10 | **Crore/lakh arithmetic errors** | H | Unit-fuzz suite: 200 synthetic states → invalid-action rate | **All money is integer lakhs in code; the LLM never does arithmetic**; the auctioneer supplies next bid and purse-after | [1][10] | In progress — data is integer lakhs; LLM-no-arithmetic + unit-fuzz suite land at L1/L3 |
@@ -38,6 +38,8 @@
 | A16 | **Output-format / tool-call failures** (3–8B models) | H | Parse-failure and retry rate per model | JSON schema `{action, max_price}`; free-text reasoning, then convert; a failure counts as a logged "drop" | [15][16] | Open |
 | A17 | **4-bit quantisation hurts numeric reasoning** | M | Q4 vs Q8 on the fuzz suite | Q8 for ≤3B models; maths stays in code | [17] | Open |
 | A18 | **Variance collapse:** 10 same-model agents behave alike | H | Between-agent variance in spend, role mix and bidders per lot; compare with real between-team variance | Distinct numeric DNA; report it if it collapses (a finding in itself) | Fidelity-paradox lit (see research doc) | Open |
+| A19 | **Price-push gone wrong:** agent pushes a rival, rival drops, agent is stuck with an unwanted player | M | Push rate, push-stuck rate and stuck spend per agent; compare with how often real teams end up with "push" buys (anecdotal) | Push limit can never exceed code's `max_affordable`; stuck buys stay legal; report the rate | UV | Open |
+| A20 | **Call budget blow-up** from live decisions + huddle arguments (wall-clock overruns the Dec timeline) | M | Calls and minutes per seed, per version | ≤3 decision points per involved team per lot; cache every call; few seeds in dev; collapse the war room to one call in dev only | stack.md | Open |
 
 ## B. Expert-needs extraction
 
@@ -119,6 +121,7 @@
 | H3 | **Auctioneer bugs / nondeterminism** | H | **Property tests** (hypothesis): purse ≥ 0, squad 18–25, overseas ≤ 8; log replay reproduces the run exactly | Event-sourced, seeded log; **replay real auctions through the engine (L1)** | UV | Open |
 | H4 | Missing private information (injuries, intent) | L | – | Document the scope | UV | Open |
 | H5 | **Pre-registration not verifiable** | H | – | Freeze predictions; **SHA-256 hash posted publicly + Zenodo/OSF DOI before 16 Dec** | [26] | Open |
+| H6 | **Bidding wars don't look like real ones** (wrong openers, wrong final-two pairs, wars too long or too short) | M | Simulated opening bidder / final-two pairs / number of teams in each war vs real ones from live blogs, where available | Live bidding engine (L1); report the gap; full check moves to L8 if live-blog reconstruction isn't ready | UV | Open |
 
 ## Sources
 1. AucArena https://arxiv.org/html/2310.05746v3

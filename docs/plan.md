@@ -29,9 +29,9 @@
 | # | Component | Notes |
 |---|---|---|
 | A | **Data foundation** (L0) | `franchises.csv`, `rules_by_season.yaml`, Cricsheet Register IDs, integer lakhs + FX, hammer vs paid, point-in-time store, validation suite |
-| B | **Auctioneer** (L1) | Deterministic, event-sourced, seeded; league-agnostic config; enforces max legal bid; **replays real auctions exactly**. Living-auction depth: real sets / accelerated round / RTM + an auctioneer-agent voice — [architecture.md](architecture.md) Part B |
+| B | **Auctioneer** (L1) | Deterministic, event-sourced, seeded; league-agnostic config; **live open ascending bidding** with a full bid log; enforces max legal bid; **replays real auctions exactly**. Living-auction depth: real sets / accelerated round / RTM + an auctioneer-agent voice — [architecture.md](architecture.md) Part B |
 | C | **Baselines** (L2) | Base price, last price, GBM/hedonic, **AuctionIQ** (MIT), single-prompt LLM, JioStar pundit mock |
-| D | **Bidder agent** (L3) | **Harsh writes this**. Stateless per lot; outputs `{action, max_price}` as JSON; **the LLM never does arithmetic**; commit-then-bid reservation price. **Deep build (locked 12 Nov):** cognitive memory+reflection+planning, Scout/Treasurer/Strategist sub-agents, light opponent model, built v0→v6 — [architecture.md](architecture.md) Part A |
+| D | **Bidder agent** (L3) | **Harsh writes this**. Stateless calls; strict JSON; **the LLM never does arithmetic**. **Bids live like a real team (realism pass, 12 Nov):** sets a ceiling, code keeps the paddle up below it, the LLM decides only at **enter / huddle / final two**; plan with targets, ceilings and backups; war room argues at huddles; opponent model learned from live bids; price-pushing allowed. Built v0→v6: **v0–v3 by 3 Dec, v4–v6 stretch to 10 Dec** — [architecture.md](architecture.md) Part A |
 | E | **Franchise DNA cards** | Facts computed in code, LLM only rephrases; time-sliced; names masked for the stereotype check |
 | F | **Expert-consensus needs** | Wayback as-of snapshots; verbatim quote required; split by team; distinct outlets; capped per outlet |
 | G | **Price model** | Interval-censored / hurdle model on final outcomes; era features |
