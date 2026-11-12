@@ -28,16 +28,16 @@
 
 ## Inference routing rule (this is the important bit)
 - **Bulk agent thinking — sub-agents, seeds, backtests → LOCAL Ollama** (or self-hosted Workers AI). **No rate limits**, only throughput. This is why we chose local: your machine never says "429".
-- **Gemini free tier → the LIVE 16 Dec forecast ONLY** — a handful of calls fit under the limit. **Banned from backtests** (D1 contamination; it's cloud) and from any private/employer data (rule #8).
+- **Gemini free tier → emergency fallback for the live forecast ONLY** (the frozen forecast normally uses the same local model validated in L3–L5) — a handful of calls fit under the limit. **Banned from backtests** (D1 contamination; it's cloud) and from any private/employer data (rule #8).
 - **Cloudflare Workers AI → ONE account, legitimately.** **No multi-account sharding** to dodge the free quota: it's a ToS violation (ban risk across all accounts), it doesn't even scale (hundreds of thousands of calls dwarf 9 small buckets), and it's not clean for a public repo. One account + the levers below beat account-juggling on every axis.
 
 ## The real budget: compute time, not money
-The deep architecture multiplies calls: sub-agents (≈3×/lot) × 10 teams × ~80 lots × 20 seeds × ablation conditions → **hundreds of thousands of LLM calls** for the full suite. On free hardware that's hours–days of wall-clock. Levers (all free, all clean):
+The deep architecture multiplies calls: up to 3 decisions per involved team per lot (plus huddle arguments) × ~80 lots × 20 seeds × ablation conditions → **hundreds of thousands of LLM calls** for the full suite. On free hardware that's hours–days of wall-clock. Levers (all free, all clean):
 1. **Cache every call** — identical states dedupe; the single biggest lever (already mandated in the plan).
 2. **Local Ollama** for dev + bulk (no limits).
 3. **Cloudflare Workers AI (1 acct) / Kaggle / Colab free GPU** to accelerate the final heavy runs.
 4. **Few seeds in dev; full 20 only for the final freeze.**
-5. **Collapse the 3 sub-agent calls into one structured call** when speed matters more than role separation.
+5. **Collapse the war room into one structured call in dev runs only** — never for the version we report (architecture.md A2).
 6. **Small model** (7–8B); step up only if quality demands (Q8 for ≤3B — A17).
 
 ## Bottom line

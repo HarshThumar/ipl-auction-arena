@@ -1,12 +1,12 @@
 # Failure-mode register: IPL Auction Arena
 
-*Created 11 Nov 2026 from a literature and post-mortem search. **Rule: nothing is trained, fitted or generated for evaluation (DNA cards, dropout model, LoRA, backtests) until every High (H) row is Closed.***
+*Created 11 Nov 2026 from a literature and post-mortem search. **Rule: before a level runs any training, fitting or evaluation, every High (H) row owned by that level and all earlier levels must be Closed.** Rows owned by L8 are marked *Deferred (L8)* and do not block L0–L7.***
 
 - **Closed** means the detection test exists in the repo, runs in CI and passes, or the mitigation is in the code and has a test.
 - **Sev:** H (High) / M (Medium) / L (Low).
 - **UV:** no published source; the row comes from standard practice or reasoning.
 - Bracketed numbers like [1] point to the sources at the end.
-- **Status** values: Open / In progress / Closed / Won't fix (with reason).
+- **Status** values: Open / In progress / Closed / Won't fix (with reason) / Deferred (L8).
 
 **First 6 to close:**
 1. D1 (contamination)
@@ -35,7 +35,7 @@
 | A13 | **Persona drift** over 80+ lots | M | Card-consistency vs lot index | **Stateless calls**: re-inject card + state on every lot | [13] | Open |
 | A14 | **Prompt-wording sensitivity** | H | ≥5 paraphrased templates; report the spread | Report ranges; choose the template on old auctions only | [3] | Open |
 | A15 | **Nondeterminism / seed variance** | M | ≥20 seeds per config; confidence intervals | Fixed seed, temperature 0, Ollama with 1 parallel request (still not a guarantee) | [14] | Open |
-| A16 | **Output-format / tool-call failures** (3–8B models) | H | Parse-failure and retry rate per model | JSON schema `{action, max_price}`; free-text reasoning, then convert; a failure counts as a logged "drop" | [15][16] | Open |
+| A16 | **Output-format / tool-call failures** (3–8B models) | H | Parse-failure and retry rate per model | a strict JSON schema per decision point (enter / huddle / final two; see architecture.md A5); free-text reasoning, then convert; a failure counts as a logged "drop" | [15][16] | Open |
 | A17 | **4-bit quantisation hurts numeric reasoning** | M | Q4 vs Q8 on the fuzz suite | Q8 for ≤3B models; maths stays in code | [17] | Open |
 | A18 | **Variance collapse:** 10 same-model agents behave alike | H | Between-agent variance in spend, role mix and bidders per lot; compare with real between-team variance | Distinct numeric DNA; report it if it collapses (a finding in itself) | Fidelity-paradox lit (see research doc) | Open |
 | A19 | **Price-push gone wrong:** agent pushes a rival, rival drops, agent is stuck with an unwanted player | M | Push rate, push-stuck rate and stuck spend per agent; compare with how often real teams end up with "push" buys (anecdotal) | Push limit can never exceed code's `max_affordable`; stuck buys stay legal; report the rate | UV | Open |
@@ -80,10 +80,10 @@
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| E0 | **No bid-by-bid dataset exists** | H | – | Dec build: the price model uses final outcomes (censored). Partial bidder reconstruction from live blogs is L8 (after 16 Dec) | rules-and-data.md §3 | Open |
-| E1 | **Censoring:** the hammer price only bounds valuations | H | – | Interval-censored / survival model with bounds (Haile & Tamer) | [27] | Open |
-| E2 | **Incomplete live-blog bids** | H | Chain consistent with final price and increments | Flag partial lots; two sources | UV | Open |
-| E3 | **Selection bias:** only contested lots are narrated | H | Logged vs official lots | Uncontested = single-bidder; model the narration probability | UV | Open |
+| E0 | **No bid-by-bid dataset exists** | H | – | Dec build: the price model uses final outcomes (censored). Partial bidder reconstruction from live blogs is L8 (after 16 Dec) | rules-and-data.md §3 | Deferred (L8) — after the 16 Dec auction |
+| E1 | **Censoring:** the hammer price only bounds valuations | H | – | Interval-censored / survival model with bounds (Haile & Tamer) | [27] | Deferred (L8) — after the 16 Dec auction |
+| E2 | **Incomplete live-blog bids** | H | Chain consistent with final price and increments | Flag partial lots; two sources | UV | Deferred (L8) — after the 16 Dec auction |
+| E3 | **Selection bias:** only contested lots are narrated | H | Logged vs official lots | Uncontested = single-bidder; model the narration probability | UV | Deferred (L8) — after the 16 Dec auction |
 | E4 | **Regime changes** (2014 INR, 2018 squad rules, 2022 10 teams, 2023 Impact Player, 2025 overseas cap) | H | Residuals by year | Era features; store hammer and paid separately | [28] | Open |
 | E5 | **Class imbalance** (unsold/base) | M | PR-AUC | Hurdle model | UV | Open |
 | E6 | **Lot-order effects** | M | Residual vs lot index | Order features | [8] | Open |
@@ -92,10 +92,10 @@
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| F1 | Overfitting | H | Held-out-auction loss | Low rank, early stopping, leave-one-auction-out | UV | Open |
-| F2 | **Memorising names and outcomes** | H | Anonymised-name score | Train on features and IDs, not names | UV | Open |
+| F1 | Overfitting | H | Held-out-auction loss | Low rank, early stopping, leave-one-auction-out | UV | Deferred (L8) — after the 16 Dec auction |
+| F2 | **Memorising names and outcomes** | H | Anonymised-name score | Train on features and IDs, not names | UV | Deferred (L8) — after the 16 Dec auction |
 | F3 | Losing JSON / instruction-following | M | Format pass rate before and after | Mix in general data | [29] | Open |
-| F4 | Eval leakage from a random split | H | – | Split by auction | [25] | Open |
+| F4 | Eval leakage from a random split | H | – | Split by auction | [25] | Deferred (L8) — after the 16 Dec auction |
 | F5 | Number tokenisation | M | Digit-error analysis | Predict the number of increments as a class | [10] | Open |
 | F6 | Team conditioning ignored | M | Swap the team token → output delta | – | UV | Open |
 

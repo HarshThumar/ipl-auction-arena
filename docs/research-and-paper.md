@@ -12,7 +12,7 @@
   - Real buyer in its top 3: 45% (chance 30%)
   - 73% of prices inside its 80% interval
   - Spearman 0.67 (base price 0.64)
-- The author notes that with about 72 sales, nothing is significant at 95%.
+- The author notes that with about 72 sales, nothing is significant at 95%. ⚠ Our master counts **77** sold in the 2026-season mini; check whether AuctionIQ's 72 excludes withdrawn players or accelerated-round buys before comparing metrics.
 - **They tested historical team habits and found them no better than chance in minis.**
 - **No LLMs, no pundit comparison, no forecast published before the auction.**
 - → **Our strong baseline, and our research question** ("does franchise history help when an LLM uses it?").

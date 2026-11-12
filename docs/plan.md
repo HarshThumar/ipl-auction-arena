@@ -37,13 +37,13 @@
 | G | **Price model** | Interval-censored / hurdle model on final outcomes; era features |
 | H | **Arena + evaluation** (L4–L6) | ≥20 seeds, probabilities, calibration, KS validity tests, ablations (DNA / shuffled / none / + experts), bootstrap CIs. War-room deliberation + bidding micro-dynamics — [architecture.md](architecture.md) Part B |
 | I | **Pre-registration + site** (L7) | Zenodo/OSF DOI + public SHA-256 before the auction; per-franchise fan pages; 5-way scorecard after |
-| J | **Paper extras** (L8) | Partial bid reconstruction, Haile–Tamer bounds, **team-conditioned LoRA vs prompt DNA**. LoRA is tried before 16 Dec only if L0–L7 are on track by 10 Dec; otherwise it's done straight after the auction as part of the paper (same project) |
+| J | **Paper extras** (L8) | Partial bid reconstruction, Haile–Tamer bounds, **team-conditioned LoRA vs prompt DNA**. LoRA is done after the auction (L8), as part of the paper |
 
 **Model:**
 - **Backtests:** local Ollama, with a model whose training cutoff is **before Dec 2025** (to be checked).
-- **The live forecast:** any model.
-- **Gemini free tier:** a fallback, never for backtests.
-- Cache every call. One call per team per set ≈ 300 calls per run.
+- **The live forecast (frozen 15 Dec):** the same local model that passed L3–L5. Gemini only as an emergency fallback if the local model fails, and if used, say so publicly.
+- **Gemini free tier:** emergency fallback for the live forecast only; never for backtests or baselines.
+- Cache every call. Call budget per run: at most 3 decisions (enter / huddle / final two) per **involved** team per lot, plus huddle argument calls (see architecture.md A5, register A20).
 
 **Brand and people rules:**
 - No IPL/BCCI/team logos; not official; no betting angle.

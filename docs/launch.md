@@ -37,7 +37,7 @@ Platform split:
 - If predictions flop, **post the scorecard anyway** — "what my AI got wrong and why" is honest and often more relatable than a victory lap.
 
 ## Assets to prep as the build lands (fill in later)
-- [ ] 15–30s demo clip (needs the arena + a watchable front-end, M5)
+- [ ] 15–30s demo clip (needs the arena + a watchable front-end, architecture.md B6)
 - [ ] The frozen predictions + **SHA-256 hash** + Zenodo/OSF DOI (L7) — the proof object
 - [ ] Per-franchise pages / static site link (L7)
 - [ ] The 5-way scorecard + calibration plot (post-auction)
