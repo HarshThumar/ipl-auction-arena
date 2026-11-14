@@ -1,0 +1,402 @@
+{
+ "season": 2025,
+ "status": "FINAL",
+ "season_purse_lakh": 12000,
+ "totals": {
+  "slots_left": 204,
+  "overseas_slots_left": 70,
+  "purse_left_lakh": 64150
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "Ruturaj Gaikwad",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Matheesha Pathirana",
+     "nationality": "Overseas",
+     "salary_lakh": 1300
+    },
+    {
+     "player": "Shivam Dube",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "MS Dhoni",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 5,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 6500,
+   "purse_left_lakh": 5500,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5500,
+   "slots_left": 20,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 13,
+   "max_single_bid_lakh": 5140,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Axar Patel",
+     "nationality": "India",
+     "salary_lakh": 1650
+    },
+    {
+     "player": "Kuldeep Yadav",
+     "nationality": "India",
+     "salary_lakh": 1325
+    },
+    {
+     "player": "Tristan Stubbs",
+     "nationality": "Overseas",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Abhishek Porel",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 4,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 4375,
+   "purse_left_lakh": 7300,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 7625,
+   "slots_left": 21,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 14,
+   "max_single_bid_lakh": 6910,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "GT": {
+   "retained": [
+    {
+     "player": "Rashid Khan",
+     "nationality": "Overseas",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Shubman Gill",
+     "nationality": "India",
+     "salary_lakh": 1650
+    },
+    {
+     "player": "Sai Sudharsan",
+     "nationality": "India",
+     "salary_lakh": 850
+    },
+    {
+     "player": "Rahul Tewatia",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Shahrukh Khan",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 5,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 5100,
+   "purse_left_lakh": 6900,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6900,
+   "slots_left": 20,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 13,
+   "max_single_bid_lakh": 6540,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Rinku Singh",
+     "nationality": "India",
+     "salary_lakh": 1300
+    },
+    {
+     "player": "Varun Chakravarthy",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Andre Russell",
+     "nationality": "Overseas",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Ramandeep Singh",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Harshit Rana",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 6,
+   "retained_overseas": 2,
+   "retained_salary_lakh": 5700,
+   "purse_left_lakh": 5100,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6300,
+   "slots_left": 19,
+   "overseas_slots_left": 6,
+   "must_buy_to_reach_18": 12,
+   "max_single_bid_lakh": 4770,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "LSG": {
+   "retained": [
+    {
+     "player": "Nicholas Pooran",
+     "nationality": "Overseas",
+     "salary_lakh": 2100
+    },
+    {
+     "player": "Ravi Bishnoi",
+     "nationality": "India",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Mayank Yadav",
+     "nationality": "India",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Mohsin Khan",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Ayush Badoni",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 5,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 5100,
+   "purse_left_lakh": 6900,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6900,
+   "slots_left": 20,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 13,
+   "max_single_bid_lakh": 6540,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Suryakumar Yadav",
+     "nationality": "India",
+     "salary_lakh": 1635
+    },
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1635
+    },
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1630
+    },
+    {
+     "player": "Tilak Varma",
+     "nationality": "India",
+     "salary_lakh": 800
+    }
+   ],
+   "retained_count": 5,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 7500,
+   "purse_left_lakh": 4500,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4500,
+   "slots_left": 20,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 13,
+   "max_single_bid_lakh": 4140,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "Shashank Singh",
+     "nationality": "India",
+     "salary_lakh": 550
+    },
+    {
+     "player": "Prabhsimran Singh",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 2,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 950,
+   "purse_left_lakh": 11050,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 11050,
+   "slots_left": 23,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 16,
+   "max_single_bid_lakh": 10600,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 2100
+    },
+    {
+     "player": "Rajat Patidar",
+     "nationality": "India",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Yash Dayal",
+     "nationality": "India",
+     "salary_lakh": 500
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 3700,
+   "purse_left_lakh": 8300,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 8300,
+   "slots_left": 22,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 7880,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Sanju Samson",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Yashasvi Jaiswal",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Dhruv Jurel",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Riyan Parag",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Shimron Hetmyer",
+     "nationality": "Overseas",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Sandeep Sharma",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 6,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 7900,
+   "purse_left_lakh": 4100,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4100,
+   "slots_left": 19,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 12,
+   "max_single_bid_lakh": 3770,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "Heinrich Klaasen",
+     "nationality": "Overseas",
+     "salary_lakh": 2300
+    },
+    {
+     "player": "Pat Cummins",
+     "nationality": "Overseas",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Abhishek Sharma",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Travis Head",
+     "nationality": "Overseas",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Nitish Kumar Reddy",
+     "nationality": "India",
+     "salary_lakh": 600
+    }
+   ],
+   "retained_count": 5,
+   "retained_overseas": 3,
+   "retained_salary_lakh": 7500,
+   "purse_left_lakh": 4500,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4500,
+   "slots_left": 20,
+   "overseas_slots_left": 5,
+   "must_buy_to_reach_18": 13,
+   "max_single_bid_lakh": 4140,
+   "official_source": "https://wisden.com/series/ipl-2025/cricket-news/ipl-2025-auction-purse-remaining-for-each-team-after-retentions"
+  }
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "message": "DC: purse derived 7625 vs official 7300 (gap 325 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "KKR: purse derived 6300 vs official 5100 (gap 1200 lakh; official used)"
+  }
+ ]
+}

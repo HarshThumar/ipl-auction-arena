@@ -10,3 +10,4 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python scripts/validate_l0.py
+      - run: python -m pytest -q

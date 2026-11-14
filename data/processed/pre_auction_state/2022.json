@@ -1,0 +1,345 @@
+{
+ "season": 2022,
+ "status": "FINAL",
+ "season_purse_lakh": 9000,
+ "totals": {
+  "slots_left": 217,
+  "overseas_slots_left": 70,
+  "purse_left_lakh": 56150
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 1600
+    },
+    {
+     "player": "MS Dhoni",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Moeen Ali",
+     "nationality": "Overseas",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Ruturaj Gaikwad",
+     "nationality": "India",
+     "salary_lakh": 600
+    }
+   ],
+   "retained_count": 4,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 4200,
+   "purse_left_lakh": 4800,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4800,
+   "slots_left": 21,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 14,
+   "max_single_bid_lakh": 4410,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Rishabh Pant",
+     "nationality": "India",
+     "salary_lakh": 1600
+    },
+    {
+     "player": "Axar Patel",
+     "nationality": "India",
+     "salary_lakh": 900
+    },
+    {
+     "player": "Prithvi Shaw",
+     "nationality": "India",
+     "salary_lakh": 750
+    },
+    {
+     "player": "Anrich Nortje",
+     "nationality": "Overseas",
+     "salary_lakh": 650
+    }
+   ],
+   "retained_count": 4,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 3900,
+   "purse_left_lakh": 4750,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5100,
+   "slots_left": 21,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 14,
+   "max_single_bid_lakh": 4360,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "GT": {
+   "retained": [
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1500
+    },
+    {
+     "player": "Rashid Khan",
+     "nationality": "Overseas",
+     "salary_lakh": 1500
+    },
+    {
+     "player": "Shubman Gill",
+     "nationality": "India",
+     "salary_lakh": 800
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 3800,
+   "purse_left_lakh": 5200,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5200,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 4780,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Andre Russell",
+     "nationality": "Overseas",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Varun Chakravarthy",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Venkatesh Iyer",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 600
+    }
+   ],
+   "retained_count": 4,
+   "retained_overseas": 2,
+   "retained_salary_lakh": 3400,
+   "purse_left_lakh": 4800,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5600,
+   "slots_left": 21,
+   "overseas_slots_left": 6,
+   "must_buy_to_reach_18": 14,
+   "max_single_bid_lakh": 4410,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "LSG": {
+   "retained": [
+    {
+     "player": "KL Rahul",
+     "nationality": "India",
+     "salary_lakh": 1700
+    },
+    {
+     "player": "Marcus Stoinis",
+     "nationality": "Overseas",
+     "salary_lakh": 920
+    },
+    {
+     "player": "Ravi Bishnoi",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 3020,
+   "purse_left_lakh": 5900,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5980,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 5480,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1600
+    },
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Suryakumar Yadav",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Kieron Pollard",
+     "nationality": "Overseas",
+     "salary_lakh": 600
+    }
+   ],
+   "retained_count": 4,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 4200,
+   "purse_left_lakh": 4800,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4800,
+   "slots_left": 21,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 14,
+   "max_single_bid_lakh": 4410,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "Mayank Agarwal",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Arshdeep Singh",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 2,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 1600,
+   "purse_left_lakh": 7200,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 7400,
+   "slots_left": 23,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 16,
+   "max_single_bid_lakh": 6750,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 1500
+    },
+    {
+     "player": "Glenn Maxwell",
+     "nationality": "Overseas",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Mohammed Siraj",
+     "nationality": "India",
+     "salary_lakh": 700
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 3300,
+   "purse_left_lakh": 5700,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5700,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 5280,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Sanju Samson",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Jos Buttler",
+     "nationality": "Overseas",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Yashasvi Jaiswal",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 2800,
+   "purse_left_lakh": 6200,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6200,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 5780,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "Kane Williamson",
+     "nationality": "Overseas",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Abdul Samad",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Umran Malik",
+     "nationality": "India",
+     "salary_lakh": 400
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 2200,
+   "purse_left_lakh": 6800,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6800,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 6380,
+   "official_source": "https://wisden.com/series/tata-ipl-2022/cricket-news/ipl-2022-purse-budget-remaining-for-each-team-ahead-of-the-mega-auction"
+  }
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "message": "DC: purse derived 5100 vs official 4750 (gap 350 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "KKR: purse derived 5600 vs official 4800 (gap 800 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "LSG: purse derived 5980 vs official 5900 (gap 80 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "PBKS: purse derived 7400 vs official 7200 (gap 200 lakh; official used)"
+  }
+ ]
+}

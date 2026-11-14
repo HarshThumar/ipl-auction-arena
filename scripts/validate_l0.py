@@ -115,7 +115,7 @@ def main():
     record("winner codes resolve to a franchise", "PASS" if not unknown_team else "FAIL",
            f"unresolved team codes: {sorted(unknown_team) or 'none'}")
     record("per-team auction spend <= gross purse", "PASS" if not over else "FAIL",
-           f"overspends: {over or 'none'} (gross ceiling; retention-adjusted purse pending)")
+           f"overspends: {over or 'none'} (gross ceiling; retention-adjusted check below)")
 
     # 6. full-squad checks (retained + bought) — unblocked via retentions_by_season.json ----
     import re as _re
@@ -150,6 +150,40 @@ def main():
                f"50 team-seasons, sizes {min(sizes)}-{max(sizes)}; outside 18-25: {size_bad or 'none'}")
         record("overseas <= season cap in full squad", "PASS" if not ovs_bad else "WARN",
                f"over cap: {ovs_bad or 'none'} (retained+bought; trades/replacements not modelled)")
+
+    # 7. pre-auction state (retained squads vs official purse/slots) ----------
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_pre_auction_state as bps
+    bt_fail = {}
+    for y in bps.BACKTEST_SEASONS:
+        _, issues = bps.run(y, quiet=True)
+        f = [m for lvl, m in issues if lvl == "FAIL"]
+        if f:
+            bt_fail[y] = f[:3]
+    record("pre-auction state 2022-26 (slots exact vs official)", "PASS" if not bt_fail else "FAIL",
+           f"failures: {bt_fail or 'none'}; purse uses official figures (retention-slab gaps reported)")
+    over_adj, n_adj = [], 0
+    for y in bps.BACKTEST_SEASONS:
+        teams = json.loads((MASTER.parent / "pre_auction_state" / f"{y}.json").read_text(encoding="utf-8"))["teams"]
+        for fid, t in teams.items():
+            n_adj += 1
+            spent = team_spend.get((y, fid), 0)
+            if spent > t["purse_left_lakh"]:
+                over_adj.append(f"{y} {fid} {spent}L > {t['purse_left_lakh']}L")
+    record("per-team auction spend <= pre-auction purse left", "PASS" if not over_adj else "FAIL",
+           f"{n_adj} team-seasons; overspends: {over_adj or 'none'}")
+    ret27 = json.loads(retpath.read_text(encoding="utf-8")).get("2027") if retpath.exists() else None
+    st27 = MASTER.parent / "pre_auction_state" / "2027.json"
+    if st27.exists():
+        s = json.loads(st27.read_text(encoding="utf-8"))
+        f = [i["message"] for i in s["issues"] if i["level"] == "FAIL"]
+        status = "FAIL" if f else ("PASS" if s["status"] == "FINAL" else "WARN")
+        record("2027 retentions loaded", status,
+               f"{s['status']}: slots {s['totals']['slots_left']}, overseas {s['totals']['overseas_slots_left']}, "
+               f"purse {s['totals']['purse_left_lakh'] / 100:.2f} cr; fails: {f[:3] or 'none'}")
+    else:
+        record("2027 retentions loaded", "BLOCKED",
+               f"retentions land 17 Nov 2026 (wiki 2027 teams so far: {len(ret27 or {})}); see docs/retention-day-runbook.md")
 
     # write report -----------------------------------------------------------
     summary = {k: sum(1 for r in results if r["status"] == k) for k in ("PASS", "FAIL", "WARN", "BLOCKED")}

@@ -1,0 +1,991 @@
+{
+ "season": 2023,
+ "status": "FINAL",
+ "season_purse_lakh": 9500,
+ "totals": {
+  "slots_left": 87,
+  "overseas_slots_left": 30,
+  "purse_left_lakh": 20650
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 1600
+    },
+    {
+     "player": "Deepak Chahar",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "MS Dhoni",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Moeen Ali",
+     "nationality": "Overseas",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Ambati Rayudu",
+     "nationality": "India",
+     "salary_lakh": 675
+    },
+    {
+     "player": "Ruturaj Gaikwad",
+     "nationality": "India",
+     "salary_lakh": 600
+    },
+    {
+     "player": "Shivam Dube",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Mitchell Santner",
+     "nationality": "Overseas",
+     "salary_lakh": 190
+    },
+    {
+     "player": "Rajvardhan Hangargekar",
+     "nationality": "India",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Prashant Solanki",
+     "nationality": "India",
+     "salary_lakh": 120
+    },
+    {
+     "player": "Devon Conway",
+     "nationality": "Overseas",
+     "salary_lakh": 100
+    },
+    {
+     "player": "Maheesh Theekshana",
+     "nationality": "Overseas",
+     "salary_lakh": 70
+    },
+    {
+     "player": "Dwaine Pretorius",
+     "nationality": "Overseas",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Matheesha Pathirana",
+     "nationality": "Overseas",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Mukesh Choudhary",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Simarjeet Singh",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Subhranshu Senapati",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Tushar Deshpande",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 18,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 7455,
+   "purse_left_lakh": 2045,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2045,
+   "slots_left": 7,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 2045,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Rishabh Pant",
+     "nationality": "India",
+     "salary_lakh": 1600
+    },
+    {
+     "player": "Axar Patel",
+     "nationality": "India",
+     "salary_lakh": 900
+    },
+    {
+     "player": "Prithvi Shaw",
+     "nationality": "India",
+     "salary_lakh": 750
+    },
+    {
+     "player": "Anrich Nortje",
+     "nationality": "Overseas",
+     "salary_lakh": 650
+    },
+    {
+     "player": "Mitchell Marsh",
+     "nationality": "Overseas",
+     "salary_lakh": 650
+    },
+    {
+     "player": "David Warner",
+     "nationality": "Overseas",
+     "salary_lakh": 625
+    },
+    {
+     "player": "Khaleel Ahmed",
+     "nationality": "India",
+     "salary_lakh": 525
+    },
+    {
+     "player": "Chetan Sakariya",
+     "nationality": "India",
+     "salary_lakh": 420
+    },
+    {
+     "player": "Rovman Powell",
+     "nationality": "Overseas",
+     "salary_lakh": 280
+    },
+    {
+     "player": "Kuldeep Yadav",
+     "nationality": "India",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Mustafizur Rahman",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Kamlesh Nagarkoti",
+     "nationality": "India",
+     "salary_lakh": 110
+    },
+    {
+     "player": "Lalit Yadav",
+     "nationality": "India",
+     "salary_lakh": 65
+    },
+    {
+     "player": "Lungi Ngidi",
+     "nationality": "Overseas",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Praveen Dubey",
+     "nationality": "India",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Yash Dhull",
+     "nationality": "India",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Aman Hakim Khan",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Ripal Patel",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Sarfaraz Khan",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Vicky Ostwal",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 20,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 7205,
+   "purse_left_lakh": 1945,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2295,
+   "slots_left": 5,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1945,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "GT": {
+   "retained": [
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1500
+    },
+    {
+     "player": "Rashid Khan",
+     "nationality": "Overseas",
+     "salary_lakh": 1500
+    },
+    {
+     "player": "Rahul Tewatia",
+     "nationality": "India",
+     "salary_lakh": 900
+    },
+    {
+     "player": "Shubman Gill",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Mohammed Shami",
+     "nationality": "India",
+     "salary_lakh": 625
+    },
+    {
+     "player": "Yash Dayal",
+     "nationality": "India",
+     "salary_lakh": 320
+    },
+    {
+     "player": "David Miller",
+     "nationality": "Overseas",
+     "salary_lakh": 300
+    },
+    {
+     "player": "Ravisrinivasan Sai Kishore",
+     "nationality": "India",
+     "salary_lakh": 300
+    },
+    {
+     "player": "Abhinav Manohar",
+     "nationality": "India",
+     "salary_lakh": 260
+    },
+    {
+     "player": "Alzarri Joseph",
+     "nationality": "Overseas",
+     "salary_lakh": 240
+    },
+    {
+     "player": "Matthew Wade",
+     "nationality": "Overseas",
+     "salary_lakh": 240
+    },
+    {
+     "player": "Wriddhiman Saha",
+     "nationality": "India",
+     "salary_lakh": 190
+    },
+    {
+     "player": "Jayant Yadav",
+     "nationality": "India",
+     "salary_lakh": 170
+    },
+    {
+     "player": "Vijay Shankar",
+     "nationality": "India",
+     "salary_lakh": 140
+    },
+    {
+     "player": "Noor Ahmad",
+     "nationality": "Overseas",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Darshan Nalkande",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Pradeep Sangwan",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Sai Sudharshan",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 18,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 7575,
+   "purse_left_lakh": 1925,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1925,
+   "slots_left": 7,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1925,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Andre Russell",
+     "nationality": "Overseas",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Shreyas Iyer",
+     "nationality": "India",
+     "salary_lakh": 1225
+    },
+    {
+     "player": "Varun Chakravarthy",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Shardul Thakur",
+     "nationality": "India",
+     "salary_lakh": 1075
+    },
+    {
+     "player": "Lockie Ferguson",
+     "nationality": "Overseas",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Nitish Rana",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Venkatesh Iyer",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 600
+    },
+    {
+     "player": "Umesh Yadav",
+     "nationality": "India",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Tim Southee",
+     "nationality": "Overseas",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Rinku Singh",
+     "nationality": "India",
+     "salary_lakh": 55
+    },
+    {
+     "player": "Rahmanullah Gurbaz",
+     "nationality": "Overseas",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Anukul Roy",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Harshit Rana",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 14,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 7995,
+   "purse_left_lakh": 705,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1505,
+   "slots_left": 11,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 4,
+   "max_single_bid_lakh": 615,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "LSG": {
+   "retained": [
+    {
+     "player": "KL Rahul",
+     "nationality": "India",
+     "salary_lakh": 1700
+    },
+    {
+     "player": "Avesh Khan",
+     "nationality": "India",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Marcus Stoinis",
+     "nationality": "Overseas",
+     "salary_lakh": 920
+    },
+    {
+     "player": "Krunal Pandya",
+     "nationality": "India",
+     "salary_lakh": 825
+    },
+    {
+     "player": "Mark Wood",
+     "nationality": "Overseas",
+     "salary_lakh": 750
+    },
+    {
+     "player": "Quinton de Kock",
+     "nationality": "Overseas",
+     "salary_lakh": 675
+    },
+    {
+     "player": "Deepak Hooda",
+     "nationality": "India",
+     "salary_lakh": 575
+    },
+    {
+     "player": "Ravi Bishnoi",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Krishnappa Gowtham",
+     "nationality": "India",
+     "salary_lakh": 90
+    },
+    {
+     "player": "Kyle Mayers",
+     "nationality": "Overseas",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Ayush Badoni",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Karan Sharma",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Manan Vohra",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Mayank Yadav",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Mohsin Khan",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 15,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 7085,
+   "purse_left_lakh": 2335,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2415,
+   "slots_left": 10,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 3,
+   "max_single_bid_lakh": 2275,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1600
+    },
+    {
+     "player": "Ishan Kishan",
+     "nationality": "India",
+     "salary_lakh": 1525
+    },
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Tim David",
+     "nationality": "Overseas",
+     "salary_lakh": 825
+    },
+    {
+     "player": "Jofra Archer",
+     "nationality": "Overseas",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Suryakumar Yadav",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Dewald Brevis",
+     "nationality": "Overseas",
+     "salary_lakh": 300
+    },
+    {
+     "player": "Tilak Varma",
+     "nationality": "India",
+     "salary_lakh": 170
+    },
+    {
+     "player": "Jason Behrendorff",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Arjun Tendulkar",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Akash Madhwal",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Hrithik Shokeen",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Kumar Kartikeya",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Arshad Khan",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Ramandeep Singh",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Tristan Stubbs",
+     "nationality": "Overseas",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 7445,
+   "purse_left_lakh": 2055,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2055,
+   "slots_left": 9,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 2025,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "Liam Livingstone",
+     "nationality": "Overseas",
+     "salary_lakh": 1150
+    },
+    {
+     "player": "Kagiso Rabada",
+     "nationality": "Overseas",
+     "salary_lakh": 925
+    },
+    {
+     "player": "Shahrukh Khan",
+     "nationality": "India",
+     "salary_lakh": 900
+    },
+    {
+     "player": "Shikhar Dhawan",
+     "nationality": "India",
+     "salary_lakh": 825
+    },
+    {
+     "player": "Jonny Bairstow",
+     "nationality": "Overseas",
+     "salary_lakh": 675
+    },
+    {
+     "player": "Rahul Chahar",
+     "nationality": "India",
+     "salary_lakh": 525
+    },
+    {
+     "player": "Arshdeep Singh",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Harpreet Brar",
+     "nationality": "India",
+     "salary_lakh": 380
+    },
+    {
+     "player": "Raj Angad Bawa",
+     "nationality": "India",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Nathan Ellis",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Prabhsimran Singh",
+     "nationality": "India",
+     "salary_lakh": 60
+    },
+    {
+     "player": "Rishi Dhawan",
+     "nationality": "India",
+     "salary_lakh": 55
+    },
+    {
+     "player": "Bhanuka Rajapaksa",
+     "nationality": "Overseas",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Atharva Taide",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Baltej Dhanda",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Jitesh Sharma",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 6280,
+   "purse_left_lakh": 3220,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 3220,
+   "slots_left": 9,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 3190,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 1500
+    },
+    {
+     "player": "Glenn Maxwell",
+     "nationality": "Overseas",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Harshal Patel",
+     "nationality": "India",
+     "salary_lakh": 1075
+    },
+    {
+     "player": "Wanindu Hasaranga",
+     "nationality": "Overseas",
+     "salary_lakh": 1075
+    },
+    {
+     "player": "Josh Hazlewood",
+     "nationality": "Overseas",
+     "salary_lakh": 775
+    },
+    {
+     "player": "Faf du Plessis",
+     "nationality": "Overseas",
+     "salary_lakh": 700
+    },
+    {
+     "player": "Mohammed Siraj",
+     "nationality": "India",
+     "salary_lakh": 700
+    },
+    {
+     "player": "Dinesh Karthik",
+     "nationality": "India",
+     "salary_lakh": 550
+    },
+    {
+     "player": "Anuj Rawat",
+     "nationality": "India",
+     "salary_lakh": 340
+    },
+    {
+     "player": "Shahbaz Ahmed",
+     "nationality": "India",
+     "salary_lakh": 240
+    },
+    {
+     "player": "David Willey",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Mahipal Lomror",
+     "nationality": "India",
+     "salary_lakh": 95
+    },
+    {
+     "player": "Finn Allen",
+     "nationality": "Overseas",
+     "salary_lakh": 80
+    },
+    {
+     "player": "Siddarth Kaul",
+     "nationality": "India",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Karn Sharma",
+     "nationality": "India",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Suyash Prabhudessai",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Akash Deep",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Rajat Patidar",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 18,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 8625,
+   "purse_left_lakh": 875,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 875,
+   "slots_left": 7,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 875,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Sanju Samson",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Jos Buttler",
+     "nationality": "Overseas",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Prasidh Krishna",
+     "nationality": "India",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Shimron Hetmyer",
+     "nationality": "Overseas",
+     "salary_lakh": 850
+    },
+    {
+     "player": "Trent Boult",
+     "nationality": "Overseas",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Devdutt Padikkal",
+     "nationality": "India",
+     "salary_lakh": 775
+    },
+    {
+     "player": "Yuzvendra Chahal",
+     "nationality": "India",
+     "salary_lakh": 650
+    },
+    {
+     "player": "Ravichandran Ashwin",
+     "nationality": "India",
+     "salary_lakh": 500
+    },
+    {
+     "player": "Yashasvi Jaiswal",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Riyan Parag",
+     "nationality": "India",
+     "salary_lakh": 380
+    },
+    {
+     "player": "Navdeep Saini",
+     "nationality": "India",
+     "salary_lakh": 260
+    },
+    {
+     "player": "Obed McCoy",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "K. C. Cariappa",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Dhruv Jurel",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Kuldeep Sen",
+     "nationality": "India",
+     "salary_lakh": 20
+    },
+    {
+     "player": "Kuldip Yadav",
+     "nationality": "India",
+     "salary_lakh": 20
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 8180,
+   "purse_left_lakh": 1320,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1320,
+   "slots_left": 9,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 1290,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "Washington Sundar",
+     "nationality": "India",
+     "salary_lakh": 875
+    },
+    {
+     "player": "Rahul Tripathi",
+     "nationality": "India",
+     "salary_lakh": 850
+    },
+    {
+     "player": "Abhishek Sharma",
+     "nationality": "India",
+     "salary_lakh": 650
+    },
+    {
+     "player": "Bhuvneshwar Kumar",
+     "nationality": "India",
+     "salary_lakh": 420
+    },
+    {
+     "player": "Marco Jansen",
+     "nationality": "Overseas",
+     "salary_lakh": 420
+    },
+    {
+     "player": "Abdul Samad",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Kartik Tyagi",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "T. Natarajan",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Umran Malik",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Aiden Markram",
+     "nationality": "Overseas",
+     "salary_lakh": 260
+    },
+    {
+     "player": "Glenn Phillips",
+     "nationality": "Overseas",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Fazalhaq Farooqi",
+     "nationality": "Overseas",
+     "salary_lakh": 50
+    }
+   ],
+   "retained_count": 12,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 5275,
+   "purse_left_lakh": 4225,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4225,
+   "slots_left": 13,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 6,
+   "max_single_bid_lakh": 4075,
+   "official_source": "https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises"
+  }
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "message": "DC: purse derived 2295 vs official 1945 (gap 350 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "KKR: purse derived 1505 vs official 705 (gap 800 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "LSG: purse derived 2415 vs official 2335 (gap 80 lakh; official used)"
+  }
+ ]
+}

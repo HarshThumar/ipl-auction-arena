@@ -181,7 +181,7 @@ seasons:
     final_list: 2026-12-03
     overseas_pay_cap_lakh: 1800
     verified: false
-    notes: "Purse 130cr reported, UNCONFIRMED. Last mini of the 2025-27 cycle. Slots known only after retentions."
+    notes: "Purse 130cr reported, UNCONFIRMED (salary cap 157cr incl. match fees and performance pay, also reported). Last mini of the 2025-27 cycle. Per-team purse and slots come from the official retention-day figures (data/reference/pre_auction_official.csv), not from this number."
     sources: [https://khelnow.com/cricket/ipl-2027-auction-bcci-extends-retention-202611]
 
 # --- 2025-27 cycle standing rules (apply 2025, 2026, 2027) ---
@@ -189,6 +189,11 @@ cycle_2025_2027:
   overseas_skipped_mega_cannot_enter_mini: true
   overseas_pay_cap_mini_lakh: 1800     # excess to BCCI; Indian players exempt
   purse_charged_full_hammer: UNVERIFIED
+  retention_charge_carries_through_cycle: true   # see below
+  # A player retained at a mega auction for less than his retention slab is still charged the slab
+  # (2025 KKR: Rinku 13cr vs 18cr slab). The charge stays on the purse in the cycle's minis
+  # (2026 KKR gap 6cr; 2022-24 cycle shows the same: DC 3.5cr and KKR 8cr gaps in both 2022 and 2023).
+  # Inferred from data/reference/pre_auction_official.csv vs retained salaries; not stated in a primary source.
   buy_then_withdraw_ban_seasons: 2
   uncapped_definition: no international starting XI and no central contract in the last 5 years
   impact_player_through_2027: true

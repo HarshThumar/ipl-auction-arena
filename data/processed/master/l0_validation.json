@@ -1,9 +1,9 @@
 {
   "summary": {
-    "PASS": 10,
+    "PASS": 14,
     "FAIL": 0,
-    "WARN": 3,
-    "BLOCKED": 0
+    "WARN": 1,
+    "BLOCKED": 1
   },
   "checks": [
     {
@@ -59,17 +59,32 @@
     {
       "check": "per-team auction spend <= gross purse",
       "status": "PASS",
-      "detail": "overspends: none (gross ceiling; retention-adjusted purse pending)"
+      "detail": "overspends: none (gross ceiling; retention-adjusted check below)"
     },
     {
       "check": "squad size 18-25 within rules",
-      "status": "WARN",
-      "detail": "50 team-seasons, sizes 20-26; outside 18-25: ['2024 SRH=26', '2026 SRH=26']"
+      "status": "PASS",
+      "detail": "50 team-seasons, sizes 20-25; outside 18-25: none"
     },
     {
       "check": "overseas <= season cap in full squad",
-      "status": "WARN",
-      "detail": "over cap: ['2026 RCB=9>8'] (retained+bought; trades/replacements not modelled)"
+      "status": "PASS",
+      "detail": "over cap: none (retained+bought; trades/replacements not modelled)"
+    },
+    {
+      "check": "pre-auction state 2022-26 (slots exact vs official)",
+      "status": "PASS",
+      "detail": "failures: none; purse uses official figures (retention-slab gaps reported)"
+    },
+    {
+      "check": "per-team auction spend <= pre-auction purse left",
+      "status": "PASS",
+      "detail": "50 team-seasons; overspends: none"
+    },
+    {
+      "check": "2027 retentions loaded",
+      "status": "BLOCKED",
+      "detail": "retentions land 17 Nov 2026 (wiki 2027 teams so far: 0); see docs/retention-day-runbook.md"
     }
   ]
 }

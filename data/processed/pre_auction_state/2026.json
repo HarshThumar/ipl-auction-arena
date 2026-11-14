@@ -1,0 +1,1045 @@
+{
+ "season": 2026,
+ "status": "FINAL",
+ "season_purse_lakh": 12500,
+ "totals": {
+  "slots_left": 77,
+  "overseas_slots_left": 31,
+  "purse_left_lakh": 23755
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "Ruturaj Gaikwad",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Sanju Samson",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Shivam Dube",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Noor Ahmad",
+     "nationality": "Overseas",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Khaleel Ahmed",
+     "nationality": "India",
+     "salary_lakh": 480
+    },
+    {
+     "player": "MS Dhoni",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Anshul Kamboj",
+     "nationality": "India",
+     "salary_lakh": 340
+    },
+    {
+     "player": "Dewald Brevis",
+     "nationality": "Overseas",
+     "salary_lakh": 220
+    },
+    {
+     "player": "Gurjapneet Singh",
+     "nationality": "India",
+     "salary_lakh": 220
+    },
+    {
+     "player": "Nathan Ellis",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Jamie Overton",
+     "nationality": "Overseas",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Mukesh Choudhary",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Ramakrishna Ghosh",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Shreyas Gopal",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Ayush Mhatre",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Urvil Patel",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 7960,
+   "purse_left_lakh": 4340,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4540,
+   "slots_left": 9,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 4310,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Axar Patel",
+     "nationality": "India",
+     "salary_lakh": 1650
+    },
+    {
+     "player": "KL Rahul",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Kuldeep Yadav",
+     "nationality": "India",
+     "salary_lakh": 1325
+    },
+    {
+     "player": "Mitchell Starc",
+     "nationality": "Overseas",
+     "salary_lakh": 1175
+    },
+    {
+     "player": "T. Natarajan",
+     "nationality": "India",
+     "salary_lakh": 1075
+    },
+    {
+     "player": "Tristan Stubbs",
+     "nationality": "Overseas",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Mukesh Kumar",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Nitish Rana",
+     "nationality": "India",
+     "salary_lakh": 420
+    },
+    {
+     "player": "Abhishek Porel",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Ashutosh Sharma",
+     "nationality": "India",
+     "salary_lakh": 380
+    },
+    {
+     "player": "Sameer Rizvi",
+     "nationality": "India",
+     "salary_lakh": 95
+    },
+    {
+     "player": "Dushmantha Chameera",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Karun Nair",
+     "nationality": "India",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Madhav Tiwari",
+     "nationality": "India",
+     "salary_lakh": 40
+    },
+    {
+     "player": "Ajay Mandal",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Tripurana Vijay",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Vipraj Nigam",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 17,
+   "retained_overseas": 3,
+   "retained_salary_lakh": 9975,
+   "purse_left_lakh": 2180,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2525,
+   "slots_left": 8,
+   "overseas_slots_left": 5,
+   "must_buy_to_reach_18": 1,
+   "max_single_bid_lakh": 2180,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "GT": {
+   "retained": [
+    {
+     "player": "Rashid Khan",
+     "nationality": "Overseas",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Shubman Gill",
+     "nationality": "India",
+     "salary_lakh": 1650
+    },
+    {
+     "player": "Jos Buttler",
+     "nationality": "Overseas",
+     "salary_lakh": 1575
+    },
+    {
+     "player": "Mohammed Siraj",
+     "nationality": "India",
+     "salary_lakh": 1225
+    },
+    {
+     "player": "Kagiso Rabada",
+     "nationality": "Overseas",
+     "salary_lakh": 1075
+    },
+    {
+     "player": "Prasidh Krishna",
+     "nationality": "India",
+     "salary_lakh": 950
+    },
+    {
+     "player": "Sai Sudharsan",
+     "nationality": "India",
+     "salary_lakh": 850
+    },
+    {
+     "player": "Rahul Tewatia",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Shahrukh Khan",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Washington Sundar",
+     "nationality": "India",
+     "salary_lakh": 320
+    },
+    {
+     "player": "Sai Kishore",
+     "nationality": "India",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Glenn Phillips",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Arshad Khan",
+     "nationality": "India",
+     "salary_lakh": 130
+    },
+    {
+     "player": "Gurnoor Brar",
+     "nationality": "India",
+     "salary_lakh": 130
+    },
+    {
+     "player": "Ishant Sharma",
+     "nationality": "India",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Jayant Yadav",
+     "nationality": "India",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Kumar Kushagra",
+     "nationality": "India",
+     "salary_lakh": 65
+    },
+    {
+     "player": "Anuj Rawat",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Manav Suthar",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Nishant Sindhu",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 20,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 11210,
+   "purse_left_lakh": 1290,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1290,
+   "slots_left": 5,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1290,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Rinku Singh",
+     "nationality": "India",
+     "salary_lakh": 1300
+    },
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Varun Chakravarthy",
+     "nationality": "India",
+     "salary_lakh": 1200
+    },
+    {
+     "player": "Harshit Rana",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Ramandeep Singh",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Angkrish Raghuvanshi",
+     "nationality": "India",
+     "salary_lakh": 300
+    },
+    {
+     "player": "Vaibhav Arora",
+     "nationality": "India",
+     "salary_lakh": 180
+    },
+    {
+     "player": "Ajinkya Rahane",
+     "nationality": "India",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Rovman Powell",
+     "nationality": "Overseas",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Manish Pandey",
+     "nationality": "India",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Umran Malik",
+     "nationality": "India",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Anukul Roy",
+     "nationality": "India",
+     "salary_lakh": 40
+    }
+   ],
+   "retained_count": 12,
+   "retained_overseas": 2,
+   "retained_salary_lakh": 5470,
+   "purse_left_lakh": 6430,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 7030,
+   "slots_left": 13,
+   "overseas_slots_left": 6,
+   "must_buy_to_reach_18": 6,
+   "max_single_bid_lakh": 6280,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "LSG": {
+   "retained": [
+    {
+     "player": "Rishabh Pant",
+     "nationality": "India",
+     "salary_lakh": 2700
+    },
+    {
+     "player": "Nicholas Pooran",
+     "nationality": "Overseas",
+     "salary_lakh": 2100
+    },
+    {
+     "player": "Mayank Yadav",
+     "nationality": "India",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Mohammed Shami",
+     "nationality": "India",
+     "salary_lakh": 1000
+    },
+    {
+     "player": "Avesh Khan",
+     "nationality": "India",
+     "salary_lakh": 975
+    },
+    {
+     "player": "Abdul Samad",
+     "nationality": "India",
+     "salary_lakh": 420
+    },
+    {
+     "player": "Ayush Badoni",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Mohsin Khan",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Mitchell Marsh",
+     "nationality": "Overseas",
+     "salary_lakh": 340
+    },
+    {
+     "player": "Shahbaz Ahmed",
+     "nationality": "India",
+     "salary_lakh": 240
+    },
+    {
+     "player": "Aiden Markram",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Manimaran Siddharth",
+     "nationality": "India",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Matthew Breetzke",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Akash Singh",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Arjun Tendulkar",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Arshin Kulkarni",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Himmat Singh",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Digvesh Rathi",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Prince Yadav",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 19,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 10205,
+   "purse_left_lakh": 2295,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2295,
+   "slots_left": 6,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 2295,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1635
+    },
+    {
+     "player": "Suryakumar Yadav",
+     "nationality": "India",
+     "salary_lakh": 1635
+    },
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1630
+    },
+    {
+     "player": "Trent Boult",
+     "nationality": "Overseas",
+     "salary_lakh": 1250
+    },
+    {
+     "player": "Deepak Chahar",
+     "nationality": "India",
+     "salary_lakh": 925
+    },
+    {
+     "player": "Tilak Varma",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Will Jacks",
+     "nationality": "Overseas",
+     "salary_lakh": 525
+    },
+    {
+     "player": "Naman Dhir",
+     "nationality": "India",
+     "salary_lakh": 525
+    },
+    {
+     "player": "Allah Ghazanfar",
+     "nationality": "Overseas",
+     "salary_lakh": 480
+    },
+    {
+     "player": "Sherfane Rutherford",
+     "nationality": "Overseas",
+     "salary_lakh": 260
+    },
+    {
+     "player": "Shardul Thakur",
+     "nationality": "India",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Mitchell Santner",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Ryan Rickelton",
+     "nationality": "Overseas",
+     "salary_lakh": 100
+    },
+    {
+     "player": "Corbin Bosch",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Robin Minz",
+     "nationality": "India",
+     "salary_lakh": 65
+    },
+    {
+     "player": "Raj Angad Bawa",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Ashwani Kumar",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Raghu Sharma",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Mayank Markande",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 20,
+   "retained_overseas": 7,
+   "retained_salary_lakh": 12225,
+   "purse_left_lakh": 275,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 275,
+   "slots_left": 5,
+   "overseas_slots_left": 1,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 275,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "Shreyas Iyer",
+     "nationality": "India",
+     "salary_lakh": 2675
+    },
+    {
+     "player": "Arshdeep Singh",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Yuzvendra Chahal",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Marcus Stoinis",
+     "nationality": "Overseas",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Marco Jansen",
+     "nationality": "Overseas",
+     "salary_lakh": 700
+    },
+    {
+     "player": "Shashank Singh",
+     "nationality": "India",
+     "salary_lakh": 550
+    },
+    {
+     "player": "Nehal Wadhera",
+     "nationality": "India",
+     "salary_lakh": 420
+    },
+    {
+     "player": "Prabhsimran Singh",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Priyansh Arya",
+     "nationality": "India",
+     "salary_lakh": 380
+    },
+    {
+     "player": "Mitchell Owen",
+     "nationality": "Overseas",
+     "salary_lakh": 300
+    },
+    {
+     "player": "Azmatullah Omarzai",
+     "nationality": "Overseas",
+     "salary_lakh": 240
+    },
+    {
+     "player": "Lockie Ferguson",
+     "nationality": "Overseas",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Vijaykumar Vyshak",
+     "nationality": "India",
+     "salary_lakh": 180
+    },
+    {
+     "player": "Yash Thakur",
+     "nationality": "India",
+     "salary_lakh": 160
+    },
+    {
+     "player": "Harpreet Brar",
+     "nationality": "India",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Vishnu Vinod",
+     "nationality": "India",
+     "salary_lakh": 95
+    },
+    {
+     "player": "Xavier Bartlett",
+     "nationality": "Overseas",
+     "salary_lakh": 80
+    },
+    {
+     "player": "Pyla Avinash",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Harnoor Pannu",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Musheer Khan",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Suryansh Shedge",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 21,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 11350,
+   "purse_left_lakh": 1150,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1150,
+   "slots_left": 4,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1150,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 2100
+    },
+    {
+     "player": "Josh Hazlewood",
+     "nationality": "Overseas",
+     "salary_lakh": 1250
+    },
+    {
+     "player": "Phil Salt",
+     "nationality": "Overseas",
+     "salary_lakh": 1150
+    },
+    {
+     "player": "Rajat Patidar",
+     "nationality": "India",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Jitesh Sharma",
+     "nationality": "India",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Bhuvneshwar Kumar",
+     "nationality": "India",
+     "salary_lakh": 1075
+    },
+    {
+     "player": "Rasikh Salam",
+     "nationality": "India",
+     "salary_lakh": 600
+    },
+    {
+     "player": "Krunal Pandya",
+     "nationality": "India",
+     "salary_lakh": 575
+    },
+    {
+     "player": "Yash Dayal",
+     "nationality": "India",
+     "salary_lakh": 500
+    },
+    {
+     "player": "Tim David",
+     "nationality": "Overseas",
+     "salary_lakh": 300
+    },
+    {
+     "player": "Suyash Sharma",
+     "nationality": "India",
+     "salary_lakh": 260
+    },
+    {
+     "player": "Jacob Bethell",
+     "nationality": "Overseas",
+     "salary_lakh": 260
+    },
+    {
+     "player": "Devdutt Padikkal",
+     "nationality": "India",
+     "salary_lakh": 200
+    },
+    {
+     "player": "Nuwan Thushara",
+     "nationality": "Overseas",
+     "salary_lakh": 160
+    },
+    {
+     "player": "Romario Shepherd",
+     "nationality": "Overseas",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Swapnil Singh",
+     "nationality": "India",
+     "salary_lakh": 50
+    },
+    {
+     "player": "Abhinandan Singh",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 17,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 10860,
+   "purse_left_lakh": 1640,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1640,
+   "slots_left": 8,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 1,
+   "max_single_bid_lakh": 1640,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Yashasvi Jaiswal",
+     "nationality": "India",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Riyan Parag",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Dhruv Jurel",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Jofra Archer",
+     "nationality": "Overseas",
+     "salary_lakh": 1250
+    },
+    {
+     "player": "Shimron Hetmyer",
+     "nationality": "Overseas",
+     "salary_lakh": 1100
+    },
+    {
+     "player": "Tushar Deshpande",
+     "nationality": "India",
+     "salary_lakh": 650
+    },
+    {
+     "player": "Sandeep Sharma",
+     "nationality": "India",
+     "salary_lakh": 400
+    },
+    {
+     "player": "Nandre Burger",
+     "nationality": "Overseas",
+     "salary_lakh": 350
+    },
+    {
+     "player": "Sam Curran",
+     "nationality": "Overseas",
+     "salary_lakh": 240
+    },
+    {
+     "player": "Kwena Maphaka",
+     "nationality": "Overseas",
+     "salary_lakh": 150
+    },
+    {
+     "player": "Vaibhav Sooryavanshi",
+     "nationality": "India",
+     "salary_lakh": 110
+    },
+    {
+     "player": "Donovan Ferreira",
+     "nationality": "Overseas",
+     "salary_lakh": 100
+    },
+    {
+     "player": "Shubham Dubey",
+     "nationality": "India",
+     "salary_lakh": 80
+    },
+    {
+     "player": "Yudhvir Singh",
+     "nationality": "India",
+     "salary_lakh": 35
+    },
+    {
+     "player": "Lhuan-dre Pretorius",
+     "nationality": "Overseas",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 7,
+   "retained_salary_lakh": 10495,
+   "purse_left_lakh": 1605,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2005,
+   "slots_left": 9,
+   "overseas_slots_left": 1,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 1575,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "Heinrich Klaasen",
+     "nationality": "Overseas",
+     "salary_lakh": 2300
+    },
+    {
+     "player": "Pat Cummins",
+     "nationality": "Overseas",
+     "salary_lakh": 1800
+    },
+    {
+     "player": "Travis Head",
+     "nationality": "Overseas",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Abhishek Sharma",
+     "nationality": "India",
+     "salary_lakh": 1400
+    },
+    {
+     "player": "Ishan Kishan",
+     "nationality": "India",
+     "salary_lakh": 1125
+    },
+    {
+     "player": "Harshal Patel",
+     "nationality": "India",
+     "salary_lakh": 800
+    },
+    {
+     "player": "Nitish Kumar Reddy",
+     "nationality": "India",
+     "salary_lakh": 600
+    },
+    {
+     "player": "Eshan Malinga",
+     "nationality": "Overseas",
+     "salary_lakh": 120
+    },
+    {
+     "player": "Brydon Carse",
+     "nationality": "Overseas",
+     "salary_lakh": 100
+    },
+    {
+     "player": "Jaydev Unadkat",
+     "nationality": "India",
+     "salary_lakh": 100
+    },
+    {
+     "player": "Kamindu Mendis",
+     "nationality": "Overseas",
+     "salary_lakh": 75
+    },
+    {
+     "player": "Zeeshan Ansari",
+     "nationality": "India",
+     "salary_lakh": 40
+    },
+    {
+     "player": "Smaran Ravichandran",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Aniket Verma",
+     "nationality": "India",
+     "salary_lakh": 30
+    },
+    {
+     "player": "Harsh Dubey",
+     "nationality": "India",
+     "salary_lakh": 30
+    }
+   ],
+   "retained_count": 15,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 9950,
+   "purse_left_lakh": 2550,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2550,
+   "slots_left": 10,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 3,
+   "max_single_bid_lakh": 2490,
+   "official_source": "https://www.theweek.in/news/sports/2025/12/12/ipl-2026-auction-purse-balance-total-slots-and-overseas-slots-remaining-for-all-franchises.html"
+  }
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "message": "CSK: purse derived 4540 vs official 4340 (gap 200 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "DC: purse derived 2525 vs official 2180 (gap 345 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "KKR: purse derived 7030 vs official 6430 (gap 600 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "RR: purse derived 2005 vs official 1605 (gap 400 lakh; official used)"
+  }
+ ]
+}
