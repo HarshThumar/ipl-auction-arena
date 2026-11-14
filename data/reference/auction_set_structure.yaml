@@ -1,0 +1,64 @@
+# How each auction's player list was split into sets and called. Facts only, one source each.
+# The full set-by-set list is published officially only as a PDF on iplt20.com, which this
+# project does not scrape or redistribute (rule #7). Where a third-party outlet published the
+# complete set-wise list, it is in data/reference/auction_sets/<season>_sets.csv.
+#
+# Common pattern in every season below (stated for 2022 by ESPNcricinfo, seen in the live-blog
+# order of the others): marquee set(s) first, then sets by role in the order
+# batters (BA), all-rounders (AL), wicketkeepers (WK), fast bowlers (FA), spinners (SP),
+# capped sets first and uncapped sets alternating after the first few. Players inside a set are
+# called in a random order. After the listed sets, teams nominate players for an accelerated
+# round from those not yet called or unsold.
+
+common_role_order: [BA, AL, WK, FA, SP]
+
+seasons:
+  2022:
+    type: mega
+    pool_size: 590
+    sets_total: 62
+    marquee: [R Ashwin, Trent Boult, Pat Cummins, Quinton de Kock, Shikhar Dhawan, Faf du Plessis,
+              Shreyas Iyer, Kagiso Rabada, Mohammed Shami, David Warner]
+    notes: Set 1 marquee (all at 2 crore base); set 2 capped batters; then the role order, capped and uncapped alternating.
+    sources:
+      - https://www.espncricinfo.com/story/faqs-all-you-wanted-to-know-about-the-ipl-2022-auction-1300565
+      - https://africa.espn.com/cricket/story/_/id/33191384/ipl-2022-auction-shreyas-iyer-david-warner-r-ashwin-kagiso-rabada-mohammed-shami-marquee-set
+    full_set_list: missing
+  2023:
+    type: mini
+    pool_size: 405
+    notes: Set 1 batters, set 2 all-rounders, set 3 wicketkeepers.
+    sources:
+      - https://www.sportskeeda.com/cricket/predicting-expensive-buy-set-3-ipl-2023-auction
+      - https://scroll.in/field/1040363/ipl-2023-player-auction-current-squads-early-order-of-bidding-purse-remaining-for-franchises
+    full_set_list: missing
+  2024:
+    type: mini
+    pool_size: 333
+    sets_total: 19
+    notes: Full set-wise list (332 of 333 players found) in auction_sets/2024_sets.csv. 23 players at 2 crore base, matching Wisden's count.
+    sources:
+      - https://www.sportskeeda.com/cricket/news-full-list-333-players-part-ipl-2024-auction-base-price
+      - https://www.wisden.com/series/tata-indian-premier-league-2023-24/cricket-news/ipl-auction-2024-list-of-players-by-base-price-slab
+    full_set_list: data/reference/auction_sets/2024_sets.csv
+  2025:
+    type: mega
+    pool_size: 574
+    marquee_set_1: [Rishabh Pant, Shreyas Iyer, Mitchell Starc, Jos Buttler, Arshdeep Singh, Kagiso Rabada]
+    marquee_set_2: [Yuzvendra Chahal, KL Rahul, Mohammed Siraj, David Miller, Liam Livingstone, Mohammed Shami]
+    notes: Two marquee sets of six, then the role order.
+    sources:
+      - https://www.sportskeeda.com/cricket/news-ipl-2025-mega-auction-final-list-574-players-announced-shreyas-iyer-rishabh-pant-kl-rahul-part-marquee-sets
+    full_set_list: missing
+  2026:
+    type: mini
+    pool_size: 350
+    notes: Set 1 (BA1, capped batters) included Devon Conway, Jake Fraser-McGurk, Cameron Green, Sarfaraz Khan, David Miller and Prithvi Shaw; set 2 all-rounders (Wanindu Hasaranga, Venkatesh Iyer).
+    sources:
+      - https://cricketaddictor.com/cricket-news/ipl-auction-2026-date-time-players-list-rules-teams-purse-live-updates-326307
+      - https://www.wisden.com/series/ipl-2026/cricket-news/ipl-2026-auction-full-list-of-players-sold-along-with-final-bid-price
+    full_set_list: missing
+  2027:
+    type: mini
+    notes: Player list due 3 Dec 2026. Add the set-wise list when an outlet publishes it.
+    full_set_list: missing

@@ -201,6 +201,7 @@ cricsheet_id,cricinfo_id,wiki_title,batting,bowling,role
 740742ef,34102,Rohit Sharma,Right-handed,Right-arm off break,Top-order batter
 75224f22,677081,Keemo Paul,Right-handed,Right-arm fast-medium,All-rounder
 752f7486,720471,Ishan Kishan,Left-handed,"Leg break, Off-break",Wicket-keeper-batsman
+759ac88f,537119,Mohit Sharma,Right-handed,Right arm fast-medium,Bowler
 765a4731,1125688,Mukesh Choudhary,Left-handed,Left arm medium,Bowler
 77255a9e,446763,Rahul Tripathi,Right-handed,Right-arm medium,Top-order batter
 77b1aa15,1312645,Harshit Rana,Right-handed,Right-arm fast,Bowler
@@ -268,7 +269,6 @@ cricsheet_id,cricinfo_id,wiki_title,batting,bowling,role
 9601c534,422342,Siddhesh Lad,Right-handed,Right-arm off break,Batsman
 970ddd24,1339698,Suryansh Shedge,Right-handed,Right-arm medium,Batting-allrounder
 97290faf,1356971,Shamar Joseph,Left-handed,Right-arm fast,Bowler
-97f44626,1281569,,,,
 983f2f61,232292,Swapnil Singh,Right-handed,Slow left-arm orthodox,Bowler
 989889ff,662235,Josh Inglis,Right-handed,,Wicket-keeper-batter
 98ae73b1,32966,Piyush Chawla,Left-handed,Right-arm leg break,All-rounder
@@ -395,7 +395,6 @@ cc61ee8f,1269869,Gurjapneet Singh,Right-handed,Left-arm fast-medium,Bowler
 cc777ffa,1287067,Abdul Basith (cricketer),Right-handed,Right-arm off-break,All-rounder
 cd474693,1339027,,,,
 cd8d2859,1111917,Darshan Nalkande,Right-handed,Right-arm fast-medium,Bowler
-cd9f6505,1528646,,,,
 cdc6bdba,592735,Sandeep Warrier,Right-handed,Right-arm medium-fast,Bowler
 ce794613,802575,T. Natarajan,Left-handed,Left-arm medium,Bowler
 ce820073,438362,Sandeep Sharma,Right-handed,Right-arm fast medium,Bowler

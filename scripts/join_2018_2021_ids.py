@@ -32,8 +32,11 @@ def first_name_ok(auction_name, reg_name):
             or a0 in [t.lower() for t in r[1:-1]])
 # Hand-verified: these auction names are NOT the register player the rules would pick
 # (the real player has no Cricsheet record), so they stay unmatched.
-ALIAS_2018 = {"rasikhdar": "b8527c3d", "rasikhsalamdar": "b8527c3d", "shahrukhkhan": "7dcb9bc9"}   # register name "Rasikh Salam"
-REJECT = {"mangeshyadav", "rameshkumar", "syedmehdihasan", "emanjotchahal", "pankajjaiswal", "kaushaltambe"}
+# rasikh*: register name "Rasikh Salam"; mohitsharma: India's MM Sharma, not the Mexico "Mohit Sharma"
+ALIAS_2018 = {"rasikhdar": "b8527c3d", "rasikhsalamdar": "b8527c3d", "shahrukhkhan": "7dcb9bc9",
+              "mohitsharma": "759ac88f"}
+REJECT = {"mangeshyadav", "rameshkumar", "syedmehdihasan", "emanjotchahal", "pankajjaiswal", "kaushaltambe",
+          "namantiwari"}
 
 full = defaultdict(set); ini = defaultdict(set); surn = defaultdict(set); info = {}
 with open(PROC / "players_register.csv", encoding="utf-8") as f:

@@ -32,7 +32,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2021,Arjun Tendulkar,all-rounder,False,20,20,MI,sold,44aac2f0
 2019,Arshdeep Singh,bowler,False,20,20,PBKS,sold,244048f6
 2018,Aryaman Vikram Birla,all-rounder,False,30,30,RR,sold,91b9300b
-2019,Ashton Turner,all-rounder,False,50,50,RR,sold,ff1e12a0
+2019,Ashton Turner,all-rounder,True,50,50,RR,sold,ff1e12a0
 2018,Asif K M,bowler,False,40,40,CSK,sold,
 2018,Avesh Khan,bowler,False,70,70,DC,sold,eef2536f
 2019,Axar Rajesh Patel,all-rounder,False,500,500,DC,sold,2e171977
@@ -200,9 +200,9 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2019,Mohammad Shami,bowler,False,480,480,PBKS,sold,8cf9814c
 2021,Mohammed Azharudeen,wicket keeper,False,20,20,RCB,sold,
 2018,Mohammed Siraj,bowler,False,260,260,RCB,sold,2f49c897
-2018,Mohit Sharma,bowler,False,240,240,PBKS,sold,cd9f6505
-2019,Mohit Sharma,bowler,False,500,500,CSK,sold,cd9f6505
-2020,Mohit Sharma,bowler,False,50,50,DC,sold,cd9f6505
+2018,Mohit Sharma,bowler,False,240,240,PBKS,sold,759ac88f
+2019,Mohit Sharma,bowler,False,500,500,CSK,sold,759ac88f
+2020,Mohit Sharma,bowler,False,50,50,DC,sold,759ac88f
 2018,Mohsin Khan,bowler,False,20,20,MI,sold,
 2020,Mohsin Khan,bowler,False,20,20,MI,sold,
 2019,Moises Henriques,all-rounder,True,100,100,PBKS,sold,32198ae0
@@ -260,8 +260,8 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Rashid Khan Arman,bowler,True,900,900,SRH,sold,
 2019,Rasikh Dar,bowler,False,20,20,MI,sold,b8527c3d
 2020,Ravi Bishnoi,bowler,False,200,200,PBKS,sold,df064e1a
-2018,Ravichandran Ashwin,all-rounder,True,760,760,PBKS,sold,495d42a5
-2018,Ricky Bhui,batsman,True,20,20,SRH,sold,b63e358a
+2018,Ravichandran Ashwin,all-rounder,False,760,760,PBKS,sold,495d42a5
+2018,Ricky Bhui,batsman,False,20,20,SRH,sold,b63e358a
 2021,Riley Meredith,bowler,True,800,800,PBKS,sold,64775749
 2018,Rinku Singh,batsman,False,80,80,KKR,sold,
 2021,Ripal Patel,all-rounder,False,20,20,DC,sold,60500956

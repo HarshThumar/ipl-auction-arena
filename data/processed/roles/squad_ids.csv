@@ -657,7 +657,7 @@ season,team,player,source,cricsheet_id,method
 2024,GT,Wriddhiman Saha,retained,fe11caa6,known
 2024,GT,Jayant Yadav,retained,81049310,known
 2024,GT,Vijay Shankar,retained,0994d0ae,known
-2024,GT,Mohit Sharma,retained,cd9f6505,known
+2024,GT,Mohit Sharma,retained,759ac88f,known
 2024,GT,Noor Ahmad,retained,efc04be7,known
 2024,GT,Darshan Nalkande,retained,cd8d2859,known
 2024,GT,Sai Sudarshan,retained,d5130a30,roster
@@ -1256,7 +1256,7 @@ season,team,player,source,cricsheet_id,method
 2023,RCB,Rajan Kumar,bought,cd474693,known
 2023,KKR,Suyash Sharma,bought,9440ef41,known
 2023,GT,Josh Little,bought,9061a703,known
-2023,GT,Mohit Sharma,bought,cd9f6505,known
+2023,GT,Mohit Sharma,bought,759ac88f,known
 2023,MI,Shams Mulani,bought,9d704f6f,known
 2023,LSG,Swapnil Singh,bought,983f2f61,known
 2023,KKR,David Wiese,bought,aa8d28ae,known
@@ -1422,7 +1422,7 @@ season,team,player,source,cricsheet_id,method
 2025,KKR,Vaibhav Arora,bought,7c3b3b78,known
 2025,RCB,Rasikh Salam Dar,bought,b8527c3d,known
 2025,RR,Akash Madhwal,bought,4bd09374,known
-2025,DC,Mohit Sharma,bought,cd9f6505,known
+2025,DC,Mohit Sharma,bought,759ac88f,known
 2025,SRH,Simarjeet Singh,bought,30df8c66,known
 2025,PBKS,Yash Thakur,bought,4b31f3a3,known
 2025,PBKS,Vijaykumar Vyshak,bought,54e52590,known
@@ -1567,7 +1567,7 @@ season,team,player,source,cricsheet_id,method
 2026,KKR,Tejasvi Singh,bought,,unresolved
 2026,RR,Sushant Mishra,bought,92500ad5,known
 2026,GT,Ashok Sharma,bought,50c09020,known
-2026,LSG,Naman Tiwari,bought,97f44626,known
+2026,LSG,Naman Tiwari,bought,,unresolved
 2026,KKR,Kartik Tyagi,bought,5d2eea49,known
 2026,RR,Yash Raj Punja,bought,02dfebbe,known
 2026,RR,Vignesh Puthur,bought,1e030637,known
@@ -1817,9 +1817,9 @@ season,team,player,source,cricsheet_id,method
 2019,PBKS,Mohammad Shami,bought,8cf9814c,known
 2021,RCB,Mohammed Azharudeen,bought,,unresolved
 2018,RCB,Mohammed Siraj,bought,2f49c897,known
-2018,PBKS,Mohit Sharma,bought,cd9f6505,known
-2019,CSK,Mohit Sharma,bought,cd9f6505,known
-2020,DC,Mohit Sharma,bought,cd9f6505,known
+2018,PBKS,Mohit Sharma,bought,759ac88f,known
+2019,CSK,Mohit Sharma,bought,759ac88f,known
+2020,DC,Mohit Sharma,bought,759ac88f,known
 2018,MI,Mohsin Khan,bought,c33d8116,known
 2020,MI,Mohsin Khan,bought,c33d8116,known
 2019,PBKS,Moises Henriques,bought,32198ae0,known

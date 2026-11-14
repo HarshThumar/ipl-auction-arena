@@ -116,6 +116,27 @@ def main():
     record("one Cricsheet ID = one player (2018-26)", "PASS" if not clash else "FAIL",
            f"{len(names_by_id)} IDs; name clashes: {clash[:5] or 'none'}")
 
+    # 3c. an Indian auction player's ID must not belong to another country's international
+    # (found 14 Nov: "Mohit Sharma" -> a Mexico player, "Naman Tiwari" -> a Cyprus player)
+    bio_p = ROOT / "data" / "processed" / "players" / "player_bio.csv"
+    if bio_p.exists():
+        bio = {r["cricsheet_id"]: r for r in csv.DictReader(open(bio_p, encoding="utf-8"))}
+        same_person = set()
+        indian = [(r["season"], r["player"], r.get("cricsheet_id")) for r in rows if r.get("nationality") == "India"]
+        if staged.exists():
+            indian += [(r["season"], r["player_name"], r["cricsheet_id"])
+                       for r in csv.DictReader(open(staged, encoding="utf-8")) if r["is_overseas"] == "False"]
+        # A domestic Indian player who LATER plays for an associate nation (USA, UAE, Canada) is the same
+        # person; flag a full-member team, or an associate debut before that auction
+        def suspicious(y, c):
+            b = bio[c]
+            if b["intl_team"] in ("", "India") or c in same_person:
+                return False
+            return b["intl_full_member"] == "1" or b["first_intl_date"] < f"{y}-01-01"
+        wrong = sorted({f"{y} {n} -> {bio[c]['intl_team']}" for y, n, c in indian if c in bio and suspicious(int(y), c)})
+        record("Indian players' IDs are not another country's internationals", "PASS" if not wrong else "FAIL",
+               f"mismatches: {wrong[:5] or 'none'}")
+
     # 4. ledger reconciliation ----------------------------------------------
     by_season_sold, by_season_spend = {}, {}
     for r in sold:

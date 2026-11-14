@@ -657,7 +657,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2024,GT,Wriddhiman Saha,retained,fe11caa6,0,45,44,0,7,0.0,1.0,0.841,0.023,0.091,0.023,,,,opener,none,wicketkeeper,wicketkeeper,,0,wicketkeeper,high,2,1,,,0,17,1
 2024,GT,Jayant Yadav,retained,81049310,0,20,7,383,0,3.19,8.0,0.0,0.0,0.0,0.0,1.149,1.393,0.115,tail,middle,bowler,bowler,,1,bowler,high,2,1,off_spin,spin,0,1,0
 2024,GT,Vijay Shankar,retained,0994d0ae,0,35,28,100,0,0.48,4.0,0.0,0.25,0.607,0.107,0.6,1.356,0.84,middle_order,none,batter,allrounder,,0,batter,high,2,0,,,0,14,1
-2024,GT,Mohit Sharma,retained,cd9f6505,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,unknown,none,,,,0,unknown,none,0,,,,0,0,0
+2024,GT,Mohit Sharma,retained,759ac88f,0,27,3,541,0,3.34,9.0,0.0,0.0,0.0,0.0,1.072,0.567,1.693,tail,death,bowler,bowler,,0,bowler,high,2,1,pace_right,pace,0,14,1
 2024,GT,Noor Ahmad,retained,efc04be7,1,57,24,1250,0,3.65,9.0,0.0,0.0,0.0,0.042,0.32,1.637,0.669,tail,middle,bowler,bowler,,0,bowler,high,2,1,left_wrist,spin,0,13,1
 2024,GT,Darshan Nalkande,retained,cd8d2859,0,20,9,385,0,3.21,8.0,0.0,0.0,0.0,0.222,1.662,0.693,0.758,tail,powerplay,allrounder_bowling,bowler,,1,allrounder_bowling,high,2,0,pace_right,pace,0,1,0
 2024,GT,Sai Sudarshan,retained,d5130a30,0,22,22,0,0,0.0,3.0,0.0,0.818,0.182,0.0,,,,top_order,none,batter,batter,,0,batter,high,2,1,,,1,8,0
@@ -1002,7 +1002,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2026,SRH,Aniket Verma,retained,a3b0600d,0,14,12,0,0,0.0,6.0,0.0,0.0,0.25,0.75,,,,finisher,none,batter,batter,,1,batter,high,2,1,,,0,14,1
 2026,SRH,Harsh Dubey,retained,25228673,0,4,1,78,0,3.25,8.0,0.0,0.0,0.0,0.0,0.769,1.709,0.0,tail,unknown,,allrounder_bowling,,0,allrounder_bowling,medium,1,1,left_orthodox,spin,1,3,0
 2022,PBKS,Shikhar Dhawan,bought,0a476045,0,74,74,0,0,0.0,2.0,1.0,0.0,0.0,0.0,,,,opener,none,batter,batter,batter,0,batter,high,3,1,,,1,0,0
-2022,RR,Ravichandran Ashwin,bought,495d42a5,1,53,23,1168,0,3.67,8.0,0.0,0.0,0.043,0.435,0.805,1.402,0.51,tail,middle,allrounder_bowling,allrounder_bowling,allrounder,1,allrounder_bowling,high,3,1,off_spin,spin,0,0,0
+2022,RR,Ravichandran Ashwin,bought,495d42a5,0,53,23,1168,0,3.67,8.0,0.0,0.0,0.043,0.435,0.805,1.402,0.51,tail,middle,allrounder_bowling,allrounder_bowling,allrounder,1,allrounder_bowling,high,3,1,off_spin,spin,0,0,0
 2022,KKR,Pat Cummins,bought,ded9240e,1,41,21,887,0,3.61,8.0,0.0,0.0,0.0,0.286,1.669,0.541,1.024,tail,powerplay,allrounder_bowling,bowler,allrounder,1,allrounder_bowling,high,3,0,pace_right,pace,0,7,0
 2022,PBKS,Kagiso Rabada,bought,e62dd25d,1,78,32,1756,0,3.75,9.0,0.0,0.0,0.0,0.062,1.355,0.539,1.403,tail,powerplay_death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,1,0,0
 2022,RR,Trent Boult,bought,a818c1be,1,60,13,1357,0,3.77,11.0,0.0,0.0,0.0,0.0,1.857,0.295,1.241,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_left,pace,0,0,0
@@ -1256,7 +1256,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2023,RCB,Rajan Kumar,bought,cd474693,,4,0,90,0,3.75,,0.0,0.0,0.0,0.0,2.0,0.444,0.8,tail,unknown,,,bowler,0,bowler,low,1,1,,,0,0,0
 2023,KKR,Suyash Sharma,bought,9440ef41,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,bowler,bowler,0,bowler,medium,2,1,leg_spin,spin,0,0,0
 2023,GT,Josh Little,bought,9061a703,1,51,25,1096,0,3.58,11.0,0.0,0.0,0.0,0.0,1.642,0.564,1.015,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_left,pace,0,0,0
-2023,GT,Mohit Sharma,bought,cd9f6505,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
+2023,GT,Mohit Sharma,bought,759ac88f,0,12,2,270,0,3.75,9.0,0.0,0.0,0.0,0.0,1.778,0.099,1.689,tail,powerplay_death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2023,MI,Shams Mulani,bought,9d704f6f,0,8,6,187,0,3.9,7.5,0.0,0.0,0.167,0.333,0.856,1.367,0.513,unknown,middle,,,allrounder,0,allrounder,low,1,1,left_orthodox,spin,1,0,0
 2023,LSG,Swapnil Singh,bought,983f2f61,0,8,8,186,0,3.88,6.0,0.0,0.0,0.0,1.0,0.538,1.649,0.387,tail,middle,,bowler,allrounder,0,bowler,medium,2,0,left_orthodox,spin,0,0,0
 2023,KKR,David Wiese,bought,aa8d28ae,1,88,76,1365,0,2.59,6.0,0.0,0.0,0.368,0.579,0.747,1.026,1.257,finisher,death,allrounder_genuine,allrounder,allrounder,1,allrounder_genuine,high,3,1,pace_right,pace,0,0,0
@@ -1313,7 +1313,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2024,GT,Shahrukh Khan,bought,7dcb9bc9,0,51,43,0,0,0.0,6.0,0.0,0.023,0.047,0.814,,,,finisher,none,batter,batter,allrounder,1,batter,high,3,0,,,0,0,0
 2024,KKR,Ramandeep Singh,bought,be24ead0,0,29,19,150,0,0.86,6.0,0.0,0.053,0.211,0.632,0.0,1.867,0.64,finisher,middle,allrounder_batting,batter,allrounder,1,allrounder_batting,high,3,0,pace_right,pace,0,0,0
 2024,RR,Tom Kohler-Cadmore,bought,f836b33d,1,78,75,0,1,0.0,3.0,0.173,0.52,0.28,0.027,,,,top_order,none,batter,batter,wicketkeeper,0,wicketkeeper,high,3,0,,,0,0,0
-2024,DC,Ricky Bhui,bought,b63e358a,1,14,14,0,0,0.0,4.0,0.0,0.286,0.571,0.143,,,,middle_order,none,batter,batter,wicketkeeper,0,wicketkeeper,high,3,0,,,0,0,0
+2024,DC,Ricky Bhui,bought,b63e358a,0,14,14,0,0,0.0,4.0,0.0,0.286,0.571,0.143,,,,middle_order,none,batter,batter,wicketkeeper,0,wicketkeeper,high,3,0,,,0,0,0
 2024,DC,Kumar Kushagra,bought,57ca01b3,0,1,1,0,1,0.0,2.0,1.0,0.0,0.0,0.0,,,,unknown,none,,wicketkeeper,wicketkeeper,0,wicketkeeper,medium,2,1,,,0,0,0
 2024,RCB,Yash Dayal,bought,7210d461,0,22,2,432,0,3.27,10.5,0.0,0.0,0.0,0.0,1.62,0.494,1.167,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_left,pace,0,0,0
 2024,GT,Sushant Mishra,bought,92500ad5,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,bowler,bowler,0,bowler,medium,2,1,pace_left,pace,1,0,0
@@ -1324,7 +1324,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2024,LSG,Manimaran Siddharth,bought,cf0ccafa,0,1,0,24,0,4.0,,0.0,0.0,0.0,0.0,1.667,1.111,0.0,tail,unknown,,bowler,bowler,0,bowler,medium,2,1,left_orthodox,spin,0,0,0
 2024,MI,Shreyas Gopal,bought,7a8bd078,0,8,6,130,0,2.71,7.5,0.0,0.0,0.0,0.5,0.615,1.709,0.185,unknown,middle,,allrounder,bowler,0,allrounder,medium,2,0,leg_spin,spin,0,0,0
 2024,KKR,Sherfane Rutherford,bought,d014d5ac,1,70,66,48,0,0.11,5.0,0.0,0.045,0.47,0.485,0.0,1.667,1.0,finisher,none,batter,batter,batter,0,batter,high,3,1,,,1,0,0
-2024,LSG,Ashton Turner,bought,ff1e12a0,0,79,67,355,0,0.75,5.0,0.0,0.06,0.537,0.403,0.986,1.327,0.428,middle_order,none,batter,batter,batter,1,batter,high,3,1,,,0,0,0
+2024,LSG,Ashton Turner,bought,ff1e12a0,1,79,67,355,0,0.75,5.0,0.0,0.06,0.537,0.403,0.986,1.327,0.428,middle_order,none,batter,batter,batter,1,batter,high,3,1,,,0,0,0
 2024,RCB,Tom Curran,bought,e86754b2,1,50,37,675,0,2.25,6.0,0.0,0.054,0.162,0.622,0.681,0.833,1.683,finisher,death,allrounder_batting,allrounder,allrounder,1,allrounder_batting,high,3,1,pace_right,pace,0,0,0
 2024,LSG,David Willey,bought,7f048519,1,62,44,1234,0,3.32,4.5,0.0,0.205,0.341,0.227,2.039,0.378,0.872,middle_order,powerplay,allrounder_genuine,allrounder_bowling,allrounder,0,allrounder_genuine,high,3,1,pace_left,pace,1,0,0
 2024,GT,Spencer Johnson,bought,83c3e8e3,,17,4,359,0,3.52,9.5,0.0,0.0,0.0,0.0,1.616,0.483,1.192,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_left,pace,1,0,0
@@ -1375,7 +1375,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2025,LSG,Aiden Markram,bought,6a26221c,1,98,92,535,0,0.91,4.0,0.011,0.25,0.674,0.065,0.897,1.445,0.321,middle_order,middle,allrounder_batting,batter,batter,1,allrounder_batting,high,3,0,off_spin,spin,0,0,0
 2025,RCB,Devdutt Padikkal,bought,2c25d4f5,0,38,38,0,0,0.0,3.0,0.289,0.289,0.395,0.026,,,,middle_order,none,batter,batter,batter,0,batter,high,3,1,,,1,0,0
 2025,CSK,Rahul Tripathi,bought,77255a9e,0,40,40,6,0,0.03,3.0,0.075,0.875,0.05,0.0,0.0,0.0,4.0,top_order,none,batter,batter,batter,0,batter,high,3,1,,,0,0,0
-2025,CSK,Ravichandran Ashwin,bought,495d42a5,1,57,39,1308,0,3.82,7.0,0.026,0.077,0.154,0.385,0.642,1.57,0.404,tail,middle,allrounder_bowling,allrounder_bowling,allrounder,0,allrounder_bowling,high,3,1,off_spin,spin,0,0,0
+2025,CSK,Ravichandran Ashwin,bought,495d42a5,0,57,39,1308,0,3.82,7.0,0.026,0.077,0.154,0.385,0.642,1.57,0.404,tail,middle,allrounder_bowling,allrounder_bowling,allrounder,0,allrounder_bowling,high,3,1,off_spin,spin,0,0,0
 2025,KKR,Venkatesh Iyer,bought,a24be938,0,50,47,109,0,0.36,3.0,0.277,0.319,0.234,0.149,0.948,0.979,1.101,top_order,none,batter,allrounder_batting,allrounder,0,batter,high,3,0,,,1,14,1
 2025,LSG,Mitchell Marsh,bought,3d8feaf8,1,56,54,391,0,1.16,3.0,0.056,0.926,0.019,0.0,0.512,1.432,0.808,top_order,middle,allrounder_batting,batter,allrounder,0,allrounder_batting,high,3,0,pace_right,pace,0,0,0
 2025,PBKS,Glenn Maxwell,bought,b681e71e,1,116,109,1152,0,1.66,4.0,0.055,0.202,0.697,0.046,1.059,1.36,0.281,middle_order,middle,allrounder_batting,allrounder_batting,allrounder,0,allrounder_batting,high,3,1,off_spin,spin,0,0,0
@@ -1422,7 +1422,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2025,KKR,Vaibhav Arora,bought,7c3b3b78,0,25,9,497,0,3.31,10.0,0.0,0.0,0.0,0.0,2.414,0.241,0.668,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,10,1
 2025,RCB,Rasikh Salam Dar,bought,b8527c3d,0,14,7,261,0,3.11,10.0,0.0,0.0,0.0,0.0,1.073,0.715,1.425,tail,death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2025,RR,Akash Madhwal,bought,4bd09374,,17,1,346,0,3.39,11.0,0.0,0.0,0.0,0.0,1.156,0.617,1.503,tail,death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
-2025,DC,Mohit Sharma,bought,cd9f6505,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
+2025,DC,Mohit Sharma,bought,759ac88f,0,29,4,553,0,3.18,10.0,0.0,0.0,0.0,0.0,0.506,0.916,1.743,tail,death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2025,SRH,Simarjeet Singh,bought,30df8c66,,10,3,180,0,3.0,9.0,0.0,0.0,0.0,0.0,1.778,0.667,0.667,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2025,PBKS,Yash Thakur,bought,4b31f3a3,0,24,0,518,0,3.6,,0.0,0.0,0.0,0.0,0.811,0.764,1.653,tail,death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2025,PBKS,Vijaykumar Vyshak,bought,54e52590,0,15,5,315,0,3.5,10.0,0.0,0.0,0.0,0.0,0.635,1.312,0.876,tail,middle,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
@@ -1567,7 +1567,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2026,KKR,Tejasvi Singh,bought,,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,unknown,none,,,wicketkeeper,0,wicketkeeper,low,1,1,,,0,0,0
 2026,RR,Sushant Mishra,bought,92500ad5,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,bowler,bowler,0,bowler,medium,2,1,pace_left,pace,1,0,0
 2026,GT,Ashok Sharma,bought,50c09020,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
-2026,LSG,Naman Tiwari,bought,97f44626,0,6,5,114,0,3.17,5.0,0.2,0.0,0.4,0.0,0.0,1.988,0.421,tail,unknown,,,bowler,0,bowler,low,1,1,,,0,0,0
+2026,LSG,Naman Tiwari,bought,,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
 2026,KKR,Kartik Tyagi,bought,5d2eea49,0,9,0,134,0,2.48,,0.0,0.0,0.0,0.0,0.746,1.194,0.955,tail,all_phase,,bowler,bowler,0,bowler,medium,2,1,pace_right,pace,0,0,0
 2026,RR,Yash Raj Punja,bought,02dfebbe,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
 2026,RR,Vignesh Puthur,bought,1e030637,0,5,0,72,0,2.4,,0.0,0.0,0.0,0.0,0.0,1.852,0.667,tail,unknown,,bowler,bowler,0,bowler,medium,2,1,left_wrist,spin,0,0,0
@@ -1649,7 +1649,7 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2021,MI,Arjun Tendulkar,bought,44aac2f0,0,2,2,42,0,3.5,11.0,0.0,0.0,0.0,0.0,1.905,0.635,0.571,tail,unknown,,bowler,allrounder,0,bowler,medium,2,0,pace_left,pace,1,0,0
 2019,PBKS,Arshdeep Singh,bought,244048f6,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,bowler,bowler,0,bowler,medium,2,1,pace_left,pace,1,0,0
 2018,RR,Aryaman Vikram Birla,bought,91b9300b,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,unknown,none,,batter,allrounder,0,batter,medium,2,0,,,0,0,0
-2019,RR,Ashton Turner,bought,ff1e12a0,0,30,24,126,0,0.7,5.0,0.0,0.0,0.542,0.417,1.587,0.952,0.381,middle_order,none,batter,batter,allrounder,1,batter,high,3,0,,,0,0,0
+2019,RR,Ashton Turner,bought,ff1e12a0,1,30,24,126,0,0.7,5.0,0.0,0.0,0.542,0.417,1.587,0.952,0.381,middle_order,none,batter,batter,allrounder,1,batter,high,3,0,,,0,0,0
 2018,CSK,Asif K M,bought,798cc28e,0,2,1,48,0,4.0,10.0,0.0,0.0,0.0,0.0,2.083,0.278,1.0,tail,unknown,,bowler,bowler,0,bowler,medium,2,1,pace_right,pace,0,0,0
 2018,DC,Avesh Khan,bought,eef2536f,0,6,1,144,0,4.0,11.0,0.0,0.0,0.0,0.0,1.528,0.278,1.667,tail,powerplay_death,,bowler,bowler,0,bowler,medium,2,1,pace_right,pace,0,0,0
 2019,DC,Axar Rajesh Patel,bought,2e171977,0,48,38,971,0,3.37,7.0,0.0,0.026,0.105,0.789,0.536,1.648,0.391,tail,middle,allrounder_bowling,allrounder,allrounder,0,allrounder_bowling,high,3,1,left_orthodox,spin,1,0,0
@@ -1817,9 +1817,9 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2019,PBKS,Mohammad Shami,bought,8cf9814c,0,25,10,486,0,3.24,9.0,0.0,0.0,0.0,0.0,1.317,0.768,1.037,tail,powerplay,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2021,RCB,Mohammed Azharudeen,bought,,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,unknown,none,,,wicketkeeper,0,wicketkeeper,low,1,1,,,0,0,0
 2018,RCB,Mohammed Siraj,bought,2f49c897,0,17,4,402,0,3.94,10.0,0.0,0.0,0.0,0.0,1.443,0.464,1.433,tail,powerplay_death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
-2018,PBKS,Mohit Sharma,bought,cd9f6505,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
-2019,CSK,Mohit Sharma,bought,cd9f6505,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
-2020,DC,Mohit Sharma,bought,cd9f6505,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,,bowler,0,bowler,low,1,1,,,0,0,0
+2018,PBKS,Mohit Sharma,bought,759ac88f,0,48,21,979,0,3.4,9.0,0.0,0.0,0.0,0.0,1.307,0.613,1.328,tail,powerplay_death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,14,1
+2019,CSK,Mohit Sharma,bought,759ac88f,0,37,17,743,0,3.35,9.0,0.0,0.0,0.0,0.0,1.265,0.538,1.513,tail,powerplay_death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
+2020,DC,Mohit Sharma,bought,759ac88f,0,24,12,470,0,3.26,9.0,0.0,0.0,0.0,0.0,1.319,0.511,1.498,tail,powerplay_death,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2018,MI,Mohsin Khan,bought,c33d8116,0,8,2,162,0,3.38,10.0,0.0,0.0,0.0,0.0,1.235,0.658,1.333,tail,death,,bowler,bowler,0,bowler,medium,2,1,pace_left,pace,1,0,0
 2020,MI,Mohsin Khan,bought,c33d8116,0,19,8,384,0,3.37,8.5,0.0,0.0,0.0,0.25,1.25,0.729,1.188,tail,powerplay,bowler,bowler,bowler,1,bowler,high,3,1,pace_left,pace,1,0,0
 2019,PBKS,Moises Henriques,bought,32198ae0,1,62,57,630,0,1.69,4.0,0.0,0.386,0.421,0.193,0.249,1.905,0.273,middle_order,middle,allrounder_batting,allrounder_batting,allrounder,0,allrounder_batting,high,3,1,pace_right,pace,0,0,0
@@ -1877,8 +1877,8 @@ season,team,player,source,cricsheet_id,overseas,n_matches,n_innings,n_balls_bowl
 2018,SRH,Rashid Khan Arman,bought,5f547c8b,1,50,16,1180,0,3.93,8.0,0.0,0.0,0.0,0.125,0.525,1.409,0.834,tail,middle,bowler,allrounder_bowling,bowler,1,bowler,high,3,0,leg_spin,spin,0,14,1
 2019,MI,Rasikh Dar,bought,b8527c3d,0,0,0,0,0,0.0,,0.0,0.0,0.0,0.0,,,,tail,none,,bowler,bowler,0,bowler,medium,2,1,pace_right,pace,0,0,0
 2020,PBKS,Ravi Bishnoi,bought,df064e1a,0,4,1,84,0,3.5,8.0,0.0,0.0,0.0,0.0,0.0,2.063,0.286,tail,unknown,,bowler,bowler,0,bowler,medium,2,1,leg_spin,spin,0,0,0
-2018,PBKS,Ravichandran Ashwin,bought,495d42a5,1,48,17,924,0,3.21,8.0,0.0,0.0,0.059,0.0,0.952,1.299,0.519,tail,middle,bowler,allrounder_bowling,allrounder,1,bowler,high,3,0,off_spin,spin,0,0,0
-2018,SRH,Ricky Bhui,bought,b63e358a,1,5,5,0,0,0.0,3.0,0.0,1.0,0.0,0.0,,,,unknown,none,,batter,batter,0,batter,medium,2,1,,,0,0,0
+2018,PBKS,Ravichandran Ashwin,bought,495d42a5,0,48,17,924,0,3.21,8.0,0.0,0.0,0.059,0.0,0.952,1.299,0.519,tail,middle,bowler,allrounder_bowling,allrounder,1,bowler,high,3,0,off_spin,spin,0,0,0
+2018,SRH,Ricky Bhui,bought,b63e358a,0,5,5,0,0,0.0,3.0,0.0,1.0,0.0,0.0,,,,unknown,none,,batter,batter,0,batter,medium,2,1,,,0,0,0
 2021,PBKS,Riley Meredith,bought,64775749,1,32,6,720,0,3.75,10.5,0.0,0.0,0.0,0.0,1.139,0.972,0.883,tail,all_phase,bowler,bowler,bowler,0,bowler,high,3,1,pace_right,pace,0,0,0
 2018,KKR,Rinku Singh,bought,0a509d6b,0,9,8,0,0,0.0,5.0,0.0,0.0,0.625,0.375,,,,unknown,none,,batter,batter,0,batter,medium,2,1,,,1,0,0
 2021,DC,Ripal Patel,bought,60500956,0,9,7,6,0,0.11,6.0,0.0,0.286,0.0,0.714,0.0,2.222,0.0,unknown,none,,batter,allrounder,0,batter,medium,2,0,,,0,0,0

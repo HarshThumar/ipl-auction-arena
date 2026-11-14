@@ -6,18 +6,18 @@ Pearson r over every team x role cell (overseas and unknown_role excluded).
 
 | predictor | r |
 |---|---|
-| needs_in_slots | 0.747 |
-| needs_raw | 0.743 |
-| slots_only | 0.770 |
-| shuffled | 0.643 |
+| needs_in_slots | 0.753 |
+| needs_raw | 0.751 |
+| slots_only | 0.773 |
+| shuffled | 0.640 |
 
 Within each season x cell (which team buys MORE of a cell than the others):
 
 | predictor | within-cell r |
 |---|---|
-| needs_in_slots | 0.336 |
-| needs_raw | 0.329 |
-| slots_only | 0.299 |
+| needs_in_slots | 0.338 |
+| needs_raw | 0.332 |
+| slots_only | 0.286 |
 
 **Pooled: FAIL** (needs_in_slots vs slots_only and chance). **Within-cell: PASS** (needs_in_slots vs slots_only).
 
@@ -27,13 +27,13 @@ feature for the model, not a forecast on their own.
 
 | season | needs_in_slots r | slots_only r |
 |---|---|---|
-| 2019 | 0.586 | 0.689 |
-| 2020 | 0.682 | 0.634 |
-| 2021 | 0.656 | 0.670 |
-| 2022 | 0.799 | 0.786 |
-| 2023 | 0.464 | 0.548 |
-| 2024 | 0.510 | 0.590 |
-| 2025 | 0.770 | 0.733 |
+| 2019 | 0.566 | 0.663 |
+| 2020 | 0.689 | 0.650 |
+| 2021 | 0.656 | 0.669 |
+| 2022 | 0.811 | 0.800 |
+| 2023 | 0.486 | 0.535 |
+| 2024 | 0.520 | 0.594 |
+| 2025 | 0.777 | 0.739 |
 | 2026 | 0.570 | 0.622 |
 
 Seasons where needs lose to slots-only are reported, not hidden (rule #8).

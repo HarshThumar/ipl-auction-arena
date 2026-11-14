@@ -74,6 +74,12 @@ def ingest_2018_2021():
         })
 
     df_out = pd.DataFrame(normalized_rows)
+    # cited nationality fixes (found 14 Nov by comparing with the bid-trail data and Cricsheet caps)
+    fixes = pd.read_csv(REPO_ROOT / "data" / "reference" / "nationality_corrections_2018_2021.csv")
+    for f in fixes.itertuples(index=False):
+        hit = (df_out["season"] == f.season) & (df_out["player_name"] == f.player)
+        assert hit.sum() == 1, f"correction matches {hit.sum()} rows: {f.season} {f.player}"
+        df_out.loc[hit, "is_overseas"] = bool(f.is_overseas)
     out_file = OUTPUT_DIR / "staged_2018_2021.csv"
     df_out.to_csv(out_file, index=False)
     print(f"Successfully staged {len(df_out)} lots across 2018-2021 into {out_file}")

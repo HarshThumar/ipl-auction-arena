@@ -32,7 +32,8 @@ def first_name_ok(auction_name, reg_name):
             or a0 in [t.lower() for t in r[1:-1]])
 # Hand-verified: these auction names are NOT the register player the rules would pick
 # (the real player has no Cricsheet record), so they stay unmatched.
-REJECT = {"mangeshyadav", "rameshkumar", "syedmehdihasan", "emanjotchahal", "pankajjaiswal", "kaushaltambe"}
+REJECT = {"mangeshyadav", "rameshkumar", "syedmehdihasan", "emanjotchahal", "pankajjaiswal", "kaushaltambe",
+          "namantiwari"}   # 14 Nov: register "Naman Tiwari" is a Cyprus player (only Cyprus matches)
 
 # build register indexes
 full=defaultdict(set); ini=defaultdict(set); surn=defaultdict(set); info={}; regname={}
@@ -71,6 +72,7 @@ ALIAS={
  "shahrukhkhan":"7dcb9bc9","bhagathvarma":"5438ffba",
  "rasikhsalamdar":"b8527c3d","rasikhdar":"b8527c3d","rasikhsalam":"b8527c3d",
  "rassievanderdussen":"9948e262",
+ "mohitsharma":"759ac88f",   # India's MM Sharma (CSK/GT/DC); the register's "Mohit Sharma" is a Mexico player
 }
 
 def lookup(name):

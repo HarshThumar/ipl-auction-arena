@@ -32,7 +32,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2021,Arjun Tendulkar,all-rounder,False,20,20,MI,sold
 2019,Arshdeep Singh,bowler,False,20,20,PBKS,sold
 2018,Aryaman Vikram Birla,all-rounder,False,30,30,RR,sold
-2019,Ashton Turner,all-rounder,False,50,50,RR,sold
+2019,Ashton Turner,all-rounder,True,50,50,RR,sold
 2018,Asif K M,bowler,False,40,40,CSK,sold
 2018,Avesh Khan,bowler,False,70,70,DC,sold
 2019,Axar Rajesh Patel,all-rounder,False,500,500,DC,sold
@@ -260,8 +260,8 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Rashid Khan Arman,bowler,True,900,900,SRH,sold
 2019,Rasikh Dar,bowler,False,20,20,MI,sold
 2020,Ravi Bishnoi,bowler,False,200,200,PBKS,sold
-2018,Ravichandran Ashwin,all-rounder,True,760,760,PBKS,sold
-2018,Ricky Bhui,batsman,True,20,20,SRH,sold
+2018,Ravichandran Ashwin,all-rounder,False,760,760,PBKS,sold
+2018,Ricky Bhui,batsman,False,20,20,SRH,sold
 2021,Riley Meredith,bowler,True,800,800,PBKS,sold
 2018,Rinku Singh,batsman,False,80,80,KKR,sold
 2021,Ripal Patel,all-rounder,False,20,20,DC,sold

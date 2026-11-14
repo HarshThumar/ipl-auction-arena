@@ -38,7 +38,7 @@
 - **Roles:** [player_roles.csv](../data/processed/roles/player_roles.csv), one row per player per team-season, with the data, Wikipedia and auction-list labels side by side.
 - **Needs:** [needs_long.csv](../data/processed/team_needs/needs_long.csv) and [needs_wide.csv](../data/processed/team_needs/needs_wide.csv), 82 team-seasons (2018–26) × 13 cells. 2018 has no typical squad (no earlier season in our data).
 - **Checks:** [roles-check.md](roles-check.md) (agreement, stability, hand-check sheet) and [needs-check.md](needs-check.md) (held-out test).
-- **Held-out result, honestly:** needs alone do **not** beat the slots-only baseline on the pooled score (r 0.747 vs 0.770). They do beat it on the within-cell score (0.336 vs 0.299), which asks which team buys more of a kind. Needs are a model feature, not a forecast on their own.
+- **Held-out result, honestly:** needs alone do **not** beat the slots-only baseline on the pooled score (r 0.753 vs 0.773). They do beat it on the within-cell score (0.338 vs 0.286), which asks which team buys more of a kind. Needs are a model feature, not a forecast on their own.
 
 ## Steps
 | Step | Output | Done when |
