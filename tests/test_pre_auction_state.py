@@ -10,8 +10,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_pre_auction_state as bps  # noqa: E402
 
 MOCK = ROOT / "tests" / "fixtures" / "mock_2027_retained.csv"
-# published totals for the mini auctions (purse in lakh, slots, overseas slots)
-PUBLISHED_TOTALS = {2023: (20650, 87, 30), 2024: (26295, 77, 30), 2026: (23755, 77, 31)}
+# published totals for the mini auctions (2021 purse uses the CSK 19.90 cr figure, see the csv note) (purse in lakh, slots, overseas slots)
+PUBLISHED_TOTALS = {2019: (14525, 70, 20), 2020: (20765, 73, 29), 2021: (19660, 61, 22),
+                    2023: (20650, 87, 30), 2024: (26295, 77, 30), 2026: (23755, 77, 31)}
 
 
 def fails(issues):

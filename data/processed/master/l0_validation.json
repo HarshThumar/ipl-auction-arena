@@ -79,7 +79,7 @@
     {
       "check": "per-team auction spend <= pre-auction purse left",
       "status": "PASS",
-      "detail": "50 team-seasons; overspends: none"
+      "detail": "82 team-seasons; overspends: none"
     },
     {
       "check": "2027 retentions loaded",

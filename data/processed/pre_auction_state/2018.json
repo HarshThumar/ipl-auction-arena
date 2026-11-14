@@ -1,0 +1,287 @@
+{
+ "season": 2018,
+ "status": "FINAL",
+ "season_purse_lakh": 8000,
+ "totals": {
+  "slots_left": 182,
+  "overseas_slots_left": 58,
+  "purse_left_lakh": 44300
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "MS Dhoni",
+     "nationality": "India",
+     "salary_lakh": 1500,
+     "purse_deduction_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Suresh Raina",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_deduction_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_deduction_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 3300,
+   "retained_purse_charge_lakh": 3300,
+   "purse_left_lakh": 4700,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4700,
+   "slots_left": 22,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 4280,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Rishabh Pant",
+     "nationality": "India",
+     "salary_lakh": 800,
+     "purse_deduction_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Chris Morris",
+     "nationality": "Overseas",
+     "salary_lakh": 710,
+     "purse_deduction_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Shreyas Iyer",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_deduction_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 2210,
+   "retained_purse_charge_lakh": 3300,
+   "purse_left_lakh": 4700,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4700,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 4280,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 850,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Andre Russell",
+     "nationality": "Overseas",
+     "salary_lakh": 700,
+     "purse_deduction_lakh": 850,
+     "purse_charge_lakh": 850,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 2,
+   "retained_overseas": 2,
+   "retained_salary_lakh": 1550,
+   "retained_purse_charge_lakh": 2100,
+   "purse_left_lakh": 5900,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5900,
+   "slots_left": 23,
+   "overseas_slots_left": 6,
+   "must_buy_to_reach_18": 16,
+   "max_single_bid_lakh": 5450,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1500,
+     "purse_deduction_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_deduction_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_deduction_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 3300,
+   "retained_purse_charge_lakh": 3300,
+   "purse_left_lakh": 4700,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4700,
+   "slots_left": 22,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 4280,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "Axar Patel",
+     "nationality": "India",
+     "salary_lakh": 675,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 1,
+   "retained_overseas": 0,
+   "retained_salary_lakh": 675,
+   "retained_purse_charge_lakh": 1250,
+   "purse_left_lakh": 6750,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6750,
+   "slots_left": 24,
+   "overseas_slots_left": 8,
+   "must_buy_to_reach_18": 17,
+   "max_single_bid_lakh": 6270,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 1700,
+     "purse_deduction_lakh": 1700,
+     "purse_charge_lakh": 1700,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "AB de Villiers",
+     "nationality": "Overseas",
+     "salary_lakh": 1100,
+     "purse_deduction_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Sarfaraz Khan",
+     "nationality": "India",
+     "salary_lakh": 175,
+     "purse_deduction_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 3,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 2975,
+   "retained_purse_charge_lakh": 3100,
+   "purse_left_lakh": 4900,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4900,
+   "slots_left": 22,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 15,
+   "max_single_bid_lakh": 4480,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Steve Smith",
+     "nationality": "Overseas",
+     "salary_lakh": 1200,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 1,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 1200,
+   "retained_purse_charge_lakh": 1250,
+   "purse_left_lakh": 6750,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 6750,
+   "slots_left": 24,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 17,
+   "max_single_bid_lakh": 6270,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "David Warner",
+     "nationality": "Overseas",
+     "salary_lakh": 1200,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Bhuvneshwar Kumar",
+     "nationality": "India",
+     "salary_lakh": 850,
+     "purse_deduction_lakh": 850,
+     "purse_charge_lakh": 850,
+     "charge_basis": "stated"
+    }
+   ],
+   "retained_count": 2,
+   "retained_overseas": 1,
+   "retained_salary_lakh": 2050,
+   "retained_purse_charge_lakh": 2100,
+   "purse_left_lakh": 5900,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 5900,
+   "slots_left": 23,
+   "overseas_slots_left": 7,
+   "must_buy_to_reach_18": 16,
+   "max_single_bid_lakh": 5450,
+   "official_source": "https://www.crictracker.com/ipl-2018-amount-left-franchise-player-retentions"
+  }
+ },
+ "issues": [],
+ "trades_applied": [],
+ "corrections_applied": []
+}

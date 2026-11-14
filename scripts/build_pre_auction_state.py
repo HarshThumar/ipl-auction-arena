@@ -15,11 +15,13 @@ Output
   data/processed/pre_auction_state/<season>.json
 
 Why both derived and official purse?
-  purse_left_derived = season purse - sum(retained salaries). It is NOT always the official figure:
-  in mega auctions (and carried through that cycle) a retained player costs the team its
-  retention-slab charge, not the salary he agreed (e.g. 2025 KKR: Rinku took 13 cr against an 18 cr
-  slab). Trades after the wiki snapshot also move money. So we use the official figure and report
-  the gap per team. Slots and overseas slots have no such hidden rule: those must match exactly.
+  purse_left_derived = season purse - sum(retained purse charges). A retained player's purse
+  charge is his retention slab, not always his salary (2018: Pant paid 8 cr, Delhi charged 15 cr).
+  The charge is used when a source states it (2018 table, 2019-22 wiki footnotes) and carried
+  through later seasons of the same retention cycle; otherwise the salary is used. Where no source
+  states the charge (e.g. 2025: KKR kept Rinku at 13 cr against an 18 cr slab) a gap remains, so we
+  use the official figure and report the gap per team. Slots and overseas slots have no such
+  hidden rule: those must match exactly.
 
 Exit code: 0 = all hard checks pass; 1 = a hard check failed (do not use the output).
 Status in the output: FINAL (official figures present for every team) or PROVISIONAL.
@@ -40,7 +42,10 @@ OUT_DIR = ROOT / "data" / "processed" / "pre_auction_state"
 SQUAD_MIN, SQUAD_MAX, OVERSEAS_MAX = 18, 25, 8
 MIN_SALARY_LAKH = 20          # lowest contract in any season since 2022
 MIN_BASE_LAKH_2025_CYCLE = 30  # lowest base price in the 2025-27 cycle (uncapped)
-BACKTEST_SEASONS = [2022, 2023, 2024, 2025, 2026]
+BACKTEST_SEASONS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+# Retention cycles: a mega auction starts each one. A retained player's purse charge
+# (retention slab) stays the same for every later season of the cycle while he stays.
+CYCLES = [(2018, 2021), (2022, 2024), (2025, 2027)]
 
 
 def norm(name):
@@ -56,9 +61,33 @@ def load_rules(season):
     return s
 
 
-def active_teams():
-    return sorted(f["franchise_id"] for f in csv.DictReader(open(REF / "franchises.csv", encoding="utf-8"))
-                  if f["status"] == "active")
+def active_teams(season):
+    """Franchises that played in this season (8 teams 2018-21, 10 from 2022)."""
+    out = []
+    for f in csv.DictReader(open(REF / "franchises.csv", encoding="utf-8")):
+        first = int(f["first_season"])
+        last = int(f["last_season"]) if f["last_season"].strip() else 9999
+        if first <= season <= last:
+            out.append(f["franchise_id"])
+    return sorted(out)
+
+
+def carried_charges(season):
+    """{(team, norm(player)): purse charge in lakh} from earlier seasons of the same cycle.
+
+    Sources state the charge only once (e.g. 2018 table, or a 2019-22 footnote); it still
+    applies in later seasons of that cycle if the player is still with the team."""
+    cyc = next(((a, b) for a, b in CYCLES if a <= season <= b), None)
+    if not cyc or not RET_JSON.exists():
+        return {}
+    data = json.loads(RET_JSON.read_text(encoding="utf-8"))
+    out = {}
+    for y in range(cyc[0], season):
+        for t, plist in data.get(str(y), {}).items():
+            for p in plist:
+                if p.get("purse_deduction_lakh") is not None:
+                    out[(t, norm(p["player"]))] = p["purse_deduction_lakh"]
+    return out
 
 
 def team_alias():
@@ -68,6 +97,72 @@ def team_alias():
             if a.strip():
                 alias[a.strip().lower()] = f["franchise_id"]
     return alias
+
+
+TRANSFERS_JSON = ROOT / "data" / "processed" / "transfers_by_season.json"
+CORRECTIONS_CSV = REF / "retention_corrections.csv"
+
+
+def same_player(a, b):
+    """Exact normalised match, or one name's words contained in the other's
+    ('Aman Khan' vs 'Aman Hakim Khan'), needing at least two words in common."""
+    if norm(a) == norm(b):
+        return True
+    ta, tb = set(re.findall(r"[a-z]+", a.lower())), set(re.findall(r"[a-z]+", b.lower()))
+    small, big = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+    return len(small) >= 2 and small <= big
+
+
+def apply_corrections(season, retained):
+    """Fixes to a source's retained list, each with its own citation (retention_corrections.csv)."""
+    if not CORRECTIONS_CSV.exists():
+        return []
+    done = []
+    for c in csv.DictReader(open(CORRECTIONS_CSV, encoding="utf-8")):
+        if c["season"] != str(season):
+            continue
+        plist = retained.setdefault(c["team"], [])
+        if c["action"] == "remove":
+            keep = [p for p in plist if not same_player(p["player"], c["player"])]
+            if len(keep) == len(plist):
+                raise SystemExit(f"correction {season} {c['team']} remove {c['player']}: not in list")
+            retained[c["team"]] = keep
+        elif c["action"] == "add":
+            if not any(same_player(p["player"], c["player"]) for p in plist):
+                plist.append({"player": c["player"], "nationality": c["nationality"],
+                              "salary_lakh": int(c["salary_lakh"]), "correction_source": c["source"]})
+        else:
+            raise SystemExit(f"unknown correction action {c['action']!r}")
+        done.append(f"{c['action']} {c['team']} {c['player']}: {c['reason']}")
+    return done
+
+
+def apply_transfers(season, retained, rules):
+    """Move players traded before the auction. Idempotent: some wiki retained lists are
+    already post-trade, so we only remove a player if he is still at the old team and only
+    add him if he is not already at the new one. Returns the list of moves applied."""
+    if not TRANSFERS_JSON.exists():
+        return []
+    moves = json.loads(TRANSFERS_JSON.read_text(encoding="utf-8")).get(str(season), [])
+    cutoff = str(rules.get("date") or "9999-12-31")
+    applied = []
+    for mv in sorted(moves, key=lambda m: m.get("date") or ""):
+        if mv.get("date") and mv["date"] > cutoff:
+            continue
+        src = retained.get(mv["from"], [])
+        before = len(src)
+        retained[mv["from"]] = [p for p in src if not same_player(p["player"], mv["player"])]
+        removed = len(retained[mv["from"]]) < before
+        dst = retained.setdefault(mv["to"], [])
+        added = False
+        if not any(same_player(p["player"], mv["player"]) for p in dst):
+            dst.append({"player": mv["player"], "nationality": mv.get("nationality"),
+                        "salary_lakh": mv.get("salary_after_lakh"),
+                        "note_trade": f"traded {mv['from']}->{mv['to']} {mv.get('date')}"})
+            added = True
+        if removed or added:
+            applied.append(f"{mv['player']} {mv['from']}->{mv['to']} ({mv.get('date')})")
+    return applied
 
 
 def load_retained(season, csv_path=None):
@@ -107,13 +202,16 @@ def load_official(season):
                         "source": r["source"]} for r in rows}
 
 
-def build(season, retained, official, rules):
-    """Returns (state dict, list of (level, message)). level is FAIL or WARN."""
+def build(season, retained, official, rules, carry=None):
+    """Returns (state dict, list of (level, message)). level is FAIL or WARN.
+
+    carry: purse charges carried from earlier seasons of the cycle (see carried_charges)."""
+    carry = carry or {}
     issues = []
     fail = lambda m: issues.append(("FAIL", m))
     warn = lambda m: issues.append(("WARN", m))
     purse = rules["purse_inr_lakh"]
-    teams = active_teams()
+    teams = active_teams(season)
 
     missing = [t for t in teams if t not in retained]
     extra = [t for t in retained if t not in teams]
@@ -146,7 +244,14 @@ def build(season, retained, official, rules):
         plist = retained.get(t, [])
         n = len(plist)
         n_os = sum(p.get("nationality") == "Overseas" for p in plist)
-        spent = sum(p.get("salary_lakh") or 0 for p in plist)
+        for p in plist:   # purse charge: stated deduction > carried deduction > salary
+            if p.get("purse_deduction_lakh") is not None:
+                p["purse_charge_lakh"], p["charge_basis"] = p["purse_deduction_lakh"], "stated"
+            elif (t, norm(p["player"])) in carry:
+                p["purse_charge_lakh"], p["charge_basis"] = carry[(t, norm(p["player"]))], "carried in cycle"
+            else:
+                p["purse_charge_lakh"], p["charge_basis"] = p.get("salary_lakh") or 0, "salary"
+        spent = sum(p["purse_charge_lakh"] for p in plist)
         derived = purse - spent
         slots, os_slots = SQUAD_MAX - n, min(OVERSEAS_MAX - n_os, SQUAD_MAX - n)
         off = official.get(t, {})
@@ -174,7 +279,8 @@ def build(season, retained, official, rules):
             "retained": plist,
             "retained_count": n,
             "retained_overseas": n_os,
-            "retained_salary_lakh": spent,
+            "retained_salary_lakh": sum(p.get("salary_lakh") or 0 for p in plist),
+            "retained_purse_charge_lakh": spent,
             "purse_left_lakh": purse_left,
             "purse_left_source": "official" if off.get("purse_left_lakh") is not None else "derived",
             "purse_left_derived_lakh": derived,
@@ -217,7 +323,12 @@ def build(season, retained, official, rules):
 
 def run(season, csv_path=None, write=True, quiet=False):
     rules = load_rules(season)
-    state, issues = build(season, load_retained(season, csv_path), load_official(season), rules)
+    retained = load_retained(season, csv_path)
+    fixes = apply_corrections(season, retained)
+    moves = apply_transfers(season, retained, rules)
+    state, issues = build(season, retained, load_official(season), rules, carried_charges(season))
+    state["trades_applied"] = moves
+    state["corrections_applied"] = fixes
     if not quiet:
         print(f"\n== {season} pre-auction state ({state['status']}) ==")
         print(f"{'team':5} {'kept':>4} {'os':>3} {'purse_left':>10} {'src':>8} {'slots':>5} {'os_sl':>5} {'max_bid':>7}")

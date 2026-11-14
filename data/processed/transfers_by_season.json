@@ -1,0 +1,250 @@
+{
+ "2018": [],
+ "2019": [
+  {
+   "player": "Quinton de Kock",
+   "nationality": "Overseas",
+   "from": "RCB",
+   "to": "MI",
+   "salary_before_lakh": 280,
+   "salary_after_lakh": 280,
+   "date": "2018-10-19"
+  },
+  {
+   "player": "Mandeep Singh",
+   "nationality": "India",
+   "from": "RCB",
+   "to": "PBKS",
+   "salary_before_lakh": 140,
+   "salary_after_lakh": 140,
+   "date": "2018-10-28"
+  },
+  {
+   "player": "Marcus Stoinis",
+   "nationality": "Overseas",
+   "from": "PBKS",
+   "to": "RCB",
+   "salary_before_lakh": 620,
+   "salary_after_lakh": 620,
+   "date": "2018-10-28"
+  },
+  {
+   "player": "Shikhar Dhawan",
+   "nationality": "India",
+   "from": "SRH",
+   "to": "DC",
+   "salary_before_lakh": 520,
+   "salary_after_lakh": 520,
+   "date": "2018-11-05"
+  },
+  {
+   "player": "Vijay Shankar",
+   "nationality": "India",
+   "from": "DC",
+   "to": "SRH",
+   "salary_before_lakh": 320,
+   "salary_after_lakh": 320,
+   "date": "2018-11-05"
+  },
+  {
+   "player": "Shahbaz Nadeem",
+   "nationality": "India",
+   "from": "DC",
+   "to": "SRH",
+   "salary_before_lakh": 320,
+   "salary_after_lakh": 320,
+   "date": "2018-11-05"
+  },
+  {
+   "player": "Abhishek Sharma",
+   "nationality": "India",
+   "from": "DC",
+   "to": "SRH",
+   "salary_before_lakh": 55,
+   "salary_after_lakh": 55,
+   "date": "2018-11-05"
+  }
+ ],
+ "2020": [
+  {
+   "player": "Mayank Markande",
+   "nationality": "India",
+   "from": "MI",
+   "to": "DC",
+   "salary_before_lakh": 20,
+   "salary_after_lakh": 200,
+   "date": "2019-07-31"
+  },
+  {
+   "player": "Sherfane Rutherford",
+   "nationality": "Overseas",
+   "from": "DC",
+   "to": "MI",
+   "salary_before_lakh": 200,
+   "salary_after_lakh": 200,
+   "date": "2019-07-31"
+  },
+  {
+   "player": "Ravichandran Ashwin",
+   "nationality": "India",
+   "from": "PBKS",
+   "to": "DC",
+   "salary_before_lakh": 760,
+   "salary_after_lakh": 760,
+   "date": "2019-11-07"
+  },
+  {
+   "player": "Jagadeesha Suchith",
+   "nationality": "India",
+   "from": "DC",
+   "to": "PBKS",
+   "salary_before_lakh": 20,
+   "salary_after_lakh": 20,
+   "date": "2019-11-07"
+  },
+  {
+   "player": "Trent Boult",
+   "nationality": "Overseas",
+   "from": "DC",
+   "to": "MI",
+   "salary_before_lakh": 220,
+   "salary_after_lakh": 320,
+   "date": "2019-11-13"
+  },
+  {
+   "player": "Krishnappa Gowtham",
+   "nationality": "India",
+   "from": "RR",
+   "to": "PBKS",
+   "salary_before_lakh": 620,
+   "salary_after_lakh": 620,
+   "date": "2019-11-13"
+  },
+  {
+   "player": "Ankit Rajpoot",
+   "nationality": "India",
+   "from": "PBKS",
+   "to": "RR",
+   "salary_before_lakh": 300,
+   "salary_after_lakh": 300,
+   "date": "2019-11-13"
+  },
+  {
+   "player": "Dhawal Kulkarni",
+   "nationality": "India",
+   "from": "RR",
+   "to": "MI",
+   "salary_before_lakh": 75,
+   "salary_after_lakh": 75,
+   "date": "2019-11-13"
+  },
+  {
+   "player": "Ajinkya Rahane",
+   "nationality": "India",
+   "from": "RR",
+   "to": "DC",
+   "salary_before_lakh": 400,
+   "salary_after_lakh": 525,
+   "date": "2019-11-14"
+  },
+  {
+   "player": "Mayank Markande",
+   "nationality": "India",
+   "from": "DC",
+   "to": "RR",
+   "salary_before_lakh": 200,
+   "salary_after_lakh": 200,
+   "date": "2019-11-14"
+  },
+  {
+   "player": "Rahul Tewatia",
+   "nationality": "India",
+   "from": "DC",
+   "to": "RR",
+   "salary_before_lakh": 300,
+   "salary_after_lakh": 300,
+   "date": "2019-11-14"
+  },
+  {
+   "player": "Siddhesh Lad",
+   "nationality": "India",
+   "from": "MI",
+   "to": "KKR",
+   "salary_before_lakh": 20,
+   "salary_after_lakh": 20,
+   "date": "2019-11-15"
+  }
+ ],
+ "2021": [
+  {
+   "player": "Daniel Sams",
+   "nationality": "Overseas",
+   "from": "DC",
+   "to": "RCB",
+   "salary_before_lakh": 20,
+   "salary_after_lakh": 20,
+   "date": "2021-01-20"
+  },
+  {
+   "player": "Harshal Patel",
+   "nationality": "India",
+   "from": "DC",
+   "to": "RCB",
+   "salary_before_lakh": 20,
+   "salary_after_lakh": 20,
+   "date": "2021-01-20"
+  },
+  {
+   "player": "Robin Uthappa",
+   "nationality": "India",
+   "from": "RR",
+   "to": "CSK",
+   "salary_before_lakh": 300,
+   "salary_after_lakh": 300,
+   "date": "2021-01-21"
+  }
+ ],
+ "2022": [],
+ "2023": [
+  {
+   "player": "Jason Behrendorff",
+   "nationality": "Overseas",
+   "from": "RCB",
+   "to": "MI",
+   "salary_before_lakh": 75,
+   "salary_after_lakh": 75,
+   "date": "2022-11-12"
+  },
+  {
+   "player": "Lockie Ferguson",
+   "nationality": "Overseas",
+   "from": "GT",
+   "to": "KKR",
+   "salary_before_lakh": 1000,
+   "salary_after_lakh": 1000,
+   "date": "2022-11-13"
+  },
+  {
+   "player": "Rahmanullah Gurbaz",
+   "nationality": "Overseas",
+   "from": "GT",
+   "to": "KKR",
+   "salary_before_lakh": 50,
+   "salary_after_lakh": 50,
+   "date": "2022-11-13"
+  },
+  {
+   "player": "Aman Khan",
+   "nationality": "India",
+   "from": "KKR",
+   "to": "DC",
+   "salary_before_lakh": 20,
+   "salary_after_lakh": 20,
+   "date": "2022-11-13"
+  }
+ ],
+ "2024": [],
+ "2025": [],
+ "2026": [],
+ "2027": []
+}

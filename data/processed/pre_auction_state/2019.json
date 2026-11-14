@@ -1,0 +1,1079 @@
+{
+ "season": 2019,
+ "status": "FINAL",
+ "season_purse_lakh": 8200,
+ "totals": {
+  "slots_left": 70,
+  "overseas_slots_left": 20,
+  "purse_left_lakh": 14525
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "Mahendra Singh Dhoni",
+     "nationality": "India",
+     "salary_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Suresh Raina",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Kedar Jadhav",
+     "nationality": "India",
+     "salary_lakh": 780,
+     "purse_charge_lakh": 780,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Dwayne Bravo",
+     "nationality": "Overseas",
+     "salary_lakh": 640,
+     "purse_charge_lakh": 640,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Karn Sharma",
+     "nationality": "India",
+     "salary_lakh": 500,
+     "purse_charge_lakh": 500,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shane Watson",
+     "nationality": "Overseas",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shardul Thakur",
+     "nationality": "India",
+     "salary_lakh": 260,
+     "purse_charge_lakh": 260,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ambati Rayudu",
+     "nationality": "India",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "David Willey",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harbhajan Singh",
+     "nationality": "India",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Murali Vijay",
+     "nationality": "India",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Faf du Plessis",
+     "nationality": "Overseas",
+     "salary_lakh": 160,
+     "purse_charge_lakh": 160,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Imran Tahir",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sam Billings",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Deepak Chahar",
+     "nationality": "India",
+     "salary_lakh": 80,
+     "purse_charge_lakh": 80,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Lungi Ngidi",
+     "nationality": "Overseas",
+     "salary_lakh": 50,
+     "purse_charge_lakh": 50,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mitchell Santner",
+     "nationality": "Overseas",
+     "salary_lakh": 50,
+     "purse_charge_lakh": 50,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "KM Asif",
+     "nationality": "India",
+     "salary_lakh": 40,
+     "purse_charge_lakh": 40,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Chaitanya Bishnoi",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Dhruv Shorey",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Monu Singh",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Narayan Jagadeesan",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 23,
+   "retained_overseas": 8,
+   "retained_salary_lakh": 7360,
+   "retained_purse_charge_lakh": 7360,
+   "purse_left_lakh": 840,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 840,
+   "slots_left": 2,
+   "overseas_slots_left": 0,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 840,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Rishabh Pant",
+     "nationality": "India",
+     "salary_lakh": 800,
+     "purse_deduction_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Chris Morris",
+     "nationality": "Overseas",
+     "salary_lakh": 710,
+     "purse_deduction_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Shreyas Iyer",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Kagiso Rabada",
+     "nationality": "Overseas",
+     "salary_lakh": 420,
+     "purse_charge_lakh": 420,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Amit Mishra",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rahul Tewatia",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Trent Boult",
+     "nationality": "Overseas",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Colin Munro",
+     "nationality": "Overseas",
+     "salary_lakh": 190,
+     "purse_charge_lakh": 190,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prithvi Shaw",
+     "nationality": "India",
+     "salary_lakh": 120,
+     "purse_charge_lakh": 120,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Avesh Khan",
+     "nationality": "India",
+     "salary_lakh": 70,
+     "purse_charge_lakh": 70,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jayant Yadav",
+     "nationality": "India",
+     "salary_lakh": 50,
+     "purse_charge_lakh": 50,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harshal Patel",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Manjot Kalra",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sandeep Lamichhane",
+     "nationality": "Overseas",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shikhar Dhawan",
+     "nationality": "India",
+     "salary_lakh": 520,
+     "note_trade": "traded SRH->DC 2018-11-05",
+     "purse_charge_lakh": 520,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 15,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 4560,
+   "retained_purse_charge_lakh": 5650,
+   "purse_left_lakh": 2550,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2550,
+   "slots_left": 10,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 3,
+   "max_single_bid_lakh": 2490,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 850,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Chris Lynn",
+     "nationality": "Overseas",
+     "salary_lakh": 960,
+     "purse_charge_lakh": 960,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Andre Russell",
+     "nationality": "Overseas",
+     "salary_lakh": 700,
+     "purse_deduction_lakh": 850,
+     "purse_charge_lakh": 850,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Dinesh Karthik",
+     "nationality": "India",
+     "salary_lakh": 740,
+     "purse_charge_lakh": 740,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Robin Uthappa",
+     "nationality": "India",
+     "salary_lakh": 640,
+     "purse_charge_lakh": 640,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kuldeep Yadav",
+     "nationality": "India",
+     "salary_lakh": 580,
+     "purse_charge_lakh": 580,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Piyush Chawla",
+     "nationality": "India",
+     "salary_lakh": 420,
+     "purse_charge_lakh": 420,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nitish Rana",
+     "nationality": "India",
+     "salary_lakh": 340,
+     "purse_charge_lakh": 340,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kamlesh Nagarkoti",
+     "nationality": "India",
+     "salary_lakh": 320,
+     "purse_charge_lakh": 320,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shivam Mavi",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shubman Gill",
+     "nationality": "India",
+     "salary_lakh": 180,
+     "purse_charge_lakh": 180,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rinku Singh",
+     "nationality": "India",
+     "salary_lakh": 80,
+     "purse_charge_lakh": 80,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prasidh Krishna",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 13,
+   "retained_overseas": 3,
+   "retained_salary_lakh": 6130,
+   "retained_purse_charge_lakh": 6680,
+   "purse_left_lakh": 1520,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1520,
+   "slots_left": 12,
+   "overseas_slots_left": 5,
+   "must_buy_to_reach_18": 5,
+   "max_single_bid_lakh": 1400,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Krunal Pandya",
+     "nationality": "India",
+     "salary_lakh": 880,
+     "purse_charge_lakh": 880,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Ishan Kishan",
+     "nationality": "India",
+     "salary_lakh": 620,
+     "purse_charge_lakh": 620,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kieron Pollard",
+     "nationality": "Overseas",
+     "salary_lakh": 540,
+     "purse_charge_lakh": 540,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Evin Lewis",
+     "nationality": "Overseas",
+     "salary_lakh": 380,
+     "purse_charge_lakh": 380,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Suryakumar Yadav",
+     "nationality": "India",
+     "salary_lakh": 320,
+     "purse_charge_lakh": 320,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ben Cutting",
+     "nationality": "Overseas",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rahul Chahar",
+     "nationality": "India",
+     "salary_lakh": 190,
+     "purse_charge_lakh": 190,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jason Behrendorff",
+     "nationality": "Overseas",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mitchell McClenaghan",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Adam Milne",
+     "nationality": "Overseas",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Aditya Tare",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Anukul Roy",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mayank Markande",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Siddhesh Lad",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Quinton de Kock",
+     "nationality": "Overseas",
+     "salary_lakh": 280,
+     "note_trade": "traded RCB->MI 2018-10-19",
+     "purse_charge_lakh": 280,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 18,
+   "retained_overseas": 7,
+   "retained_salary_lakh": 7135,
+   "retained_purse_charge_lakh": 7135,
+   "purse_left_lakh": 1115,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1065,
+   "slots_left": 7,
+   "overseas_slots_left": 1,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1115,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "KL Rahul",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ravichandran Ashwin",
+     "nationality": "India",
+     "salary_lakh": 760,
+     "purse_charge_lakh": 760,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Andrew Tye",
+     "nationality": "Overseas",
+     "salary_lakh": 720,
+     "purse_charge_lakh": 720,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Karun Nair",
+     "nationality": "India",
+     "salary_lakh": 560,
+     "purse_charge_lakh": 560,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mujeeb Ur Rahman",
+     "nationality": "Overseas",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ankit Rajpoot",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "David Miller",
+     "nationality": "Overseas",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Chris Gayle",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mayank Agarwal",
+     "nationality": "India",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mandeep Singh",
+     "nationality": "India",
+     "salary_lakh": 140,
+     "note_trade": "traded RCB->PBKS 2018-10-28",
+     "purse_charge_lakh": 140,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 10,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 4580,
+   "retained_purse_charge_lakh": 4580,
+   "purse_left_lakh": 3620,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 3620,
+   "slots_left": 15,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 8,
+   "max_single_bid_lakh": 3410,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 1700,
+     "purse_charge_lakh": 1700,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "AB de Villiers",
+     "nationality": "Overseas",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Yuzvendra Chahal",
+     "nationality": "India",
+     "salary_lakh": 600,
+     "purse_charge_lakh": 600,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Umesh Yadav",
+     "nationality": "India",
+     "salary_lakh": 420,
+     "purse_charge_lakh": 420,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Washington Sundar",
+     "nationality": "India",
+     "salary_lakh": 320,
+     "purse_charge_lakh": 320,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Navdeep Saini",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mohammed Siraj",
+     "nationality": "India",
+     "salary_lakh": 260,
+     "purse_charge_lakh": 260,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Colin de Grandhomme",
+     "nationality": "Overseas",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nathan Coulter-Nile",
+     "nationality": "Overseas",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Moeen Ali",
+     "nationality": "Overseas",
+     "salary_lakh": 170,
+     "purse_charge_lakh": 170,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Parthiv Patel",
+     "nationality": "India",
+     "salary_lakh": 170,
+     "purse_charge_lakh": 170,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Pawan Negi",
+     "nationality": "India",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tim Southee",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kulwant Khejroliya",
+     "nationality": "India",
+     "salary_lakh": 85,
+     "purse_charge_lakh": 85,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Marcus Stoinis",
+     "nationality": "Overseas",
+     "salary_lakh": 620,
+     "note_trade": "traded PBKS->RCB 2018-10-28",
+     "purse_charge_lakh": 620,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 15,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 6385,
+   "retained_purse_charge_lakh": 6385,
+   "purse_left_lakh": 1815,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1815,
+   "slots_left": 10,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 3,
+   "max_single_bid_lakh": 1755,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Ben Stokes",
+     "nationality": "Overseas",
+     "salary_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Steve Smith",
+     "nationality": "Overseas",
+     "salary_lakh": 1200,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Sanju Samson",
+     "nationality": "India",
+     "salary_lakh": 800,
+     "purse_charge_lakh": 800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jofra Archer",
+     "nationality": "Overseas",
+     "salary_lakh": 720,
+     "purse_charge_lakh": 720,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Krishnappa Gowtham",
+     "nationality": "India",
+     "salary_lakh": 620,
+     "purse_charge_lakh": 620,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jos Buttler",
+     "nationality": "Overseas",
+     "salary_lakh": 440,
+     "purse_charge_lakh": 440,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ajinkya Rahane",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rahul Tripathi",
+     "nationality": "India",
+     "salary_lakh": 340,
+     "purse_charge_lakh": 340,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Dhawal Kulkarni",
+     "nationality": "India",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ish Sodhi",
+     "nationality": "Overseas",
+     "salary_lakh": 50,
+     "purse_charge_lakh": 50,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Stuart Binny",
+     "nationality": "India",
+     "salary_lakh": 50,
+     "purse_charge_lakh": 50,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Aryaman Birla",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mahipal Lomror",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prashant Chopra",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shreyas Gopal",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sudhesan Midhun",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 6055,
+   "retained_purse_charge_lakh": 6105,
+   "purse_left_lakh": 2095,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2095,
+   "slots_left": 9,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 2065,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "David Warner",
+     "nationality": "Overseas",
+     "salary_lakh": 1200,
+     "purse_deduction_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "stated"
+    },
+    {
+     "player": "Manish Pandey",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rashid Khan",
+     "nationality": "Overseas",
+     "salary_lakh": 900,
+     "purse_charge_lakh": 900,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Bhuvneshwar Kumar",
+     "nationality": "India",
+     "salary_lakh": 850,
+     "purse_charge_lakh": 850,
+     "charge_basis": "carried in cycle"
+    },
+    {
+     "player": "Siddarth Kaul",
+     "nationality": "India",
+     "salary_lakh": 380,
+     "purse_charge_lakh": 380,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Deepak Hooda",
+     "nationality": "India",
+     "salary_lakh": 360,
+     "purse_charge_lakh": 360,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kane Williamson",
+     "nationality": "Overseas",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Khaleel Ahmed",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sandeep Sharma",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shakib Al Hasan",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Yusuf Pathan",
+     "nationality": "India",
+     "salary_lakh": 190,
+     "purse_charge_lakh": 190,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mohammad Nabi",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shreevats Goswami",
+     "nationality": "India",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Basil Thampi",
+     "nationality": "India",
+     "salary_lakh": 95,
+     "purse_charge_lakh": 95,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Billy Stanlake",
+     "nationality": "Overseas",
+     "salary_lakh": 50,
+     "purse_charge_lakh": 50,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Thangarasu Natarajan",
+     "nationality": "India",
+     "salary_lakh": 40,
+     "purse_charge_lakh": 40,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ricky Bhui",
+     "nationality": "India",
+     "salary_lakh": 20,
+     "purse_charge_lakh": 20,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vijay Shankar",
+     "nationality": "India",
+     "salary_lakh": 320,
+     "note_trade": "traded DC->SRH 2018-11-05",
+     "purse_charge_lakh": 320,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shahbaz Nadeem",
+     "nationality": "India",
+     "salary_lakh": 320,
+     "note_trade": "traded DC->SRH 2018-11-05",
+     "purse_charge_lakh": 320,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Abhishek Sharma",
+     "nationality": "India",
+     "salary_lakh": 55,
+     "note_trade": "traded DC->SRH 2018-11-05",
+     "purse_charge_lakh": 55,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 20,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 7180,
+   "retained_purse_charge_lakh": 7230,
+   "purse_left_lakh": 970,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 970,
+   "slots_left": 5,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 970,
+   "official_source": "https://www.sportskeeda.com/cricket/ipl-auction-2019-money-remaining-and-empty-slots-available-with-each-team-ss"
+  }
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "message": "MI: purse derived 1065 vs official 1115 (gap -50 lakh; official used)"
+  }
+ ],
+ "trades_applied": [
+  "Quinton de Kock RCB->MI (2018-10-19)",
+  "Mandeep Singh RCB->PBKS (2018-10-28)",
+  "Marcus Stoinis PBKS->RCB (2018-10-28)",
+  "Shikhar Dhawan SRH->DC (2018-11-05)",
+  "Vijay Shankar DC->SRH (2018-11-05)",
+  "Shahbaz Nadeem DC->SRH (2018-11-05)",
+  "Abhishek Sharma DC->SRH (2018-11-05)"
+ ],
+ "corrections_applied": []
+}
