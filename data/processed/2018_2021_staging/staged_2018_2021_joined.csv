@@ -1,0 +1,348 @@
+season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_team_code,status,cricsheet_id
+2018,Aaron Finch,batsman,True,620,620,PBKS,sold,b8d490fd
+2020,Aaron Finch,batsman,True,440,440,RCB,sold,b8d490fd
+2020,Abdul Samad,all-rounder,False,20,20,SRH,sold,8e514b4c
+2018,Abhishek Sharma,all-rounder,False,55,55,DC,sold,f29185a1
+2021,Adam Milne,bowler,True,320,320,MI,sold,350bb1b1
+2018,Aditya Tare,wicket keeper,False,20,20,MI,sold,855a210c
+2019,Agnivesh Ayachi,all-rounder,False,20,20,PBKS,sold,
+2018,Ajinkya Rahane,batsman,False,400,400,RR,sold,29e95537
+2020,Akash Singh,bowler,False,20,20,RR,sold,b483905d
+2021,Akash Singh,bowler,False,20,20,RR,sold,b483905d
+2018,Akila Dhananjaya,bowler,True,50,50,MI,sold,
+2018,Akshdeep Nath,all-rounder,False,100,100,PBKS,sold,f10e94c4
+2019,Akshdeep Nath,all-rounder,False,360,360,RCB,sold,f10e94c4
+2020,Alex Carey,wicket keeper,True,240,240,DC,sold,69d03465
+2018,Ambati Rayudu,wicket keeper,False,220,220,CSK,sold,70d205c9
+2018,Amit Mishra,bowler,False,400,400,DC,sold,6b19d823
+2018,Andrew Tye,bowler,True,720,720,PBKS,sold,7c7d63a2
+2020,Andrew Tye,bowler,True,100,100,RR,sold,7c7d63a2
+2018,Aniket Choudhary,bowler,False,30,30,RCB,sold,18e6906e
+2018,Anirudha Ashok Joshi,all-rounder,False,20,20,RCB,sold,
+2020,Anirudha Ashok Joshi,all-rounder,False,20,20,RR,sold,
+2018,Ankit Sharma,all-rounder,False,20,20,RR,sold,24d94623
+2018,Ankit Singh Rajpoot,bowler,False,300,300,PBKS,sold,db31895a
+2019,Ankush Bains,wicket keeper,False,20,20,DC,sold,cb932841
+2019,Anmolpreet Singh,batsman,False,80,80,MI,sold,1399b39c
+2019,Anrich Nortje,bowler,True,20,20,KKR,sold,acdc62f5
+2020,Anuj Rawat,wicket keeper,False,80,80,RR,sold,c8f5f961
+2018,Anukul Roy,all-rounder,False,20,20,MI,sold,e4cdf230
+2018,Anureet Singh,bowler,False,30,30,RR,sold,69be866a
+2018,Apoorv Vijay Wankhade,batsman,False,20,20,KKR,sold,5708d0b6
+2021,Arjun Tendulkar,all-rounder,False,20,20,MI,sold,44aac2f0
+2019,Arshdeep Singh,bowler,False,20,20,PBKS,sold,244048f6
+2018,Aryaman Vikram Birla,all-rounder,False,30,30,RR,sold,91b9300b
+2019,Ashton Turner,all-rounder,False,50,50,RR,sold,ff1e12a0
+2018,Asif K M,bowler,False,40,40,CSK,sold,
+2018,Avesh Khan,bowler,False,70,70,DC,sold,eef2536f
+2019,Axar Rajesh Patel,all-rounder,False,500,500,DC,sold,2e171977
+2019,Bandaru Ayyappa,bowler,False,20,20,DC,sold,cb4f31e2
+2018,Barinder Singh Sran,bowler,False,220,220,PBKS,sold,d8b2f218
+2019,Barinder Singh Sran,bowler,False,340,340,MI,sold,d8b2f218
+2018,Basil Thampi,bowler,False,95,95,SRH,sold,871e9faf
+2018,Ben Cutting,all-rounder,True,220,220,MI,sold,2e11c706
+2021,Ben Cutting,all-rounder,True,75,75,KKR,sold,2e11c706
+2018,Ben Dwarshuis,bowler,True,140,140,PBKS,sold,e1b9f3a9
+2018,Ben Laughlin,bowler,True,50,50,RR,sold,b2a79f17
+2018,Benjamin Stokes,all-rounder,True,1250,1250,RR,sold,e087956b
+2018,Billy Stanlake,batsman,True,50,50,SRH,sold,6834d1f2
+2018,Bipul Sharma,all-rounder,False,20,20,SRH,sold,c18496e1
+2018,Brendon McCullum,batsman,True,360,360,RCB,sold,b8a55852
+2021,C Hari Nishaanth,batsman,False,20,20,CSK,sold,
+2018,Cameron Delport,all-rounder,True,30,30,KKR,sold,afa78c3a
+2018,Carlos Brathwaite,all-rounder,True,200,200,SRH,sold,e342e5fb
+2019,Carlos Brathwaite,all-rounder,True,500,500,KKR,sold,e342e5fb
+2018,Chaitanya Bishnoi,all-rounder,False,20,20,CSK,sold,e793a8ed
+2021,Chetan Sakariya,bowler,False,120,120,RR,sold,2cdce1be
+2021,Cheteshwar Pujara,batsman,False,50,50,CSK,sold,d4f9dbd4
+2020,Chris Green,all-rounder,True,20,20,KKR,sold,
+2018,Chris Jordan,all-rounder,True,100,100,SRH,sold,ffe699c0
+2020,Chris Jordan,all-rounder,True,300,300,PBKS,sold,ffe699c0
+2018,Chris Lynn,batsman,True,960,960,KKR,sold,45eda7c8
+2020,Chris Lynn,batsman,True,200,200,MI,sold,45eda7c8
+2018,Chris Woakes,all-rounder,True,740,740,RCB,sold,4c5d73db
+2020,Chris Woakes,all-rounder,True,150,150,DC,sold,4c5d73db
+2018,Christopher Gayle,batsman,True,200,200,PBKS,sold,db584dad
+2020,Christopher Morris,all-rounder,True,1000,1000,RCB,sold,fb66ce1f
+2021,Christopher Morris,all-rounder,True,1625,1625,RR,sold,fb66ce1f
+2018,Colin De Grandhomme,all-rounder,True,220,220,RCB,sold,94d7f855
+2019,Colin Ingram,batsman,True,640,640,DC,sold,c995d726
+2018,Colin Munro,all-rounder,True,190,190,DC,sold,af2c687b
+2020,Dale Steyn,bowler,True,200,200,RCB,sold,8fd1a8f5
+2021,Dan Christian,all-rounder,True,480,480,RCB,sold,2a2e6343
+2018,Daniel Christian,all-rounder,True,150,150,DC,sold,2a2e6343
+2018,Darcy Short,all-rounder,True,400,400,RR,sold,1a156c88
+2019,Darshan Nalkande,all-rounder,False,30,30,PBKS,sold,cd8d2859
+2018,David Miller,batsman,True,300,300,PBKS,sold,d67d5f00
+2020,David Miller,batsman,True,75,75,RR,sold,d67d5f00
+2021,Dawid Malan,all-rounder,True,150,150,PBKS,sold,ad9c32a2
+2018,Deepak Chahar,all-rounder,False,80,80,CSK,sold,23eeb873
+2018,Deepak Hooda,all-rounder,False,360,360,SRH,sold,73ad96ed
+2020,Deepak Hooda,all-rounder,False,50,50,PBKS,sold,73ad96ed
+2019,Devdutt Padikkal,batsman,False,20,20,RCB,sold,2c25d4f5
+2018,Dhawal Kulkarni,bowler,False,75,75,RR,sold,d2a989fc
+2018,Dhruv Shorey,all-rounder,False,20,20,CSK,sold,faa7365d
+2020,Digvijay Deshmukh,all-rounder,False,20,20,MI,sold,ddc7a53d
+2018,Dinesh Karthik,wicket keeper,False,740,740,KKR,sold,
+2018,Dushmantha Chameera,bowler,True,50,50,RR,sold,327b58d3
+2018,Dwayne Bravo,all-rounder,True,640,640,CSK,sold,
+2020,Eoin Morgan,batsman,True,525,525,KKR,sold,d2a6c0e6
+2018,Evin Lewis,batsman,True,380,380,MI,sold,0ebfb1ad
+2020,Fabian Allen,all-rounder,True,50,50,SRH,sold,
+2021,Fabian Allen,all-rounder,True,75,75,PBKS,sold,
+2018,Faf Du Plessis,batsman,True,160,160,CSK,sold,3355b542
+2018,Gautam Gambhir,batsman,False,280,280,DC,sold,bb345e0b
+2018,Glenn Maxwell,all-rounder,True,900,900,DC,sold,b681e71e
+2020,Glenn Maxwell,all-rounder,True,1075,1075,PBKS,sold,b681e71e
+2021,Glenn Maxwell,all-rounder,True,1425,1425,RCB,sold,b681e71e
+2018,Gurkeerat Singh Mann,all-rounder,False,75,75,DC,sold,
+2019,Gurkeerat Singh Mann,all-rounder,False,50,50,RCB,sold,
+2019,Hanuma Vihari,batsman,False,200,200,DC,sold,94253925
+2018,Harbhajan Singh,bowler,False,200,200,CSK,sold,8b5b6769
+2021,Harbhajan Singh,bowler,False,200,200,KKR,sold,8b5b6769
+2019,Hardus Viljoen,bowler,True,75,75,PBKS,sold,7a80e2a5
+2019,Harpreet Brar,all-rounder,False,20,20,PBKS,sold,c05edf8e
+2019,Harry Gurney,bowler,True,75,75,KKR,sold,e412cb64
+2018,Harshal Patel,all-rounder,False,20,20,DC,sold,f986ca1a
+2019,Heinrich Klaasen,wicket keeper,True,50,50,RCB,sold,235c2bb6
+2019,Himmat Singh,batsman,False,65,65,RCB,sold,ebcfef83
+2018,Imran Tahir,bowler,True,100,100,CSK,sold,acee4cc4
+2018,Ishan Kishan,wicket keeper,False,620,620,MI,sold,752f7486
+2018,Ishank Jaggi,batsman,False,20,20,KKR,sold,dded65e7
+2019,Ishant Sharma,bowler,False,110,110,DC,sold,5bb1a1c4
+2020,Isuru Udana,all-rounder,True,50,50,RCB,sold,ac5ae4af
+2021,J Suchith,bowler,False,30,30,SRH,sold,4125d931
+2019,Jalaj Saxena,all-rounder,False,20,20,DC,sold,249abedf
+2021,Jalaj Saxena,all-rounder,False,30,30,PBKS,sold,249abedf
+2020,James Neesham,all-rounder,True,50,50,PBKS,sold,9219eff0
+2021,James Neesham,all-rounder,True,50,50,MI,sold,9219eff0
+2018,Jason Behrendorff,bowler,True,150,150,MI,sold,4933f499
+2018,Jason Roy,batsman,True,150,150,DC,sold,d1c36f5c
+2020,Jason Roy,batsman,True,150,150,DC,sold,d1c36f5c
+2018,Jatin Saxena,all-rounder,False,20,20,RR,sold,0b960e01
+2018,Javon Searless,all-rounder,False,30,30,KKR,sold,
+2018,Jayant Yadav,all-rounder,False,50,50,DC,sold,81049310
+2018,Jaydev Unadkat,bowler,False,1150,1150,RR,sold,1e66c162
+2019,Jaydev Unadkat,bowler,False,840,840,RR,sold,1e66c162
+2020,Jaydev Unadkat,bowler,False,300,300,RR,sold,1e66c162
+2018,Jean-Paul Duminy,all-rounder,True,100,100,MI,sold,2e8994e7
+2021,Jhye Richardson,bowler,True,1400,1400,PBKS,sold,1ee08e9a
+2019,Joe Denly,batsman,True,100,100,KKR,sold,bdadf7da
+2018,Jofra Archer,all-rounder,True,720,720,RR,sold,5574750c
+2019,Jonny Bairstow,wicket keeper,True,220,220,SRH,sold,abb83e27
+2018,Jos Buttler,wicket keeper,True,440,440,RR,sold,99b75528
+2020,Josh Hazlewood,bowler,True,200,200,CSK,sold,03806cf8
+2020,Joshua Philippe,wicket keeper,True,20,20,RCB,sold,39086549
+2021,K.Bhagath Varma,all-rounder,False,20,20,CSK,sold,5438ffba
+2021,K.C Cariappa,bowler,False,20,20,RR,sold,edb3d4f8
+2018,Kagiso Rabada,bowler,True,420,420,DC,sold,e62dd25d
+2018,Kamlesh Nagarkoti,all-rounder,False,320,320,KKR,sold,b4f5c2d9
+2020,Kane Richardson,bowler,True,400,400,RCB,sold,dfc4d8b5
+2018,Kane Williamson,batsman,True,300,300,SRH,sold,d027ba9f
+2018,Kanishk Seth,all-rounder,False,20,20,CSK,sold,98f27d4b
+2018,Karn Sharma,bowler,False,500,500,CSK,sold,
+2020,Kartik Tyagi,bowler,False,130,130,RR,sold,5d2eea49
+2018,Karun Nair,batsman,False,560,560,PBKS,sold,944533a5
+2021,Karun Nair,batsman,False,50,50,KKR,sold,944533a5
+2018,Kedar Jadhav,all-rounder,False,780,780,CSK,sold,99d63244
+2021,Kedar Jadhav,all-rounder,False,200,200,SRH,sold,99d63244
+2019,Keemo Paul,all-rounder,True,50,50,DC,sold,75224f22
+2018,Kieron Pollard,all-rounder,True,540,540,MI,sold,a757b0d8
+2018,KL Rahul,batsman,False,1100,1100,PBKS,sold,b17e2f24
+2021,Kona Srikar Bharat,wicket keeper,False,20,20,RCB,sold,44a89551
+2018,Krishnappa Gowtham,bowler,False,620,620,RR,sold,90de905a
+2021,Krishnappa Gowtham,all-rounder,False,925,925,CSK,sold,90de905a
+2018,Krunal Pandya,all-rounder,False,880,880,MI,sold,5b8c830e
+2018,Kshitiz Sharma,all-rounder,False,20,20,CSK,sold,c910e89d
+2018,Kuldeep Yadav,bowler,False,580,580,KKR,sold,8d2c70ad
+2021,Kuldip Yadav,bowler,False,20,20,RR,sold,
+2018,Kulwant Khejroliya,bowler,False,85,85,RCB,sold,fa2f1dde
+2021,Kyle Jamieson,all-rounder,True,1500,1500,RCB,sold,68c56d09
+2020,Lalit Yadav,all-rounder,False,20,20,DC,sold,ad427b5c
+2019,Lasith Malinga,bowler,True,200,200,MI,sold,79eb117d
+2019,Liam Livingstone,all-rounder,True,50,50,RR,sold,50c6bc2b
+2021,Liam Livingstone,all-rounder,True,75,75,RR,sold,50c6bc2b
+2019,Lockie Ferguson,bowler,True,160,160,KKR,sold,2f9d0389
+2021,Lukman Hussain Meriwala,bowler,False,20,20,DC,sold,d3611425
+2018,Lungisani Ngidi,bowler,True,50,50,CSK,sold,f834dcfc
+2020,M Siddharth,bowler,False,20,20,KKR,sold,cf0ccafa
+2021,M Siddharth,bowler,False,20,20,DC,sold,cf0ccafa
+2018,M. Ashwin,bowler,False,220,220,RCB,sold,e2db2409
+2019,M. Ashwin,bowler,False,20,20,PBKS,sold,e2db2409
+2021,M. Harisankar Reddy,bowler,False,20,20,CSK,sold,
+2018,Washington Sundar,all-rounder,False,320,320,RCB,sold,f19ccfad
+2018,Mahipal Lomror,all-rounder,False,20,20,RR,sold,da934ee8
+2018,Manan Vohra,batsman,False,110,110,RCB,sold,c03e2850
+2019,Manan Vohra,batsman,False,20,20,RR,sold,c03e2850
+2018,Mandeep Singh,all-rounder,False,140,140,RCB,sold,
+2018,Manish Pandey,batsman,False,1100,1100,SRH,sold,93b4fc78
+2018,Manjot Kalra,batsman,False,20,20,DC,sold,f047e7ff
+2018,Manoj Tiwary,batsman,False,100,100,PBKS,sold,26e5cabf
+2018,Manzoor Dar,all-rounder,False,20,20,PBKS,sold,91a260d3
+2021,Marco Jansen,all-rounder,True,20,20,MI,sold,81c36ee9
+2018,Marcus Stoinis,all-rounder,True,620,620,PBKS,sold,d9273ee7
+2020,Marcus Stoinis,all-rounder,True,480,480,DC,sold,d9273ee7
+2018,Mark Wood,bowler,True,150,150,CSK,sold,8d92a2c3
+2019,Martin Guptill,batsman,True,100,100,SRH,sold,2be41edb
+2018,Mayank Agarwal,batsman,False,100,100,PBKS,sold,00ea847a
+2018,Mayank Dagar,all-rounder,False,20,20,PBKS,sold,a457cfb5
+2018,Mayank Markande,bowler,False,20,20,MI,sold,a9fd84fb
+2018,Midhun S,all-rounder,False,20,20,RR,sold,
+2019,Milind Kumar,all-rounder,False,20,20,RCB,sold,b4296080
+2018,Mitchell Johnson,bowler,True,200,200,KKR,sold,f5180fe6
+2020,Mitchell Marsh,all-rounder,True,200,200,SRH,sold,3d8feaf8
+2018,Mitchell Santner,all-rounder,True,50,50,CSK,sold,e4a0deae
+2018,Mitchell Starc,bowler,True,940,940,KKR,sold,3fb19989
+2018,Moeen Ali,all-rounder,True,170,170,RCB,sold,bb351c23
+2021,Moeen Ali,all-rounder,True,700,700,CSK,sold,bb351c23
+2018,Mohammad Nabi,all-rounder,True,100,100,SRH,sold,62af8546
+2018,Mohammad Shami,bowler,False,300,300,DC,sold,8cf9814c
+2019,Mohammad Shami,bowler,False,480,480,PBKS,sold,8cf9814c
+2021,Mohammed Azharudeen,wicket keeper,False,20,20,RCB,sold,
+2018,Mohammed Siraj,bowler,False,260,260,RCB,sold,2f49c897
+2018,Mohit Sharma,bowler,False,240,240,PBKS,sold,cd9f6505
+2019,Mohit Sharma,bowler,False,500,500,CSK,sold,cd9f6505
+2020,Mohit Sharma,bowler,False,50,50,DC,sold,cd9f6505
+2018,Mohsin Khan,bowler,False,20,20,MI,sold,
+2020,Mohsin Khan,bowler,False,20,20,MI,sold,
+2019,Moises Henriques,all-rounder,True,100,100,PBKS,sold,32198ae0
+2021,Moises Henriques,all-rounder,True,420,420,PBKS,sold,32198ae0
+2018,Monu Singh,bowler,False,20,20,CSK,sold,
+2018,Mujeeb Zadran,bowler,True,400,400,PBKS,sold,
+2021,Mujeeb Zadran,bowler,True,150,150,SRH,sold,
+2018,Murali Vijay,batsman,False,200,200,CSK,sold,4b57e452
+2018,Mustafizur Rahman,bowler,True,220,220,MI,sold,0a8fce53
+2021,Mustafizur Rahman,bowler,True,100,100,RR,sold,0a8fce53
+2018,N Jagadeesan,wicket keeper,False,20,20,CSK,sold,bd54eef5
+2018,Naman Ojha,wicket keeper,False,140,140,DC,sold,890946a0
+2018,Nathan Coulter-Nile,bowler,True,220,220,RCB,sold,56ab442f
+2020,Nathan Coulter-Nile,bowler,True,800,800,MI,sold,56ab442f
+2021,Nathan Coulter-Nile,bowler,True,500,500,MI,sold,56ab442f
+2019,Nathu Singh,bowler,False,20,20,DC,sold,
+2018,Navdeep Saini,bowler,False,300,300,RCB,sold,21d4e29b
+2019,Nicolas Pooran,wicket keeper,True,420,420,PBKS,sold,3241e3fd
+2018,Nidheesh M D Dinesan,bowler,False,20,20,MI,sold,
+2019,Nikhil Shankar Naik,wicket keeper,False,20,20,KKR,sold,aedc3b7c
+2020,Nikhil Shankar Naik,wicket keeper,False,20,20,KKR,sold,aedc3b7c
+2018,Nitish Rana,all-rounder,False,340,340,KKR,sold,fb2d1dda
+2019,Oshane Thomas,bowler,True,110,110,RR,sold,c6097d68
+2020,Oshane Thomas,bowler,True,50,50,RR,sold,c6097d68
+2019,Pankaj Jaswal,all-rounder,True,20,20,MI,sold,3bc10d5b
+2018,Pardeep Sahu,bowler,False,20,20,PBKS,sold,9a0146b3
+2018,Parthiv Patel,wicket keeper,False,170,170,RCB,sold,b5da6c24
+2018,Pat Cummins,bowler,True,540,540,MI,sold,ded9240e
+2020,Pat Cummins,all-rounder,True,1550,1550,KKR,sold,ded9240e
+2018,Pavan Deshpande,all-rounder,False,20,20,RCB,sold,436b8481
+2020,Pavan Deshpande,all-rounder,False,20,20,RCB,sold,436b8481
+2018,Pawan Negi,all-rounder,False,100,100,RCB,sold,f62772e5
+2021,Pawan Negi,all-rounder,False,50,50,KKR,sold,f62772e5
+2018,Piyush Chawla,bowler,False,420,420,KKR,sold,98ae73b1
+2020,Piyush Chawla,bowler,False,675,675,CSK,sold,98ae73b1
+2021,Piyush Chawla,bowler,False,240,240,MI,sold,98ae73b1
+2019,Prabhsimran Singh,wicket keeper,False,480,480,PBKS,sold,
+2020,Prabhsimran Singh,wicket keeper,False,55,55,PBKS,sold,
+2018,Pradeep Sangwan,bowler,False,150,150,MI,sold,9fc0ef64
+2018,Prashant Chopra,wicket keeper,False,20,20,RR,sold,8ac93ca2
+2020,Pravin Tambe,bowler,False,20,20,KKR,sold,6aed7e79
+2019,Prayas Ray Barman,all-rounder,False,150,150,RCB,sold,441c72ae
+2020,Prince Balwant Rai Singh,all-rounder,False,20,20,MI,sold,
+2019,Prithvi Raj Yarra,bowler,False,20,20,KKR,sold,
+2018,Prithvi Shaw,batsman,False,120,120,DC,sold,8b3e9c7c
+2020,Priyam Garg,batsman,False,190,190,SRH,sold,bb965e9a
+2018,Quinton De Kock,wicket keeper,True,280,280,RCB,sold,372455c4
+2020,R. Sai Kishore,bowler,False,20,20,CSK,sold,c7a995d3
+2018,Rahul Chahar,bowler,False,190,190,MI,sold,2ed569a0
+2018,Rahul Tewatia,all-rounder,False,300,300,DC,sold,39a2dfa8
+2018,Rahul Tripathi,batsman,False,340,340,RR,sold,77255a9e
+2020,Rahul Tripathi,batsman,False,60,60,KKR,sold,77255a9e
+2021,Rajat Patidar,batsman,False,20,20,RCB,sold,c740ea83
+2018,Ranganath Vinay Kumar,bowler,False,100,100,KKR,sold,41eb4a4f
+2018,Rashid Khan Arman,bowler,True,900,900,SRH,sold,
+2019,Rasikh Dar,bowler,False,20,20,MI,sold,b82354b3
+2020,Ravi Bishnoi,bowler,False,200,200,PBKS,sold,df064e1a
+2018,Ravichandran Ashwin,all-rounder,True,760,760,PBKS,sold,495d42a5
+2018,Ricky Bhui,batsman,True,20,20,SRH,sold,b63e358a
+2021,Riley Meredith,bowler,True,800,800,PBKS,sold,64775749
+2018,Rinku Singh,batsman,False,80,80,KKR,sold,
+2021,Ripal Patel,all-rounder,False,20,20,DC,sold,60500956
+2019,Riyan Parag,all-rounder,False,20,20,RR,sold,04a418e8
+2018,Robin Uthappa,batsman,False,640,640,KKR,sold,1c17e270
+2020,Robin Uthappa,batsman,False,300,300,RR,sold,1c17e270
+2019,Ruturaj Gaikwad,batsman,False,20,20,CSK,sold,45a43fe2
+2018,Sachin Baby,batsman,False,20,20,SRH,sold,dc9dd038
+2021,Sachin Baby,batsman,False,20,20,RCB,sold,dc9dd038
+2018,Sam Billings,wicket keeper,True,100,100,CSK,sold,c16d4035
+2021,Sam Billings,wicket keeper,True,200,200,DC,sold,c16d4035
+2019,Sam Curran,all-rounder,True,720,720,PBKS,sold,e94915e6
+2020,Sam Curran,all-rounder,True,550,550,CSK,sold,e94915e6
+2020,Sandeep Bavanaka,all-rounder,True,20,20,SRH,sold,
+2018,Sandeep Lamichhane,bowler,True,20,20,DC,sold,b410bd3d
+2018,Sandeep Sharma,bowler,False,300,300,SRH,sold,ce820073
+2020,Sanjay Yadav,all-rounder,False,20,20,SRH,sold,
+2018,Sanju Samson,wicket keeper,False,800,800,RR,sold,a4cc73aa
+2019,Sarfaraz Naushad Khan,all-rounder,False,25,25,PBKS,sold,f088b960
+2021,Saurabh Kumar,all-rounder,False,20,20,PBKS,sold,
+2018,Saurabh Tiwary,batsman,False,80,80,MI,sold,709b0bac
+2020,Saurabh Tiwary,batsman,False,50,50,MI,sold,709b0bac
+2018,Sayan Ghosh,bowler,False,20,20,DC,sold,d4b8ea98
+2020,Shahbaz Ahamad,wicket keeper,False,20,20,RCB,sold,
+2018,Shahbaz Nadeem,bowler,False,320,320,DC,sold,9d80c5e1
+2021,Shahrukh Khan,all-rounder,False,525,525,PBKS,sold,f088b960
+2018,Shakib Al Hasan,all-rounder,True,200,200,SRH,sold,7dc35884
+2021,Shakib Al Hasan,all-rounder,True,320,320,KKR,sold,7dc35884
+2018,Shane Watson,all-rounder,True,400,400,CSK,sold,4329fbb5
+2018,Sharad Lumba,batsman,False,20,20,MI,sold,03c29939
+2018,Shardul Thakur,bowler,False,260,260,CSK,sold,1abb78f8
+2019,Shashank Singh,all-rounder,False,30,30,RR,sold,26989d80
+2020,Sheldon Cottrell,bowler,True,850,850,PBKS,sold,a1d053dd
+2021,Sheldon Jackson,wicket keeper,False,20,20,KKR,sold,acc1aeda
+2019,Sherfane Rutherford,all-rounder,True,200,200,DC,sold,d014d5ac
+2018,Shikhar Dhawan,batsman,False,520,520,SRH,sold,0a476045
+2019,Shimron Hetmyer,batsman,True,420,420,RCB,sold,48a1d7b7
+2020,Shimron Hetmyer,batsman,True,775,775,DC,sold,48a1d7b7
+2019,Shivam Dube,all-rounder,False,500,500,RCB,sold,a4e37e47
+2021,Shivam Dube,all-rounder,False,440,440,RR,sold,a4e37e47
+2018,Shivam Mavi,all-rounder,False,300,300,KKR,sold,c38d3503
+2018,Shreevats Goswami,wicket keeper,False,100,100,SRH,sold,541f85c9
+2018,Shreyas Gopal,all-rounder,False,20,20,RR,sold,7a8bd078
+2019,Shrikant Mundhe,all-rounder,False,20,20,KKR,sold,0af3426f
+2019,Shubham Ranjane,all-rounder,False,20,20,RR,sold,6c7a68d0
+2018,Shubman Gill,batsman,False,180,180,KKR,sold,b4b99816
+2018,Siddarth Kaul,bowler,False,380,380,SRH,sold,dcf81436
+2018,Siddhesh Dinesh Lad,batsman,False,20,20,MI,sold,9601c534
+2021,Steven Smith,batsman,True,220,220,DC,sold,30a45b23
+2018,Stuart Binny,all-rounder,False,50,50,RR,sold,bd17b45f
+2018,Suryakumar Yadav,batsman,False,320,320,MI,sold,
+2021,Suyash Prabhudesai,all-rounder,False,20,20,RCB,sold,
+2018,Syed Khaleel Ahmed,bowler,False,300,300,SRH,sold,
+2018,Syed Mehdi Hasan,all-rounder,False,20,20,SRH,sold,7dc35884
+2018,T Natarajan,bowler,False,40,40,SRH,sold,ce794613
+2018,Tajinder Dhillon,all-rounder,False,55,55,MI,sold,225412c5
+2020,Tajinder Dhillon,all-rounder,False,20,20,PBKS,sold,225412c5
+2018,Tanmay Agarwal,batsman,False,20,20,SRH,sold,e6e9b619
+2018,Tim Southee,bowler,True,100,100,RCB,sold,13c35c9e
+2020,Tom Banton,batsman,True,100,100,KKR,sold,25f7b7d6
+2020,Tom Curran,all-rounder,True,100,100,RR,sold,e86754b2
+2021,Tom Curran,all-rounder,True,525,525,DC,sold,e86754b2
+2018,Trent Boult,bowler,True,220,220,DC,sold,a818c1be
+2020,Tushar Deshpande,bowler,False,20,20,DC,sold,46a9bea1
+2018,Umesh Yadav,bowler,False,420,420,RCB,sold,cc1e8c68
+2021,Umesh Yadav,bowler,False,100,100,DC,sold,cc1e8c68
+2021,Utkarsh Singh,all-rounder,False,20,20,PBKS,sold,b2a55ac1
+2021,Vaibhav Arora,bowler,False,20,20,KKR,sold,7c3b3b78
+2019,Varun Aaron,bowler,False,240,240,RR,sold,0a3d54b9
+2019,Varun Chakaravarthy,all-rounder,False,840,840,PBKS,sold,
+2020,Varun Chakaravarthy,all-rounder,False,400,400,KKR,sold,
+2021,Venkatesh Iyer,all-rounder,False,20,20,KKR,sold,a24be938
+2018,Vijay Shankar,all-rounder,False,320,320,DC,sold,0994d0ae
+2020,Virat Singh,batsman,False,190,190,SRH,sold,26d76ad9
+2021,Vishnu Vinod,wicket keeper,False,20,20,DC,sold,0494fa6e
+2018,Wriddhiman Saha,wicket keeper,False,500,500,SRH,sold,fe11caa6
+2019,Wriddhiman Saha,wicket keeper,False,120,120,SRH,sold,fe11caa6
+2020,Yashasvi Jaiswal,all-rounder,False,240,240,RR,sold,6c19c6e5
+2021,Yudhvir Charak,all-rounder,False,20,20,MI,sold,
+2018,Yusuf Pathan,all-rounder,False,190,190,SRH,sold,3c6ffae8
+2018,Yuvraj Singh,all-rounder,False,200,200,PBKS,sold,
+2019,Yuvraj Singh,all-rounder,False,100,100,MI,sold,
+2018,Yuzvendra Singh Chahal,bowler,False,600,600,RCB,sold,57ee1fde
+2018,Zahir Khan Pakteen,bowler,False,60,60,RR,sold,

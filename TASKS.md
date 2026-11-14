@@ -1,0 +1,19 @@
+# Tasks before the 17 Nov retention list
+
+*Written 14 Nov 2026. Retentions land **17 Nov**. Only major tasks are listed. The gates are in [docs/levels.md](docs/levels.md) and the rules in [docs/failure-register.md](docs/failure-register.md).*
+
+| # | Task | Who | Done when |
+|---|---|---|---|
+| 1 | **Lock down the 2018–2021 bid-trail work.** Harsh approved using it on 14 Nov. Keep the raw data and the scraper private, and don't redistribute them. Also extend the validator to cover 2018–21, or mark those years as out of the L0 scope. | Claude, then Harsh decides | Decision written in the private notes. Work is committed or removed, and `git status` is clean |
+| 2 | **Get the 17 Nov ingest ready to run in one command.** Have the parser handle 2027 retentions, compute purse left and slots left (squad + overseas) per team from `rules_by_season.yaml` 2027, and dry-run it on a mock 2027 file. Re-check the 2027 purse and mini-auction rules (RTM, accelerated round) against a primary source. | Claude | On 17 Nov: run the script, rerun `validate_l0.py`, and tick L0 |
+| 3 | **L1 auctioneer engine.** Live open ascending bidding, the increment ladder, max legal bid, accelerated round, and a full bid log. It must replay the 2022–2026 auctions with zero rule violations and pass property tests (hypothesis). This builds on the existing `src/engine/` with its 5 passing tests. | Claude | Replays of all 5 auctions are clean. H3, A1, A10, G4 and G6 are ready to close once the L0 gate passes |
+| 4 | **Redo the contamination probe (D1) properly and choose the local model.** A refusal like "I don't know" is not proof the model is clean. Use forced-choice questions (pick the buyer from 10 teams, pick the price band) on about 50 players per auction, named vs anonymised, and compare against chance. Choose the backtest model (training cutoff must be before Dec 2025) and record why. | Claude | `docs/contamination-probe.md` has scores against chance, and the model choice is recorded |
+| 5 | **Prepare the L2 baselines (code and data only, no scoring yet).** Get AuctionIQ (MIT) running or reimplement it, add the base-price and last-price baselines, write the metric code (AUC, top-3 buyer, Brier, Spearman, log-MAE) and digitise the JioStar 2026 mock list. | Claude | Every baseline runs on a toy input, and the metrics have unit tests |
+| 6 | **Scaffold the bidder agent for Harsh (L3, he starts writing on 23 Nov).** Write the state/action JSON schema, the tool API (`max_affordable`, role gaps, price band), the 200-state fuzz suite and a stub agent that always passes. Add a short first-principles primer, since his LLM coding starts 16 Nov. | Claude builds the harness, Harsh writes the agent | Harsh can run `pytest` on a stub agent and understands each part |
+| 7 | **Set up collection of expert-needs sources (component F).** List the outlets and set up Wayback "as-of" snapshot capture so that pre- and post-retention previews are saved with dates from 17 Nov onwards. | Claude | Source list plus a capture script that has been tested on one article |
+| 8 | **Push the repo (needs Harsh's OK, rule #5).** A first green CI run closes the 9 In-progress register rows (G1 G2 G3 G5 G7 G8 A10 D2 D3). This can be a private GitHub repo for now, with the public launch later. | Harsh decides | CI is green, and the 9 rows are marked Closed |
+| 9 | **Post #1 draft** (plan: 11–16 Nov week). Claude drafts it and Harsh posts it himself. | Claude drafts, Harsh posts | Draft ready for Harsh |
+| 10 | **Bookkeeping.** Update the private notes (2018–21 work, src/engine, probe), the register statuses. | Claude | Docs match reality |
+
+**Order:** 1 → 2 → 3 first (they block the 17 Nov tick and L1), then 4, 5 and 6 in parallel, with 7–10 alongside.
+**Not before 17 Nov:** anything that needs the 2027 purses or squads, or the final player list (3 Dec).
