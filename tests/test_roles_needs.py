@@ -98,3 +98,17 @@ def test_first_season_has_no_baseline():
     needs = list(csv.DictReader(open(NEEDS, encoding="utf-8")))
     first = min(int(n["season"]) for n in needs)
     assert all(n["typical"] == "" and n["need"] == "" for n in needs if int(n["season"]) == first)
+
+
+def test_borderline_matches_spec(roles):
+    """docs/role-rules.md section 10, recomputed from the stored measurements."""
+    for r in roles:
+        if not r["main_data"]:
+            assert r["borderline"] == "0", r["player"]
+            continue
+        o = int(r["n_balls_bowled"]) / 6 / int(r["n_matches"])   # unrounded; the column is rounded
+        m = float(r["median_bat_pos"]) if r["median_bat_pos"] else None
+        top = m is not None and m <= 6 and int(r["n_innings"]) >= 0.5 * int(r["n_matches"])
+        want = (2.0 <= o < 3.0) or (0.5 <= o < 1.0) or (m is not None and 5.5 <= m <= 6.5) or \
+               (o >= 2.5 and not top and m is not None and 7.5 <= m <= 8.5)
+        assert r["borderline"] == str(int(want)), r["player"]

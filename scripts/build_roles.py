@@ -1,6 +1,7 @@
 """Detailed role for every squad member, per season, using only information from before that auction.
 
-Taxonomy and thresholds: docs/needs-plan.md (approved 14 Nov 2026). All thresholds live in RULES below.
+Exact rules: docs/role-rules.md (a rebuild from that file alone must give the same labels).
+Why the rules exist: docs/needs-plan.md. All thresholds live in RULES below.
 
 Inputs
   data/processed/roles/squad_ids.csv        squad members 2018-2027 with Cricsheet IDs
@@ -130,13 +131,20 @@ def label(win, ipl_prev, team_matches_prev, wiki, auction_role):
     rec.update(n_matches=n_m, n_innings=n_inn, n_balls_bowled=n_balls, stumpings=stump,
                overs_per_match=round(overs_pm, 2), median_bat_pos=med_pos)
 
-    # batting subtype
-    if n_inn >= R["min_innings"]:
+    # batting-position shares (raw measurements, kept for the model)
+    share = {"opener": 0.0, "top_order": 0.0, "middle_order": 0.0, "finisher": 0.0}
+    if n_inn:
         pos = bat["bat_pos"]
         late = (bat["entry_ball"] >= R["late_entry_ball"]) & pos.between(4, 7)
         share = {"opener": (pos <= 2).mean(), "top_order": (pos == 3).mean(),
                  "middle_order": (pos.isin([4, 5]) & ~late).mean(),
                  "finisher": ((pos.isin([6, 7])) | late).mean()}
+    rec.update({f"share_{k}": round(float(v), 3) for k, v in share.items()})
+    for p in ("pp", "mid", "death"):
+        rec[f"phase_idx_{p}"] = round(balls[p] / n_balls / R["phase_base"][p], 3) if n_balls else ""
+
+    # batting subtype
+    if n_inn >= R["min_innings"]:
         rec["bat_subtype"] = "opener" if share["opener"] >= R["opener_share"] else \
             max(["top_order", "middle_order", "finisher"], key=lambda k: (share[k], k == "middle_order"))
     else:
@@ -149,7 +157,7 @@ def label(win, ipl_prev, team_matches_prev, wiki, auction_role):
         if hot == {"pp", "death"}:
             rec["bowl_phase"] = "powerplay_death"   # new ball and death: the classic strike pacer
         elif hot:
-            top = max(hot, key=idx.get)
+            top = max([p for p in ("pp", "mid", "death") if p in hot], key=idx.get)  # exact tie: earlier phase
             rec["bowl_phase"] = {"pp": "powerplay", "mid": "middle", "death": "death"}[top]
         else:
             rec["bowl_phase"] = "all_phase"
@@ -173,6 +181,12 @@ def label(win, ipl_prev, team_matches_prev, wiki, auction_role):
     w_main = wiki_main(wiki.get("role"))
     a_main = auction_main(auction_role)
     rec.update(main_data=data_main, main_wiki=w_main, main_auction=a_main)
+    # borderline: a few more overs or innings could flip the data label (docs/role-rules.md section 10)
+    bl = False
+    if data_main:
+        bats_top = med_pos is not None and med_pos <= 6 and n_inn >= 0.5 * n_m
+        bl = (2.0 <= overs_pm < 3.0) or (0.5 <= overs_pm < 1.0) or              (med_pos is not None and 5.5 <= med_pos <= 6.5) or              (overs_pm >= 2.5 and not bats_top and med_pos is not None and 7.5 <= med_pos <= 8.5)
+    rec["borderline"] = int(bl)
 
     # final main role: data when it has enough sample; else Wikipedia; else auction list
     if data_main:
