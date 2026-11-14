@@ -258,7 +258,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2021,Rajat Patidar,batsman,False,20,20,RCB,sold,c740ea83
 2018,Ranganath Vinay Kumar,bowler,False,100,100,KKR,sold,41eb4a4f
 2018,Rashid Khan Arman,bowler,True,900,900,SRH,sold,
-2019,Rasikh Dar,bowler,False,20,20,MI,sold,b82354b3
+2019,Rasikh Dar,bowler,False,20,20,MI,sold,b8527c3d
 2020,Ravi Bishnoi,bowler,False,200,200,PBKS,sold,df064e1a
 2018,Ravichandran Ashwin,all-rounder,True,760,760,PBKS,sold,495d42a5
 2018,Ricky Bhui,batsman,True,20,20,SRH,sold,b63e358a
@@ -287,7 +287,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Sayan Ghosh,bowler,False,20,20,DC,sold,d4b8ea98
 2020,Shahbaz Ahamad,wicket keeper,False,20,20,RCB,sold,
 2018,Shahbaz Nadeem,bowler,False,320,320,DC,sold,9d80c5e1
-2021,Shahrukh Khan,all-rounder,False,525,525,PBKS,sold,f088b960
+2021,Shahrukh Khan,all-rounder,False,525,525,PBKS,sold,7dcb9bc9
 2018,Shakib Al Hasan,all-rounder,True,200,200,SRH,sold,7dc35884
 2021,Shakib Al Hasan,all-rounder,True,320,320,KKR,sold,7dc35884
 2018,Shane Watson,all-rounder,True,400,400,CSK,sold,4329fbb5
@@ -315,7 +315,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Suryakumar Yadav,batsman,False,320,320,MI,sold,
 2021,Suyash Prabhudesai,all-rounder,False,20,20,RCB,sold,
 2018,Syed Khaleel Ahmed,bowler,False,300,300,SRH,sold,
-2018,Syed Mehdi Hasan,all-rounder,False,20,20,SRH,sold,7dc35884
+2018,Syed Mehdi Hasan,all-rounder,False,20,20,SRH,sold,
 2018,T Natarajan,bowler,False,40,40,SRH,sold,ce794613
 2018,Tajinder Dhillon,all-rounder,False,55,55,MI,sold,225412c5
 2020,Tajinder Dhillon,all-rounder,False,20,20,PBKS,sold,225412c5

@@ -17,6 +17,24 @@ def ini_sur(name):
 def sur(name):
     t = toks(name); return norm(t[-1]) if t else ''
 
+# Guard against wrong auto-matches found 14 Nov (e.g. Emanjot Chahal -> YS Chahal,
+# Syed Mehdi Hasan -> Shakib Al Hasan): the given name must fit the register's first name/initial.
+def first_name_ok(auction_name, reg_name):
+    from difflib import SequenceMatcher
+    a, r = toks(auction_name), toks(reg_name)
+    if len(a) < 2 or len(r) < 2:
+        return True                      # one-word names: nothing to compare
+    a0, r0 = a[0].lower().strip("."), r[0].strip(".")
+    if r0.isupper() and len(r0) <= 4:    # register initials, e.g. "YS Chahal", "PVD Chameera"
+        return a0[:1] in r0.lower() or a0 in [t.lower() for t in r[1:-1]]   # "M Prasidh Krishna"
+    r0 = r0.lower()
+    return (a0.startswith(r0) or r0.startswith(a0) or SequenceMatcher(None, a0, r0).ratio() >= 0.8
+            or a0 in [t.lower() for t in r[1:-1]])
+# Hand-verified: these auction names are NOT the register player the rules would pick
+# (the real player has no Cricsheet record), so they stay unmatched.
+ALIAS_2018 = {"rasikhdar": "b8527c3d", "rasikhsalamdar": "b8527c3d", "shahrukhkhan": "7dcb9bc9"}   # register name "Rasikh Salam"
+REJECT = {"mangeshyadav", "rameshkumar", "syedmehdihasan", "emanjotchahal", "pankajjaiswal", "kaushaltambe"}
+
 full = defaultdict(set); ini = defaultdict(set); surn = defaultdict(set); info = {}
 with open(PROC / "players_register.csv", encoding="utf-8") as f:
     r = csv.DictReader(f)
@@ -57,6 +75,9 @@ with open(STAGED_FILE, encoding="utf-8") as f:
             if len(cands) == 1:
                 cid = next(iter(cands))
 
+        if norm(pname) in REJECT or (cid and not first_name_ok(pname, info[cid]["name"])):
+            cid = None
+        cid = ALIAS_2018.get(norm(pname), cid)
         if cid:
             row["cricsheet_id"] = cid
             matched += 1

@@ -80,6 +80,42 @@ def main():
     record("every CAPPED player has an ID", "PASS" if not cap_missing else "FAIL",
            f"{len(cap_rows)} capped rows; missing: {cap_missing or 'none'}")
 
+    # 3b. one Cricsheet ID = one person (catches wrong auto-matches, e.g. two different
+    #     players filed under one ID; found 14 Nov: Shahrukh Khan under Sarfaraz Khan's ID)
+    from difflib import SequenceMatcher
+    NICK = {frozenset({"james", "jimmy"})}
+    def first_tok(n):
+        t = [x for x in __import__("re").findall(r"[a-z]+", (n or "").lower())]
+        return t[0] if len(t) >= 2 else None
+    def compatible(a, b):
+        fa, fb = first_tok(a), first_tok(b)
+        if not fa or not fb:
+            return True
+        ta = __import__("re").findall(r"[a-z]+", a.lower())
+        tb = __import__("re").findall(r"[a-z]+", b.lower())
+        if fa in tb or fb in ta:              # "Ravisrinivasan Sai Kishore" / "Sai Kishore"
+            return True
+        if len(fa) <= 2 or len(fb) <= 2:      # initials: "KS Bharat" / "Kona Srikar Bharat"
+            return fa[0] == fb[0]
+        return (fa.startswith(fb) or fb.startswith(fa) or SequenceMatcher(None, fa, fb).ratio() >= 0.7
+                or frozenset({fa, fb}) in NICK)
+    names_by_id = {}
+    for r in rows:
+        if r.get("cricsheet_id"):
+            names_by_id.setdefault(r["cricsheet_id"], set()).add(r["player"])
+    staged = ROOT / "data" / "processed" / "2018_2021_staging" / "staged_2018_2021_joined.csv"
+    if staged.exists():
+        for r in csv.DictReader(open(staged, encoding="utf-8")):
+            if r.get("cricsheet_id"):
+                names_by_id.setdefault(r["cricsheet_id"], set()).add(r["player_name"])
+    clash = []
+    for cid, names in names_by_id.items():
+        ns = sorted(names)
+        if any(not compatible(a, b) for i, a in enumerate(ns) for b in ns[i + 1:]):
+            clash.append(f"{cid}: {ns}")
+    record("one Cricsheet ID = one player (2018-26)", "PASS" if not clash else "FAIL",
+           f"{len(names_by_id)} IDs; name clashes: {clash[:5] or 'none'}")
+
     # 4. ledger reconciliation ----------------------------------------------
     by_season_sold, by_season_spend = {}, {}
     for r in sold:

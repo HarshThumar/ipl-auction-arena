@@ -17,14 +17,32 @@ def ini_sur(name):
 def sur(name):
     t=toks(name); return norm(t[-1]) if t else ''
 
+# Guard against wrong auto-matches found 14 Nov (e.g. Emanjot Chahal -> YS Chahal,
+# Syed Mehdi Hasan -> Shakib Al Hasan): the given name must fit the register's first name/initial.
+def first_name_ok(auction_name, reg_name):
+    from difflib import SequenceMatcher
+    a, r = toks(auction_name), toks(reg_name)
+    if len(a) < 2 or len(r) < 2:
+        return True                      # one-word names: nothing to compare
+    a0, r0 = a[0].lower().strip("."), r[0].strip(".")
+    if r0.isupper() and len(r0) <= 4:    # register initials, e.g. "YS Chahal", "PVD Chameera"
+        return a0[:1] in r0.lower() or a0 in [t.lower() for t in r[1:-1]]   # "M Prasidh Krishna"
+    r0 = r0.lower()
+    return (a0.startswith(r0) or r0.startswith(a0) or SequenceMatcher(None, a0, r0).ratio() >= 0.8
+            or a0 in [t.lower() for t in r[1:-1]])
+# Hand-verified: these auction names are NOT the register player the rules would pick
+# (the real player has no Cricsheet record), so they stay unmatched.
+REJECT = {"mangeshyadav", "rameshkumar", "syedmehdihasan", "emanjotchahal", "pankajjaiswal", "kaushaltambe"}
+
 # build register indexes
-full=defaultdict(set); ini=defaultdict(set); surn=defaultdict(set); info={}
+full=defaultdict(set); ini=defaultdict(set); surn=defaultdict(set); info={}; regname={}
 with open(PROC/"players_register.csv",encoding="utf-8") as fh:
     r=csv.DictReader(fh)
     cols=r.fieldnames
     for row in r:
         cid=row.get("cricsheet_id"); ci=row.get("key_cricinfo") or None
         info[cid]={"cricinfo":ci}
+        regname[cid]=row.get("name")
         for nm in {row.get("name"),row.get("unique_name")}:
             if not nm: continue
             full[norm(nm)].add(cid)
@@ -50,9 +68,19 @@ ALIAS={
  "joshphillipe":"39086549","bsaisudharshan":"d5130a30","vaibhavsooryavanshi":"470f446b","leusduplooy":"6e6fb538",
  "mohammedazharudeen":"4ae89f36","prabhsimransingh":"9418198b","laurieevans":"1c513d54",
  "rinkusingh":"0a509d6b","karnsharma":"119678fd","waninduhasaranga":"a97c8ec2","jamiesmith":"c834c290",
+ "shahrukhkhan":"7dcb9bc9","bhagathvarma":"5438ffba",
+ "rasikhsalamdar":"b8527c3d","rasikhdar":"b8527c3d","rasikhsalam":"b8527c3d",
+ "rassievanderdussen":"9948e262",
 }
 
 def lookup(name):
+    cid,ci,how=_lookup(name)
+    if cid and how in ("ini","full_ipl","ini_ipl","surname_ipl") and not first_name_ok(name, regname[cid]):
+        return None,None,"rejected_guard"
+    return cid,ci,how
+
+def _lookup(name):
+    if norm(name) in REJECT: return None,None,"unmatched"
     a=ALIAS.get(norm(name))
     if a and a in info: return a,info[a]["cricinfo"],"alias"
     k=norm(name)
