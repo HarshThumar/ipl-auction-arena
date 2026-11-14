@@ -34,7 +34,7 @@
     {
       "check": "player ID join rate (target >=99%)",
       "status": "WARN",
-      "detail": "912/1019 = 89.5% (uncapped domestic players genuinely absent from Cricsheet)"
+      "detail": "914/1019 = 89.7% (uncapped domestic players genuinely absent from Cricsheet)"
     },
     {
       "check": "every CAPPED player has an ID",
@@ -44,7 +44,7 @@
     {
       "check": "one Cricsheet ID = one player (2018-26)",
       "status": "PASS",
-      "detail": "561 IDs; name clashes: none"
+      "detail": "562 IDs; name clashes: none"
     },
     {
       "check": "sold count == official per season",
@@ -77,7 +77,7 @@
       "detail": "over cap: none (retained+bought; trades/replacements not modelled)"
     },
     {
-      "check": "pre-auction state 2022-26 (slots exact vs official)",
+      "check": "pre-auction state 2018-26 (slots exact vs official)",
       "status": "PASS",
       "detail": "failures: none; purse uses official figures (retention-slab gaps reported)"
     },

@@ -11,6 +11,7 @@ BIDS = Path(sys.argv[1])        # .../bid_sequences
 ENR  = Path(sys.argv[2])        # .../enriched
 OUT  = Path(sys.argv[3])        # .../master  (created)
 PROC = Path(sys.argv[4])        # .../processed (for register index)
+ROOT_REF = Path(__file__).resolve().parent.parent / "data" / "reference"
 OUT.mkdir(parents=True, exist_ok=True)
 YEARS=[2022,2023,2024,2025,2026]
 OFFICIAL_SOLD={2022:204,2023:80,2024:72,2025:182,2026:77}
@@ -131,10 +132,26 @@ for y in YEARS:
     sold_names={norm(e["player"]) for e in enr["lots"]} | {firstlast(e["player"]) for e in enr["lots"]} | seen_extra
     # UNSOLD layer from ESPN (not licence-clean, no wiki enrichment)
     unsold_n=0
+    # narration fragments ("SL's Nissanka", "A and B") -> clean names, from a cited file
+    fixes={}
+    for c in csv.DictReader(open(ROOT_REF/"unsold_name_corrections.csv",encoding="utf-8")):
+        if int(c["season"])==y:
+            fixes.setdefault(c["narrated_name"],[]).append(c)
+    unsold_lots=[]
     for l in bids["lots"]:
         if l["sold"]: continue
+        if l["player"] in fixes:
+            for c in fixes[l["player"]]:
+                unsold_lots.append({**l,"player":c["corrected_name"],"base_price":float(c["base_price_cr"]),
+                                    "name_fix_source":c["source"]})
+        else:
+            unsold_lots.append(l)
+    plain=[norm(l["player"]) for l in unsold_lots if not l.get("name_fix_source")]
+    for l in unsold_lots:
         if norm(l["player"]) in sold_names or firstlast(l["player"]) in sold_names:
             continue  # was later sold / already represented
+        if l.get("name_fix_source") and norm(l["player"]) in plain:
+            continue  # a fixed fragment that names a player who already has his own unsold row
         ids,how=lookup_ids(l["player"])
         rows.append({
             "season":y,"auction_type":bids.get("auction_type"),"player":l["player"],
@@ -145,6 +162,7 @@ for y in YEARS:
             "opener":"","teams_in":"","n_teams_in":0,"final_two":"","ladder":"",
             "confidence":"unsold_narrated","bid_source":"ESPNcricinfo","enrich_source":None,
             "narration_quote":l.get("narration_quote",""),
+            "name_fix_source":l.get("name_fix_source",""),
             "redistributable":False,  # unsold names from ESPN prose, not licence-clean
         })
         unsold_n+=1
