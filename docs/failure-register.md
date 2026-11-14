@@ -123,6 +123,17 @@
 | H5 | **Pre-registration not verifiable** | H | – | Freeze predictions; **SHA-256 hash posted publicly + Zenodo/OSF DOI before 16 Dec** | [26] | Open |
 | H6 | **Bidding wars don't look like real ones** (wrong openers, wrong final-two pairs, wars too long or too short) | M | Simulated opening bidder / final-two pairs / number of teams in each war vs real ones from live blogs, where available | Live bidding engine (L1); report the gap; full check moves to L8 if live-blog reconstruction isn't ready | UV | Open |
 
+## N. Computed team needs (added 14 Nov 2026, see [needs-plan.md](needs-plan.md))
+
+| # | Failure | Sev | Detect | Mitigate | Src | Status |
+|---|---|---|---|---|---|---|
+| N1 | **Taxonomy drift between sources** (data, Wikipedia and the auction list call a player different things) | M | Three-way agreement report, [roles-check.md](roles-check.md) (data vs Wikipedia 83.5%) | Fixed priority: data (10+ matches) > Wikipedia > auction list; confidence column | UV | In progress (hand check of 100 pending) |
+| N2 | **Typical squad uses future seasons** (leakage) | H | `test_needs_use_no_purchases`, `test_first_season_has_no_baseline` | Typical squad = earlier seasons only; pre-auction squad = retained rows only; both asserted in `build_team_needs.py`; role window ends before the auction date (`assert_as_of`) | [25] | Closed |
+| N3 | **Missing pre-auction trades** | H | Slots and overseas slots vs official figures, 2018–26 | Transfers parsed from Wikipedia and applied before the auction; backtest exact in all published seasons | UV | Closed |
+| N4 | **Uncapped players with no data** | M | Count of `confidence` none/low per team (the `unknown_role` cell) | Never guessed: subtype `unknown`; Wikipedia/auction role used only as labelled fallback | UV | Open (Cricsheet has almost no domestic T20 after 2023) |
+| N5 | **Tuning on held-out years** | H | – | Needs rules were fixed before `check_needs.py` ran; every predictor tried is reported, including the one added after the first lost | [25] | Closed |
+| N6 | **Wrong player ID when joining sources** | H | `validate_l0.py` "one Cricsheet ID = one player"; unresolved list printed | Strict name rules outside the team's roster, first-name guard, claim exclusion in a squad, common surnames never matched register-wide | UV | Closed |
+
 ## Sources
 1. AucArena https://arxiv.org/html/2310.05746v3
 2. LLM bidders https://arxiv.org/abs/2507.09083

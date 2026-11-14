@@ -95,6 +95,7 @@ seasons:
   2017: {type: mini, purse_inr_lakh: 6600, verified: true, sources: [docs/rules-and-data.md]}
   2018:
     type: mega
+    date: 2018-01-27            # auction day 1 (Wikipedia 'List of 2018 IPL personnel changes')
     purse_inr_lakh: 8000
     min_spend_pct: 75
     retention: {max_total: 5, max_by_retention: 3, retained_3_lakh: [1500, 1100, 700], retained_2_lakh: [1250, 850], retained_1_lakh: [1250], uncapped_lakh: 300}
@@ -110,6 +111,7 @@ seasons:
   2021: {type: mini, date: 2021-02-18, purse_inr_lakh: 8500, squad_min: 18, squad_max: 25, overseas_max: 8, verified: true, sources: [docs/rules-and-data.md]}
   2022:
     type: mega
+    date: 2022-02-12            # auction day 1 (Wikipedia 'List of 2022 IPL personnel changes')
     teams: 10
     purse_inr_lakh: 9000
     retention: {max: 4, combos: ["3 Indian + 1 overseas", "2 + 2"], cost_lakh: [1600, 1200, 800, 600]}
@@ -135,6 +137,7 @@ seasons:
     sources: [docs/rules-and-data.md]
   2024:
     type: mini
+    date: 2023-12-19            # auction day 1 (Wikipedia 'List of 2024 IPL personnel changes')
     purse_inr_lakh: 10000
     squad_min: 18
     squad_max: 25

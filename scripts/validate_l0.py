@@ -196,7 +196,7 @@ def main():
         f = [m for lvl, m in issues if lvl == "FAIL"]
         if f:
             bt_fail[y] = f[:3]
-    record("pre-auction state 2022-26 (slots exact vs official)", "PASS" if not bt_fail else "FAIL",
+    record(f"pre-auction state {bps.BACKTEST_SEASONS[0]}-{bps.BACKTEST_SEASONS[-1] % 100} (slots exact vs official)", "PASS" if not bt_fail else "FAIL",
            f"failures: {bt_fail or 'none'}; purse uses official figures (retention-slab gaps reported)")
     over_adj, n_adj = [], 0
     for y in bps.BACKTEST_SEASONS:

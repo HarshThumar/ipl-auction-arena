@@ -9,7 +9,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 ```
 
 ## Current result (last run)
-**14 PASS · 0 FAIL · 1 WARN · 1 BLOCKED** (14 Nov). The only WARN is the accepted 91% ID join. The only BLOCKED item is the 2027 retentions, due 17 Nov ([runbook](retention-day-runbook.md)).
+**15 PASS · 0 FAIL · 1 WARN · 1 BLOCKED** (14 Nov). The only WARN is the accepted ID join, now 89.5% after wrong matches were removed (below). The only BLOCKED item is the 2027 retentions, due 17 Nov ([runbook](retention-day-runbook.md)).
 
 | Area | State | Register |
 |---|---|---|
@@ -22,7 +22,8 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 | Sold count == official (204/80/72/182/77) | ✅ PASS | — |
 | Per-team spend ≤ gross purse | ✅ PASS | — |
 | Per-team spend ≤ pre-auction purse left (official, 50 team-seasons) | ✅ PASS | — |
-| Pre-auction state 2022–26: slots and overseas slots match the official figures exactly | ✅ PASS | — |
+| Pre-auction state 2018–26: slots and overseas slots match the official figures exactly | ✅ PASS | — |
+| One Cricsheet ID = one player (2018–26) | ✅ PASS | — |
 | 2027 retentions loaded | ⛔ BLOCKED until 17 Nov | — |
 | Winner codes resolve to a franchise | ✅ PASS | G2 |
 | Squad size 18–25 (retained + bought) | ✅ 50/50 | — |
@@ -38,6 +39,9 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
    - Players without a wiki link were dropped.
 
    Both are fixed. A wiki unit typo (2024 Padikkal "7.75 lakh") is now corrected and flagged. All 50 team-seasons are within 18–25 and the overseas cap, and the slot counts match the official pre-auction tables exactly ([scripts/build_pre_auction_state.py](../scripts/build_pre_auction_state.py), [data/reference/pre_auction_official.csv](../data/reference/pre_auction_official.csv)).
+
+4. **Wrong ID matches removed (14 Nov).** The new "one Cricsheet ID = one player" check found loose fuzzy matches that gave two different players the same ID, e.g. Rasikh Salam → Raza Ali Dar, Shahrukh Khan → a different S Khan, Bhagath Varma → Tilak Varma, Emanjot Chahal → Yuzvendra Chahal. The matchers now need the first name to fit, and the verified aliases are listed in [scripts/idjoin.py](../scripts/idjoin.py). The join rate fell from 91.0% to **89.5% (912/1019)** because wrong IDs became blanks. A blank is better than a wrong player.
+5. **Junk names in 2025 unsold rows.** A few master rows carry narration fragments instead of a clean name ("'Uncapped' Chawla", "SL's Nissanka", "Ripal Patel and Sanjay Yadav"). They are unsold lots, so prices and spend are unaffected. To clean with a cited source.
 
 ## Resolved 12 Nov
 - **Historical retentions loaded** ([scripts/parse_retentions.py](../scripts/parse_retentions.py) → `data/processed/retentions_by_season.json`, 2022–26, from Wikipedia CC BY-SA). This un-blocked the squad-size and overseas-cap checks for all historical years. **2027 retentions land 17 Nov** and slot straight in.
@@ -60,7 +64,7 @@ Convention established now, enforced when features begin: **every derived featur
 - [x] franchises.csv + rules_by_season.yaml with a source per row
 - [x] money in integer lakhs + FX table; hammer vs paid separated
 - [x] validation suite runs in one command
-- [x] ID join decision recorded — **91% accepted** (Harsh, 11 Nov 2026)
+- [x] ID join decision recorded — **91% accepted** (Harsh, 11 Nov 2026); 89.5% after removing wrong matches (14 Nov)
 - [x] **spend deltas resolved** (12 Nov) — withdrawn player (Harry Brook) + sub-crore rounding; prices verified faithful to source
 - [x] **historical retentions loaded → squad/overseas checks un-blocked** (12 Nov); 2027 slots in on the 17th
 - [ ] point-in-time store exercised by the first real feature (L2)

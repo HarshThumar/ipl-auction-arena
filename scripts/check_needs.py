@@ -1,0 +1,131 @@
+"""Does the computed need predict what teams actually bought? (held-out check, 2019-2026)
+
+For every team-season and role cell, compare the need (made from pre-auction data only) with the
+number of players of that cell the team then bought. Purchases are read here ONLY to score; they
+never feed the needs.
+
+Scores (Pearson r over all team x cell pairs, unknown_role and overseas excluded):
+  needs_in_slots  the team's slots_left shared out in proportion to its needs (main predictor)
+  needs_raw    need_<cell> from data/processed/team_needs/needs_wide.csv, ignoring slot limits
+  slots_only   baseline: slots_left x the cell's share of a typical squad (knows how many a team
+               must buy, not which kinds)
+  shuffled     chance: needs_in_slots with needs of a random other team in the same season (mean of 200 shuffles)
+Also a within-cell score (season x cell means removed). Report written to docs/needs-check.md.
+
+Run: python scripts/check_needs.py
+"""
+import csv, random, sys
+from collections import defaultdict
+from pathlib import Path
+from statistics import correlation, mean
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_team_needs import CELLS  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
+PROC = ROOT / "data" / "processed"
+REPORT = ROOT / "docs" / "needs-check.md"
+# non-overlapping-ish base cells used to share out slots
+BASE_CELLS = ("opener", "top_middle_order", "finisher", "wicketkeeper", "allrounder", "pace",
+              "finger_spin", "wrist_spin")
+EVAL_CELLS = [k for k in CELLS if k not in ("unknown_role", "overseas")]
+
+
+def main():
+    wide = [r for r in csv.DictReader(open(PROC / "team_needs" / "needs_wide.csv", encoding="utf-8"))
+            if r["baseline_seasons"]]
+    long = list(csv.DictReader(open(PROC / "team_needs" / "needs_long.csv", encoding="utf-8")))
+    typical = {(int(r["season"]), r["cell"]): float(r["typical"]) for r in long if r["typical"]}
+    bought = defaultdict(int)
+    for r in csv.DictReader(open(PROC / "roles" / "player_roles.csv", encoding="utf-8")):
+        if r["source"] == "bought":
+            for k in EVAL_CELLS:
+                bought[(int(r["season"]), r["team"], k)] += CELLS[k](r)
+
+    def score(pred_fn, rows):
+        xs, ys = [], []
+        for w in rows:
+            y = int(w["season"])
+            for k in EVAL_CELLS:
+                xs.append(pred_fn(w, y, k))
+                ys.append(bought[(y, w["team"], k)])
+        return correlation(xs, ys)
+
+    def score_within(pred_fn, rows):
+        """Same, after removing each season x cell mean from both sides: asks only 'which team
+        buys MORE of this cell than the others', so knowing cell sizes earns nothing."""
+        grp = defaultdict(list)
+        for w in rows:
+            y = int(w["season"])
+            for k in EVAL_CELLS:
+                grp[(y, k)].append((pred_fn(w, y, k), bought[(y, w["team"], k)]))
+        xs, ys = [], []
+        for pairs in grp.values():
+            mx, my = mean(p[0] for p in pairs), mean(p[1] for p in pairs)
+            xs += [p[0] - mx for p in pairs]
+            ys += [p[1] - my for p in pairs]
+        return correlation(xs, ys)
+
+    def need(w, y, k):
+        return float(w[f"need_{k}"])
+
+    def slots_only(w, y, k):
+        tot = sum(typical[(y, c)] for c in BASE_CELLS)
+        return float(w["slots_left"] or 0) * typical[(y, k)] / tot
+
+    def needs_in_slots(w, y, k):
+        # the slots a team must fill, shared out by need (a team with 4 slots can't buy 9 needs)
+        tot = sum(float(w[f"need_{c}"]) for c in BASE_CELLS)
+        if tot == 0:
+            return slots_only(w, y, k)
+        return float(w["slots_left"] or 0) * float(w[f"need_{k}"]) / tot
+
+    res = {"needs_in_slots": score(needs_in_slots, wide), "needs_raw": score(need, wide),
+           "slots_only": score(slots_only, wide)}
+    within = {"needs_in_slots": score_within(needs_in_slots, wide), "needs_raw": score_within(need, wide),
+              "slots_only": score_within(slots_only, wide)}
+    rng = random.Random(7)
+    shuf = []
+    for _ in range(200):
+        perm = []
+        by_season = defaultdict(list)
+        for w in wide:
+            by_season[w["season"]].append(w)
+        for ws in by_season.values():
+            other = ws[:]
+            rng.shuffle(other)
+            perm += [{**a, **{f"need_{k}": b[f"need_{k}"] for k in EVAL_CELLS}} for a, b in zip(ws, other)]
+        shuf.append(score(needs_in_slots, perm))
+    res["shuffled"] = mean(shuf)
+
+    per_season = {}
+    for y in sorted({int(w["season"]) for w in wide}):
+        ws = [w for w in wide if int(w["season"]) == y]
+        per_season[y] = (score(needs_in_slots, ws), score(slots_only, ws))
+
+    ok_pooled = res["needs_in_slots"] > res["slots_only"] and res["needs_in_slots"] > res["shuffled"]
+    ok_within = within["needs_in_slots"] > within["slots_only"]
+    lines = ["# Needs check: do computed needs predict purchases?", "",
+             "Generated by `scripts/check_needs.py`. Needs use pre-auction data only; purchases are read",
+             "only to score. needs_in_slots was added after needs_raw lost to slots_only (both are shown).",
+             "Pearson r over every team x role cell (overseas and unknown_role excluded).", "",
+             "| predictor | r |", "|---|---|"]
+    lines += [f"| {k} | {v:.3f} |" for k, v in res.items()]
+    lines += ["", "Within each season x cell (which team buys MORE of a cell than the others):", "",
+              "| predictor | within-cell r |", "|---|---|"]
+    lines += [f"| {k} | {v:.3f} |" for k, v in within.items()]
+    lines += ["", f"**Pooled: {'PASS' if ok_pooled else 'FAIL'}** (needs_in_slots vs slots_only and chance). "
+              f"**Within-cell: {'PASS' if ok_within else 'FAIL'}** (needs_in_slots vs slots_only).", "",
+              "Reading: slots-only already knows how many of each kind a typical squad buys, so it wins the",
+              "pooled score. Needs add a modest signal about WHICH team buys more of a cell. Needs are a",
+              "feature for the model, not a forecast on their own.", "",
+              "| season | needs_in_slots r | slots_only r |", "|---|---|---|"]
+    lines += [f"| {y} | {a:.3f} | {b:.3f} |" for y, (a, b) in per_season.items()]
+    lines += ["", "Seasons where needs lose to slots-only are reported, not hidden (rule #8)."]
+    REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("\n".join(lines))
+    return 0   # a report, not a gate: losses are written down, not hidden
+
+
+if __name__ == "__main__":
+    sys.exit(main())

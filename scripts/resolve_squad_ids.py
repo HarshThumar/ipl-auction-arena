@@ -197,6 +197,18 @@ def main():
         stats[method] += 1
         out.append({"season": y, "team": t, "player": pl, "source": src, "cricsheet_id": cid or "",
                     "method": method})
+    # pass 3: a name resolved in one season resolves the same name in another (Jadeja: CSK
+    # roster 2018-25, then traded to RR for 2026 where RR's roster can't know him)
+    learned = defaultdict(set)
+    for r in out:
+        if r["cricsheet_id"]:
+            learned[norm(r["player"])].add(r["cricsheet_id"])
+    for r in out:
+        ids = learned.get(norm(r["player"]), set())
+        if r["method"] == "unresolved" and len(ids) == 1:
+            r["cricsheet_id"], r["method"] = next(iter(ids)), "same_name_other_season"
+            stats["unresolved"] -= 1
+            stats["same_name_other_season"] += 1
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(out[0]), lineterminator="\n")

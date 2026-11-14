@@ -112,7 +112,7 @@ season,team,player,source,cricsheet_id,method
 2019,RCB,Kulwant Khejroliya,retained,fa2f1dde,known
 2019,RCB,Marcus Stoinis,retained,d9273ee7,known
 2019,RR,Ben Stokes,retained,e087956b,known
-2019,RR,Steve Smith,retained,,unresolved
+2019,RR,Steve Smith,retained,30a45b23,same_name_other_season
 2019,RR,Sanju Samson,retained,a4cc73aa,known
 2019,RR,Jofra Archer,retained,5574750c,known
 2019,RR,Krishnappa Gowtham,retained,90de905a,known
@@ -421,7 +421,7 @@ season,team,player,source,cricsheet_id,method
 2022,DC,Axar Patel,retained,2e171977,roster
 2022,DC,Prithvi Shaw,retained,8b3e9c7c,known
 2022,DC,Anrich Nortje,retained,acdc62f5,known
-2022,GT,Hardik Pandya,retained,,unresolved
+2022,GT,Hardik Pandya,retained,dbe50b21,same_name_other_season
 2022,GT,Rashid Khan,retained,5f547c8b,ipl_any
 2022,GT,Shubman Gill,retained,b4b99816,known
 2022,KKR,Andre Russell,retained,bbd41817,roster
@@ -972,7 +972,7 @@ season,team,player,source,cricsheet_id,method
 2026,RCB,Abhinandan Singh,retained,82c10dac,known
 2026,RR,Yashasvi Jaiswal,retained,6c19c6e5,known
 2026,RR,Riyan Parag,retained,04a418e8,known
-2026,RR,Ravindra Jadeja,retained,,unresolved
+2026,RR,Ravindra Jadeja,retained,fe93fd9d,same_name_other_season
 2026,RR,Dhruv Jurel,retained,bcf325d2,known
 2026,RR,Jofra Archer,retained,5574750c,known
 2026,RR,Shimron Hetmyer,retained,48a1d7b7,known
@@ -1148,7 +1148,7 @@ season,team,player,source,cricsheet_id,method
 2022,KKR,Pratham Singh,bought,f9f21866,known
 2022,SRH,Shashank Singh,bought,26989d80,known
 2022,LSG,Kyle Mayers,bought,73c18486,known
-2022,LSG,Karan Sharma,bought,,unresolved
+2022,LSG,Karan Sharma,bought,39ed0d2f,same_name_other_season
 2022,PBKS,Baltej Singh,bought,0c0ef3fb,known
 2022,SRH,Saurabh Dubey,bought,66317b81,known
 2022,MI,Mohammed Arshad Khan,bought,,unresolved
@@ -1204,7 +1204,7 @@ season,team,player,source,cricsheet_id,method
 2022,RCB,Luvnith Sisodia,bought,a689af4b,known
 2022,MI,Fabian Allen,bought,b52ffbbd,known
 2022,RCB,David Willey,bought,7f048519,known
-2022,KKR,Aman Khan,bought,,unresolved
+2022,KKR,Aman Khan,bought,378daa89,same_name_other_season
 2023,GT,Kane Williamson,bought,d027ba9f,known
 2023,SRH,Harry Brook,bought,4ae1755b,known
 2023,SRH,Mayank Agarwal,bought,00ea847a,known
@@ -1306,7 +1306,7 @@ season,team,player,source,cricsheet_id,method
 2024,KKR,Mitchell Starc,bought,3fb19989,known
 2024,SRH,Jaydev Unadkat,bought,1e66c162,known
 2024,MI,Dilshan Madushanka,bought,de7d833e,known
-2024,RR,Shubham Dubey,bought,,unresolved
+2024,RR,Shubham Dubey,bought,6b2ff18f,same_name_other_season
 2024,CSK,Sameer Rizvi,bought,f89d3b11,known
 2024,KKR,Angkrish Raghuvanshi,bought,d7017798,known
 2024,LSG,Arshin Kulkarni,bought,2d140b79,known
@@ -1772,7 +1772,7 @@ season,team,player,source,cricsheet_id,method
 2018,MI,Krunal Pandya,bought,5b8c830e,known
 2018,CSK,Kshitiz Sharma,bought,c910e89d,known
 2018,KKR,Kuldeep Yadav,bought,8d2c70ad,known
-2021,RR,Kuldip Yadav,bought,,unresolved
+2021,RR,Kuldip Yadav,bought,030f3089,same_name_other_season
 2018,RCB,Kulwant Khejroliya,bought,fa2f1dde,known
 2021,RCB,Kyle Jamieson,bought,68c56d09,known
 2020,DC,Lalit Yadav,bought,ad427b5c,known
@@ -1929,7 +1929,7 @@ season,team,player,source,cricsheet_id,method
 2018,MI,Siddhesh Dinesh Lad,bought,9601c534,known
 2021,DC,Steven Smith,bought,30a45b23,known
 2018,RR,Stuart Binny,bought,bd17b45f,known
-2018,MI,Suryakumar Yadav,bought,,unresolved
+2018,MI,Suryakumar Yadav,bought,271f83cd,same_name_other_season
 2021,RCB,Suyash Prabhudesai,bought,,unresolved
 2018,SRH,Syed Khaleel Ahmed,bought,,unresolved
 2018,SRH,Syed Mehdi Hasan,bought,,unresolved
@@ -1948,8 +1948,8 @@ season,team,player,source,cricsheet_id,method
 2021,PBKS,Utkarsh Singh,bought,b2a55ac1,known
 2021,KKR,Vaibhav Arora,bought,7c3b3b78,known
 2019,RR,Varun Aaron,bought,0a3d54b9,known
-2019,PBKS,Varun Chakaravarthy,bought,,unresolved
-2020,KKR,Varun Chakaravarthy,bought,,unresolved
+2019,PBKS,Varun Chakaravarthy,bought,5b7ab5a9,same_name_other_season
+2020,KKR,Varun Chakaravarthy,bought,5b7ab5a9,same_name_other_season
 2021,KKR,Venkatesh Iyer,bought,a24be938,known
 2018,DC,Vijay Shankar,bought,0994d0ae,known
 2020,SRH,Virat Singh,bought,26d76ad9,known
