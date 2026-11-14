@@ -969,11 +969,11 @@
       "base_price": 0.2,
       "sold": true,
       "winner": "GT",
-      "final_price": 5.0,
+      "final_price": 0.6,
       "final_two": [],
       "bid_steps": [],
       "confidence": "outcome_only",
-      "notes": "back-half; source: Wikipedia https://en.wikipedia.org/wiki/List_of_2024_Indian_Premier_League_personnel_changes"
+      "notes": "GT won at 60 lakh"
     },
     {
       "player": "Rasikh Dar",

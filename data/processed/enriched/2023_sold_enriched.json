@@ -440,7 +440,7 @@
       "capped": "uncapped",
       "base_price": 0.2,
       "team": "LSG",
-      "final_price": 1.8,
+      "final_price": 0.2,
       "raw_country": "IND"
     },
     {
@@ -450,7 +450,7 @@
       "capped": "uncapped",
       "base_price": 0.2,
       "team": "RR",
-      "final_price": 0.2,
+      "final_price": 0.5,
       "raw_country": "SA"
     },
     {
@@ -490,7 +490,7 @@
       "capped": "uncapped",
       "base_price": 0.2,
       "team": "RCB",
-      "final_price": 0.2,
+      "final_price": 0.7,
       "raw_country": "IND"
     },
     {

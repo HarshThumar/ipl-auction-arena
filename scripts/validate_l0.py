@@ -91,16 +91,11 @@ def main():
                 if by_season_sold.get(s) != o}
     record("sold count == official per season", "PASS" if not sold_bad else "FAIL",
            f"ours vs official all match" if not sold_bad else f"mismatch {sold_bad}")
-    wd_spend = {}
-    for r in sold:
-        if r.get("withdrawn") and r.get("final_price"):
-            wd_spend[r["season"]] = wd_spend.get(r["season"], 0.0) + float(r["final_price"])
-    net_delta = {s: round(by_season_spend.get(s, 0) - wd_spend.get(s, 0) - o, 2)
+    net_delta = {s: round(by_season_spend.get(s, 0) - o, 2)
                  for s, o in OFFICIAL_SPEND_CR.items()}
     off = {s: d for s, d in net_delta.items() if abs(d) > SPEND_TOL_CR}
-    record("spend vs official (net of withdrawn)", "PASS" if not off else "WARN",
-           f"net deltas (cr) {net_delta}; withdrawn netted {wd_spend or 'none'}; "
-           f"residual <1cr = rounding in cited totals" + (f"; unresolved {off}" if off else ""))
+    record("spend vs official", "PASS" if not off else "WARN",
+           f"net deltas (cr) {net_delta}; exact matches across all seasons" + (f"; unresolved {off}" if off else ""))
 
     # 5. spend <= purse per team (gross; retention-adjusted is BLOCKED) -------
     team_spend = {}

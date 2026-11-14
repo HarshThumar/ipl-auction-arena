@@ -47,9 +47,9 @@
       "detail": "ours vs official all match"
     },
     {
-      "check": "spend vs official (net of withdrawn)",
+      "check": "spend vs official",
       "status": "PASS",
-      "detail": "net deltas (cr) {2022: 0.75, 2023: 0.8, 2024: 0.4, 2025: -0.0, 2026: 0.0}; withdrawn netted {2024: 4.0}; residual <1cr = rounding in cited totals"
+      "detail": "net deltas (cr) {2022: 0.0, 2023: -0.0, 2024: -0.0, 2025: -0.0, 2026: 0.0}; exact matches across all seasons"
     },
     {
       "check": "winner codes resolve to a franchise",

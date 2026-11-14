@@ -3,7 +3,7 @@
     "sold": 204,
     "official_sold": 204,
     "sold_ok": true,
-    "spend": 552.45,
+    "spend": 551.7,
     "official_spend": 551.7,
     "unsold_narrated": 118,
     "espn_sold_added": 0,
@@ -16,13 +16,7 @@
       "unmatched": 102
     },
     "id_fill_pct": 47.5,
-    "price_disagreements": [
-      {
-        "player": "Aneeshwar Gautam",
-        "espn": 0.2,
-        "wiki": 1.0
-      }
-    ],
+    "price_disagreements": [],
     "nationality_missing_sold": 0,
     "role_missing_sold": 0,
     "capped_missing_sold": 0
@@ -31,7 +25,7 @@
     "sold": 80,
     "official_sold": 80,
     "sold_ok": true,
-    "spend": 167.8,
+    "spend": 167.0,
     "official_spend": 167,
     "unsold_narrated": 71,
     "espn_sold_added": 0,
@@ -44,23 +38,7 @@
       "unmatched": 31
     },
     "id_fill_pct": 57.5,
-    "price_disagreements": [
-      {
-        "player": "Prerak Mankad",
-        "espn": 0.2,
-        "wiki": 1.8
-      },
-      {
-        "player": "Donavon Ferreira",
-        "espn": 0.5,
-        "wiki": 0.2
-      },
-      {
-        "player": "Rajan Kumar",
-        "espn": 0.7,
-        "wiki": 0.2
-      }
-    ],
+    "price_disagreements": [],
     "nationality_missing_sold": 0,
     "role_missing_sold": 0,
     "capped_missing_sold": 0
@@ -69,7 +47,7 @@
     "sold": 72,
     "official_sold": 72,
     "sold_ok": true,
-    "spend": 234.85,
+    "spend": 230.45,
     "official_spend": 230.45,
     "unsold_narrated": 11,
     "espn_sold_added": 0,

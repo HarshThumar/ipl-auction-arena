@@ -1378,9 +1378,9 @@
       "nationality": "India",
       "role": "all-rounder",
       "capped": "uncapped",
-      "base_price": 1.0,
+      "base_price": 0.2,
       "team": "RCB",
-      "final_price": 1.0,
+      "final_price": 0.2,
       "raw_country": "India"
     },
     {
@@ -1530,7 +1530,7 @@
       "capped": "uncapped",
       "base_price": 0.2,
       "team": "KKR",
-      "final_price": 0.5,
+      "final_price": 0.55,
       "raw_country": "India"
     },
     {
