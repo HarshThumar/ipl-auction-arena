@@ -1,7 +1,10 @@
 # How each auction's player list was split into sets and called. Facts only, one source each.
-# The full set-by-set list is published officially only as a PDF on iplt20.com, which this
-# project does not scrape or redistribute (rule #7). Where a third-party outlet published the
-# complete set-wise list, it is in data/reference/auction_sets/<season>_sets.csv.
+# The full set-by-set list is published officially as a PDF on iplt20.com (2020-26 found; 2018
+# and 2019 not found). With Harsh's permission (14 Nov 2026) those PDFs were downloaded and parsed
+# into private/derived/auction_pool.csv, which is NOT committed. The committed
+# data/processed/auction_order/lot_order.csv carries only the set number and code of each called
+# lot. The 2024 third-party set list (data/reference/auction_sets/2024_sets.csv) is the fallback
+# when the private file is absent.
 #
 # Common pattern in every season below (stated for 2022 by ESPNcricinfo, seen in the live-blog
 # order of the others): marquee set(s) first, then sets by role in the order

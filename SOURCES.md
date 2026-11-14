@@ -14,6 +14,7 @@ required by those licences and is provided here.
 | Date of birth | Wikidata property P569, matched by ESPNcricinfo ID (P2697) | CC0 |
 | International caps (Tests, ODIs, T20Is) for capped/uncapped status | Cricsheet full-history international archives | ODC-BY 1.0 |
 | Auction set structure and the 2024 set-wise list | News reports, one URL per season in `data/reference/auction_set_structure.yaml` | facts, cited |
+| Set number and code of each called lot 2022-26; 17 base-price corrections (`data/reference/base_price_corrections.csv`); cross-checks of capped status and date of birth | Official IPL auction-list PDFs on iplt20.com (2020-26), downloaded with permission. The PDFs and the full parsed list stay private and are not redistributed | facts, cited by URL |
 | Official pre-auction purse and slots | News reports, one URL per row in `data/reference/pre_auction_official.csv` | facts, cited |
 | Bid sequences (opener → raises → final two) | Reconstructed **facts** from publicly archived match commentary | facts not subject to copyright |
 

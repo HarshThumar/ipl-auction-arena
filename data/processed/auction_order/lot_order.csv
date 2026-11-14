@@ -1,981 +1,981 @@
-season,seq,player,status,order_basis,set_no,base_lakh_from_set_list
-2022,1,Shikhar Dhawan,sold,live_blog,,
-2022,2,R Ashwin,sold,live_blog,,
-2022,3,Pat Cummins,sold,live_blog,,
-2022,4,Kagiso Rabada,sold,live_blog,,
-2022,5,Trent Boult,sold,live_blog,,
-2022,6,Shreyas Iyer,sold,live_blog,,
-2022,7,Quinton de Kock,sold,live_blog,,
-2022,8,Manish Pandey,sold,live_blog,,
-2022,9,Shimron Hetmyer,sold,live_blog,,
-2022,10,Robin Uthappa,sold,live_blog,,
-2022,11,Jason Roy,sold,live_blog,,
-2022,12,Devdutt Padikkal,sold,live_blog,,
-2022,13,Suresh Raina,unsold,live_blog,,
-2022,14,Steven Smith,unsold,live_blog,,
-2022,15,DJ Bravo,sold,live_blog,,
-2022,16,Nitish Rana,sold,live_blog,,
-2022,17,Jason Holder,sold,live_blog,,
-2022,18,Shakib Al Hasan,unsold,live_blog,,
-2022,19,Deepak Hooda,sold,live_blog,,
-2022,20,Wanindu Hasaranga,sold,live_blog,,
-2022,21,Krunal Pandya,sold,live_blog,,
-2022,22,Mitchell Marsh,sold,live_blog,,
-2022,23,Mohammad Nabi,unsold,live_blog,,
-2022,24,Matthew Wade,unsold,live_blog,,
-2022,25,Ambati Rayudu,sold,live_blog,,
-2022,26,Ishan Kishan,sold,live_blog,,
-2022,27,Jonny Bairstow,sold,live_blog,,
-2022,28,Dinesh Karthik,sold,live_blog,,
-2022,29,Wriddhiman Saha,unsold,live_blog,,
-2022,30,Sam Billings,unsold,live_blog,,
-2022,31,Nicholas Pooran,sold,live_blog,,
-2022,32,T Natarajan,sold,live_blog,,
-2022,33,Deepak Chahar,sold,live_blog,,
-2022,34,Umesh Yadav,unsold,live_blog,,
-2022,35,Prasidh Krishna,sold,live_blog,,
-2022,36,Lockie Ferguson,sold,live_blog,,
-2022,37,Josh Hazlewood,sold,live_blog,,
-2022,38,Mark Wood,sold,live_blog,,
-2022,39,Bhuvneshwar Kumar,sold,live_blog,,
-2022,40,Shardul Thakur,sold,live_blog,,
-2022,41,Mustafizur Rahman,sold,live_blog,,
-2022,42,Adil Rashid,unsold,live_blog,,
-2022,43,Mujeeb Ur Rahman,unsold,live_blog,,
-2022,44,Imran Tahir,unsold,live_blog,,
-2022,45,Kuldeep Yadav,sold,live_blog,,
-2022,46,Adam Zampa,unsold,live_blog,,
-2022,47,Rahul Chahar,sold,live_blog,,
-2022,48,Amit Mishra,unsold,live_blog,,
-2022,49,Rajat Patidar,unsold,live_blog,,
-2022,50,Priyam Garg,sold,live_blog,,
-2022,51,Abhinav Manohar,sold,live_blog,,
-2022,52,Ashwin Hebbar,sold,live_blog,,
-2022,53,Anmolpreet Singh,unsold,live_blog,,
-2022,54,C Hari Nishaanth,unsold,live_blog,,
-2022,55,Riyan Parag,sold,live_blog,,
-2022,56,Sarfaraz Khan,sold,live_blog,,
-2022,57,Abhishek Sharma,sold,live_blog,,
-2022,58,Shahrukh Khan,sold,live_blog,,
-2022,59,Shivam Mavi,sold,live_blog,,
-2022,60,Rahul Tewatia,sold,live_blog,,
-2022,61,Kamlesh Nagarkoti,sold,live_blog,,
-2022,62,Harpreet Brar,sold,live_blog,,
-2022,63,Shahbaz Ahmed,sold,live_blog,,
-2022,64,Vishnu Vinod,unsold,live_blog,,
-2022,65,Mohammed Azharuddeen,unsold,live_blog,,
-2022,66,Vishnu Solanki,unsold,live_blog,,
-2022,67,Anuj Rawat,sold,live_blog,,
-2022,68,Prabhsimran Singh,sold,live_blog,,
-2022,69,N Jagadeesan,unsold,live_blog,,
-2022,70,Sheldon Jackson,sold,live_blog,,
-2022,71,Basil Thampi,sold,live_blog,,
-2022,72,Akash Deep,sold,live_blog,,
-2022,73,KM Asif,sold,live_blog,,
-2022,74,Avesh Khan,sold,live_blog,,
-2022,75,Ishan Porel,sold,live_blog,,
-2022,76,Tushar Deshpande,sold,live_blog,,
-2022,77,Rajpoot,sold,live_blog,,
-2022,78,Noor Ahmad,sold,live_blog,,
-2022,79,Manimaran Siddharth,unsold,live_blog,,
-2022,80,KC Cariappa,sold,live_blog,,
-2022,81,Sandeep Lamichhane,unsold,live_blog,,
-2022,82,Aiden Markram,sold,live_blog,,
-2022,83,Dawid Malan,unsold,live_blog,,
-2022,84,Mandeep Singh,sold,live_blog,,
-2022,85,Marnus Labuschagne,unsold,live_blog,,
-2022,86,Eoin Morgan,unsold,live_blog,,
-2022,87,Saurabh Tiwary,unsold,live_blog,,
-2022,88,Cheteshwar Pujara,unsold,live_blog,,
-2022,89,Aaron Finch,unsold,live_blog,,
-2022,90,Jimmy Neesham,unsold,live_blog,,
-2022,91,Chris Jordan,unsold,live_blog,,
-2022,92,Odean Smith,sold,live_blog,,
-2022,93,Shivam Dube,sold,live_blog,,
-2022,94,K Gowtham,sold,live_blog,,
-2022,95,Ishant Sharma,unsold,live_blog,,
-2022,96,Khaleel Ahmed,sold,live_blog,,
-2022,97,Dushmantha Chameera,sold,live_blog,,
-2022,98,Lungi Ngidi,unsold,live_blog,,
-2022,99,Chetan Sakariya,sold,live_blog,,
-2022,100,Sandeep Sharma,sold,live_blog,,
-2022,101,Sheldon Cottrell,unsold,live_blog,,
-2022,102,Jaydev Unadkat,sold,live_blog,,
-2022,103,Nathan Coulter-Nile,unsold,live_blog,,
-2022,104,Tabraiz Shamsi,unsold,live_blog,,
-2022,105,Qais Ahmad,unsold,live_blog,,
-2022,106,Shahbaz Nadeem,sold,live_blog,,
-2022,107,Karn Sharma,unsold,live_blog,,
-2022,108,Ish Sodhi,unsold,live_blog,,
-2022,109,Piyush Chawla,unsold,live_blog,,
-2022,110,Himmat Singh,unsold,live_blog,,
-2022,111,Virat Singh,unsold,live_blog,,
-2022,112,Harnoor Singh,unsold,live_blog,,
-2022,113,Sachin Baby,unsold,live_blog,,
-2022,114,Himanshu Rana,unsold,live_blog,,
-2022,115,Rinku Singh,sold,live_blog,,
-2022,116,Manan Vohra,sold,live_blog,,
-2022,117,Ricky Bhui,unsold,live_blog,,
-2022,118,Ripal Patel,sold,live_blog,,
-2022,119,Yash Dhull,sold,live_blog,,
-2022,120,Tilak Varma,sold,live_blog,,
-2022,121,Darshan Nalkande,sold,live_blog,,
-2022,122,Vicky Ostwal,unsold,live_blog,,
-2022,123,Sanjay Yadav,sold,live_blog,,
-2022,124,Raj Bawa,sold,live_blog,,
-2022,125,Rajvardhan Hangargekar,sold,live_blog,,
-2022,126,Yash Thakur,unsold,live_blog,,
-2022,127,Vasu Vats,unsold,live_blog,,
-2022,128,Yash Dayal,sold,live_blog,,
-2022,129,Arzan Nagwaswalla,unsold,live_blog,,
-2022,130,Simarjeet Singh,sold,live_blog,,
-2022,131,Mujtaba Yousuf,unsold,live_blog,,
-2022,132,Kuldeep Sen,unsold,live_blog,,
-2022,133,Akash Singh,unsold,live_blog,,
-2022,134,Finn Allen,sold,live_blog,,
-2022,135,Alex Hales,unsold,live_blog,,
-2022,136,Karun Nair,unsold,live_blog,,
-2022,137,Evin Lewis,unsold,live_blog,,
-2022,138,Rovman Powell,sold,live_blog,,
-2022,139,Rassie van der Dussen,unsold,live_blog,,
-2022,140,Jofra Archer,sold,live_blog,,
-2022,141,Rishi Dhawan,sold,live_blog,,
-2022,142,Charith Asalanka,unsold,live_blog,,
-2022,143,Dwaine Pretorius,sold,live_blog,,
-2022,144,George Garton,unsold,live_blog,,
-2022,145,Mitch Santner,sold,live_blog,,
-2022,146,Rahmanullah Gurbaz,unsold,live_blog,,
-2022,147,Glenn Phillips,unsold,live_blog,,
-2022,148,Ben McDermott,unsold,live_blog,,
-2022,149,Nathan Ellis,unsold,live_blog,,
-2022,150,Sid Kaul,unsold,live_blog,,
-2022,151,Fazalhaq Farooqi,unsold,live_blog,,
-2022,152,Tymal Mills,sold,live_blog,,
-2022,153,Adam Milne,sold,live_blog,,
-2022,154,AJ Tye,unsold,live_blog,,
-2022,155,Reece Topley,unsold,live_blog,,
-2022,156,Sandeep Warrier,unsold,live_blog,,
-2022,157,Tom Kohler-Cadmore,unsold,live_blog,,
-2022,158,Tanmay Agarwal,unsold,live_blog,,
-2022,159,Sameer Rizvi,unsold,live_blog,,
-2022,160,Aproov Wankhade,unsold,live_blog,,
-2022,161,Atharva Ankolekar,unsold,live_blog,,
-2022,162,Pravin Dubey,sold,live_blog,,
-2022,163,Suyash Prabhudessai,sold,live_blog,,
-2022,164,Ramandeep Singh,unsold,live_blog,,
-2022,165,Atharva Taide,unsold,live_blog,,
-2022,166,B Sai Sudharsan,unsold,live_blog,,
-2022,167,Dhruv Jurel,unsold,live_blog,,
-2022,168,Prashant Chopra,unsold,live_blog,,
-2022,169,Aryan Juyal,unsold,live_blog,,
-2022,170,Ben Dwarshuis,unsold,live_blog,,
-2022,171,Pankaj Jaiswal,unsold,live_blog,,
-2022,172,Chama Milind,sold,live_blog,,
-2022,173,Yuvraj Chudasama,unsold,live_blog,,
-2022,174,Tejas Baroka,unsold,live_blog,,
-2022,175,Mayank Yadav,unsold,live_blog,,
-2022,176,Midhun Sudhesan,unsold,live_blog,,
-2022,177,Martin Guptill,unsold,live_blog,,
-2022,178,Bhanuka Rajapaksa,unsold,live_blog,,
-2022,179,Ben Cutting,unsold,live_blog,,
-2022,180,Roston Chase,unsold,live_blog,,
-2022,181,Sean Abbott,sold,live_blog,,
-2022,182,Alzarri Joseph,sold,live_blog,,
-2022,183,Dhawal Kulkarni,unsold,live_blog,,
-2022,184,Kane Richardson,unsold,live_blog,,
-2022,185,Laurie Evans,unsold,live_blog,,
-2022,186,Rahul Buddhi,unsold,live_blog,,
-2022,187,Ayush Badoni,sold,live_blog,,
-2022,188,Aneeshwar Gautam,sold,live_blog,,
-2022,189,Hayden Kerr,unsold,live_blog,,
-2022,190,Benny Howell,unsold,live_blog,,
-2022,191,Dhruv Patel,unsold,live_blog,,
-2022,192,Shams Mulani,unsold,live_blog,,
-2022,193,Saurabh Kumar,unsold,live_blog,,
-2022,194,David Wiese,unsold,live_blog,,
-2022,195,Atit Sheth,unsold,live_blog,,
-2022,196,B Indrajith,sold,live_blog,,
-2022,197,BR Sharath,unsold,live_blog,,
-2022,198,Kennar Lewis,unsold,live_blog,,
-2022,199,Chamika Karunaratne,sold,live_blog,,
-2022,200,Sushant Mishra,unsold,live_blog,,
-2022,201,Blessing Muzarabani,unsold,live_blog,,
-2022,202,David Willey,unsold,live_blog,,
-2022,203,R Samarth,sold,live_blog,,
-2022,204,Pradeep Sangwan,sold,live_blog,,
-2022,205,Mukesh Kumar Singh,unsold,live_blog,,
-2022,206,Kaushal Tambe,unsold,live_blog,,
-2022,207,Hrithik Shokeen,unsold,live_blog,,
-2022,208,Ninad Rathva,unsold,live_blog,,
-2022,209,Kyle Mayers,sold,live_blog,,
-2022,210,Amit Ali,unsold,live_blog,,
-2022,211,Karan Sharma,sold,live_blog,,
-2022,212,Mohammad Arshad Khan,sold,live_blog,,
-2022,213,Ansh Patel,sold,live_blog,,
-2022,214,Ashok Sharma,sold,live_blog,,
-2022,215,Ashutosh Sharma,unsold,live_blog,,
-2022,216,Miller,sold,live_blog,,
-2022,217,Billings,sold,live_blog,,
-2022,218,Wriddhiman Saha,sold,live_blog,,
-2022,219,Umesh Yadav,unsold,live_blog,,
-2022,220,Vishnu Vinod,sold,live_blog,,
-2022,221,Sheldon Cottrell,unsold,live_blog,,
-2022,222,Jimmy Neesham,unsold,live_blog,,
-2022,223,Lungi Ngidi,sold,live_blog,,
-2022,224,Qais Ahmad,unsold,live_blog,,
-2022,225,Harnoor Singh,unsold,live_blog,,
-2022,226,Mujtaba Yousuf,unsold,live_blog,,
-2022,227,Alex Hales,sold,live_blog,,
-2022,228,Charith Asalanka,unsold,live_blog,,
-2022,229,Rahmanullah Gurbaz,unsold,live_blog,,
-2022,230,Glenn Phillips,sold,live_blog,,
-2022,231,Ben McDermott,unsold,live_blog,,
-2022,232,Fazalhaq Farooqi,sold,live_blog,,
-2022,233,Reece Topley,unsold,live_blog,,
-2022,234,Sameer Rizvi,unsold,live_blog,,
-2022,235,Tanmay Agarwal,unsold,live_blog,,
-2022,236,AJ Tye,unsold,live_blog,,
-2022,237,B Sai Sudharsan,unsold,live_blog,,
-2022,238,Mayank Yadav,sold,live_blog,,
-2022,239,Dhruv Jurel,sold,live_blog,,
-2022,240,Tejas Baroka,sold,live_blog,,
-2022,241,Akeal Hosein,unsold,live_blog,,
-2022,242,Moises Henriques,unsold,live_blog,,
-2022,243,Scott Kuggeleijn,unsold,live_blog,,
-2022,244,Tim Southee,sold,live_blog,,
-2022,245,Kane Richardson,unsold,live_blog,,
-2022,246,Utkarsh Singh,unsold,live_blog,,
-2022,247,Atit Sheth,unsold,live_blog,,
-2022,248,Matheesha Pathirana,unsold,live_blog,,
-2022,249,Colin Munro,unsold,live_blog,,
-2022,250,Blessing Muzarabani,unsold,live_blog,,
-2022,251,Shivank Vashishth,unsold,live_blog,,
-2022,252,Gerald Coetzee,unsold,live_blog,,
-2022,253,Shubham Sharma,unsold,live_blog,,
-2022,254,Pratyush Singh,unsold,live_blog,,
-2022,255,Bharat Sharma,unsold,live_blog,,
-2022,256,Chinntla Reddy,unsold,live_blog,,
-2022,257,Bharat Sharma,unsold,live_blog,,
-2022,258,Duan Jansen,unsold,live_blog,,
-2022,259,Rohan Rana,unsold,live_blog,,
-2022,260,Khizar Dafedar,unsold,live_blog,,
-2022,261,Qais Ahmad,unsold,live_blog,,
-2022,262,Ishant Sharma,unsold,live_blog,,
-2022,263,Rohan Kadam,unsold,live_blog,,
-2022,264,Andrew Tye,unsold,live_blog,,
-2022,265,Sameer Rizvi,unsold,live_blog,,
-2022,266,Kulwant Khejroliya,unsold,live_blog,,
-2022,267,Akash Madhwal,unsold,live_blog,,
-2023,1,Kane Williamson,sold,live_blog,,
-2023,2,Harry Brook,sold,live_blog,,
-2023,3,Mayank Agarwal,sold,live_blog,,
-2023,4,Ajinkya Rahane,sold,live_blog,,
-2023,5,Joe Root,sold,live_blog,,
-2023,6,Rilee Rossouw,sold,live_blog,,
-2023,7,Sam Curran,sold,live_blog,,
-2023,8,Odean Smith,sold,live_blog,,
-2023,9,Sikandar Raza,sold,live_blog,,
-2023,10,Jason Holder,sold,live_blog,,
-2023,11,Cameron Green,sold,live_blog,,
-2023,12,Ben Stokes,sold,live_blog,,
-2023,13,Litton Das,sold,live_blog,,
-2023,14,Nicholas Pooran,sold,live_blog,,
-2023,15,Heinrich Klaasen,sold,live_blog,,
-2023,16,Kusal Mendis,unsold,live_blog,,
-2023,17,Tom Banton,unsold,live_blog,,
-2023,18,Phil Salt,sold,live_blog,,
-2023,19,Chris Jordan,unsold,live_blog,,
-2023,20,Reece Topley,sold,live_blog,,
-2023,21,Jaydev Unadkat,sold,live_blog,,
-2023,22,Adam Milne,unsold,live_blog,,
-2023,23,Jhye Richardson,sold,live_blog,,
-2023,24,Ishant Sharma,sold,live_blog,,
-2023,25,Adil Rashid,sold,live_blog,,
-2023,26,Akeal Hosein,sold,live_blog,,
-2023,27,Adam Zampa,sold,live_blog,,
-2023,28,Tabraiz Shamsi,unsold,live_blog,,
-2023,29,Mujeeb ur Rahman,unsold,live_blog,,
-2023,30,Mayank Markande,sold,live_blog,,
-2023,31,Anmolpreet Singh,sold,live_blog,,
-2023,32,LR Chetan,unsold,live_blog,,
-2023,33,Shubham Khajuria,unsold,live_blog,,
-2023,34,Rohan Kunnummal,unsold,live_blog,,
-2023,35,Shaik Rasheed,sold,live_blog,,
-2023,36,Himmat Singh,unsold,live_blog,,
-2023,37,Vivrant Sharma,sold,live_blog,,
-2023,38,Priyam Garg,unsold,live_blog,,
-2023,39,Samarth Vyas,sold,live_blog,,
-2023,40,Saurabh Kumar,unsold,live_blog,,
-2023,41,Corbin Bosch,unsold,live_blog,,
-2023,42,Sanvir Singh,sold,live_blog,,
-2023,43,Abhimanyu Easwaran,unsold,live_blog,,
-2023,44,Nishant Sindhu,sold,live_blog,,
-2023,45,Shashank Singh,unsold,live_blog,,
-2023,46,Sumit Kumar,unsold,live_blog,,
-2023,47,Dinesh Bana,unsold,live_blog,,
-2023,48,KS Bharat,sold,live_blog,,
-2023,49,N Jagadeesan,sold,live_blog,,
-2023,50,Upendra Yadav,sold,live_blog,,
-2023,51,Mohammed Azharudeen,unsold,live_blog,,
-2023,52,Vaibhav Arora,sold,live_blog,,
-2023,53,Yash Thakur,sold,live_blog,,
-2023,54,KM Asif,sold,live_blog,,
-2023,55,Mujtaba Yousuf,unsold,live_blog,,
-2023,56,Lance Morris,unsold,live_blog,,
-2023,57,Shivam Mavi,sold,live_blog,,
-2023,58,Mukesh Kumar,sold,live_blog,,
-2023,59,Chintal Gandhi,unsold,live_blog,,
-2023,60,Izharulhuq Naveed,unsold,live_blog,,
-2023,61,M Ashwin,sold,live_blog,,
-2023,62,Shreyas Gopal,unsold,live_blog,,
-2023,63,S Midhun,unsold,live_blog,,
-2023,64,Himanshu Sharma,sold,live_blog,,
-2023,65,Paul Stirling,unsold,live_blog,,
-2023,66,Manish Pandey,sold,live_blog,,
-2023,67,Rassie van der Dussen,unsold,live_blog,,
-2023,68,Sherfane Rutherford,unsold,live_blog,,
-2023,69,Will Jacks,sold,live_blog,,
-2023,70,Travis Head,unsold,live_blog,,
-2023,71,Mandeep Singh,sold,live_blog,,
-2023,72,Dawid Malan,unsold,live_blog,,
-2023,73,Romario Shepherd,sold,live_blog,,
-2023,74,Daryl Mitchell,unsold,live_blog,,
-2023,75,Daniel Sams,sold,live_blog,,
-2023,76,Mohammad Nabi,unsold,live_blog,,
-2023,77,Wayne Parnell,unsold,live_blog,,
-2023,78,James Neesham,unsold,live_blog,,
-2023,79,Dasun Shanaka,unsold,live_blog,,
-2023,80,Riley Meredith,unsold,live_blog,,
-2023,81,Sandeep Sharma,unsold,live_blog,,
-2023,82,Taskin Ahmed,unsold,live_blog,,
-2023,83,Dushmantha Chameera,unsold,live_blog,,
-2023,84,Blessing Muzarabani,unsold,live_blog,,
-2023,85,Kyle Jamieson,sold,live_blog,,
-2023,86,Piyush Chawla,sold,live_blog,,
-2023,87,Amit Mishra,sold,live_blog,,
-2023,88,Harpreet Bhatia,sold,live_blog,,
-2023,89,Wil Smeed,unsold,live_blog,,
-2023,90,Manoj Bhandage,sold,live_blog,,
-2023,91,Mayank Dagar,sold,live_blog,,
-2023,92,Duan Jansen,sold,live_blog,,
-2023,93,Prerak Mankad,sold,live_blog,,
-2023,94,Suryansh Shedge,unsold,live_blog,,
-2023,95,J Suchith,unsold,live_blog,,
-2023,96,Donovan Ferreira,sold,live_blog,,
-2023,97,B Indrajith,unsold,live_blog,,
-2023,98,Urvil Patel,sold,live_blog,,
-2023,99,Karan Shinde,unsold,live_blog,,
-2023,100,Vishnu Vinod,sold,live_blog,,
-2023,101,V Kaverappa,sold,live_blog,,
-2023,102,Rajan Kumar,sold,live_blog,,
-2023,103,Akash Singh,unsold,live_blog,,
-2023,104,Paul van Meekeren,unsold,live_blog,,
-2023,105,Tejas Baroka,unsold,live_blog,,
-2023,106,Yuvraj Chadasama,unsold,live_blog,,
-2023,107,Suyash Sharma,sold,live_blog,,
-2023,108,Jamie Overton,unsold,live_blog,,
-2023,109,Richard Gleeson,unsold,live_blog,,
-2023,110,Naveen-ul-Haq,sold,live_blog,,
-2023,111,Josh Little,sold,live_blog,,
-2023,112,Dilshan Madushanka,unsold,live_blog,,
-2023,113,Mohit Sharma,sold,live_blog,,
-2023,114,Himanshu Bisht,unsold,live_blog,,
-2023,115,Shams Mulani,sold,live_blog,,
-2023,116,Swapnil Singh,sold,live_blog,,
-2023,117,Sumeet Verma,unsold,live_blog,,
-2023,118,David Wiese,sold,live_blog,,
-2023,119,R Sanjay Yadav,unsold,live_blog,,
-2023,120,G Ajitesh,unsold,live_blog,,
-2023,121,Nitish Kumar Reddy,sold,live_blog,,
-2023,122,Avinash Singh,sold,live_blog,,
-2023,123,Rehan Ahmed,unsold,live_blog,,
-2023,124,Tom Curran,unsold,live_blog,,
-2023,125,Varun Aaron,unsold,live_blog,,
-2023,126,Priyank Panchal,unsold,live_blog,,
-2023,127,R Sanjay,unsold,live_blog,,
-2023,128,B Surya,unsold,live_blog,,
-2023,129,Kunal Rathore,sold,live_blog,,
-2023,130,R Sonu Yadav,sold,live_blog,,
-2023,131,Kulwant Khejroliya,sold,live_blog,,
-2023,132,Ajay Mandal,sold,live_blog,,
-2023,133,Jitendra Pal,unsold,live_blog,,
-2023,134,Utkarsh Singh,unsold,live_blog,,
-2023,135,Shubham Kapse,unsold,live_blog,,
-2023,136,H Trilog Nag,unsold,live_blog,,
-2023,137,Deepesh Nailwal,unsold,live_blog,,
-2023,138,Shubhang Hegde,unsold,live_blog,,
-2023,139,Mohit Rathee,sold,live_blog,,
-2023,140,Nehal Wadhera,sold,live_blog,,
-2023,141,Bhagath Verma,sold,live_blog,,
-2023,142,Shivam Singh,sold,live_blog,,
-2023,143,Johnson Charles,unsold,live_blog,,
-2023,144,Akash Vashisht,sold,live_blog,,
-2023,145,Luke Wood,unsold,live_blog,,
-2023,146,Yudhvir Charak,sold,live_blog,,
-2023,147,Raghav Goyal,sold,live_blog,,
-2023,148,Prashant Chopra,unsold,live_blog,,
-2023,149,Abdul Basith,sold,live_blog,,
-2023,150,Shakib Al Hasan,sold,live_blog,,
-2023,151,Ekant Sen,unsold,live_blog,,
-2024,1,Rovman Powell,sold,live_blog,1,100
-2024,2,Rilee Rossouw,sold,live_blog,1,200
-2024,3,Harry Brook,sold,live_blog,1,200
-2024,4,Travis Head,sold,live_blog,1,200
-2024,5,Karun Nair,unsold,live_blog,1,50
-2024,6,Steven Smith,unsold,live_blog,1,200
-2024,7,Manish Pandey,sold,live_blog,1,50
-2024,8,Wanindu Hasaranga,sold,live_blog,2,150
-2024,9,Rachin Ravindra,sold,live_blog,2,50
-2024,10,Shardul Thakur,sold,live_blog,2,200
-2024,11,Pat Cummins,sold,live_blog,2,200
-2024,12,Azmatullah Omarzai,sold,live_blog,2,50
-2024,13,Gerald Coetzee,sold,live_blog,2,200
-2024,14,Harshal Patel,sold,live_blog,2,200
-2024,15,Daryl Mitchell,sold,live_blog,2,100
-2024,16,Chris Woakes,sold,live_blog,2,200
-2024,17,Phil Salt,unsold,live_blog,3,150
-2024,18,Tristan Stubbs,sold,live_blog,3,50
-2024,19,KS Bharat,sold,live_blog,3,50
-2024,20,Josh Inglis,unsold,live_blog,3,200
-2024,21,Kusal Mendis,unsold,live_blog,3,50
-2024,22,Lockie Ferguson,sold,live_blog,4,200
-2024,23,Josh Hazlewood,unsold,live_blog,4,200
-2024,24,Chetan Sakariya,sold,live_blog,4,50
-2024,25,Alzarri Joseph,sold,live_blog,4,100
-2024,26,Umesh Yadav,sold,live_blog,4,200
-2024,27,Shivam Mavi,sold,live_blog,4,50
-2024,28,Mitchell Starc,sold,live_blog,4,200
-2024,29,Jaydev Unadkat,sold,live_blog,4,50
-2024,30,Dilshan Madushanka,sold,live_blog,4,50
-2024,31,Waqar Salamkheil,unsold,live_blog,,
-2024,32,Adil Rashid,unsold,live_blog,5,200
-2024,33,Akeal Hosein,unsold,live_blog,5,50
-2024,34,Tabraiz Shamsi,unsold,live_blog,5,50
-2024,35,Ish Sodhi,unsold,live_blog,5,75
-2024,36,Mujeeb Ur Rahman,sold,live_blog,5,200
-2024,,Shubham Dubey,sold,not_ordered,6,20
-2024,,Sameer Rizvi,sold,not_ordered,6,20
-2024,,Angkrish Raghuvanshi,sold,not_ordered,6,20
-2024,,Arshin Kulkarni,sold,not_ordered,7,20
-2024,,Shahrukh Khan,sold,not_ordered,7,40
-2024,,Ramandeep Singh,sold,not_ordered,7,20
-2024,,Tom Kohler-Cadmore,sold,not_ordered,8,40
-2024,,Ricky Bhui,sold,not_ordered,8,20
-2024,,Kumar Kushagra,sold,not_ordered,8,20
-2024,,Yash Dayal,sold,not_ordered,9,20
-2024,,Sushant Mishra,sold,not_ordered,9,20
-2024,37,Kartik Tyagi,sold,live_blog,9,20
-2024,,Rasikh Dar,sold,not_ordered,9,20
-2024,,Akash Singh,sold,not_ordered,9,20
-2024,,Manav Suthar,sold,not_ordered,10,20
-2024,,Manimaran Siddharth,sold,not_ordered,10,20
-2024,,Shreyas Gopal,sold,not_ordered,10,20
-2024,,Sherfane Rutherford,sold,not_ordered,11,150
-2024,,Ashton Turner,sold,not_ordered,11,100
-2024,,Tom Curran,sold,not_ordered,12,150
-2024,,David Willey,sold,not_ordered,12,200
-2024,,Spencer Johnson,sold,not_ordered,14,50
-2024,,Mustafizur Rahman,sold,not_ordered,14,200
-2024,,Jhye Richardson,sold,not_ordered,14,150
-2024,,Nuwan Thushara,sold,not_ordered,14,50
-2024,,Naman Dhir,sold,not_ordered,16,20
-2024,,Anshul Kamboj,sold,not_ordered,16,20
-2024,,Sumit Kumar,sold,not_ordered,16,20
-2024,,Ashutosh Sharma,sold,not_ordered,16,20
-2024,,Vishwanath Singh,sold,not_ordered,15,20
-2024,,Shashank Singh,sold,not_ordered,16,20
-2024,,Tanay Thyagarajan,sold,not_ordered,,
-2024,,Robin Minz,sold,not_ordered,17,20
-2024,,Prince Choudary,sold,not_ordered,,
-2024,,Jhathavedh Subramanyan,sold,not_ordered,19,20
-2024,,Arshad Khan,sold,not_ordered,16,20
-2024,,Mohammad Nabi,sold,not_ordered,12,150
-2024,,Shai Hope,sold,not_ordered,13,75
-2024,,Gus Atkinson,sold,not_ordered,14,100
-2024,,Swastik Chhikara,sold,not_ordered,15,20
-2024,,Abid Mushtaq,sold,not_ordered,16,20
-2024,,Shivalik Sharma,sold,not_ordered,16,20
-2024,,Swapnil Singh,sold,not_ordered,16,20
-2024,,Avanish Rao Aravelly,sold,not_ordered,17,20
-2024,,Nandre Burger,sold,not_ordered,18,20
-2024,,Sakib Hussain,sold,not_ordered,18,20
-2024,,Saurav Chauhan,sold,not_ordered,,
-2025,1,Arshdeep Singh,sold,live_blog,,
-2025,2,Kagiso Rabada,sold,live_blog,,
-2025,3,Shreyas Iyer,sold,live_blog,,
-2025,4,Jos Buttler,sold,live_blog,,
-2025,5,Mitchell Starc,sold,live_blog,,
-2025,6,Rishabh Pant,sold,live_blog,,
-2025,7,Mohammed Shami,sold,live_blog,,
-2025,8,David Miller,sold,live_blog,,
-2025,9,Yuzvendra Chahal,sold,live_blog,,
-2025,10,Siraj,sold,live_blog,,
-2025,11,Liam Livingstone,sold,live_blog,,
-2025,12,KL Rahul,sold,live_blog,,
-2025,13,Harry Brook,sold,live_blog,,
-2025,14,Devdutt Padikkal,unsold,live_blog,,
-2025,15,Aiden Markram,sold,live_blog,,
-2025,16,Devon Conway,sold,live_blog,,
-2025,17,Rahul Tripathi,sold,live_blog,,
-2025,18,David Warner,unsold,live_blog,,
-2025,19,Jake Fraser-McGurk,sold,live_blog,,
-2025,20,Harshal Patel,sold,live_blog,,
-2025,21,Rachin Ravindra,sold,live_blog,,
-2025,22,R Ashwin,sold,live_blog,,
-2025,23,Venkatesh Iyer,sold,live_blog,,
-2025,24,Marcus Stoinis,sold,live_blog,,
-2025,25,Mitch Marsh,sold,live_blog,,
-2025,26,Glenn Maxwell,sold,live_blog,,
-2025,27,Quinton de Kock,sold,live_blog,,
-2025,28,Jonny Bairstow,unsold,live_blog,,
-2025,29,Phil Salt,sold,live_blog,,
-2025,30,Rahmanullah Gurbaz,sold,live_blog,,
-2025,31,Ishan Kishan,sold,live_blog,,
-2025,32,Jitesh Sharma,sold,live_blog,,
-2025,33,Josh Hazlewood,sold,live_blog,,
-2025,34,Prasidh Krishna,sold,live_blog,,
-2025,35,Avesh Khan,sold,live_blog,,
-2025,36,Anrich Nortje,sold,live_blog,,
-2025,37,Jofra Archer,sold,live_blog,,
-2025,38,Khaleel Ahmed,sold,live_blog,,
-2025,39,T Natarajan,sold,live_blog,,
-2025,40,Trent Boult,sold,live_blog,,
-2025,41,Maheesh Theekshana,sold,live_blog,,
-2025,42,Rahul Chahar,sold,live_blog,,
-2025,43,Adam Zampa,sold,live_blog,,
-2025,44,Wanindu Hasaranga,sold,live_blog,,
-2025,45,Waqar Salamkheil,unsold,live_blog,,
-2025,46,Noor Ahmad,sold,live_blog,,
-2025,47,Atharva Taide,sold,live_blog,,
-2025,48,Anmolpreet Singh,unsold,live_blog,,
-2025,49,Nehal Wadhera,sold,live_blog,,
-2025,50,Angkrish Raghuvanshi,sold,live_blog,,
-2025,51,Karun Nair,sold,live_blog,,
-2025,52,Yash Dhull,unsold,live_blog,,
-2025,53,Abhinav Manohar,sold,live_blog,,
-2025,54,Nishant Sindhu,sold,live_blog,,
-2025,55,Sameer Rizvi,sold,live_blog,,
-2025,56,Naman Dhir,sold,live_blog,,
-2025,57,Abdul Samad,sold,live_blog,,
-2025,58,Harpreet Brar,sold,live_blog,,
-2025,59,Vijay Shankar,sold,live_blog,,
-2025,60,Mahipal Lomror,sold,live_blog,,
-2025,61,Ashutosh Sharma,sold,live_blog,,
-2025,62,Utkarsh Singh,unsold,live_blog,,
-2025,63,Kumar Kushagra,sold,live_blog,,
-2025,64,Robin Minz,sold,live_blog,,
-2025,65,Anuj Rawat,sold,live_blog,,
-2025,66,Aryan Juyal,sold,live_blog,,
-2025,67,Upendra Yadav,unsold,live_blog,,
-2025,68,Luvnith Sisodia,unsold,live_blog,,
-2025,69,Vishnu Vinod,sold,live_blog,,
-2025,70,Rasikh Salam Dar,sold,live_blog,,
-2025,71,Akash Madhwal,sold,live_blog,,
-2025,72,Mohit Sharma,sold,live_blog,,
-2025,73,Vyshak Vijaykumar,sold,live_blog,,
-2025,74,Vaibhav Arora,sold,live_blog,,
-2025,75,Yash Thakur,sold,live_blog,,
-2025,76,Kartik Tyagi,unsold,live_blog,,
-2025,77,Simarjeet Singh,sold,live_blog,,
-2025,78,Suyash Sharma,sold,live_blog,,
-2025,79,Karn Sharma,sold,live_blog,,
-2025,80,Mayank Markande,sold,live_blog,,
-2025,81,Piyush Chawla,unsold,live_blog,,
-2025,82,Kumar Kartikeya Singh,sold,live_blog,,
-2025,83,Manav Suthar,sold,live_blog,,
-2025,84,Shreyas Gopal,unsold,live_blog,,
-2025,85,Kane Williamson,unsold,live_blog,,
-2025,86,Glenn Phillips,unsold,live_blog,,
-2025,87,Rovman Powell,sold,live_blog,,
-2025,88,Faf du Plessis,sold,live_blog,,
-2025,89,Ajinkya Rahane,unsold,live_blog,,
-2025,90,Mayank Agarwal,unsold,live_blog,,
-2025,91,Prithvi Shaw,unsold,live_blog,,
-2025,92,Shardul Thakur,unsold,live_blog,,
-2025,93,Washington Sundar,sold,live_blog,,
-2025,94,Sam Curran,sold,live_blog,,
-2025,95,Marco Jansen,sold,live_blog,,
-2025,96,Daryl Mitchell,unsold,live_blog,,
-2025,97,Krunal Pandya,sold,live_blog,,
-2025,98,Nitish Rana,sold,live_blog,,
-2025,99,Shai Hope,unsold,live_blog,,
-2025,100,Ryan Rickelton,sold,live_blog,,
-2025,101,KS Bharat,unsold,live_blog,,
-2025,102,Josh Inglis,sold,live_blog,,
-2025,103,Alex Carey,unsold,live_blog,,
-2025,104,Don Ferreira,unsold,live_blog,,
-2025,105,Tushar Deshpande,sold,live_blog,,
-2025,106,Gerald Coetzee,sold,live_blog,,
-2025,107,Bhuvneshwar Kumar,sold,live_blog,,
-2025,108,Mukesh Kumar,sold,live_blog,,
-2025,109,Deepak Chahar,sold,live_blog,,
-2025,110,Akash Deep,sold,live_blog,,
-2025,111,Lockie Ferguson,sold,live_blog,,
-2025,112,Mujeeb Ur Rahman,unsold,live_blog,,
-2025,113,Allah Ghazanfar,sold,live_blog,,
-2025,114,Vijayakanth Viyaskanth,unsold,live_blog,,
-2025,115,Akeal Hosein,unsold,live_blog,,
-2025,116,Adil Rashid,unsold,live_blog,,
-2025,117,Keshav Maharaj,unsold,live_blog,,
-2025,118,Swastik Chhikara,unsold,live_blog,,
-2025,119,Shubham Dubey,sold,live_blog,,
-2025,120,Madhav Kaushik,unsold,live_blog,,
-2025,121,Pukhraj Mann,unsold,live_blog,,
-2025,122,Shaik Rasheed,sold,live_blog,,
-2025,123,Himmat Singh,sold,live_blog,,
-2025,124,Mayang Dagar,unsold,live_blog,,
-2025,125,Anshul Kamboj,sold,live_blog,,
-2025,126,Arshad Khan,sold,live_blog,,
-2025,127,Darshan Nalkande,sold,live_blog,,
-2025,128,Anukul Roy,unsold,live_blog,,
-2025,129,Swapnil Singh,sold,live_blog,,
-2025,130,Avanish Aravelly,unsold,live_blog,,
-2025,131,Vansh Bedi,unsold,live_blog,,
-2025,132,Harvik Desai,unsold,live_blog,,
-2025,133,Gurnoor Brar,sold,live_blog,,
-2025,134,Mukesh Choudhary,sold,live_blog,,
-2025,135,Sakib Hussain,unsold,live_blog,,
-2025,136,Vidwath Kaverappa,unsold,live_blog,,
-2025,137,Rajan Kumar,unsold,live_blog,,
-2025,138,Zeeshan Ansari,sold,live_blog,,
-2025,139,M Siddharth,sold,live_blog,,
-2025,140,Digvesh Singh,sold,live_blog,,
-2025,141,Prashant Solanki,unsold,live_blog,,
-2025,142,Jhathavedh Subramanyan,unsold,live_blog,,
-2025,143,Finn Allen,unsold,live_blog,,
-2025,144,Dewald Brevis,unsold,live_blog,,
-2025,145,Ben Duckett,unsold,live_blog,,
-2025,146,Manish Pandey,sold,live_blog,,
-2025,147,Sherfane Rutherford,sold,live_blog,,
-2025,148,Shahbaz Ahmed,sold,live_blog,,
-2025,149,Moeen Ali,unsold,live_blog,,
-2025,150,Tim David,sold,live_blog,,
-2025,151,Deepak Hooda,sold,live_blog,,
-2025,152,Will Jacks,sold,live_blog,,
-2025,153,Azmatullah Omarzai,sold,live_blog,,
-2025,154,R Sai Kishore,sold,live_blog,,
-2025,155,Romario Shepherd,sold,live_blog,,
-2025,156,Josh Phillipe,unsold,live_blog,,
-2025,157,Spencer Johsnon,sold,live_blog,,
-2025,158,Umran Malik,unsold,live_blog,,
-2025,159,Mustafizur Rahman,unsold,live_blog,,
-2025,160,Ishant Sharma,sold,live_blog,,
-2025,161,Nuwan Thushara,sold,live_blog,,
-2025,162,Naveen-ul-Haq,unsold,live_blog,,
-2025,163,Jaydev Unadkat,sold,live_blog,,
-2025,164,Umesh Yadav,unsold,live_blog,,
-2025,165,Rishad Hossain,unsold,live_blog,,
-2025,166,Harnoor Singh,sold,live_blog,,
-2025,167,Andre Siddarth,unsold,live_blog,,
-2025,168,Yudhvir Charak,sold,live_blog,,
-2025,169,Rishi Dhawan,unsold,live_blog,,
-2025,170,Raj Hangargekar,unsold,live_blog,,
-2025,171,Arshin Kulkarni,unsold,live_blog,,
-2025,172,Shivam Singh,unsold,live_blog,,
-2025,173,LR Chetan,unsold,live_blog,,
-2025,174,Ashwani Kumar,sold,live_blog,,
-2025,175,Akash Singh,sold,live_blog,,
-2025,176,Gurjapneet Singh,sold,live_blog,,
-2025,177,Raghav Goyal,unsold,live_blog,,
-2025,178,B Yeswanth,unsold,live_blog,,
-2025,179,Brandon King,unsold,live_blog,,
-2025,180,SL's Nissanka,unsold,live_blog,,
-2025,181,Steven Smith,unsold,live_blog,,
-2025,182,Gus Atkinson,unsold,live_blog,,
-2025,183,Sikandar Raza,unsold,live_blog,,
-2025,184,Mitch Santner,sold,live_blog,,
-2025,185,Jayant Yadav,sold,live_blog,,
-2025,186,Fazalhaq Farooqi,sold,live_blog,,
-2025,187,Richard Gleeson,unsold,live_blog,,
-2025,188,Alzarri Joseph,unsold,live_blog,,
-2025,189,Kwena Maphaka,unsold,live_blog,,
-2025,190,Kuldeep Sen,sold,live_blog,,
-2025,191,Reece Topley,sold,live_blog,,
-2025,192,Luke Wood,unsold,live_blog,,
-2025,193,Sachin Dhas,unsold,live_blog,,
-2025,194,Priyansh Arya,sold,live_blog,,
-2025,195,Manoj Bhandage,sold,live_blog,,
-2025,196,Vipraj Nigam,sold,live_blog,,
-2025,197,KL Shrijith,sold,live_blog,,
-2025,198,Arpit Guleria,unsold,live_blog,,
-2025,199,Jacob Bethell,sold,live_blog,,
-2025,200,Brydon Carse,sold,live_blog,,
-2025,201,Aaron Hardie,sold,live_blog,,
-2025,202,Sarfaraz Khan,unsold,live_blog,,
-2025,203,Kyle Mayers,unsold,live_blog,,
-2025,204,Kamindu Mendis,sold,live_blog,,
-2025,205,Matt Short,unsold,live_blog,,
-2025,206,Jason Behrendorff,unsold,live_blog,,
-2025,207,Dushmantha Chameera,sold,live_blog,,
-2025,208,Nathan Ellis,sold,live_blog,,
-2025,209,Shamar Joseph,sold,live_blog,,
-2025,210,Shivam Mavi,unsold,live_blog,,
-2025,211,Navdeep Saini,unsold,live_blog,,
-2025,212,Salman Nizar,unsold,live_blog,,
-2025,213,Aniket Verma,sold,live_blog,,
-2025,214,Raj Bawa,sold,live_blog,,
-2025,215,Emanjot Chahal,unsold,live_blog,,
-2025,216,Musheer Khan,sold,live_blog,,
-2025,217,Suryash Shedge,sold,live_blog,,
-2025,218,Kulwant Khejroliya,unsold,live_blog,,
-2025,219,Divesh Sharma,unsold,live_blog,,
-2025,220,Naman Tiwari,unsold,live_blog,,
-2025,221,Prince Yadav,sold,live_blog,,
-2025,222,Michael Bracewell,unsold,live_blog,,
-2025,223,Jamie Overton,sold,live_blog,,
-2025,224,Ottneil Baartman,unsold,live_blog,,
-2025,225,Xavier Bartlett,sold,live_blog,,
-2025,226,Dilshan Madushanka,unsold,live_blog,,
-2025,227,Adam Milne,unsold,live_blog,,
-2025,228,Lungi Ngidi,unsold,live_blog,,
-2025,229,Will O'Rourke,unsold,live_blog,,
-2025,230,Chetan Sakariya,unsold,live_blog,,
-2025,231,Sandeep Warrier,unsold,live_blog,,
-2025,232,Abdul Basith,unsold,live_blog,,
-2025,233,Yuvraj Chaudhary,sold,live_blog,,
-2025,234,Sandeep Warrier,unsold,live_blog,,
-2025,235,Kamlesh Nagarkoti,sold,live_blog,,
-2025,236,Tejasvi Dahiya,unsold,live_blog,,
-2025,237,Lance Morris and Olly Stone,unsold,live_blog,,
-2025,238,Pyla Avinash,sold,live_blog,,
-2025,239,Ramakrishna Ghosh,sold,live_blog,,
-2025,240,Raj Limbani,unsold,live_blog,,
-2025,241,Shiva Singh,unsold,live_blog,,
-2025,242,Anshuman Hooda,unsold,live_blog,,
-2025,243,Satyanarayana Raju,sold,live_blog,,
-2025,244,Dwaine Pretoruius,unsold,live_blog,,
-2025,245,Blessing Muzarabani,unsold,live_blog,,
-2025,246,Brandon McMullen,unsold,live_blog,,
-2025,247,Atit Sheth,unsold,live_blog,,
-2025,248,Vijay Kumar,unsold,live_blog,,
-2025,249,Roston Chase,unsold,live_blog,,
-2025,250,Nathan Smith,unsold,live_blog,,
-2025,251,Kyle Jamieson,unsold,live_blog,,
-2025,252,Chris Jordan,unsold,live_blog,,
-2025,253,Vaibhav Suryavanshi,sold,live_blog,,
-2025,254,Ripal Patel and Sanjay Yadav,unsold,live_blog,,
-2025,255,Eshan Malinga,sold,live_blog,,
-2025,256,Umang Kumar,unsold,live_blog,,
-2025,257,Digvijay Deshmukh,unsold,live_blog,,
-2025,258,Yash Dabas,unsold,live_blog,,
-2025,259,Devdutt Padikkal,sold,live_blog,,
-2025,260,David Warner,unsold,live_blog,,
-2025,261,Anmolpreet Singh,unsold,live_blog,,
-2025,262,Lunith Sisodia,sold,live_blog,,
-2025,263,'Uncapped' Chawla,unsold,live_blog,,
-2025,264,Shreyas Gopal,sold,live_blog,,
-2025,265,Mayank Agarwal,unsold,live_blog,,
-2025,266,Glenn Phillips,sold,live_blog,,
-2025,267,Ajinkya Rahane,sold,live_blog,,
-2025,268,Shardul Thakur,unsold,live_blog,,
-2025,269,Donovan Ferreira,sold,live_blog,,
-2025,270,Swastik Chikkara,sold,live_blog,,
-2025,271,Pukhraj Mann,unsold,live_blog,,
-2025,272,Anukul Roy,sold,live_blog,,
-2025,273,Vansh Bedi,sold,live_blog,,
-2025,274,Harvik Desai,unsold,live_blog,,
-2025,275,Arjun Tendulkar,unsold,live_blog,,
-2025,276,Prince Choudhary,unsold,live_blog,,
-2025,277,Prashant Solanki,unsold,live_blog,,
-2025,278,Dewald Brevis,unsold,live_blog,,
-2025,279,Moeen,sold,live_blog,,
-2025,280,Umran Malik,sold,live_blog,,
-2025,281,Sachin Baby,sold,live_blog,,
-2025,282,C Andre Siddarth,sold,live_blog,,
-2025,283,Raj Hangargekar,sold,live_blog,,
-2025,284,Tanush Kotian,unsold,live_blog,,
-2025,285,Arshin Kulkarni,sold,live_blog,,
-2025,286,LR Chetan,unsold,live_blog,,
-2025,287,M Ashwin,unsold,live_blog,,
-2025,288,Matthew Breetzke,sold,live_blog,,
-2025,289,Brandon King,unsold,live_blog,,
-2025,290,Gus Atkinson,unsold,live_blog,,
-2025,291,Sikandar Raza,unsold,live_blog,,
-2025,292,Tom Latham,unsold,live_blog,,
-2025,293,Kwena Maphaka,sold,live_blog,,
-2025,294,Leus du Plooy,unsold,live_blog,,
-2025,295,Pravin Dubey,sold,live_blog,,
-2025,296,Ajay Mandal,sold,live_blog,,
-2025,297,Shivalik Sharma,unsold,live_blog,,
-2025,298,Matt Short,unsold,live_blog,,
-2025,299,Manvanth Kumar,sold,live_blog,,
-2025,300,Kulwant Khejroliya,unsold,live_blog,,
-2025,301,Ottneil Baartman,unsold,live_blog,,
-2025,302,Sandeep Warrier,unsold,live_blog,,
-2025,303,Tejasvi Dahiya,unsold,live_blog,,
-2025,304,Karim Janat,sold,live_blog,,
-2025,305,Raj Limbani,unsold,live_blog,,
-2025,306,Bevon Jacobs,sold,live_blog,,
-2025,307,Atit Sheth,unsold,live_blog,,
-2025,308,Tripurana Vijay,sold,live_blog,,
-2025,309,Madhav Tiwari,sold,live_blog,,
-2025,310,Khrievitso Kense,unsold,live_blog,,
-2025,311,Warner,unsold,live_blog,,
-2025,312,Kunal Rathore,sold,live_blog,,
-2025,313,Arjun Tendulkar,sold,live_blog,,
-2025,314,Lizaad Williams,sold,live_blog,,
-2025,315,Shivam Mavi,unsold,live_blog,,
-2025,316,Kulwant Khejroliya,sold,live_blog,,
-2025,317,Ottneil Baartman,unsold,live_blog,,
-2025,318,Lungi Ngidi,sold,live_blog,,
-2025,319,Abhinandan Singh,sold,live_blog,,
-2025,320,Raj Limbani,unsold,live_blog,,
-2025,321,Ashok Sharma,sold,live_blog,,
-2025,322,Vignesh Puthur,sold,live_blog,,
-2025,323,Mohit Rathee,sold,live_blog,,
-2026,1,David Miller,sold,live_blog,,
-2026,2,Cameron Green,sold,live_blog,,
-2026,3,Wanindu Hasaranga,sold,live_blog,,
-2026,4,Venkatesh Iyer,sold,live_blog,,
-2026,5,Quinton de Kock,sold,live_blog,,
-2026,6,Ben Duckett,sold,live_blog,,
-2026,7,Finn Allen,sold,live_blog,,
-2026,8,Jacob Duffy,sold,live_blog,,
-2026,9,Matheesha Pathirana,sold,live_blog,,
-2026,10,Anrich Nortje,sold,live_blog,,
-2026,11,Ravi Bishnoi,sold,live_blog,,
-2026,12,Akeal Hosein,sold,live_blog,,
-2026,13,Auqib Nabi,sold,live_blog,,
-2026,14,Prashant Veer,sold,live_blog,,
-2026,15,Shivang Kumar,sold,live_blog,,
-2026,16,Kartik Sharma,sold,live_blog,,
-2026,17,Mukul Choudhary,sold,live_blog,,
-2026,18,Tejasvi Dahiya,sold,live_blog,,
-2026,19,Ashok Sharma,sold,live_blog,,
-2026,20,Kartik Tyagi,sold,live_blog,,
-2026,21,Naman Tiwari,sold,live_blog,,
-2026,22,Sushant Mishra,sold,live_blog,,
-2026,23,Yash Punja,sold,live_blog,,
-2026,24,Prashant Solanki,sold,live_blog,,
-2026,25,Vignesh Puthur,sold,live_blog,,
-2026,26,Pathum Nissanka,sold,live_blog,,
-2026,27,Rahul Tripathi,sold,live_blog,,
-2026,28,Jason Holder,sold,live_blog,,
-2026,29,Matt Short,sold,live_blog,,
-2026,30,Tim Seifert,sold,live_blog,,
-2026,31,Mustafizur Rahman,sold,live_blog,,
-2026,32,Akshat Raghuvanshi,sold,live_blog,,
-2026,33,Danish Malewar,sold,live_blog,,
-2026,34,Satwik Deswal,sold,live_blog,,
-2026,35,Aman Khan,sold,live_blog,,
-2026,36,Mangesh Yadav,sold,live_blog,,
-2026,37,Salil Arora,sold,live_blog,,
-2026,38,Ravi Singh,sold,live_blog,,
-2026,39,Sakib Hussain,sold,live_blog,,
-2026,40,Omkar Tarmale,sold,live_blog,,
-2026,41,Mohammad Izhar,sold,live_blog,,
-2026,42,Cooper Connolly,sold,live_blog,,
-2026,43,Atharva Ankolekar,sold,live_blog,,
-2026,44,Praful Hinge,sold,live_blog,,
-2026,45,Krains Fuletra,sold,live_blog,,
-2026,46,Amit Kumar,sold,live_blog,,
-2026,47,Sarthak Ranjan,sold,live_blog,,
-2026,48,Daksh Kamra,sold,live_blog,,
-2026,49,Sarfaraz Khan,sold,live_blog,,
-2026,50,Liam Livingstone,sold,live_blog,,
-2026,51,Rachin Ravindra,sold,live_blog,,
-2026,52,Akash Deep,sold,live_blog,,
-2026,53,Matt Henry,sold,live_blog,,
-2026,54,Shivam Mavi,sold,live_blog,,
-2026,55,Rahul Chahar,sold,live_blog,,
-2026,56,Ben Dwarshuis,sold,live_blog,,
-2026,57,Jordan Cox,sold,live_blog,,
-2026,58,Josh Inglis,sold,live_blog,,
-2026,59,Lungi Ngidi,sold,live_blog,,
-2026,60,Aman Rao,sold,live_blog,,
-2026,61,Mayank Rawat,sold,live_blog,,
-2026,62,Praveen Dubey,sold,live_blog,,
-2026,63,Vishal Nishad,sold,live_blog,,
-2026,64,Sahil Parikh,sold,live_blog,,
-2026,65,Brijesh Sharma,sold,live_blog,,
-2026,66,Jack Edwards,sold,live_blog,,
-2026,67,Prithvi Shaw,sold,live_blog,,
-2026,68,Zak Foulkes,sold,live_blog,,
-2026,69,Tom Banton,sold,live_blog,,
-2026,70,Adam Milne,sold,live_blog,,
-2026,71,Vicky Ostwal,sold,live_blog,,
-2026,72,Kuldeep Sen,sold,live_blog,,
-2026,73,Prithvi Raj,sold,live_blog,,
-2026,74,Luke Wood,sold,live_blog,,
-2026,75,Vihaan Malhotra,sold,live_blog,,
-2026,76,Kanishk Chouhan,sold,live_blog,,
-2026,77,Kyle Jamieson,sold,live_blog,,
-2026,78,Jake Fraser-McGurk,unsold,live_blog,,
-2026,79,Devon Conway,unsold,live_blog,,
-2026,80,Gus Atkinson,unsold,live_blog,,
-2026,81,Wiaan Mulder,unsold,live_blog,,
-2026,82,Rahmanullah Gurbaz,unsold,live_blog,,
-2026,83,KS Bharat,unsold,live_blog,,
-2026,84,Jonny Bairstow,unsold,live_blog,,
-2026,85,Jamie Smith,unsold,live_blog,,
-2026,86,Deepak Hooda,unsold,live_blog,,
-2026,87,Gerald Coetzee,unsold,live_blog,,
-2026,88,Fazalhaq Farooqi,unsold,live_blog,,
-2026,89,Spencer Johnson,unsold,live_blog,,
-2026,90,Maheesh Theekshana,unsold,live_blog,,
-2026,91,Mujeeb ur Rahman,unsold,live_blog,,
-2026,92,Yash Dhull,unsold,live_blog,,
-2026,93,Aarya Desai,unsold,live_blog,,
-2026,94,Abhinav Tejrana,unsold,live_blog,,
-2026,95,Abhinav Manohar,unsold,live_blog,,
-2026,96,Atharva Taide,unsold,live_blog,,
-2026,97,Anmolpreet Singh,unsold,live_blog,,
-2026,98,Vijay Shankar,unsold,live_blog,,
-2026,99,Rajvardhan Hangargekar,unsold,live_blog,,
-2026,100,Mahipal Lomror,unsold,live_blog,,
-2026,101,Eden Apple Tom,unsold,live_blog,,
-2026,102,Tanush Kotian,unsold,live_blog,,
-2026,103,Kamlesh Nagarkoti,unsold,live_blog,,
-2026,104,Sanvir Singh,unsold,live_blog,,
-2026,105,Ruchit Ahir,unsold,live_blog,,
-2026,106,Vansh Bedi,unsold,live_blog,,
-2026,107,Tushar Raheja,unsold,live_blog,,
-2026,108,Wahidullah Zadran,unsold,live_blog,,
-2026,109,Shivam Shukla,unsold,live_blog,,
-2026,110,Karn Sharma,unsold,live_blog,,
-2026,111,Kumar Kartikeya,unsold,live_blog,,
-2026,112,Raj Limbani,unsold,live_blog,,
-2026,113,Simarjeet Singh,unsold,live_blog,,
-2026,114,Akash Madhwal,unsold,live_blog,,
-2026,115,Michael Bracewell,unsold,live_blog,,
-2026,116,Daryl Mitchell,unsold,live_blog,,
-2026,117,Sean Abbott,unsold,live_blog,,
-2026,118,Dasun Shanaka,unsold,live_blog,,
-2026,119,Sediqullah Atal,unsold,live_blog,,
-2026,120,Alzarri Joseph,unsold,live_blog,,
-2026,121,Dan Lawrence,unsold,live_blog,,
-2026,122,Jhye Richardson,unsold,live_blog,,
-2026,123,Riley Meredith,unsold,live_blog,,
-2026,124,Taskin Ahmed,unsold,live_blog,,
-2026,125,Richard Gleeson,unsold,live_blog,,
-2026,126,Chetan Sakariya,unsold,live_blog,,
-2026,127,Waqar Salamkheil,unsold,live_blog,,
-2026,128,KM Asif,unsold,live_blog,,
-2026,129,KC Cariappa,unsold,live_blog,,
-2026,130,Mohit Rathee,unsold,live_blog,,
-2026,131,M Ashwin,unsold,live_blog,,
-2026,132,Tejas Baroka,unsold,live_blog,,
-2026,133,Manisankar Murasingh,unsold,live_blog,,
-2026,134,Jikku Bright,unsold,live_blog,,
-2026,135,Izaz Sawariya,unsold,live_blog,,
-2026,136,Ayush Vartak,unsold,live_blog,,
-2026,137,Utkarsh Singh,unsold,live_blog,,
-2026,138,Karan Lal,unsold,live_blog,,
-2026,139,Nathan Smith,unsold,live_blog,,
-2026,140,Dan Lategan,unsold,live_blog,,
-2026,141,Chintal Gandhi,unsold,live_blog,,
-2026,142,Connor Esterhuizen,unsold,live_blog,,
-2026,143,Irfan Umair,unsold,live_blog,,
-2026,144,Dheeraj Kumar,unsold,live_blog,,
-2026,145,Tanay Thyagarajan,unsold,live_blog,,
-2026,146,Salman Nizar,unsold,live_blog,,
-2026,147,Manan Vohra,unsold,live_blog,,
-2026,148,Swastik Chikara,unsold,live_blog,,
-2026,149,CV Milind,unsold,live_blog,,
-2026,150,Siddharth Yadav,unsold,live_blog,,
-2026,151,Ritik Tada,unsold,live_blog,,
-2026,152,Macneil Noronha,unsold,live_blog,,
-2026,153,Mayank Dagar,unsold,live_blog,,
-2026,154,Money Grewal,unsold,live_blog,,
-2026,155,Will Sutherland,unsold,live_blog,,
-2026,156,RS Ambrish,unsold,live_blog,,
+season,seq,player,status,order_basis,set_no,set_code,set_source
+2022,1,Shikhar Dhawan,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,2,R Ashwin,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,3,Pat Cummins,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,4,Kagiso Rabada,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,5,Trent Boult,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,6,Shreyas Iyer,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,7,Quinton de Kock,sold,live_blog,1,M,official IPL auction list (iplt20.com)
+2022,8,Manish Pandey,sold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,9,Shimron Hetmyer,sold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,10,Robin Uthappa,sold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,11,Jason Roy,sold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,12,Devdutt Padikkal,sold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,13,Suresh Raina,unsold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,14,Steven Smith,unsold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,15,DJ Bravo,sold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,16,Nitish Rana,sold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,17,Jason Holder,sold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,18,Shakib Al Hasan,unsold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,19,Deepak Hooda,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,20,Wanindu Hasaranga,sold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,21,Krunal Pandya,sold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,22,Mitchell Marsh,sold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,23,Mohammad Nabi,unsold,live_blog,3,AL1,official IPL auction list (iplt20.com)
+2022,24,Matthew Wade,unsold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,25,Ambati Rayudu,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,26,Ishan Kishan,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,27,Jonny Bairstow,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,28,Dinesh Karthik,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,29,Wriddhiman Saha,unsold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,30,Sam Billings,unsold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,31,Nicholas Pooran,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,32,T Natarajan,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,33,Deepak Chahar,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,34,Umesh Yadav,unsold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,35,Prasidh Krishna,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,36,Lockie Ferguson,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,37,Josh Hazlewood,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,38,Mark Wood,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,39,Bhuvneshwar Kumar,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,40,Shardul Thakur,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,41,Mustafizur Rahman,sold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,42,Adil Rashid,unsold,live_blog,6,SP1,official IPL auction list (iplt20.com)
+2022,43,Mujeeb Ur Rahman,unsold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,44,Imran Tahir,unsold,live_blog,6,SP1,official IPL auction list (iplt20.com)
+2022,45,Kuldeep Yadav,sold,live_blog,6,SP1,official IPL auction list (iplt20.com)
+2022,46,Adam Zampa,unsold,live_blog,6,SP1,official IPL auction list (iplt20.com)
+2022,47,Rahul Chahar,sold,live_blog,6,SP1,official IPL auction list (iplt20.com)
+2022,48,Amit Mishra,unsold,live_blog,49,UFA6,official IPL auction list (iplt20.com)
+2022,49,Rajat Patidar,unsold,live_blog,7,UBA1,official IPL auction list (iplt20.com)
+2022,50,Priyam Garg,sold,live_blog,7,UBA1,official IPL auction list (iplt20.com)
+2022,51,Abhinav Manohar,sold,live_blog,,,
+2022,52,Ashwin Hebbar,sold,live_blog,7,UBA1,official IPL auction list (iplt20.com)
+2022,53,Anmolpreet Singh,unsold,live_blog,7,UBA1,official IPL auction list (iplt20.com)
+2022,54,C Hari Nishaanth,unsold,live_blog,7,UBA1,official IPL auction list (iplt20.com)
+2022,55,Riyan Parag,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,56,Sarfaraz Khan,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,57,Abhishek Sharma,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,58,Shahrukh Khan,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,59,Shivam Mavi,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,60,Rahul Tewatia,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,61,Kamlesh Nagarkoti,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,62,Harpreet Brar,sold,live_blog,8,UAL1,official IPL auction list (iplt20.com)
+2022,63,Shahbaz Ahmed,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,64,Vishnu Vinod,unsold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,65,Mohammed Azharuddeen,unsold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,66,Vishnu Solanki,unsold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,67,Anuj Rawat,sold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,68,Prabhsimran Singh,sold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,69,N Jagadeesan,unsold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,70,Sheldon Jackson,sold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,71,Basil Thampi,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,72,Akash Deep,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,73,KM Asif,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,74,Avesh Khan,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,75,Ishan Porel,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,76,Tushar Deshpande,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,77,Rajpoot,sold,live_blog,10,UFA1,official IPL auction list (iplt20.com)
+2022,78,Noor Ahmad,sold,live_blog,11,USP1,official IPL auction list (iplt20.com)
+2022,79,Manimaran Siddharth,unsold,live_blog,11,USP1,official IPL auction list (iplt20.com)
+2022,80,KC Cariappa,sold,live_blog,11,USP1,official IPL auction list (iplt20.com)
+2022,81,Sandeep Lamichhane,unsold,live_blog,11,USP1,official IPL auction list (iplt20.com)
+2022,82,Aiden Markram,sold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,83,Dawid Malan,unsold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,84,Mandeep Singh,sold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,85,Marnus Labuschagne,unsold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,86,Eoin Morgan,unsold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,87,Saurabh Tiwary,unsold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,88,Cheteshwar Pujara,unsold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,89,Aaron Finch,unsold,live_blog,12,BA2,official IPL auction list (iplt20.com)
+2022,90,Jimmy Neesham,unsold,live_blog,13,AL2,official IPL auction list (iplt20.com)
+2022,91,Chris Jordan,unsold,live_blog,13,AL2,official IPL auction list (iplt20.com)
+2022,92,Odean Smith,sold,live_blog,13,AL2,official IPL auction list (iplt20.com)
+2022,93,Shivam Dube,sold,live_blog,13,AL2,official IPL auction list (iplt20.com)
+2022,94,K Gowtham,sold,live_blog,13,AL2,official IPL auction list (iplt20.com)
+2022,95,Ishant Sharma,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,96,Khaleel Ahmed,sold,live_blog,,,
+2022,97,Dushmantha Chameera,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,98,Lungi Ngidi,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,99,Chetan Sakariya,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,100,Sandeep Sharma,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,101,Sheldon Cottrell,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,102,Jaydev Unadkat,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,103,Nathan Coulter-Nile,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,104,Tabraiz Shamsi,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,105,Qais Ahmad,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,106,Shahbaz Nadeem,sold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,107,Karn Sharma,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,108,Ish Sodhi,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,109,Piyush Chawla,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,110,Himmat Singh,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,111,Virat Singh,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,112,Harnoor Singh,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,113,Sachin Baby,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,114,Himanshu Rana,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,115,Rinku Singh,sold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,116,Manan Vohra,sold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,117,Ricky Bhui,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,118,Ripal Patel,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,119,Yash Dhull,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,120,Tilak Varma,sold,live_blog,,,
+2022,121,Darshan Nalkande,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,122,Vicky Ostwal,unsold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,123,Sanjay Yadav,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,124,Raj Bawa,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,125,Rajvardhan Hangargekar,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2022,126,Yash Thakur,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,127,Vasu Vats,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,128,Yash Dayal,sold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,129,Arzan Nagwaswalla,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,130,Simarjeet Singh,sold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,131,Mujtaba Yousuf,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,132,Kuldeep Sen,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,133,Akash Singh,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,134,Finn Allen,sold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,135,Alex Hales,unsold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,136,Karun Nair,unsold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,137,Evin Lewis,unsold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,138,Rovman Powell,sold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,139,Rassie van der Dussen,unsold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,140,Jofra Archer,sold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,141,Rishi Dhawan,sold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,142,Charith Asalanka,unsold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,143,Dwaine Pretorius,sold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,144,George Garton,unsold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,145,Mitch Santner,sold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,146,Rahmanullah Gurbaz,unsold,live_blog,21,WK2,official IPL auction list (iplt20.com)
+2022,147,Glenn Phillips,unsold,live_blog,21,WK2,official IPL auction list (iplt20.com)
+2022,148,Ben McDermott,unsold,live_blog,21,WK2,official IPL auction list (iplt20.com)
+2022,149,Nathan Ellis,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,150,Sid Kaul,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,151,Fazalhaq Farooqi,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,152,Tymal Mills,sold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,153,Adam Milne,sold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,154,AJ Tye,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,155,Reece Topley,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,156,Sandeep Warrier,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,157,Tom Kohler-Cadmore,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,158,Tanmay Agarwal,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,159,Sameer Rizvi,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,160,Aproov Wankhade,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,161,Atharva Ankolekar,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,162,Pravin Dubey,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,163,Suyash Prabhudessai,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,164,Ramandeep Singh,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,165,Atharva Taide,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,166,B Sai Sudharsan,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,167,Dhruv Jurel,unsold,live_blog,26,UWK2,official IPL auction list (iplt20.com)
+2022,168,Prashant Chopra,unsold,live_blog,26,UWK2,official IPL auction list (iplt20.com)
+2022,169,Aryan Juyal,unsold,live_blog,26,UWK2,official IPL auction list (iplt20.com)
+2022,170,Ben Dwarshuis,unsold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
+2022,171,Pankaj Jaiswal,unsold,live_blog,61,UAL14,official IPL auction list (iplt20.com)
+2022,172,Chama Milind,sold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
+2022,173,Yuvraj Chudasama,unsold,live_blog,28,USP2,official IPL auction list (iplt20.com)
+2022,174,Tejas Baroka,unsold,live_blog,28,USP2,official IPL auction list (iplt20.com)
+2022,175,Mayank Yadav,unsold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
+2022,176,Midhun Sudhesan,unsold,live_blog,28,USP2,official IPL auction list (iplt20.com)
+2022,177,Martin Guptill,unsold,live_blog,29,BA4,official IPL auction list (iplt20.com)
+2022,178,Bhanuka Rajapaksa,unsold,live_blog,29,BA4,official IPL auction list (iplt20.com)
+2022,179,Ben Cutting,unsold,live_blog,30,AL4,official IPL auction list (iplt20.com)
+2022,180,Roston Chase,unsold,live_blog,30,AL4,official IPL auction list (iplt20.com)
+2022,181,Sean Abbott,sold,live_blog,31,FA4,official IPL auction list (iplt20.com)
+2022,182,Alzarri Joseph,sold,live_blog,31,FA4,official IPL auction list (iplt20.com)
+2022,183,Dhawal Kulkarni,unsold,live_blog,31,FA4,official IPL auction list (iplt20.com)
+2022,184,Kane Richardson,unsold,live_blog,31,FA4,official IPL auction list (iplt20.com)
+2022,185,Laurie Evans,unsold,live_blog,32,UBA4,official IPL auction list (iplt20.com)
+2022,186,Rahul Buddhi,unsold,live_blog,32,UBA4,official IPL auction list (iplt20.com)
+2022,187,Ayush Badoni,sold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,188,Aneeshwar Gautam,sold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,189,Hayden Kerr,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,190,Benny Howell,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,191,Dhruv Patel,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,192,Shams Mulani,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,193,Saurabh Kumar,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,194,David Wiese,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,195,Atit Sheth,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,196,B Indrajith,sold,live_blog,34,UWK3,official IPL auction list (iplt20.com)
+2022,197,BR Sharath,unsold,live_blog,34,UWK3,official IPL auction list (iplt20.com)
+2022,198,Kennar Lewis,unsold,live_blog,34,UWK3,official IPL auction list (iplt20.com)
+2022,199,Chamika Karunaratne,sold,live_blog,38,AL5,official IPL auction list (iplt20.com)
+2022,200,Sushant Mishra,unsold,live_blog,35,UFA4,official IPL auction list (iplt20.com)
+2022,201,Blessing Muzarabani,unsold,live_blog,39,FA5,official IPL auction list (iplt20.com)
+2022,202,David Willey,unsold,live_blog,38,AL5,official IPL auction list (iplt20.com)
+2022,203,R Samarth,sold,live_blog,40,UBA5,official IPL auction list (iplt20.com)
+2022,204,Pradeep Sangwan,sold,live_blog,41,UAL5,official IPL auction list (iplt20.com)
+2022,205,Mukesh Kumar Singh,unsold,live_blog,43,UFA5,official IPL auction list (iplt20.com)
+2022,206,Kaushal Tambe,unsold,live_blog,41,UAL5,official IPL auction list (iplt20.com)
+2022,207,Hrithik Shokeen,unsold,live_blog,48,UAL6,official IPL auction list (iplt20.com)
+2022,208,Ninad Rathva,unsold,live_blog,48,UAL6,official IPL auction list (iplt20.com)
+2022,209,Kyle Mayers,sold,live_blog,50,AL7,official IPL auction list (iplt20.com)
+2022,210,Amit Ali,unsold,live_blog,51,UAL7,official IPL auction list (iplt20.com)
+2022,211,Karan Sharma,sold,live_blog,51,UAL7,official IPL auction list (iplt20.com)
+2022,212,Mohammad Arshad Khan,sold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
+2022,213,Ansh Patel,sold,live_blog,53,UAL8,official IPL auction list (iplt20.com)
+2022,214,Ashok Sharma,sold,live_blog,54,UFA8,official IPL auction list (iplt20.com)
+2022,215,Ashutosh Sharma,unsold,live_blog,58,UAL11,official IPL auction list (iplt20.com)
+2022,216,Miller,sold,live_blog,2,BA1,official IPL auction list (iplt20.com)
+2022,217,Billings,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,218,Wriddhiman Saha,sold,live_blog,4,WK1,official IPL auction list (iplt20.com)
+2022,219,Umesh Yadav,unsold,live_blog,5,FA1,official IPL auction list (iplt20.com)
+2022,220,Vishnu Vinod,sold,live_blog,9,UWK1,official IPL auction list (iplt20.com)
+2022,221,Sheldon Cottrell,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,222,Jimmy Neesham,unsold,live_blog,13,AL2,official IPL auction list (iplt20.com)
+2022,223,Lungi Ngidi,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,224,Qais Ahmad,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,225,Harnoor Singh,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2022,226,Mujtaba Yousuf,unsold,live_blog,18,UFA2,official IPL auction list (iplt20.com)
+2022,227,Alex Hales,sold,live_blog,19,BA3,official IPL auction list (iplt20.com)
+2022,228,Charith Asalanka,unsold,live_blog,20,AL3,official IPL auction list (iplt20.com)
+2022,229,Rahmanullah Gurbaz,unsold,live_blog,21,WK2,official IPL auction list (iplt20.com)
+2022,230,Glenn Phillips,sold,live_blog,21,WK2,official IPL auction list (iplt20.com)
+2022,231,Ben McDermott,unsold,live_blog,21,WK2,official IPL auction list (iplt20.com)
+2022,232,Fazalhaq Farooqi,sold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,233,Reece Topley,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,234,Sameer Rizvi,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,235,Tanmay Agarwal,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,236,AJ Tye,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,237,B Sai Sudharsan,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2022,238,Mayank Yadav,sold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
+2022,239,Dhruv Jurel,sold,live_blog,26,UWK2,official IPL auction list (iplt20.com)
+2022,240,Tejas Baroka,sold,live_blog,28,USP2,official IPL auction list (iplt20.com)
+2022,241,Akeal Hosein,unsold,live_blog,30,AL4,official IPL auction list (iplt20.com)
+2022,242,Moises Henriques,unsold,live_blog,30,AL4,official IPL auction list (iplt20.com)
+2022,243,Scott Kuggeleijn,unsold,live_blog,30,AL4,official IPL auction list (iplt20.com)
+2022,244,Tim Southee,sold,live_blog,31,FA4,official IPL auction list (iplt20.com)
+2022,245,Kane Richardson,unsold,live_blog,31,FA4,official IPL auction list (iplt20.com)
+2022,246,Utkarsh Singh,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,247,Atit Sheth,unsold,live_blog,33,UAL4,official IPL auction list (iplt20.com)
+2022,248,Matheesha Pathirana,unsold,live_blog,35,UFA4,official IPL auction list (iplt20.com)
+2022,249,Colin Munro,unsold,live_blog,38,AL5,official IPL auction list (iplt20.com)
+2022,250,Blessing Muzarabani,unsold,live_blog,39,FA5,official IPL auction list (iplt20.com)
+2022,251,Shivank Vashishth,unsold,live_blog,,,
+2022,252,Gerald Coetzee,unsold,live_blog,48,UAL6,official IPL auction list (iplt20.com)
+2022,253,Shubham Sharma,unsold,live_blog,53,UAL8,official IPL auction list (iplt20.com)
+2022,254,Pratyush Singh,unsold,live_blog,51,UAL7,official IPL auction list (iplt20.com)
+2022,255,Bharat Sharma,unsold,live_blog,57,UAL10,official IPL auction list (iplt20.com)
+2022,256,Chinntla Reddy,unsold,live_blog,,,
+2022,257,Bharat Sharma,unsold,live_blog,57,UAL10,official IPL auction list (iplt20.com)
+2022,258,Duan Jansen,unsold,live_blog,60,UAL13,official IPL auction list (iplt20.com)
+2022,259,Rohan Rana,unsold,live_blog,,,
+2022,260,Khizar Dafedar,unsold,live_blog,61,UAL14,official IPL auction list (iplt20.com)
+2022,261,Qais Ahmad,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2022,262,Ishant Sharma,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2022,263,Rohan Kadam,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,264,Andrew Tye,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2022,265,Sameer Rizvi,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2022,266,Kulwant Khejroliya,unsold,live_blog,43,UFA5,official IPL auction list (iplt20.com)
+2022,267,Akash Madhwal,unsold,live_blog,49,UFA6,official IPL auction list (iplt20.com)
+2023,1,Kane Williamson,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2023,2,Harry Brook,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2023,3,Mayank Agarwal,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2023,4,Ajinkya Rahane,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2023,5,Joe Root,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2023,6,Rilee Rossouw,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2023,7,Sam Curran,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,8,Odean Smith,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,9,Sikandar Raza,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,10,Jason Holder,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,11,Cameron Green,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,12,Ben Stokes,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,13,Litton Das,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2023,14,Nicholas Pooran,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2023,15,Heinrich Klaasen,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2023,16,Kusal Mendis,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2023,17,Tom Banton,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2023,18,Phil Salt,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2023,19,Chris Jordan,unsold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2023,20,Reece Topley,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2023,21,Jaydev Unadkat,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2023,22,Adam Milne,unsold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2023,23,Jhye Richardson,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2023,24,Ishant Sharma,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2023,25,Adil Rashid,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2023,26,Akeal Hosein,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2023,27,Adam Zampa,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2023,28,Tabraiz Shamsi,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2023,29,Mujeeb ur Rahman,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2023,30,Mayank Markande,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2023,31,Anmolpreet Singh,sold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2023,32,LR Chetan,unsold,live_blog,,,
+2023,33,Shubham Khajuria,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2023,34,Rohan Kunnummal,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2023,35,Shaik Rasheed,sold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2023,36,Himmat Singh,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2023,37,Vivrant Sharma,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,38,Priyam Garg,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,39,Samarth Vyas,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,40,Saurabh Kumar,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,41,Corbin Bosch,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,42,Sanvir Singh,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,43,Abhimanyu Easwaran,unsold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2023,44,Nishant Sindhu,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,45,Shashank Singh,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,46,Sumit Kumar,unsold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2023,47,Dinesh Bana,unsold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2023,48,KS Bharat,sold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2023,49,N Jagadeesan,sold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2023,50,Upendra Yadav,sold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2023,51,Mohammed Azharudeen,unsold,live_blog,,,
+2023,52,Vaibhav Arora,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,53,Yash Thakur,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,54,KM Asif,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,55,Mujtaba Yousuf,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,56,Lance Morris,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,57,Shivam Mavi,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,58,Mukesh Kumar,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2023,59,Chintal Gandhi,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2023,60,Izharulhuq Naveed,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2023,61,M Ashwin,sold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2023,62,Shreyas Gopal,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2023,63,S Midhun,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2023,64,Himanshu Sharma,sold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2023,65,Paul Stirling,unsold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,66,Manish Pandey,sold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,67,Rassie van der Dussen,unsold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,68,Sherfane Rutherford,unsold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,69,Will Jacks,sold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,70,Travis Head,unsold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,71,Mandeep Singh,sold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,72,Dawid Malan,unsold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2023,73,Romario Shepherd,sold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,74,Daryl Mitchell,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,75,Daniel Sams,sold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,76,Mohammad Nabi,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,77,Wayne Parnell,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,78,James Neesham,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,79,Dasun Shanaka,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2023,80,Riley Meredith,unsold,live_blog,13,FA2,official IPL auction list (iplt20.com)
+2023,81,Sandeep Sharma,unsold,live_blog,13,FA2,official IPL auction list (iplt20.com)
+2023,82,Taskin Ahmed,unsold,live_blog,13,FA2,official IPL auction list (iplt20.com)
+2023,83,Dushmantha Chameera,unsold,live_blog,13,FA2,official IPL auction list (iplt20.com)
+2023,84,Blessing Muzarabani,unsold,live_blog,13,FA2,official IPL auction list (iplt20.com)
+2023,85,Kyle Jamieson,sold,live_blog,13,FA2,official IPL auction list (iplt20.com)
+2023,86,Piyush Chawla,sold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2023,87,Amit Mishra,sold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2023,88,Harpreet Bhatia,sold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2023,89,Wil Smeed,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2023,90,Manoj Bhandage,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,91,Mayank Dagar,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,92,Duan Jansen,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,93,Prerak Mankad,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,94,Suryansh Shedge,unsold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,95,J Suchith,unsold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,96,Donovan Ferreira,sold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2023,97,B Indrajith,unsold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2023,98,Urvil Patel,sold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2023,99,Karan Shinde,unsold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2023,100,Vishnu Vinod,sold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2023,101,V Kaverappa,sold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2023,102,Rajan Kumar,sold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2023,103,Akash Singh,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2023,104,Paul van Meekeren,unsold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2023,105,Tejas Baroka,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2023,106,Yuvraj Chadasama,unsold,live_blog,,,
+2023,107,Suyash Sharma,sold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2023,108,Jamie Overton,unsold,live_blog,22,AL3,official IPL auction list (iplt20.com)
+2023,109,Richard Gleeson,unsold,live_blog,23,FA3,official IPL auction list (iplt20.com)
+2023,110,Naveen-ul-Haq,sold,live_blog,23,FA3,official IPL auction list (iplt20.com)
+2023,111,Josh Little,sold,live_blog,23,FA3,official IPL auction list (iplt20.com)
+2023,112,Dilshan Madushanka,unsold,live_blog,23,FA3,official IPL auction list (iplt20.com)
+2023,113,Mohit Sharma,sold,live_blog,23,FA3,official IPL auction list (iplt20.com)
+2023,114,Himanshu Bisht,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,115,Shams Mulani,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,116,Swapnil Singh,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,117,Sumeet Verma,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,118,David Wiese,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,119,R Sanjay Yadav,unsold,live_blog,,,
+2023,120,G Ajitesh,unsold,live_blog,,,
+2023,121,Nitish Kumar Reddy,sold,live_blog,26,UWK3,official IPL auction list (iplt20.com)
+2023,122,Avinash Singh,sold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
+2023,123,Rehan Ahmed,unsold,live_blog,32,UAL4,official IPL auction list (iplt20.com)
+2023,124,Tom Curran,unsold,live_blog,29,AL4,official IPL auction list (iplt20.com)
+2023,125,Varun Aaron,unsold,live_blog,30,FA4,official IPL auction list (iplt20.com)
+2023,126,Priyank Panchal,unsold,live_blog,31,UBA4,official IPL auction list (iplt20.com)
+2023,127,R Sanjay,unsold,live_blog,,,
+2023,128,B Surya,unsold,live_blog,32,UAL4,official IPL auction list (iplt20.com)
+2023,129,Kunal Rathore,sold,live_blog,33,UWK4,official IPL auction list (iplt20.com)
+2023,130,R Sonu Yadav,sold,live_blog,,,
+2023,131,Kulwant Khejroliya,sold,live_blog,37,UFA5,official IPL auction list (iplt20.com)
+2023,132,Ajay Mandal,sold,live_blog,38,UAL6,official IPL auction list (iplt20.com)
+2023,133,Jitendra Pal,unsold,live_blog,38,UAL6,official IPL auction list (iplt20.com)
+2023,134,Utkarsh Singh,unsold,live_blog,38,UAL6,official IPL auction list (iplt20.com)
+2023,135,Shubham Kapse,unsold,live_blog,39,UFA6,official IPL auction list (iplt20.com)
+2023,136,H Trilog Nag,unsold,live_blog,39,UFA6,official IPL auction list (iplt20.com)
+2023,137,Deepesh Nailwal,unsold,live_blog,41,UAL8,official IPL auction list (iplt20.com)
+2023,138,Shubhang Hegde,unsold,live_blog,42,UAL9,official IPL auction list (iplt20.com)
+2023,139,Mohit Rathee,sold,live_blog,42,UAL9,official IPL auction list (iplt20.com)
+2023,140,Nehal Wadhera,sold,live_blog,42,UAL9,official IPL auction list (iplt20.com)
+2023,141,Bhagath Verma,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,142,Shivam Singh,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2023,143,Johnson Charles,unsold,live_blog,14,WK2,official IPL auction list (iplt20.com)
+2023,144,Akash Vashisht,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2023,145,Luke Wood,unsold,live_blog,23,FA3,official IPL auction list (iplt20.com)
+2023,146,Yudhvir Charak,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,147,Raghav Goyal,sold,live_blog,28,USP3,official IPL auction list (iplt20.com)
+2023,148,Prashant Chopra,unsold,live_blog,32,UAL4,official IPL auction list (iplt20.com)
+2023,149,Abdul Basith,sold,live_blog,,,
+2023,150,Shakib Al Hasan,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2023,151,Ekant Sen,unsold,live_blog,24,UBA3,official IPL auction list (iplt20.com)
+2024,1,Rovman Powell,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,2,Rilee Rossouw,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,3,Harry Brook,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,4,Travis Head,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,5,Karun Nair,unsold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,6,Steven Smith,unsold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,7,Manish Pandey,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2024,8,Wanindu Hasaranga,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,9,Rachin Ravindra,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,10,Shardul Thakur,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,11,Pat Cummins,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,12,Azmatullah Omarzai,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,13,Gerald Coetzee,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,14,Harshal Patel,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,15,Daryl Mitchell,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,16,Chris Woakes,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2024,17,Phil Salt,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2024,18,Tristan Stubbs,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2024,19,KS Bharat,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2024,20,Josh Inglis,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2024,21,Kusal Mendis,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2024,22,Lockie Ferguson,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,23,Josh Hazlewood,unsold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,24,Chetan Sakariya,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,25,Alzarri Joseph,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,26,Umesh Yadav,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,27,Shivam Mavi,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,28,Mitchell Starc,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,29,Jaydev Unadkat,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,30,Dilshan Madushanka,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2024,31,Waqar Salamkheil,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2024,32,Adil Rashid,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2024,33,Akeal Hosein,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2024,34,Tabraiz Shamsi,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2024,35,Ish Sodhi,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2024,36,Mujeeb Ur Rahman,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2024,,Shubham Dubey,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
+2024,,Sameer Rizvi,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
+2024,,Angkrish Raghuvanshi,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
+2024,,Arshin Kulkarni,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
+2024,,Shahrukh Khan,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
+2024,,Ramandeep Singh,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
+2024,,Tom Kohler-Cadmore,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
+2024,,Ricky Bhui,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
+2024,,Kumar Kushagra,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
+2024,,Yash Dayal,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
+2024,,Sushant Mishra,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
+2024,37,Kartik Tyagi,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2024,,Rasikh Dar,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
+2024,,Akash Singh,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
+2024,,Manav Suthar,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
+2024,,Manimaran Siddharth,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
+2024,,Shreyas Gopal,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
+2024,,Sherfane Rutherford,sold,not_ordered,11,BA2,official IPL auction list (iplt20.com)
+2024,,Ashton Turner,sold,not_ordered,11,BA2,official IPL auction list (iplt20.com)
+2024,,Tom Curran,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
+2024,,David Willey,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
+2024,,Spencer Johnson,sold,not_ordered,14,FA2,official IPL auction list (iplt20.com)
+2024,,Mustafizur Rahman,sold,not_ordered,14,FA2,official IPL auction list (iplt20.com)
+2024,,Jhye Richardson,sold,not_ordered,14,FA2,official IPL auction list (iplt20.com)
+2024,,Nuwan Thushara,sold,not_ordered,14,FA2,official IPL auction list (iplt20.com)
+2024,,Naman Dhir,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Anshul Kamboj,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Sumit Kumar,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Ashutosh Sharma,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Vishwanath Singh,sold,not_ordered,15,UBA2,official IPL auction list (iplt20.com)
+2024,,Shashank Singh,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Tanay Thyagarajan,sold,not_ordered,,,
+2024,,Robin Minz,sold,not_ordered,17,UWK2,official IPL auction list (iplt20.com)
+2024,,Prince Choudary,sold,not_ordered,,,
+2024,,Jhathavedh Subramanyan,sold,not_ordered,19,USP2,official IPL auction list (iplt20.com)
+2024,,Arshad Khan,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Mohammad Nabi,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
+2024,,Shai Hope,sold,not_ordered,13,WK2,official IPL auction list (iplt20.com)
+2024,,Gus Atkinson,sold,not_ordered,14,FA2,official IPL auction list (iplt20.com)
+2024,,Swastik Chhikara,sold,not_ordered,15,UBA2,official IPL auction list (iplt20.com)
+2024,,Abid Mushtaq,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Shivalik Sharma,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Swapnil Singh,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2024,,Avanish Rao Aravelly,sold,not_ordered,17,UWK2,official IPL auction list (iplt20.com)
+2024,,Nandre Burger,sold,not_ordered,18,UFA2,official IPL auction list (iplt20.com)
+2024,,Sakib Hussain,sold,not_ordered,18,UFA2,official IPL auction list (iplt20.com)
+2024,,Saurav Chauhan,sold,not_ordered,16,UAL2,official IPL auction list (iplt20.com)
+2025,1,Arshdeep Singh,sold,live_blog,1,M1,official IPL auction list (iplt20.com)
+2025,2,Kagiso Rabada,sold,live_blog,1,M1,official IPL auction list (iplt20.com)
+2025,3,Shreyas Iyer,sold,live_blog,1,M1,official IPL auction list (iplt20.com)
+2025,4,Jos Buttler,sold,live_blog,1,M1,official IPL auction list (iplt20.com)
+2025,5,Mitchell Starc,sold,live_blog,1,M1,official IPL auction list (iplt20.com)
+2025,6,Rishabh Pant,sold,live_blog,1,M1,official IPL auction list (iplt20.com)
+2025,7,Mohammed Shami,sold,live_blog,2,M2,official IPL auction list (iplt20.com)
+2025,8,David Miller,sold,live_blog,2,M2,official IPL auction list (iplt20.com)
+2025,9,Yuzvendra Chahal,sold,live_blog,2,M2,official IPL auction list (iplt20.com)
+2025,10,Siraj,sold,live_blog,2,M2,official IPL auction list (iplt20.com)
+2025,11,Liam Livingstone,sold,live_blog,2,M2,official IPL auction list (iplt20.com)
+2025,12,KL Rahul,sold,live_blog,2,M2,official IPL auction list (iplt20.com)
+2025,13,Harry Brook,sold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,14,Devdutt Padikkal,unsold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,15,Aiden Markram,sold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,16,Devon Conway,sold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,17,Rahul Tripathi,sold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,18,David Warner,unsold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,19,Jake Fraser-McGurk,sold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,20,Harshal Patel,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,21,Rachin Ravindra,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,22,R Ashwin,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,23,Venkatesh Iyer,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,24,Marcus Stoinis,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,25,Mitch Marsh,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,26,Glenn Maxwell,sold,live_blog,4,AL1,official IPL auction list (iplt20.com)
+2025,27,Quinton de Kock,sold,live_blog,5,WK1,official IPL auction list (iplt20.com)
+2025,28,Jonny Bairstow,unsold,live_blog,5,WK1,official IPL auction list (iplt20.com)
+2025,29,Phil Salt,sold,live_blog,5,WK1,official IPL auction list (iplt20.com)
+2025,30,Rahmanullah Gurbaz,sold,live_blog,5,WK1,official IPL auction list (iplt20.com)
+2025,31,Ishan Kishan,sold,live_blog,5,WK1,official IPL auction list (iplt20.com)
+2025,32,Jitesh Sharma,sold,live_blog,5,WK1,official IPL auction list (iplt20.com)
+2025,33,Josh Hazlewood,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,34,Prasidh Krishna,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,35,Avesh Khan,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,36,Anrich Nortje,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,37,Jofra Archer,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,38,Khaleel Ahmed,sold,live_blog,,,
+2025,39,T Natarajan,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,40,Trent Boult,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,41,Maheesh Theekshana,sold,live_blog,7,SP1,official IPL auction list (iplt20.com)
+2025,42,Rahul Chahar,sold,live_blog,7,SP1,official IPL auction list (iplt20.com)
+2025,43,Adam Zampa,sold,live_blog,7,SP1,official IPL auction list (iplt20.com)
+2025,44,Wanindu Hasaranga,sold,live_blog,7,SP1,official IPL auction list (iplt20.com)
+2025,45,Waqar Salamkheil,unsold,live_blog,7,SP1,official IPL auction list (iplt20.com)
+2025,46,Noor Ahmad,sold,live_blog,7,SP1,official IPL auction list (iplt20.com)
+2025,47,Atharva Taide,sold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,48,Anmolpreet Singh,unsold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,49,Nehal Wadhera,sold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,50,Angkrish Raghuvanshi,sold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,51,Karun Nair,sold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,52,Yash Dhull,unsold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,53,Abhinav Manohar,sold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,54,Nishant Sindhu,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,55,Sameer Rizvi,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,56,Naman Dhir,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,57,Abdul Samad,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,58,Harpreet Brar,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,59,Vijay Shankar,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,60,Mahipal Lomror,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,61,Ashutosh Sharma,sold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,62,Utkarsh Singh,unsold,live_blog,9,UAL1,official IPL auction list (iplt20.com)
+2025,63,Kumar Kushagra,sold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,64,Robin Minz,sold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,65,Anuj Rawat,sold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,66,Aryan Juyal,sold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,67,Upendra Yadav,unsold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,68,Luvnith Sisodia,unsold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,69,Vishnu Vinod,sold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,70,Rasikh Salam Dar,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,71,Akash Madhwal,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,72,Mohit Sharma,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,73,Vyshak Vijaykumar,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,74,Vaibhav Arora,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,75,Yash Thakur,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,76,Kartik Tyagi,unsold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,77,Simarjeet Singh,sold,live_blog,11,UFA1,official IPL auction list (iplt20.com)
+2025,78,Suyash Sharma,sold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,79,Karn Sharma,sold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,80,Mayank Markande,sold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,81,Piyush Chawla,unsold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,82,Kumar Kartikeya Singh,sold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,83,Manav Suthar,sold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,84,Shreyas Gopal,unsold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,85,Kane Williamson,unsold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,86,Glenn Phillips,unsold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,87,Rovman Powell,sold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,88,Faf du Plessis,sold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,89,Ajinkya Rahane,unsold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,90,Mayank Agarwal,unsold,live_blog,45,UBA5,official IPL auction list (iplt20.com)
+2025,91,Prithvi Shaw,unsold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,92,Shardul Thakur,unsold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,93,Washington Sundar,sold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,94,Sam Curran,sold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,95,Marco Jansen,sold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,96,Daryl Mitchell,unsold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,97,Krunal Pandya,sold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,98,Nitish Rana,sold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,99,Shai Hope,unsold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,100,Ryan Rickelton,sold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,101,KS Bharat,unsold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,102,Josh Inglis,sold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,103,Alex Carey,unsold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,104,Don Ferreira,unsold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,105,Tushar Deshpande,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,106,Gerald Coetzee,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,107,Bhuvneshwar Kumar,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,108,Mukesh Kumar,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,109,Deepak Chahar,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,110,Akash Deep,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,111,Lockie Ferguson,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,112,Mujeeb Ur Rahman,unsold,live_blog,17,SP2,official IPL auction list (iplt20.com)
+2025,113,Allah Ghazanfar,sold,live_blog,17,SP2,official IPL auction list (iplt20.com)
+2025,114,Vijayakanth Viyaskanth,unsold,live_blog,17,SP2,official IPL auction list (iplt20.com)
+2025,115,Akeal Hosein,unsold,live_blog,17,SP2,official IPL auction list (iplt20.com)
+2025,116,Adil Rashid,unsold,live_blog,17,SP2,official IPL auction list (iplt20.com)
+2025,117,Keshav Maharaj,unsold,live_blog,17,SP2,official IPL auction list (iplt20.com)
+2025,118,Swastik Chhikara,unsold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,119,Shubham Dubey,sold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,120,Madhav Kaushik,unsold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,121,Pukhraj Mann,unsold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,122,Shaik Rasheed,sold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,123,Himmat Singh,sold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,124,Mayang Dagar,unsold,live_blog,19,UAL2,official IPL auction list (iplt20.com)
+2025,125,Anshul Kamboj,sold,live_blog,19,UAL2,official IPL auction list (iplt20.com)
+2025,126,Arshad Khan,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,127,Darshan Nalkande,sold,live_blog,19,UAL2,official IPL auction list (iplt20.com)
+2025,128,Anukul Roy,unsold,live_blog,19,UAL2,official IPL auction list (iplt20.com)
+2025,129,Swapnil Singh,sold,live_blog,19,UAL2,official IPL auction list (iplt20.com)
+2025,130,Avanish Aravelly,unsold,live_blog,20,UWK2,official IPL auction list (iplt20.com)
+2025,131,Vansh Bedi,unsold,live_blog,20,UWK2,official IPL auction list (iplt20.com)
+2025,132,Harvik Desai,unsold,live_blog,20,UWK2,official IPL auction list (iplt20.com)
+2025,133,Gurnoor Brar,sold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,134,Mukesh Choudhary,sold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,135,Sakib Hussain,unsold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,136,Vidwath Kaverappa,unsold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,137,Rajan Kumar,unsold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,138,Zeeshan Ansari,sold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,139,M Siddharth,sold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,140,Digvesh Singh,sold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,141,Prashant Solanki,unsold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,142,Jhathavedh Subramanyan,unsold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,143,Finn Allen,unsold,live_blog,23,BA3,official IPL auction list (iplt20.com)
+2025,144,Dewald Brevis,unsold,live_blog,23,BA3,official IPL auction list (iplt20.com)
+2025,145,Ben Duckett,unsold,live_blog,23,BA3,official IPL auction list (iplt20.com)
+2025,146,Manish Pandey,sold,live_blog,23,BA3,official IPL auction list (iplt20.com)
+2025,147,Sherfane Rutherford,sold,live_blog,23,BA3,official IPL auction list (iplt20.com)
+2025,148,Shahbaz Ahmed,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
+2025,149,Moeen Ali,unsold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,150,Tim David,sold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,151,Deepak Hooda,sold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,152,Will Jacks,sold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,153,Azmatullah Omarzai,sold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,154,R Sai Kishore,sold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,155,Romario Shepherd,sold,live_blog,24,AL3,official IPL auction list (iplt20.com)
+2025,156,Josh Phillipe,unsold,live_blog,,,
+2025,157,Spencer Johsnon,sold,live_blog,,,
+2025,158,Umran Malik,unsold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,159,Mustafizur Rahman,unsold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,160,Ishant Sharma,sold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,161,Nuwan Thushara,sold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,162,Naveen-ul-Haq,unsold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,163,Jaydev Unadkat,sold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,164,Umesh Yadav,unsold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,165,Rishad Hossain,unsold,live_blog,27,SP3,official IPL auction list (iplt20.com)
+2025,166,Harnoor Singh,sold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,167,Andre Siddarth,unsold,live_blog,28,UBA3,official IPL auction list (iplt20.com)
+2025,168,Yudhvir Charak,sold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,169,Rishi Dhawan,unsold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,170,Raj Hangargekar,unsold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,171,Arshin Kulkarni,unsold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,172,Shivam Singh,unsold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,173,LR Chetan,unsold,live_blog,,,
+2025,174,Ashwani Kumar,sold,live_blog,31,UFA3,official IPL auction list (iplt20.com)
+2025,175,Akash Singh,sold,live_blog,47,UWK5,official IPL auction list (iplt20.com)
+2025,176,Gurjapneet Singh,sold,live_blog,31,UFA3,official IPL auction list (iplt20.com)
+2025,177,Raghav Goyal,unsold,live_blog,32,USP3,official IPL auction list (iplt20.com)
+2025,178,B Yeswanth,unsold,live_blog,32,USP3,official IPL auction list (iplt20.com)
+2025,179,Brandon King,unsold,live_blog,33,BA4,official IPL auction list (iplt20.com)
+2025,180,SL's Nissanka,unsold,live_blog,33,BA4,official IPL auction list (iplt20.com)
+2025,181,Steven Smith,unsold,live_blog,33,BA4,official IPL auction list (iplt20.com)
+2025,182,Gus Atkinson,unsold,live_blog,34,AL4,official IPL auction list (iplt20.com)
+2025,183,Sikandar Raza,unsold,live_blog,34,AL4,official IPL auction list (iplt20.com)
+2025,184,Mitch Santner,sold,live_blog,34,AL4,official IPL auction list (iplt20.com)
+2025,185,Jayant Yadav,sold,live_blog,34,AL4,official IPL auction list (iplt20.com)
+2025,186,Fazalhaq Farooqi,sold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,187,Richard Gleeson,unsold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,188,Alzarri Joseph,unsold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,189,Kwena Maphaka,unsold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,190,Kuldeep Sen,sold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,191,Reece Topley,sold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,192,Luke Wood,unsold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,193,Sachin Dhas,unsold,live_blog,37,UBA4,official IPL auction list (iplt20.com)
+2025,194,Priyansh Arya,sold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
+2025,195,Manoj Bhandage,sold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
+2025,196,Vipraj Nigam,sold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
+2025,197,KL Shrijith,sold,live_blog,,,
+2025,198,Arpit Guleria,unsold,live_blog,40,UFA4,official IPL auction list (iplt20.com)
+2025,199,Jacob Bethell,sold,live_blog,,,
+2025,200,Brydon Carse,sold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,201,Aaron Hardie,sold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,202,Sarfaraz Khan,unsold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,203,Kyle Mayers,unsold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,204,Kamindu Mendis,sold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,205,Matt Short,unsold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,206,Jason Behrendorff,unsold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,207,Dushmantha Chameera,sold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,208,Nathan Ellis,sold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,209,Shamar Joseph,sold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,210,Shivam Mavi,unsold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,211,Navdeep Saini,unsold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,212,Salman Nizar,unsold,live_blog,45,UBA5,official IPL auction list (iplt20.com)
+2025,213,Aniket Verma,sold,live_blog,45,UBA5,official IPL auction list (iplt20.com)
+2025,214,Raj Bawa,sold,live_blog,46,UAL5,official IPL auction list (iplt20.com)
+2025,215,Emanjot Chahal,unsold,live_blog,46,UAL5,official IPL auction list (iplt20.com)
+2025,216,Musheer Khan,sold,live_blog,46,UAL5,official IPL auction list (iplt20.com)
+2025,217,Suryash Shedge,sold,live_blog,46,UAL5,official IPL auction list (iplt20.com)
+2025,218,Kulwant Khejroliya,unsold,live_blog,48,UFA5,official IPL auction list (iplt20.com)
+2025,219,Divesh Sharma,unsold,live_blog,48,UFA5,official IPL auction list (iplt20.com)
+2025,220,Naman Tiwari,unsold,live_blog,48,UFA5,official IPL auction list (iplt20.com)
+2025,221,Prince Yadav,sold,live_blog,48,UFA5,official IPL auction list (iplt20.com)
+2025,222,Michael Bracewell,unsold,live_blog,50,AL6,official IPL auction list (iplt20.com)
+2025,223,Jamie Overton,sold,live_blog,50,AL6,official IPL auction list (iplt20.com)
+2025,224,Ottneil Baartman,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,225,Xavier Bartlett,sold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,226,Dilshan Madushanka,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,227,Adam Milne,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,228,Lungi Ngidi,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,229,Will O'Rourke,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,230,Chetan Sakariya,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,231,Sandeep Warrier,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,232,Abdul Basith,unsold,live_blog,,,
+2025,233,Yuvraj Chaudhary,sold,live_blog,53,UAL6,official IPL auction list (iplt20.com)
+2025,234,Sandeep Warrier,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,235,Kamlesh Nagarkoti,sold,live_blog,53,UAL6,official IPL auction list (iplt20.com)
+2025,236,Tejasvi Dahiya,unsold,live_blog,54,UWK6,official IPL auction list (iplt20.com)
+2025,237,Lance Morris and Olly Stone,unsold,live_blog,57,FA7,official IPL auction list (iplt20.com)
+2025,238,Pyla Avinash,sold,live_blog,58,UBA7,official IPL auction list (iplt20.com)
+2025,239,Ramakrishna Ghosh,sold,live_blog,59,UAL7,official IPL auction list (iplt20.com)
+2025,240,Raj Limbani,unsold,live_blog,59,UAL7,official IPL auction list (iplt20.com)
+2025,241,Shiva Singh,unsold,live_blog,59,UAL7,official IPL auction list (iplt20.com)
+2025,242,Anshuman Hooda,unsold,live_blog,60,UFA7,official IPL auction list (iplt20.com)
+2025,243,Satyanarayana Raju,sold,live_blog,,,
+2025,244,Dwaine Pretoruius,unsold,live_blog,,,
+2025,245,Blessing Muzarabani,unsold,live_blog,62,FA8,official IPL auction list (iplt20.com)
+2025,246,Brandon McMullen,unsold,live_blog,64,UAL8,official IPL auction list (iplt20.com)
+2025,247,Atit Sheth,unsold,live_blog,64,UAL8,official IPL auction list (iplt20.com)
+2025,248,Vijay Kumar,unsold,live_blog,65,UFA8,official IPL auction list (iplt20.com)
+2025,249,Roston Chase,unsold,live_blog,66,AL9,official IPL auction list (iplt20.com)
+2025,250,Nathan Smith,unsold,live_blog,66,AL9,official IPL auction list (iplt20.com)
+2025,251,Kyle Jamieson,unsold,live_blog,67,FA9,official IPL auction list (iplt20.com)
+2025,252,Chris Jordan,unsold,live_blog,67,FA9,official IPL auction list (iplt20.com)
+2025,253,Vaibhav Suryavanshi,sold,live_blog,68,UBA9,official IPL auction list (iplt20.com)
+2025,254,Ripal Patel and Sanjay Yadav,unsold,live_blog,77,UAL13,official IPL auction list (iplt20.com)
+2025,255,Eshan Malinga,sold,live_blog,74,UFA10,official IPL auction list (iplt20.com)
+2025,256,Umang Kumar,unsold,live_blog,75,UAL11,official IPL auction list (iplt20.com)
+2025,257,Digvijay Deshmukh,unsold,live_blog,76,UAL12,official IPL auction list (iplt20.com)
+2025,258,Yash Dabas,unsold,live_blog,79,UAL15,official IPL auction list (iplt20.com)
+2025,259,Devdutt Padikkal,sold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,260,David Warner,unsold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,261,Anmolpreet Singh,unsold,live_blog,8,UBA1,official IPL auction list (iplt20.com)
+2025,262,Lunith Sisodia,sold,live_blog,10,UWK1,official IPL auction list (iplt20.com)
+2025,263,'Uncapped' Chawla,unsold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,264,Shreyas Gopal,sold,live_blog,12,USP1,official IPL auction list (iplt20.com)
+2025,265,Mayank Agarwal,unsold,live_blog,45,UBA5,official IPL auction list (iplt20.com)
+2025,266,Glenn Phillips,sold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,267,Ajinkya Rahane,sold,live_blog,13,BA2,official IPL auction list (iplt20.com)
+2025,268,Shardul Thakur,unsold,live_blog,14,AL2,official IPL auction list (iplt20.com)
+2025,269,Donovan Ferreira,sold,live_blog,15,WK2,official IPL auction list (iplt20.com)
+2025,270,Swastik Chikkara,sold,live_blog,,,
+2025,271,Pukhraj Mann,unsold,live_blog,18,UBA2,official IPL auction list (iplt20.com)
+2025,272,Anukul Roy,sold,live_blog,19,UAL2,official IPL auction list (iplt20.com)
+2025,273,Vansh Bedi,sold,live_blog,20,UWK2,official IPL auction list (iplt20.com)
+2025,274,Harvik Desai,unsold,live_blog,20,UWK2,official IPL auction list (iplt20.com)
+2025,275,Arjun Tendulkar,unsold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,276,Prince Choudhary,unsold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,277,Prashant Solanki,unsold,live_blog,22,USP2,official IPL auction list (iplt20.com)
+2025,278,Dewald Brevis,unsold,live_blog,23,BA3,official IPL auction list (iplt20.com)
+2025,279,Moeen,sold,live_blog,,,
+2025,280,Umran Malik,sold,live_blog,26,FA3,official IPL auction list (iplt20.com)
+2025,281,Sachin Baby,sold,live_blog,28,UBA3,official IPL auction list (iplt20.com)
+2025,282,C Andre Siddarth,sold,live_blog,28,UBA3,official IPL auction list (iplt20.com)
+2025,283,Raj Hangargekar,sold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,284,Tanush Kotian,unsold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,285,Arshin Kulkarni,sold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
+2025,286,LR Chetan,unsold,live_blog,,,
+2025,287,M Ashwin,unsold,live_blog,32,USP3,official IPL auction list (iplt20.com)
+2025,288,Matthew Breetzke,sold,live_blog,33,BA4,official IPL auction list (iplt20.com)
+2025,289,Brandon King,unsold,live_blog,33,BA4,official IPL auction list (iplt20.com)
+2025,290,Gus Atkinson,unsold,live_blog,34,AL4,official IPL auction list (iplt20.com)
+2025,291,Sikandar Raza,unsold,live_blog,34,AL4,official IPL auction list (iplt20.com)
+2025,292,Tom Latham,unsold,live_blog,35,WK4,official IPL auction list (iplt20.com)
+2025,293,Kwena Maphaka,sold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,294,Leus du Plooy,unsold,live_blog,37,UBA4,official IPL auction list (iplt20.com)
+2025,295,Pravin Dubey,sold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
+2025,296,Ajay Mandal,sold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
+2025,297,Shivalik Sharma,unsold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
+2025,298,Matt Short,unsold,live_blog,43,AL5,official IPL auction list (iplt20.com)
+2025,299,Manvanth Kumar,sold,live_blog,16,FA2,official IPL auction list (iplt20.com)
+2025,300,Kulwant Khejroliya,unsold,live_blog,48,UFA5,official IPL auction list (iplt20.com)
+2025,301,Ottneil Baartman,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,302,Sandeep Warrier,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,303,Tejasvi Dahiya,unsold,live_blog,54,UWK6,official IPL auction list (iplt20.com)
+2025,304,Karim Janat,sold,live_blog,56,AL7,official IPL auction list (iplt20.com)
+2025,305,Raj Limbani,unsold,live_blog,59,UAL7,official IPL auction list (iplt20.com)
+2025,306,Bevon Jacobs,sold,live_blog,63,UBA8,official IPL auction list (iplt20.com)
+2025,307,Atit Sheth,unsold,live_blog,64,UAL8,official IPL auction list (iplt20.com)
+2025,308,Tripurana Vijay,sold,live_blog,77,UAL13,official IPL auction list (iplt20.com)
+2025,309,Madhav Tiwari,sold,live_blog,78,UAL14,official IPL auction list (iplt20.com)
+2025,310,Khrievitso Kense,unsold,live_blog,79,UAL15,official IPL auction list (iplt20.com)
+2025,311,Warner,unsold,live_blog,3,BA1,official IPL auction list (iplt20.com)
+2025,312,Kunal Rathore,sold,live_blog,20,UWK2,official IPL auction list (iplt20.com)
+2025,313,Arjun Tendulkar,sold,live_blog,21,UFA2,official IPL auction list (iplt20.com)
+2025,314,Lizaad Williams,sold,live_blog,36,FA4,official IPL auction list (iplt20.com)
+2025,315,Shivam Mavi,unsold,live_blog,44,FA5,official IPL auction list (iplt20.com)
+2025,316,Kulwant Khejroliya,sold,live_blog,48,UFA5,official IPL auction list (iplt20.com)
+2025,317,Ottneil Baartman,unsold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,318,Lungi Ngidi,sold,live_blog,51,FA6,official IPL auction list (iplt20.com)
+2025,319,Abhinandan Singh,sold,live_blog,55,UFA6,official IPL auction list (iplt20.com)
+2025,320,Raj Limbani,unsold,live_blog,59,UAL7,official IPL auction list (iplt20.com)
+2025,321,Ashok Sharma,sold,live_blog,65,UFA8,official IPL auction list (iplt20.com)
+2025,322,Vignesh Puthur,sold,live_blog,79,UAL15,official IPL auction list (iplt20.com)
+2025,323,Mohit Rathee,sold,live_blog,41,USP4,official IPL auction list (iplt20.com)
+2026,1,David Miller,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2026,2,Cameron Green,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2026,3,Wanindu Hasaranga,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,4,Venkatesh Iyer,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,5,Quinton de Kock,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,6,Ben Duckett,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,7,Finn Allen,sold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,8,Jacob Duffy,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,9,Matheesha Pathirana,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,10,Anrich Nortje,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,11,Ravi Bishnoi,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2026,12,Akeal Hosein,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2026,13,Auqib Nabi,sold,live_blog,,,
+2026,14,Prashant Veer,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,15,Shivang Kumar,sold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,16,Kartik Sharma,sold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2026,17,Mukul Choudhary,sold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2026,18,Tejasvi Dahiya,sold,live_blog,,,
+2026,19,Ashok Sharma,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,20,Kartik Tyagi,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,21,Naman Tiwari,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,22,Sushant Mishra,sold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,23,Yash Punja,sold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2026,24,Prashant Solanki,sold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2026,25,Vignesh Puthur,sold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2026,26,Pathum Nissanka,sold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2026,27,Rahul Tripathi,sold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2026,28,Jason Holder,sold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,29,Matt Short,sold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,30,Tim Seifert,sold,live_blog,13,WK2,official IPL auction list (iplt20.com)
+2026,31,Mustafizur Rahman,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2026,32,Akshat Raghuvanshi,sold,live_blog,,,
+2026,33,Danish Malewar,sold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2026,34,Satwik Deswal,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2026,35,Aman Khan,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2026,36,Mangesh Yadav,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2026,37,Salil Arora,sold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2026,38,Ravi Singh,sold,live_blog,18,UWK2,official IPL auction list (iplt20.com)
+2026,39,Sakib Hussain,sold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2026,40,Omkar Tarmale,sold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2026,41,Mohammad Izhar,sold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2026,42,Cooper Connolly,sold,live_blog,21,AL3,official IPL auction list (iplt20.com)
+2026,43,Atharva Ankolekar,sold,live_blog,31,UAL4,official IPL auction list (iplt20.com)
+2026,44,Praful Hinge,sold,live_blog,32,UFA4,official IPL auction list (iplt20.com)
+2026,45,Krains Fuletra,sold,live_blog,35,UAL5,official IPL auction list (iplt20.com)
+2026,46,Amit Kumar,sold,live_blog,27,USP3,official IPL auction list (iplt20.com)
+2026,47,Sarthak Ranjan,sold,live_blog,37,UAL6,official IPL auction list (iplt20.com)
+2026,48,Daksh Kamra,sold,live_blog,40,UAL8,official IPL auction list (iplt20.com)
+2026,49,Sarfaraz Khan,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2026,50,Liam Livingstone,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,51,Rachin Ravindra,sold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,52,Akash Deep,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,53,Matt Henry,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,54,Shivam Mavi,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,55,Rahul Chahar,sold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2026,56,Ben Dwarshuis,sold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,57,Jordan Cox,sold,live_blog,13,WK2,official IPL auction list (iplt20.com)
+2026,58,Josh Inglis,sold,live_blog,13,WK2,official IPL auction list (iplt20.com)
+2026,59,Lungi Ngidi,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2026,60,Aman Rao,sold,live_blog,,,
+2026,61,Mayank Rawat,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2026,62,Praveen Dubey,sold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2026,63,Vishal Nishad,sold,live_blog,27,USP3,official IPL auction list (iplt20.com)
+2026,64,Sahil Parikh,sold,live_blog,,,
+2026,65,Brijesh Sharma,sold,live_blog,38,UFA6,official IPL auction list (iplt20.com)
+2026,66,Jack Edwards,sold,live_blog,42,UAL10,official IPL auction list (iplt20.com)
+2026,67,Prithvi Shaw,sold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2026,68,Zak Foulkes,sold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,69,Tom Banton,sold,live_blog,13,WK2,official IPL auction list (iplt20.com)
+2026,70,Adam Milne,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2026,71,Vicky Ostwal,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
+2026,72,Kuldeep Sen,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2026,73,Prithvi Raj,sold,live_blog,37,UAL6,official IPL auction list (iplt20.com)
+2026,74,Luke Wood,sold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2026,75,Vihaan Malhotra,sold,live_blog,37,UAL6,official IPL auction list (iplt20.com)
+2026,76,Kanishk Chouhan,sold,live_blog,39,UAL7,official IPL auction list (iplt20.com)
+2026,77,Kyle Jamieson,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2026,78,Jake Fraser-McGurk,unsold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2026,79,Devon Conway,unsold,live_blog,1,BA1,official IPL auction list (iplt20.com)
+2026,80,Gus Atkinson,unsold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,81,Wiaan Mulder,unsold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,82,Rahmanullah Gurbaz,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,83,KS Bharat,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,84,Jonny Bairstow,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,85,Jamie Smith,unsold,live_blog,3,WK1,official IPL auction list (iplt20.com)
+2026,86,Deepak Hooda,unsold,live_blog,2,AL1,official IPL auction list (iplt20.com)
+2026,87,Gerald Coetzee,unsold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,88,Fazalhaq Farooqi,unsold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,89,Spencer Johnson,unsold,live_blog,4,FA1,official IPL auction list (iplt20.com)
+2026,90,Maheesh Theekshana,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2026,91,Mujeeb ur Rahman,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
+2026,92,Yash Dhull,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2026,93,Aarya Desai,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2026,94,Abhinav Tejrana,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2026,95,Abhinav Manohar,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2026,96,Atharva Taide,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2026,97,Anmolpreet Singh,unsold,live_blog,6,UBA1,official IPL auction list (iplt20.com)
+2026,98,Vijay Shankar,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,99,Rajvardhan Hangargekar,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,100,Mahipal Lomror,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,101,Eden Apple Tom,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,102,Tanush Kotian,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,103,Kamlesh Nagarkoti,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,104,Sanvir Singh,unsold,live_blog,7,UAL1,official IPL auction list (iplt20.com)
+2026,105,Ruchit Ahir,unsold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2026,106,Vansh Bedi,unsold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2026,107,Tushar Raheja,unsold,live_blog,8,UWK1,official IPL auction list (iplt20.com)
+2026,108,Wahidullah Zadran,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2026,109,Shivam Shukla,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2026,110,Karn Sharma,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
+2026,111,Kumar Kartikeya,unsold,live_blog,,,
+2026,112,Raj Limbani,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,113,Simarjeet Singh,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,114,Akash Madhwal,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
+2026,115,Michael Bracewell,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,116,Daryl Mitchell,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,117,Sean Abbott,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,118,Dasun Shanaka,unsold,live_blog,12,AL2,official IPL auction list (iplt20.com)
+2026,119,Sediqullah Atal,unsold,live_blog,11,BA2,official IPL auction list (iplt20.com)
+2026,120,Alzarri Joseph,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2026,121,Dan Lawrence,unsold,live_blog,21,AL3,official IPL auction list (iplt20.com)
+2026,122,Jhye Richardson,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2026,123,Riley Meredith,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2026,124,Taskin Ahmed,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2026,125,Richard Gleeson,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
+2026,126,Chetan Sakariya,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
+2026,127,Waqar Salamkheil,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
+2026,128,KM Asif,unsold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
+2026,129,KC Cariappa,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2026,130,Mohit Rathee,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2026,131,M Ashwin,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2026,132,Tejas Baroka,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
+2026,133,Manisankar Murasingh,unsold,live_blog,42,UAL10,official IPL auction list (iplt20.com)
+2026,134,Jikku Bright,unsold,live_blog,33,USP4,official IPL auction list (iplt20.com)
+2026,135,Izaz Sawariya,unsold,live_blog,33,USP4,official IPL auction list (iplt20.com)
+2026,136,Ayush Vartak,unsold,live_blog,31,UAL4,official IPL auction list (iplt20.com)
+2026,137,Utkarsh Singh,unsold,live_blog,31,UAL4,official IPL auction list (iplt20.com)
+2026,138,Karan Lal,unsold,live_blog,31,UAL4,official IPL auction list (iplt20.com)
+2026,139,Nathan Smith,unsold,live_blog,28,AL4,official IPL auction list (iplt20.com)
+2026,140,Dan Lategan,unsold,live_blog,30,UBA4,official IPL auction list (iplt20.com)
+2026,141,Chintal Gandhi,unsold,live_blog,27,USP3,official IPL auction list (iplt20.com)
+2026,142,Connor Esterhuizen,unsold,live_blog,25,UWK3,official IPL auction list (iplt20.com)
+2026,143,Irfan Umair,unsold,live_blog,26,UFA3,official IPL auction list (iplt20.com)
+2026,144,Dheeraj Kumar,unsold,live_blog,,,
+2026,145,Tanay Thyagarajan,unsold,live_blog,,,
+2026,146,Salman Nizar,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2026,147,Manan Vohra,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
+2026,148,Swastik Chikara,unsold,live_blog,30,UBA4,official IPL auction list (iplt20.com)
+2026,149,CV Milind,unsold,live_blog,42,UAL10,official IPL auction list (iplt20.com)
+2026,150,Siddharth Yadav,unsold,live_blog,35,UAL5,official IPL auction list (iplt20.com)
+2026,151,Ritik Tada,unsold,live_blog,41,UAL9,official IPL auction list (iplt20.com)
+2026,152,Macneil Noronha,unsold,live_blog,35,UAL5,official IPL auction list (iplt20.com)
+2026,153,Mayank Dagar,unsold,live_blog,24,UAL3,official IPL auction list (iplt20.com)
+2026,154,Money Grewal,unsold,live_blog,26,UFA3,official IPL auction list (iplt20.com)
+2026,155,Will Sutherland,unsold,live_blog,21,AL3,official IPL auction list (iplt20.com)
+2026,156,RS Ambrish,unsold,live_blog,35,UAL5,official IPL auction list (iplt20.com)

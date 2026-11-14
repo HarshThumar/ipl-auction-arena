@@ -9,7 +9,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 ```
 
 ## Current result (last run)
-**15 PASS · 0 FAIL · 1 WARN · 1 BLOCKED** (14 Nov). The only WARN is the accepted ID join, now 89.5% after wrong matches were removed (below). The only BLOCKED item is the 2027 retentions, due 17 Nov ([runbook](retention-day-runbook.md)).
+**16 PASS · 0 FAIL · 1 WARN · 1 BLOCKED** (15 Nov). The only WARN is the accepted ID join, now 89.5% after wrong matches were removed (below). The only BLOCKED item is the 2027 retentions, due 17 Nov ([runbook](retention-day-runbook.md)).
 
 | Area | State | Register |
 |---|---|---|
@@ -45,6 +45,13 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 
 6. **More wrong IDs found by a nationality check (14 Nov).** With international caps loaded, a new check compares each Indian auction player with the country his ID has played for. It found that "Mohit Sharma" (2018–20, 2023, 2025) carried a **Mexico** player's ID and "Naman Tiwari" (2025–26) a **Cyprus** player's ID. Both are fixed in `idjoin.py` and `join_2018_2021_ids.py`. Three Indian domestic players who later played for the USA or UAE (Milind Kumar, Shubham Ranjane, Akshdeep Nath) are the same people, and the check allows that. Check: "Indian players' IDs are not another country's internationals", PASS.
 7. **2018–21 overseas flags (14 Nov).** The raw 2018–21 table marked R Ashwin and Ricky Bhui as overseas and Ashton Turner as Indian. They are fixed through the cited [nationality_corrections_2018_2021.csv](../data/reference/nationality_corrections_2018_2021.csv). Prices and winners are unchanged.
+
+8. **Official auction lists (15 Nov).** The official iplt20.com auction-list PDFs for 2020-26 were downloaded with Harsh's permission and parsed privately (2,898 listed players; counts match the reported pool sizes). What they changed or confirmed:
+   - **17 base prices** in the master differed from the official reserve price and are corrected through [base_price_corrections.csv](../data/reference/base_price_corrections.csv) (one PDF URL per row). No hammer price or winner changed.
+   - **Capped status:** our rule-based status agrees with the official C/U flag for 796 of 810 matched players (98.3%). The misses are players capped between the list date and the auction, and Afghans (Cricsheet has no Afghanistan internationals). The official flag now takes priority where the player is in the list.
+   - **Date of birth:** the official list is now the first source. Wikidata agreed with it for only 408 of 455 players, so Wikidata is the fallback.
+   - **Sets:** each called lot 2022-26 now has its official set number and code in `lot_order.csv`. The live-blog order runs forward through the sets until the accelerated round, as expected.
+   - 2018 and 2019 official lists were not found.
 
 ## Resolved 12 Nov
 - **Historical retentions loaded** ([scripts/parse_retentions.py](../scripts/parse_retentions.py) → `data/processed/retentions_by_season.json`, 2022–26, from Wikipedia CC BY-SA). This un-blocked the squad-size and overseas-cap checks for all historical years. **2027 retentions land 17 Nov** and slot straight in.

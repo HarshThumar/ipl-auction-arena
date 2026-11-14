@@ -14,6 +14,12 @@ Sources
   t20s_male_json.zip (ODC-BY) in data/raw/cricsheet_intl/ (download from https://cricsheet.org/downloads/).
   Only the playing XI listed in each match counts.
 
+Official auction lists: when private/derived/auction_pool.csv exists (the official iplt20.com
+auction-list PDFs, 2020-2026, parsed by private/scripts/parse_iplt20_lists.py; pulled with Harsh's
+permission, raw files not committed), a player found in that season's list takes his date of birth
+and his Capped/Uncapped/Associate status from it (basis "official_list"). The official list is
+the status the auction itself used. Everyone else falls back to the rules below.
+
 Capped as of an auction (season Y, date D), first rule that fits:
   1. Played a Test, ODI or T20I for a full-member nation before D -> capped ("intl_before_auction"),
      except the 2025-27 rule below.
@@ -130,8 +136,59 @@ def auction_capped_flags():
     return first
 
 
+def parse_dob(s):
+    """'17/09/1986' or '08/10/71' (two-digit years appear in the 2020-21 lists)."""
+    from datetime import datetime
+    s = s.strip().replace("‐", "/").replace("-", "/")
+    try:
+        return datetime.strptime(s, "%d/%m/%Y").date().isoformat()
+    except ValueError:
+        d = datetime.strptime(s, "%d/%m/%y").date()
+        return (d.replace(year=d.year - 100) if d.year > 2015 else d).isoformat()
+
+
+def official_pool():
+    """{(season, cricsheet_id): official row} for players in the official lists, matched by name
+    to the same season's auction rows (exact name, else unique first initial + surname)."""
+    import re
+    p = ROOT / "private" / "derived" / "auction_pool.csv"
+    if not p.exists():
+        return {}
+    norm = lambda s: re.sub(r"[^a-z]", "", (s or "").lower())
+    by_name, by_ini = defaultdict(list), defaultdict(list)
+    for r in csv.DictReader(open(p, encoding="utf-8")):
+        y = int(r["season"])
+        by_name[(y, norm(r["player"]))].append(r)
+        by_ini[(y, r["first_name"][:1].lower(), norm(r["surname"]))].append(r)
+    names = defaultdict(set)
+    for r in json.loads((PROC / "master" / "all_auctions_master.json").read_text(encoding="utf-8")):
+        if r.get("cricsheet_id"):
+            names[(r["season"], r["cricsheet_id"])].add(r["player"])
+    for r in csv.DictReader(open(PROC / "2018_2021_staging" / "staged_2018_2021_joined.csv", encoding="utf-8")):
+        if r["cricsheet_id"]:
+            names[(int(r["season"]), r["cricsheet_id"])].add(r["player_name"])
+    for r in csv.DictReader(open(PROC / "roles" / "squad_ids.csv", encoding="utf-8")):
+        if r["cricsheet_id"] and r["source"] == "bought":
+            names[(int(r["season"]), r["cricsheet_id"])].add(r["player"])
+    out = {}
+    for (y, cid), ns in names.items():
+        for n in ns:
+            hit = by_name.get((y, norm(n)), [])
+            if not hit:
+                t = re.findall(r"[A-Za-z]+", n)
+                hit = by_ini.get((y, n[:1].lower(), norm(t[-1]) if t else ""), [])
+            if len(hit) == 1:
+                out[(y, cid)] = hit[0]
+                break
+    return out
+
+
 def main():
     ids, names = relevant_ids()
+    official = official_pool()
+    off_dob = {}
+    for (y, cid), r in sorted(official.items()):
+        off_dob[cid] = parse_dob(r["dob"])
     ci = {}
     for r in csv.DictReader(open(PROC / "players_register.csv", encoding="utf-8")):
         if r["cricsheet_id"] in ids and r["key_cricinfo"]:
@@ -144,9 +201,12 @@ def main():
         r = intl.get(cid)
         team = r["teams"].most_common(1)[0][0] if r else ""
         d = dob.get(ci.get(cid, ""), "")
+        wd = d if d not in ("", "AMBIGUOUS") else ""
         bio.append({"cricsheet_id": cid, "player": names.get(cid, ""), "cricinfo_id": ci.get(cid, ""),
-                    "date_of_birth": d if d not in ("", "AMBIGUOUS") else "",
-                    "dob_source": "wikidata" if d not in ("", "AMBIGUOUS") else ("wikidata_ambiguous" if d else ""),
+                    "date_of_birth": off_dob.get(cid) or wd,
+                    "dob_source": "official_list" if cid in off_dob else
+                                  ("wikidata" if wd else ("wikidata_ambiguous" if d else "")),
+                    "wikidata_dob": wd,
                     "intl_team": team, "intl_full_member": int(team in FULL_MEMBERS) if team else "",
                     "first_intl_date": min(r["dates"]) if r else "", "last_intl_date": max(r["dates"]) if r else "",
                     "n_tests": r["fmt"]["test"] if r else 0, "n_odis": r["fmt"]["odi"] if r else 0,
@@ -171,7 +231,10 @@ def main():
             before = [x for x in (r["dates"] if r else []) if x < D.isoformat()]
             last = max(before) if before else ""
             yrs = round((D - date.fromisoformat(last)).days / 365.25, 2) if last else ""
-            if before and b["intl_full_member"] == 1:
+            off = official.get((y, cid))
+            if off and off["cua"] in ("Capped", "Uncapped", "Associate"):
+                capped, basis = off["cua"].lower(), "official_list"
+            elif before and b["intl_full_member"] == 1:
                 indian = b["intl_team"] == "India"
                 if indian and y >= 2025 and yrs > 5:
                     capped, basis = "uncapped", "indian_5yr_rule"
@@ -201,6 +264,9 @@ def main():
           f"ambiguous {sum(1 for b in bio if b['dob_source'] == 'wikidata_ambiguous')}, "
           f"international record {sum(1 for b in bio if b['first_intl_date'])}")
     print("capped basis (all seasons):", dict(Counter(c["capped_basis"] for c in caps)))
+    # how good are the fallbacks? compare them with the official list where both exist
+    both = [b for b in bio if b["dob_source"] == "official_list" and b["wikidata_dob"]]
+    print(f"Wikidata date of birth vs official list: {sum(b['wikidata_dob'] == b['date_of_birth'] for b in both)}/{len(both)} agree")
 
 
 if __name__ == "__main__":

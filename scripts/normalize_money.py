@@ -25,8 +25,14 @@ def to_lakh(crore):
 def main():
     rows = json.loads((PROC / "all_auctions_master.json").read_text(encoding="utf-8"))
     capped_n = 0
+    # base (reserve) prices that disagreed with the official auction list, cited per row (14 Nov)
+    fix_p = Path(__file__).resolve().parent.parent / "data" / "reference" / "base_price_corrections.csv"
+    base_fix = {(int(f["season"]), f["player"]): int(f["base_lakh"]) for f in csv.DictReader(open(fix_p, encoding="utf-8"))}
     for r in rows:
         r["base_lakh"] = to_lakh(r.get("base_price"))
+        if (r.get("season"), r.get("player")) in base_fix:
+            r["base_lakh"] = base_fix[(r["season"], r["player"])]
+            r["base_price"] = r["base_lakh"] / 100
         hammer = to_lakh(r.get("final_price"))
         r["hammer_lakh"] = hammer
         paid = hammer
