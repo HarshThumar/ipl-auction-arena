@@ -12,7 +12,7 @@
 |---|---|---|
 | Batter | opener / top order / middle order / finisher | Opener: bats at 1–2 in ≥60% of innings. Top order: mostly bats at 3. Middle order: mostly 4–5. Finisher: mostly 6–7, or usually comes in after over 14 |
 | Wicketkeeper | keeper-opener / keeper-middle / keeper-finisher | Keeper flag, then the batting rule |
-| All-rounder | batting / bowling / genuine | Batting: top 6, under 2 overs a match. Bowling: 3+ overs a match, bats at 7 or lower. Genuine: both |
+| All-rounder | batting / bowling / genuine | As built (`RULES` in `build_roles.py`): "bats top" = median position ≤6 and bats in ≥50% of matches. Genuine: 2.5+ overs a match and bats top. Bowling: 2.5+ overs a match, median position ≤8 and bats in ≥40% of matches. Batting: 0.75–2.5 overs a match and bats top. 2.5+ overs otherwise is a bowler |
 | Bowler (pace) | right-arm / left-arm | From bowling style |
 | Bowler (spin) | off-spin / left-arm orthodox / leg-spin / left-arm wrist | From bowling style |
 | Bowling phase (anyone who bowls) | powerplay / middle / death / powerplay+death / all-phase | Phase index = his share of balls in a phase ÷ the normal share (PP 30%, middle 45%, death 25%). Index ≥1.25 marks the phase; PP and death both ≥1.25 is powerplay+death. None means all-phase |
@@ -56,7 +56,7 @@
 4. Hand comparison with ESPNcricinfo's playing-role labels on a random sample of 100 (target ≥85%). Sheet: [handcheck_sample.csv](../data/processed/roles/handcheck_sample.csv), not yet filled in.
 5. Stability: label flips between seasons are flagged.
 6. Date check: no input is dated on or after the auction (enforced in code).
-7. Blind rebuild: an independent agent re-derives 5 team-seasons. Not run yet.
+7. Blind rebuild: an independent agent re-derived 5 team-seasons (2019 CSK, 2021 KKR, 2023 GT, 2025 MI, 2026 SRH; 123 players) from this document alone, without seeing the code or output. **Done 14 Nov.** Agreement on the 96 high-confidence players: bowling type 95.8%, bowling phase 95.8%, batting subtype 88.5%, main role 81.2%. Almost every main-role difference sits on the bowler / bowling-all-rounder line (Cummins, Deepak Chahar, Harbhajan) or the batter / batting-all-rounder line (Abhishek Sharma, Will Jacks, Nitish Rana). The written all-rounder rule had drifted from the code (2 and 3 overs in the text, 2.5 in the code), so the table above now states the rule as built. The all-rounder borderline is the least reliable label; treat all-rounder kinds as soft.
 8. Held-out years: code frozen before scoring, then on 2019–26 (each season's needs built from earlier seasons only) we test whether flagged needs predict what teams bought, against chance and a slots-only baseline. Test only, never tuned on.
 9. Later: agreement with expert-stated needs.
 
