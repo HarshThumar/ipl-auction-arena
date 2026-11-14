@@ -1,351 +1,690 @@
 season,seq,player,status,order_basis,set_no,set_code,set_source
-2018,,Aaron Finch,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Abhishek Sharma,sold,not_ordered,10,UWK1,official IPL auction list (iplt20.com)
-2018,,Aditya Tare,sold,not_ordered,10,UWK1,official IPL auction list (iplt20.com)
-2018,,Ajinkya Rahane,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Akila Dhananjaya,sold,not_ordered,27,SP3,official IPL auction list (iplt20.com)
-2018,,Akshdeep Nath,sold,not_ordered,29,UAL3,official IPL auction list (iplt20.com)
-2018,,Ambati Rayudu,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Amit Mishra,sold,not_ordered,62,UAL14,official IPL auction list (iplt20.com)
-2018,,Andrew Tye,sold,not_ordered,26,FA3,official IPL auction list (iplt20.com)
-2018,,Aniket Choudhary,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Anirudha Ashok Joshi,sold,not_ordered,57,UAL9,official IPL auction list (iplt20.com)
-2018,,Ankit Sharma,sold,not_ordered,18,UAL2,official IPL auction list (iplt20.com)
-2018,,Ankit Singh Rajpoot,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Anukul Roy,sold,not_ordered,37,UAL4,official IPL auction list (iplt20.com)
-2018,,Anureet Singh,sold,not_ordered,17,UBA2,official IPL auction list (iplt20.com)
-2018,,Apoorv Vijay Wankhade,sold,not_ordered,17,UBA2,official IPL auction list (iplt20.com)
-2018,,Aryaman Vikram Birla,sold,not_ordered,61,UAL13,official IPL auction list (iplt20.com)
-2018,,Asif K M,sold,not_ordered,31,UFA3,official IPL auction list (iplt20.com)
-2018,,Avesh Khan,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Barinder Singh Sran,sold,not_ordered,26,FA3,official IPL auction list (iplt20.com)
-2018,,Basil Thampi,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Ben Cutting,sold,not_ordered,14,AL2,official IPL auction list (iplt20.com)
-2018,,Ben Dwarshuis,sold,not_ordered,31,UFA3,official IPL auction list (iplt20.com)
-2018,,Ben Laughlin,sold,not_ordered,26,FA3,official IPL auction list (iplt20.com)
-2018,,Benjamin Stokes,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Billy Stanlake,sold,not_ordered,26,FA3,official IPL auction list (iplt20.com)
-2018,,Bipul Sharma,sold,not_ordered,18,UAL2,official IPL auction list (iplt20.com)
-2018,,Brendon McCullum,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Cameron Delport,sold,not_ordered,29,UAL3,official IPL auction list (iplt20.com)
-2018,,Carlos Brathwaite,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Chaitanya Bishnoi,sold,not_ordered,55,UAL8,official IPL auction list (iplt20.com)
-2018,,Chris Jordan,sold,not_ordered,24,AL3,official IPL auction list (iplt20.com)
-2018,,Chris Lynn,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Chris Woakes,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Christopher Gayle,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Colin De Grandhomme,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Colin Munro,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Daniel Christian,sold,not_ordered,14,AL2,official IPL auction list (iplt20.com)
-2018,,Darcy Short,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,David Miller,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Deepak Chahar,sold,not_ordered,29,UAL3,official IPL auction list (iplt20.com)
-2018,,Deepak Hooda,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Dhawal Kulkarni,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Dhruv Shorey,sold,not_ordered,37,UAL4,official IPL auction list (iplt20.com)
-2018,,Dinesh Karthik,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Dushmantha Chameera,sold,not_ordered,47,FA6,official IPL auction list (iplt20.com)
-2018,,Dwayne Bravo,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Evin Lewis,sold,not_ordered,13,BA2,official IPL auction list (iplt20.com)
-2018,,Faf Du Plessis,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Gautam Gambhir,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Glenn Maxwell,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Gurkeerat Singh Mann,sold,not_ordered,14,AL2,official IPL auction list (iplt20.com)
-2018,,Harbhajan Singh,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Harshal Patel,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Imran Tahir,sold,not_ordered,,,
-2018,,Ishan Kishan,sold,not_ordered,10,UWK1,official IPL auction list (iplt20.com)
-2018,,Ishank Jaggi,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Jason Behrendorff,sold,not_ordered,26,FA3,official IPL auction list (iplt20.com)
-2018,,Jason Roy,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Jatin Saxena,sold,not_ordered,59,UAL11,official IPL auction list (iplt20.com)
-2018,,Javon Searless,sold,not_ordered,59,UAL11,official IPL auction list (iplt20.com)
-2018,,Jayant Yadav,sold,not_ordered,14,AL2,official IPL auction list (iplt20.com)
-2018,,Jaydev Unadkat,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Jean-Paul Duminy,sold,not_ordered,24,AL3,official IPL auction list (iplt20.com)
-2018,,Jofra Archer,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Jos Buttler,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,KL Rahul,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Kagiso Rabada,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,Kamlesh Nagarkoti,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Kane Williamson,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Kanishk Seth,sold,not_ordered,37,UAL4,official IPL auction list (iplt20.com)
-2018,,Karn Sharma,sold,not_ordered,7,SP1,official IPL auction list (iplt20.com)
-2018,,Karun Nair,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Kedar Jadhav,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Kieron Pollard,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Krishnappa Gowtham,sold,not_ordered,,,
-2018,,Krunal Pandya,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Kshitiz Sharma,sold,not_ordered,49,UAL6,official IPL auction list (iplt20.com)
-2018,,Kuldeep Yadav,sold,not_ordered,7,SP1,official IPL auction list (iplt20.com)
-2018,,Kulwant Khejroliya,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Lungisani Ngidi,sold,not_ordered,35,FA4,official IPL auction list (iplt20.com)
-2018,,M. Ashwin,sold,not_ordered,12,USP1,official IPL auction list (iplt20.com)
-2018,,Mahipal Lomror,sold,not_ordered,44,UAL5,official IPL auction list (iplt20.com)
-2018,,Manan Vohra,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Mandeep Singh,sold,not_ordered,57,UAL9,official IPL auction list (iplt20.com)
-2018,,Manish Pandey,sold,not_ordered,3,BA1,official IPL auction list (iplt20.com)
-2018,,Manjot Kalra,sold,not_ordered,17,UBA2,official IPL auction list (iplt20.com)
-2018,,Manoj Tiwary,sold,not_ordered,13,BA2,official IPL auction list (iplt20.com)
-2018,,Manzoor Dar,sold,not_ordered,57,UAL9,official IPL auction list (iplt20.com)
-2018,,Marcus Stoinis,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Mark Wood,sold,not_ordered,42,FA5,official IPL auction list (iplt20.com)
-2018,,Mayank Agarwal,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Mayank Dagar,sold,not_ordered,37,UAL4,official IPL auction list (iplt20.com)
-2018,,Mayank Markande,sold,not_ordered,22,USP2,official IPL auction list (iplt20.com)
-2018,,Midhun S,sold,not_ordered,58,UAL10,official IPL auction list (iplt20.com)
-2018,,Mitchell Johnson,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,Mitchell Santner,sold,not_ordered,24,AL3,official IPL auction list (iplt20.com)
-2018,,Mitchell Starc,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Moeen Ali,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Mohammad Nabi,sold,not_ordered,,,
-2018,,Mohammad Shami,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,Mohammed Siraj,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Mohit Sharma,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Mohsin Khan,sold,not_ordered,45,UFA5,official IPL auction list (iplt20.com)
-2018,,Monu Singh,sold,not_ordered,54,UFA7,official IPL auction list (iplt20.com)
-2018,,Mujeeb Zadran,sold,not_ordered,16,SP2,official IPL auction list (iplt20.com)
-2018,,Murali Vijay,sold,not_ordered,,,
-2018,,Mustafizur Rahman,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,N Jagadeesan,sold,not_ordered,,,
-2018,,Naman Ojha,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Nathan Coulter-Nile,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Navdeep Saini,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Nidheesh M D Dinesan,sold,not_ordered,50,UFA6,official IPL auction list (iplt20.com)
-2018,,Nitish Rana,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Pardeep Sahu,sold,not_ordered,32,USP3,official IPL auction list (iplt20.com)
-2018,,Parthiv Patel,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Pat Cummins,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,Pavan Deshpande,sold,not_ordered,61,UAL13,official IPL auction list (iplt20.com)
-2018,,Pawan Negi,sold,not_ordered,14,AL2,official IPL auction list (iplt20.com)
-2018,,Piyush Chawla,sold,not_ordered,7,SP1,official IPL auction list (iplt20.com)
-2018,,Pradeep Sangwan,sold,not_ordered,19,UFA2,official IPL auction list (iplt20.com)
-2018,,Prashant Chopra,sold,not_ordered,10,UWK1,official IPL auction list (iplt20.com)
-2018,,Prithvi Shaw,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Quinton De Kock,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Rahul Chahar,sold,not_ordered,12,USP1,official IPL auction list (iplt20.com)
-2018,,Rahul Tewatia,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Rahul Tripathi,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Ranganath Vinay Kumar,sold,not_ordered,,,
-2018,,Rashid Khan Arman,sold,not_ordered,7,SP1,official IPL auction list (iplt20.com)
-2018,,Ravichandran Ashwin,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Ricky Bhui,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Rinku Singh,sold,not_ordered,17,UBA2,official IPL auction list (iplt20.com)
-2018,,Robin Uthappa,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Sachin Baby,sold,not_ordered,17,UBA2,official IPL auction list (iplt20.com)
-2018,,Sam Billings,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Sandeep Lamichhane,sold,not_ordered,32,USP3,official IPL auction list (iplt20.com)
-2018,,Sandeep Sharma,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Sanju Samson,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Saurabh Tiwary,sold,not_ordered,13,BA2,official IPL auction list (iplt20.com)
-2018,,Sayan Ghosh,sold,not_ordered,19,UFA2,official IPL auction list (iplt20.com)
-2018,,Shahbaz Nadeem,sold,not_ordered,12,USP1,official IPL auction list (iplt20.com)
-2018,,Shakib Al Hasan,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Shane Watson,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Sharad Lumba,sold,not_ordered,36,UBA4,official IPL auction list (iplt20.com)
-2018,,Shardul Thakur,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Shikhar Dhawan,sold,not_ordered,1,M1,official IPL auction list (iplt20.com)
-2018,,Shivam Mavi,sold,not_ordered,18,UAL2,official IPL auction list (iplt20.com)
-2018,,Shreevats Goswami,sold,not_ordered,30,UWK3,official IPL auction list (iplt20.com)
-2018,,Shreyas Gopal,sold,not_ordered,29,UAL3,official IPL auction list (iplt20.com)
-2018,,Shubman Gill,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Siddarth Kaul,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Siddhesh Dinesh Lad,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Stuart Binny,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Suryakumar Yadav,sold,not_ordered,8,UBA1,official IPL auction list (iplt20.com)
-2018,,Syed Khaleel Ahmed,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Syed Mehdi Hasan,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,T Natarajan,sold,not_ordered,11,UFA1,official IPL auction list (iplt20.com)
-2018,,Tajinder Dhillon,sold,not_ordered,29,UAL3,official IPL auction list (iplt20.com)
-2018,,Tanmay Agarwal,sold,not_ordered,28,UBA3,official IPL auction list (iplt20.com)
-2018,,Tim Southee,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,Trent Boult,sold,not_ordered,15,FA2,official IPL auction list (iplt20.com)
-2018,,Umesh Yadav,sold,not_ordered,6,FA1,official IPL auction list (iplt20.com)
-2018,,Vijay Shankar,sold,not_ordered,9,UAL1,official IPL auction list (iplt20.com)
-2018,,Washington Sundar,sold,not_ordered,14,AL2,official IPL auction list (iplt20.com)
-2018,,Wriddhiman Saha,sold,not_ordered,5,WK1,official IPL auction list (iplt20.com)
-2018,,Yusuf Pathan,sold,not_ordered,4,AL1,official IPL auction list (iplt20.com)
-2018,,Yuvraj Singh,sold,not_ordered,2,M2,official IPL auction list (iplt20.com)
-2018,,Yuzvendra Singh Chahal,sold,not_ordered,7,SP1,official IPL auction list (iplt20.com)
-2018,,Zahir Khan Pakteen,sold,not_ordered,22,USP2,official IPL auction list (iplt20.com)
-2019,,Agnivesh Ayachi,sold,not_ordered,,,
-2019,,Akshdeep Nath,sold,not_ordered,,,
-2019,,Ankush Bains,sold,not_ordered,,,
-2019,,Anmolpreet Singh,sold,not_ordered,,,
-2019,,Anrich Nortje,sold,not_ordered,,,
-2019,,Arshdeep Singh,sold,not_ordered,,,
-2019,,Ashton Turner,sold,not_ordered,,,
-2019,,Axar Rajesh Patel,sold,not_ordered,,,
-2019,,Bandaru Ayyappa,sold,not_ordered,,,
-2019,,Barinder Singh Sran,sold,not_ordered,,,
-2019,,Carlos Brathwaite,sold,not_ordered,,,
-2019,,Colin Ingram,sold,not_ordered,,,
-2019,,Darshan Nalkande,sold,not_ordered,,,
-2019,,Devdutt Padikkal,sold,not_ordered,,,
-2019,,Gurkeerat Singh Mann,sold,not_ordered,,,
-2019,,Hanuma Vihari,sold,not_ordered,,,
-2019,,Hardus Viljoen,sold,not_ordered,,,
-2019,,Harpreet Brar,sold,not_ordered,,,
-2019,,Harry Gurney,sold,not_ordered,,,
-2019,,Heinrich Klaasen,sold,not_ordered,,,
-2019,,Himmat Singh,sold,not_ordered,,,
-2019,,Ishant Sharma,sold,not_ordered,,,
-2019,,Jalaj Saxena,sold,not_ordered,,,
-2019,,Jaydev Unadkat,sold,not_ordered,,,
-2019,,Joe Denly,sold,not_ordered,,,
-2019,,Jonny Bairstow,sold,not_ordered,,,
-2019,,Keemo Paul,sold,not_ordered,,,
-2019,,Lasith Malinga,sold,not_ordered,,,
-2019,,Liam Livingstone,sold,not_ordered,,,
-2019,,Lockie Ferguson,sold,not_ordered,,,
-2019,,M. Ashwin,sold,not_ordered,,,
-2019,,Manan Vohra,sold,not_ordered,,,
-2019,,Martin Guptill,sold,not_ordered,,,
-2019,,Milind Kumar,sold,not_ordered,,,
-2019,,Mohammad Shami,sold,not_ordered,,,
-2019,,Mohit Sharma,sold,not_ordered,,,
-2019,,Moises Henriques,sold,not_ordered,,,
-2019,,Nathu Singh,sold,not_ordered,,,
-2019,,Nicolas Pooran,sold,not_ordered,,,
-2019,,Nikhil Shankar Naik,sold,not_ordered,,,
-2019,,Oshane Thomas,sold,not_ordered,,,
-2019,,Pankaj Jaswal,sold,not_ordered,,,
-2019,,Prabhsimran Singh,sold,not_ordered,,,
-2019,,Prayas Ray Barman,sold,not_ordered,,,
-2019,,Prithvi Raj Yarra,sold,not_ordered,,,
-2019,,Rasikh Dar,sold,not_ordered,,,
-2019,,Riyan Parag,sold,not_ordered,,,
-2019,,Ruturaj Gaikwad,sold,not_ordered,,,
-2019,,Sam Curran,sold,not_ordered,,,
-2019,,Sarfaraz Naushad Khan,sold,not_ordered,,,
-2019,,Shashank Singh,sold,not_ordered,,,
-2019,,Sherfane Rutherford,sold,not_ordered,,,
-2019,,Shimron Hetmyer,sold,not_ordered,,,
-2019,,Shivam Dube,sold,not_ordered,,,
-2019,,Shrikant Mundhe,sold,not_ordered,,,
-2019,,Shubham Ranjane,sold,not_ordered,,,
-2019,,Varun Aaron,sold,not_ordered,,,
-2019,,Varun Chakaravarthy,sold,not_ordered,,,
-2019,,Wriddhiman Saha,sold,not_ordered,,,
-2019,,Yuvraj Singh,sold,not_ordered,,,
-2020,,Aaron Finch,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2020,,Abdul Samad,sold,not_ordered,33,UAL4,official IPL auction list (iplt20.com)
-2020,,Akash Singh,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
-2020,,Alex Carey,sold,not_ordered,3,WK1,official IPL auction list (iplt20.com)
-2020,,Andrew Tye,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2020,,Anirudha Ashok Joshi,sold,not_ordered,42,UAL6,official IPL auction list (iplt20.com)
-2020,,Anuj Rawat,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
-2020,,Chris Green,sold,not_ordered,15,UAL2,official IPL auction list (iplt20.com)
-2020,,Chris Jordan,sold,not_ordered,20,AL3,official IPL auction list (iplt20.com)
-2020,,Chris Lynn,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2020,,Chris Woakes,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2020,,Christopher Morris,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2020,,Dale Steyn,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2020,,David Miller,sold,not_ordered,11,BA2,official IPL auction list (iplt20.com)
-2020,,Deepak Hooda,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2020,,Digvijay Deshmukh,sold,not_ordered,43,UAL7,official IPL auction list (iplt20.com)
-2020,,Eoin Morgan,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2020,,Fabian Allen,sold,not_ordered,20,AL3,official IPL auction list (iplt20.com)
-2020,,Glenn Maxwell,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2020,,Isuru Udana,sold,not_ordered,20,AL3,official IPL auction list (iplt20.com)
-2020,,James Neesham,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2020,,Jason Roy,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2020,,Jaydev Unadkat,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2020,,Josh Hazlewood,sold,not_ordered,13,FA2,official IPL auction list (iplt20.com)
-2020,,Joshua Philippe,sold,not_ordered,16,UWK2,official IPL auction list (iplt20.com)
-2020,,Kane Richardson,sold,not_ordered,22,FA3,official IPL auction list (iplt20.com)
-2020,,Kartik Tyagi,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
-2020,,Lalit Yadav,sold,not_ordered,39,UFA5,official IPL auction list (iplt20.com)
-2020,,M Siddharth,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
-2020,,Marcus Stoinis,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2020,,Mitchell Marsh,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2020,,Mohit Sharma,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2020,,Mohsin Khan,sold,not_ordered,17,UFA2,official IPL auction list (iplt20.com)
-2020,,Nathan Coulter-Nile,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2020,,Nikhil Shankar Naik,sold,not_ordered,16,UWK2,official IPL auction list (iplt20.com)
-2020,,Oshane Thomas,sold,not_ordered,22,FA3,official IPL auction list (iplt20.com)
-2020,,Pat Cummins,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2020,,Pavan Deshpande,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2020,,Piyush Chawla,sold,not_ordered,5,SP1,official IPL auction list (iplt20.com)
-2020,,Prabhsimran Singh,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
-2020,,Pravin Tambe,sold,not_ordered,28,USP3,official IPL auction list (iplt20.com)
-2020,,Prince Balwant Rai Singh,sold,not_ordered,43,UAL7,official IPL auction list (iplt20.com)
-2020,,Priyam Garg,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
-2020,,R. Sai Kishore,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
-2020,,Rahul Tripathi,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
-2020,,Ravi Bishnoi,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
-2020,,Robin Uthappa,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2020,,Sam Curran,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2020,,Sandeep Bavanaka,sold,not_ordered,15,UAL2,official IPL auction list (iplt20.com)
+2018,1,Shikhar Dhawan,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,2,R Ashwin,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,3,Kieron Pollard,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,4,Ben Stokes,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,5,Faf du Plessis,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,6,Ajinkya Rahane,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,7,Mitchell Starc,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,8,Joe Root,unsold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,9,Harbhajan Singh,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,10,Shakib Al Hasan,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,11,Glenn Maxwell,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,12,Gautam Gambhir,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,13,Dwayne Bravo,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,14,Kane Williamson,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,15,Yuvraj Singh,sold,set_order,2,M2,official IPL auction list (iplt20.com)
+2018,16,Hashim Amla,unsold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,17,Martin Guptill,unsold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,18,Karun Nair,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,19,KL Rahul,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,20,David Miller,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,21,Aaron Finch,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,22,Brendon McCullum,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,23,Jason Roy,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,24,Chris Lynn,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,25,Manish Pandey,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,26,James Faulkner,unsold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,27,Chris Woakes,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,28,Carlos Brathwaite,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,29,Shane Watson,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,30,Kedar Jadhav,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,31,Colin de Grandhomme,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,32,Yusuf Pathan,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,33,Colin Munro,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,34,Stuart Binny,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,35,Marcus Stoinis,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,36,Moeen Ali,sold,set_order,4,AL1,official IPL auction list (iplt20.com)
+2018,37,Jonny Bairstow,unsold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,38,Quinton de Kock,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,39,Wriddhiman Saha,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,40,Dinesh Karthik,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,41,Robin Uthappa,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,42,Sanju Samson,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,43,Ambati Rayudu,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,44,Jos Buttler,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,45,Josh Hazlewood,unsold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,46,Ishant Sharma,unsold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,47,Mitchell McClenaghan,unsold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,48,Lasith Malinga,unsold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,49,Mustafizur Rahman,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,50,Pat Cummins,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,51,Umesh Yadav,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,52,Mohammed Shami,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,53,Kagiso Rabada,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,54,Ish Sodhi,unsold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,55,Samuel Badree,unsold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,56,Adam Zampa,unsold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,57,Piyush Chawla,sold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,58,Imran Tahir,sold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,59,Karn Sharma,sold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,60,Rashid Khan,sold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,61,Yuzvendra Chahal,sold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,62,Kuldeep Yadav,sold,set_order,7,SP1,official IPL auction list (iplt20.com)
+2018,63,Himanshu Rana,unsold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,64,Suryakumar Yadav,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,65,Shubman Gill,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,66,Ishank Jaggi,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,67,Ricky Bhui,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,68,Mayank Agarwal,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,69,Rahul Tripathi,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,70,Manan Vohra,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,71,Prithvi Shaw,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,72,Shivam Dubey,unsold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,73,Rahul Tewatia,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,74,Deepak Hooda,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,75,Vijay Shankar,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,76,Harshal Patel,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,77,Kamlesh Nagarkoti,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,78,Krunal Pandya,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,79,Nitish Rana,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,80,D'Arcy Short,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,81,Jofra Archer,sold,set_order,9,UAL1,official IPL auction list (iplt20.com)
+2018,82,Jitesh Sharma,unsold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,83,Nikhil Naik,unsold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,84,Ben McDermott,unsold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,85,Ankush Bains,unsold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,86,Vishnu Vinod,unsold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,87,Sheldon Jackson,unsold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,88,Ishan Kishan,sold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,89,Abhishek Sharma,sold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,90,Rajneesh Gurbani,unsold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,91,Kulwant Khejroliya,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,92,Siddarth Kaul,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,93,T Natarajan,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,94,Basil Thampi,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,95,Aniket Choudhary,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,96,Khaleel Ahmed,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,97,Navdeep Saini,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,98,Avesh Khan,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,99,Ankit Rajpoot,sold,set_order,11,UFA1,official IPL auction list (iplt20.com)
+2018,100,Shivil Kaushik,unsold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,101,Iqbal Abdullah,unsold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,102,J Suchith,unsold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,103,Tejas Baroka,unsold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,104,Sai Kishore,unsold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,105,KC Cariappa,unsold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,106,Rahul Chahar,sold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,107,Shahbaz Nadeem,sold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,108,K Gowtham,sold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,109,M Ashwin,sold,set_order,12,USP1,official IPL auction list (iplt20.com)
+2018,110,Colin Ingram,unsold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,111,Travis Head,unsold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,112,Lendl Simmons,unsold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,113,Shaun Marsh,unsold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,114,Eoin Morgan,unsold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,115,Alex Hales,unsold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,116,Evin Lewis,sold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,117,Saurabh Tiwary,sold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,118,Manoj Tiwary,sold,set_order,13,BA2,official IPL auction list (iplt20.com)
+2018,119,Rishi Dhawan,unsold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,120,Moises Henriques,unsold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,121,Corey Anderson,unsold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,122,Washington Sundar,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,123,Pawan Negi,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,124,Daniel Christian,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,125,Jayant Yadav,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,126,Gurkeerat Singh,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,127,Ben Cutting,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,128,Mohammad Nabi,sold,set_order,14,AL2,official IPL auction list (iplt20.com)
+2018,129,Dale Steyn,unsold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,130,Dhawal Kulkarni,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,131,Mohit Sharma,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,132,Sandeep Sharma,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,133,R Vinay Kumar,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,134,Mohammed Siraj,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,135,Nathan Coulter-Nile,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,136,Jaydev Unadkat,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,137,Trent Boult,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,138,Shardul Thakur,sold,set_order,15,FA2,official IPL auction list (iplt20.com)
+2018,139,Base price INR 20 lakhs Tabraiz Shamsi,unsold,set_order,16,SP2,official IPL auction list (iplt20.com)
+2018,140,Pragyan Ojha,unsold,set_order,16,SP2,official IPL auction list (iplt20.com)
+2018,141,Fawad Ahmed,unsold,set_order,16,SP2,official IPL auction list (iplt20.com)
+2018,142,Nathan Lyon,unsold,set_order,16,SP2,official IPL auction list (iplt20.com)
+2018,143,Mujeeb Zadran,sold,set_order,16,SP2,official IPL auction list (iplt20.com)
+2018,144,Apoorv Wankhade,sold,set_order,17,UBA2,official IPL auction list (iplt20.com)
+2018,145,Rinku Singh,sold,set_order,17,UBA2,official IPL auction list (iplt20.com)
+2018,146,Sachin Baby,sold,set_order,17,UBA2,official IPL auction list (iplt20.com)
+2018,147,Manjot Kalra,sold,set_order,17,UBA2,official IPL auction list (iplt20.com)
+2018,148,Anureet Singh,sold,set_order,17,UBA2,official IPL auction list (iplt20.com)
+2018,149,Swapnil Singh,unsold,set_order,18,UAL2,official IPL auction list (iplt20.com)
+2018,150,Praveen Dubey,unsold,set_order,18,UAL2,official IPL auction list (iplt20.com)
+2018,151,Ankit Sharma,sold,set_order,18,UAL2,official IPL auction list (iplt20.com)
+2018,152,Shivam Mavi,sold,set_order,18,UAL2,official IPL auction list (iplt20.com)
+2018,153,Nathu Singh,unsold,set_order,19,UFA2,official IPL auction list (iplt20.com)
+2018,154,Ishwar Pandey,unsold,set_order,19,UFA2,official IPL auction list (iplt20.com)
+2018,155,Pradeep Sangwan,sold,set_order,19,UFA2,official IPL auction list (iplt20.com)
+2018,156,Nicholas Pooran,unsold,set_order,20,WK2,official IPL auction list (iplt20.com)
+2018,157,Niroshan Dickwella,unsold,set_order,20,WK2,official IPL auction list (iplt20.com)
+2018,158,Johnson Charles,unsold,set_order,20,WK2,official IPL auction list (iplt20.com)
+2018,159,CM Gautam,unsold,set_order,21,UWK2,official IPL auction list (iplt20.com)
+2018,160,Kedar Devdhar,unsold,set_order,21,UWK2,official IPL auction list (iplt20.com)
+2018,161,Jagadeesan Narayan,sold,set_order,21,UWK2,official IPL auction list (iplt20.com)
+2018,162,Yuvraj Chudasama,unsold,set_order,22,USP2,official IPL auction list (iplt20.com)
+2018,163,Mihir Hirwani,unsold,set_order,22,USP2,official IPL auction list (iplt20.com)
+2018,164,Zahir Khan,sold,set_order,22,USP2,official IPL auction list (iplt20.com)
+2018,165,Aiden Markram,unsold,set_order,23,BA3,official IPL auction list (iplt20.com)
+2018,166,David Willey,unsold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,167,Rovman Powell,unsold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,168,John Hastings,unsold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,169,Hilton Cartwright,unsold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,170,Ashton Agar,unsold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,171,JP Duminy,sold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,172,Chris Jordan,sold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,173,Mitchell Santner,sold,set_order,24,AL3,official IPL auction list (iplt20.com)
+2018,174,Luke Ronchi,unsold,set_order,25,WK3,official IPL auction list (iplt20.com)
+2018,175,Kusal Perera,unsold,set_order,25,WK3,official IPL auction list (iplt20.com)
+2018,176,Tom Latham,unsold,set_order,25,WK3,official IPL auction list (iplt20.com)
+2018,177,Adam Milne,unsold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,178,Tymal Mills,unsold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,179,Lockie Ferguson,unsold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,180,Varun Aaron,unsold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,181,Jason Behrendorff,sold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,182,Barinder Sran,sold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,183,Billy Stanlake,sold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,184,Andrew Tye,sold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,185,Akila Dananjaya,sold,set_order,27,SP3,official IPL auction list (iplt20.com)
+2018,186,Virat Singh,unsold,set_order,28,UBA3,official IPL auction list (iplt20.com)
+2018,187,Amandeep Khare,unsold,set_order,28,UBA3,official IPL auction list (iplt20.com)
+2018,188,Unmukt Chand,unsold,set_order,28,UBA3,official IPL auction list (iplt20.com)
+2018,189,Harpreet Bhatia,unsold,set_order,28,UBA3,official IPL auction list (iplt20.com)
+2018,190,Tanmay Agarwal,sold,set_order,28,UBA3,official IPL auction list (iplt20.com)
+2018,191,Shashank Singh,unsold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,192,Atit Sheth,unsold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,193,B Aparajith,unsold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,194,Deepak Chahar,sold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,195,Cameron Delport,sold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,196,Shreyas Gopal,sold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,197,Akshdeep Nath,sold,set_order,29,UAL3,official IPL auction list (iplt20.com)
+2018,198,Eklavya Dwivedi,unsold,set_order,30,UWK3,official IPL auction list (iplt20.com)
+2018,199,Mahesh Rawat,unsold,set_order,30,UWK3,official IPL auction list (iplt20.com)
+2018,200,Smit Patel,unsold,set_order,30,UWK3,official IPL auction list (iplt20.com)
+2018,201,Shreevats Goswami,sold,set_order,30,UWK3,official IPL auction list (iplt20.com)
+2018,202,Vikas Tokas,unsold,set_order,31,UFA3,official IPL auction list (iplt20.com)
+2018,203,Ishan Porel,unsold,set_order,31,UFA3,official IPL auction list (iplt20.com)
+2018,204,Ben Dwarshuis,sold,set_order,31,UFA3,official IPL auction list (iplt20.com)
+2018,205,Abhishek Sakuja,unsold,set_order,32,USP3,official IPL auction list (iplt20.com)
+2018,206,Sandeep Lamichhane,sold,set_order,32,USP3,official IPL auction list (iplt20.com)
+2018,207,Pardeep Sahu,sold,set_order,32,USP3,official IPL auction list (iplt20.com)
+2018,208,Najibullah Zadran,unsold,set_order,33,BA4,official IPL auction list (iplt20.com)
+2018,209,JJ Smuts,unsold,set_order,34,AL4,official IPL auction list (iplt20.com)
+2018,210,Thisara Perera,unsold,set_order,34,AL4,official IPL auction list (iplt20.com)
+2018,211,Jason Holder,unsold,set_order,34,AL4,official IPL auction list (iplt20.com)
+2018,212,Andre Fletcher,unsold,set_order,34,AL4,official IPL auction list (iplt20.com)
+2018,213,Ashok Dinda,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,214,Jhye Richardson,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,215,Joel Paris,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,216,Morne Morkel,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,217,Abhimanyu Mithun,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,218,Matt Henry,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,219,Marchant de Lange,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,220,Sheldon Cottrell,unsold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,221,Lungi Ngidi,sold,set_order,35,FA4,official IPL auction list (iplt20.com)
+2018,222,Sharad Lumba,sold,set_order,36,UBA4,official IPL auction list (iplt20.com)
+2018,223,Vivek Singh,unsold,set_order,37,UAL4,official IPL auction list (iplt20.com)
+2018,224,Kanishk Seth,sold,set_order,37,UAL4,official IPL auction list (iplt20.com)
+2018,225,Dhruv Shorey,sold,set_order,37,UAL4,official IPL auction list (iplt20.com)
+2018,226,Sadiq Kirmani,unsold,set_order,38,UWK4,official IPL auction list (iplt20.com)
+2018,227,Harvik Desai,unsold,set_order,38,UWK4,official IPL auction list (iplt20.com)
+2018,228,Athisayaraj V,unsold,set_order,39,UFA4,official IPL auction list (iplt20.com)
+2018,229,Andile Phehlukwayo,unsold,set_order,41,AL5,official IPL auction list (iplt20.com)
+2018,230,Kesrick Williams,unsold,set_order,42,FA5,official IPL auction list (iplt20.com)
+2018,231,Dane Paterson,unsold,set_order,42,FA5,official IPL auction list (iplt20.com)
+2018,232,Chirag Gandhi,unsold,set_order,43,UBA5,official IPL auction list (iplt20.com)
+2018,233,Akash Bhandari,unsold,set_order,44,UAL5,official IPL auction list (iplt20.com)
+2018,234,Himmat Singh,unsold,set_order,44,UAL5,official IPL auction list (iplt20.com)
+2018,235,Riyan Parag,unsold,set_order,44,UAL5,official IPL auction list (iplt20.com)
+2018,236,Mahipal Lomror,sold,set_order,44,UAL5,official IPL auction list (iplt20.com)
+2018,237,Mohsin Khan,sold,set_order,45,UFA5,official IPL auction list (iplt20.com)
+2018,238,David Wiese,unsold,set_order,46,AL6,official IPL auction list (iplt20.com)
+2018,239,Kyle Abbott,unsold,set_order,47,FA6,official IPL auction list (iplt20.com)
+2018,240,Pratyush Singh,unsold,set_order,49,UAL6,official IPL auction list (iplt20.com)
+2018,241,Umar Nazir Mir,unsold,set_order,50,UFA6,official IPL auction list (iplt20.com)
+2018,242,Aaron Summers,unsold,set_order,50,UFA6,official IPL auction list (iplt20.com)
+2018,243,Tom Helm,unsold,set_order,50,UFA6,official IPL auction list (iplt20.com)
+2018,244,Gulbadin Naib,unsold,set_order,52,FA7,official IPL auction list (iplt20.com)
+2018,245,Ben Wheeler,unsold,set_order,52,FA7,official IPL auction list (iplt20.com)
+2018,246,B Indrajith,unsold,set_order,53,UAL7,official IPL auction list (iplt20.com)
+2018,247,Jack Wildermuth,unsold,set_order,53,UAL7,official IPL auction list (iplt20.com)
+2018,248,Michael Neser,unsold,set_order,53,UAL7,official IPL auction list (iplt20.com)
+2018,249,Rajat Bhatia,unsold,set_order,53,UAL7,official IPL auction list (iplt20.com)
+2018,250,Chaitanya Bishnoi,sold,set_order,55,UAL8,official IPL auction list (iplt20.com)
+2018,251,Lalit Yadav,unsold,set_order,56,UFA8,official IPL auction list (iplt20.com)
+2018,252,Sagar Trivedi,unsold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,253,Salman Nizar,unsold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,254,Akhil Herwadkar,unsold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,255,Fabid Ahmed,unsold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,256,Mandeep Singh,sold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,257,Aniruddha Joshi,sold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,258,Manzoor Dar,sold,set_order,57,UAL9,official IPL auction list (iplt20.com)
+2018,259,Antony Das,unsold,set_order,58,UAL10,official IPL auction list (iplt20.com)
+2018,260,Sudhesan Midhun,sold,set_order,58,UAL10,official IPL auction list (iplt20.com)
+2018,261,Jatin Saxena,sold,set_order,59,UAL11,official IPL auction list (iplt20.com)
+2018,262,Javon Searles,sold,set_order,59,UAL11,official IPL auction list (iplt20.com)
+2018,263,Shubham Ranjane,unsold,set_order,61,UAL13,official IPL auction list (iplt20.com)
+2018,264,Pavan Deshpande,sold,set_order,61,UAL13,official IPL auction list (iplt20.com)
+2018,265,Amit Mishra,unsold,set_order,62,UAL14,official IPL auction list (iplt20.com)
+2018,266,Amit Mishra,sold,set_order,62,UAL14,official IPL auction list (iplt20.com)
+2018,267,M Vijay,sold,set_order,3,BA1,official IPL auction list (iplt20.com)
+2018,268,Sam Billings,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,269,Naman Ojha,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,270,Parthiv Patel,sold,set_order,5,WK1,official IPL auction list (iplt20.com)
+2018,271,Mitchell Johnson,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,272,Tim Southee,sold,set_order,6,FA1,official IPL auction list (iplt20.com)
+2018,273,Siddhesh Lad,sold,set_order,8,UBA1,official IPL auction list (iplt20.com)
+2018,274,Prashant Chopra,sold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,275,Aditya Tare,sold,set_order,10,UWK1,official IPL auction list (iplt20.com)
+2018,276,Bipul Sharma,sold,set_order,18,UAL2,official IPL auction list (iplt20.com)
+2018,277,Sayan Ghosh,sold,set_order,19,UFA2,official IPL auction list (iplt20.com)
+2018,278,Mayank Markande,sold,set_order,22,USP2,official IPL auction list (iplt20.com)
+2018,279,Ben Laughlin,sold,set_order,26,FA3,official IPL auction list (iplt20.com)
+2018,280,Mayank Dagar,sold,set_order,37,UAL4,official IPL auction list (iplt20.com)
+2018,281,Anukul Roy,sold,set_order,37,UAL4,official IPL auction list (iplt20.com)
+2018,282,Mark Wood,sold,set_order,42,FA5,official IPL auction list (iplt20.com)
+2018,283,Mehdi Hasan,sold,set_order,49,UAL6,official IPL auction list (iplt20.com)
+2018,284,Kshitiz Sharma,sold,set_order,49,UAL6,official IPL auction list (iplt20.com)
+2018,285,Monu Kumar,sold,set_order,37,UAL4,official IPL auction list (iplt20.com)
+2018,286,Aryaman Birla,sold,set_order,61,UAL13,official IPL auction list (iplt20.com)
+2018,287,Chris Gayle,sold,set_order,1,M1,official IPL auction list (iplt20.com)
+2018,288,Dushmantha Chameera,sold,set_order,47,FA6,official IPL auction list (iplt20.com)
+2018,,Tajinder Singh,sold,not_ordered,,,
+2018,,KM Asif,sold,not_ordered,,,
+2018,,MD Nidheesh,sold,not_ordered,,,
+2018,,R Samarth,unsold,not_ordered,,,
+2018,,Utkarsh Singh,unsold,not_ordered,,,
+2018,,S Aravind,unsold,not_ordered,,,
+2019,1,Manoj Tiwary,unsold,set_order,,,
+2019,2,Cheteshwar Pujara,unsold,set_order,,,
+2019,3,Alex Hales,unsold,set_order,,,
+2019,4,Brendon McCullum,unsold,set_order,,,
+2019,5,Hanuma Vihari,sold,set_order,,,
+2019,6,Shimron Hetmyer,sold,set_order,,,
+2019,7,Chris Woakes,unsold,set_order,,,
+2019,8,Chris Jordan,unsold,set_order,,,
+2019,9,Carlos Brathwaite,sold,set_order,,,
+2019,10,Gurkeerat Singh Mann,sold,set_order,,,
+2019,11,Moises Henriques,sold,set_order,,,
+2019,12,Axar Patel,sold,set_order,,,
+2019,13,Naman Ojha,unsold,set_order,,,
+2019,14,Ben McDermott,unsold,set_order,,,
+2019,15,Jonny Bairstow,sold,set_order,,,
+2019,16,Nicholas Pooran,sold,set_order,,,
+2019,17,Wriddhiman Saha,sold,set_order,,,
+2019,18,Jaydev Unadkat,sold,set_order,,,
+2019,19,Ishant Sharma,sold,set_order,,,
+2019,20,Lasith Malinga,sold,set_order,,,
+2019,21,Mohammed Shami,sold,set_order,,,
+2019,22,Varun Aaron,sold,set_order,,,
+2019,23,Mohit Sharma,sold,set_order,,,
+2019,24,Rahul Sharma,unsold,set_order,,,
+2019,25,Adam Zampa,unsold,set_order,,,
+2019,26,Khary Pierre,unsold,set_order,,,
+2019,27,Fawad Ahmed,unsold,set_order,,,
+2019,28,Sachin Baby,unsold,set_order,,,
+2019,29,Armaan Jaffer,unsold,set_order,,,
+2019,30,Devdutt Padikkal,sold,set_order,,,
+2019,31,Anmolpreet Singh,sold,set_order,,,
+2019,32,Ayush Badoni,unsold,set_order,,,
+2019,33,Sarfaraz Khan,sold,set_order,,,
+2019,34,Shivam Dube,sold,set_order,,,
+2019,35,Varun Chakravarthy,sold,set_order,,,
+2019,36,Sheldon Jackson,unsold,set_order,,,
+2019,37,B Indrajith,unsold,set_order,,,
+2019,38,Anuj Rawat,unsold,set_order,,,
+2019,39,KS Bharat,unsold,set_order,,,
+2019,40,Ankush Bains,sold,set_order,,,
+2019,41,Aniket Choudhary,unsold,set_order,,,
+2019,42,Ishan Porel,unsold,set_order,,,
+2019,43,Rajneesh Gurbani,unsold,set_order,,,
+2019,44,Chama Milind,unsold,set_order,,,
+2019,45,Tushar Deshpande,unsold,set_order,,,
+2019,46,Nathu Singh,sold,set_order,,,
+2019,47,J Suchith,unsold,set_order,,,
+2019,48,Yuvraj Chudasama,unsold,set_order,,,
+2019,49,Zahir Khan,unsold,set_order,,,
+2019,50,KC Cariappa,unsold,set_order,,,
+2019,51,R Sai Kishore,unsold,set_order,,,
+2019,52,Usman Khawaja,unsold,set_order,,,
+2019,53,Hazratullah Zazai,unsold,set_order,,,
+2019,54,Reeza Hendricks,unsold,set_order,,,
+2019,55,Shaun Marsh,unsold,set_order,,,
+2019,56,Saurabh Tiwary,unsold,set_order,,,
+2019,57,Hashim Amla,unsold,set_order,,,
+2019,58,Colin Ingram,sold,set_order,,,
+2019,59,James Neesham,unsold,set_order,,,
+2019,60,Angelo Mathews,unsold,set_order,,,
+2019,61,Rishi Dhawan,unsold,set_order,,,
+2019,62,Corey Anderson,unsold,set_order,,,
+2019,63,Parvez Rasool,unsold,set_order,,,
+2019,64,Jason Holder,unsold,set_order,,,
+2019,65,Sam Curran,sold,set_order,,,
+2019,66,Luke Ronchi,unsold,set_order,,,
+2019,67,Mushfiqur Rahim,unsold,set_order,,,
+2019,68,Kusal Perera,unsold,set_order,,,
+2019,69,Glenn Phillips,unsold,set_order,,,
+2019,70,Heinrich Klaasen,sold,set_order,,,
+2019,71,Vinay Kumar,unsold,set_order,,,
+2019,72,Kane Richardson,unsold,set_order,,,
+2019,73,Abhimanyu Mithun,unsold,set_order,,,
+2019,74,Morne Morkel,unsold,set_order,,,
+2019,75,Dale Steyn,unsold,set_order,,,
+2019,76,Barinder Sran,sold,set_order,,,
+2019,77,Lockie Ferguson,sold,set_order,,,
+2019,78,Ruturaj Gaikwad,sold,set_order,,,
+2019,79,Praveen Dubey,unsold,set_order,,,
+2019,80,Sherfane Rutherford,sold,set_order,,,
+2019,81,Anrich Nortje,sold,set_order,,,
+2019,82,Qais Ahmad,unsold,set_order,,,
+2019,83,Satyajeet Bachhav,unsold,set_order,,,
+2019,84,Zeeshan Ansari,unsold,set_order,,,
+2019,85,Rilee Rossouw,unsold,set_order,,,
+2019,86,Daniel Christian,unsold,set_order,,,
+2019,87,Ali Khan,unsold,set_order,,,
+2019,88,James Pattinson,unsold,set_order,,,
+2019,89,Oshane Thomas,sold,set_order,,,
+2019,90,Hardus Viljoen,sold,set_order,,,
+2019,91,Himanshu Rana,unsold,set_order,,,
+2019,92,Himmat Singh,sold,set_order,,,
+2019,93,Lewis Gregory,unsold,set_order,,,
+2019,94,Vishnu Vinod,unsold,set_order,,,
+2019,95,Kedar Devdhar,unsold,set_order,,,
+2019,96,Nikhil Naik,sold,set_order,,,
+2019,97,Patrick Brown,unsold,set_order,,,
+2019,98,Jaskaran Singh,unsold,set_order,,,
+2019,99,Sandeep Warrier,unsold,set_order,,,
+2019,100,Arshdeep Singh,sold,set_order,,,
+2019,101,Fabian Allen,unsold,set_order,,,
+2019,102,Sikandar Raza,unsold,set_order,,,
+2019,103,Harry Gurney,sold,set_order,,,
+2019,104,Tanmay Mishra,unsold,set_order,,,
+2019,105,Sairaj Patil,unsold,set_order,,,
+2019,106,Swapnil Singh,unsold,set_order,,,
+2019,107,Lalit Yadav,unsold,set_order,,,
+2019,108,Pankaj Jaiswal,sold,set_order,,,
+2019,109,Milind Kumar,sold,set_order,,,
+2019,110,Darshan Nalkande,sold,set_order,,,
+2019,111,Shashank Singh,sold,set_order,,,
+2019,112,Simran Singh,sold,set_order,,,
+2019,113,Prithvi Raj,sold,set_order,,,
+2019,114,B Ayyappa,sold,set_order,,,
+2019,115,Liam Livingstone,sold,set_order,,,
+2019,116,Keemo Paul,sold,set_order,,,
+2019,117,Laurie Evans,unsold,set_order,,,
+2019,118,Jamie Overton,unsold,set_order,,,
+2019,119,Akash Parkar,unsold,set_order,,,
+2019,120,Prayas Ray Barman,sold,set_order,,,
+2019,121,Riyan Parag,sold,set_order,,,
+2019,122,Agnivesh Ayachi,sold,set_order,,,
+2019,123,Harpreet Brar,sold,set_order,,,
+2019,124,Aman Khan,unsold,set_order,,,
+2019,125,Karn Kaushal,unsold,set_order,,,
+2019,126,Mayank Dagar,unsold,set_order,,,
+2019,127,Martin Guptill,sold,set_order,,,
+2019,128,Yuvraj Singh,sold,set_order,,,
+2019,129,Akshdeep Nath,sold,set_order,,,
+2019,130,Jalaj Saxena,sold,set_order,,,
+2019,131,M Ashwin,sold,set_order,,,
+2019,132,Shubham Ranjane,sold,set_order,,,
+2019,133,Joe Denly,sold,set_order,,,
+2019,134,Shrikant Mundhe,sold,set_order,,,
+2019,135,Manan Vohra,sold,set_order,,,
+2019,136,Ashton Turner,sold,set_order,,,
+2019,,Rasikh Salam,sold,not_ordered,,,
+2019,,Ankit Bawne,unsold,not_ordered,,,
+2019,,Arun Karthik,unsold,not_ordered,,,
+2019,,Manpreet Gony,unsold,not_ordered,,,
+2020,1,Hanuma Vihari,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,2,Cheteshwar Pujara,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,3,Chris Lynn,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,4,Eoin Morgan,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,5,Robin Uthappa,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,6,Jason Roy,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,7,Aaron Finch,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2020,8,Yusuf Pathan,unsold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,9,Colin de Grandhomme,unsold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,10,Stuart Binny,unsold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,11,Glenn Maxwell,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,12,Chris Woakes,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,13,Pat Cummins,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,14,Sam Curran,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,15,Chris Morris,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2020,16,Heinrich Klaasen,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2020,17,Mushfiqur Rahim,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2020,18,Naman Ojha,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2020,19,Kusal Perera,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2020,20,Shai Hope,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2020,21,Alex Carey,sold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2020,22,Tim Southee,unsold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,23,Jaydev Unadkat,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,24,Nathan Coulter-Nile,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,25,Sheldon Cottrell,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,26,Ish Sodhi,unsold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2020,27,Adam Zampa,unsold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2020,28,Hayden Walsh,unsold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2020,29,Zahir Khan,unsold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2020,30,Piyush Chawla,sold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2020,31,Manjot Kalra,unsold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2020,32,Rohan Kadam,unsold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2020,33,Rahul Tripathi,sold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2020,34,Virat Singh,sold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2020,35,Priyam Garg,sold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2020,36,Daniel Sams,unsold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2020,37,Shahrukh Khan,unsold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2020,38,Deepak Hooda,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2020,39,Varun Chakravarthy,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2020,40,Yashasvi Jaiswal,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2020,41,Kedar Devdhar,unsold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2020,42,KS Bharat,unsold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2020,43,Ankush Bains,unsold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2020,44,Vishnu Vinod,unsold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2020,45,Anuj Rawat,sold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2020,46,Kulwant Khejroliya,unsold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2020,47,Riley Meredith,unsold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2020,48,Akash Singh,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2020,49,Kartik Tyagi,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2020,50,Ishan Porel,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2020,51,Midhun Sudhesan,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2020,52,Noor Ahmad,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2020,53,KC Cariappa,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2020,54,M Siddarth,sold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2020,55,Ravi Bishnoi,sold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2020,56,Evin Lewis,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,57,Manoj Tiwary,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,58,Colin Ingram,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,59,Martin Guptill,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,60,Shimron Hetmyer,sold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,61,David Miller,sold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,62,Saurabh Tiwary,sold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2020,63,Carlos Brathwaite,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,64,Andile Phehlukwayo,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,65,Colin Munro,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,66,Rishi Dhawan,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,67,Ben Cutting,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,68,Mitchell Marsh,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,69,James Neesham,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,70,Anrich Nortje,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2020,71,Barinder Sran,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2020,72,Mark Wood,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2020,73,Alzarri Joseph,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2020,74,Mustafizur Rahman,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2020,75,Adam Milne,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2020,76,Harpreet Singh,unsold,set_order,14,UBA2,official IPL auction list (iplt20.com)
+2020,77,Ayush Badoni,unsold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2020,78,Praveen Dubey,unsold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2020,79,B Sandeep,sold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2020,80,Chris Green,sold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2020,81,Josh Philippe,sold,set_order,16,UWK2,official IPL auction list (iplt20.com)
+2020,82,Tom Banton,sold,set_order,19,BA3,official IPL auction list (iplt20.com)
+2020,83,Fabian Allen,sold,set_order,20,AL3,official IPL auction list (iplt20.com)
+2020,84,Chris Jordan,sold,set_order,20,AL3,official IPL auction list (iplt20.com)
+2020,85,Kane Richardson,sold,set_order,22,FA3,official IPL auction list (iplt20.com)
+2020,86,Oshane Thomas,sold,set_order,22,FA3,official IPL auction list (iplt20.com)
+2020,87,Aryan Juyal,unsold,set_order,26,UWK3,official IPL auction list (iplt20.com)
+2020,88,Sumit Kumar,unsold,set_order,26,UWK3,official IPL auction list (iplt20.com)
+2020,89,Kuldeep Sen,unsold,set_order,27,UFA3,official IPL auction list (iplt20.com)
+2020,90,Pravin Tambe,sold,set_order,28,USP3,official IPL auction list (iplt20.com)
+2020,91,James Pattinson,unsold,set_order,31,FA4,official IPL auction list (iplt20.com)
+2020,92,Sujit Nayak,unsold,set_order,33,UAL4,official IPL auction list (iplt20.com)
+2020,93,Tarjinder Singh Dhillon,sold,set_order,33,UAL4,official IPL auction list (iplt20.com)
+2020,94,Abdul Samad,sold,set_order,33,UAL4,official IPL auction list (iplt20.com)
+2020,95,Nathan Ellis,unsold,set_order,34,UFA4,official IPL auction list (iplt20.com)
+2020,96,Kesrick Williams,unsold,set_order,36,FA5,official IPL auction list (iplt20.com)
+2020,97,Vaibhav Arora,unsold,set_order,39,UFA5,official IPL auction list (iplt20.com)
+2020,98,Saurabh Dubey,unsold,set_order,39,UFA5,official IPL auction list (iplt20.com)
+2020,99,Aniruddha Joshi,sold,set_order,42,UAL6,official IPL auction list (iplt20.com)
+2020,100,Balwant Rai Singh,sold,set_order,43,UAL7,official IPL auction list (iplt20.com)
+2020,101,Digvijay Deshmukh,sold,set_order,43,UAL7,official IPL auction list (iplt20.com)
+2020,102,Mohit Sharma,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,103,Pavan Deshpande,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2020,104,Prabhsimran Singh,sold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2020,105,Matt Henry,unsold,set_order,22,FA3,official IPL auction list (iplt20.com)
+2020,106,Tushar Deshpande,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2020,107,Sean Abbott,unsold,set_order,22,FA3,official IPL auction list (iplt20.com)
+2020,108,R Sai Kishore,sold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2020,109,Jason Holder,unsold,set_order,20,AL3,official IPL auction list (iplt20.com)
+2020,110,Marcus Stoinis,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2020,111,Shams Mulani,unsold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2020,112,Dale Steyn,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,113,Rahul Shukla,unsold,set_order,17,UFA2,official IPL auction list (iplt20.com)
+2020,114,Andrew Tye,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2020,115,Lalit Yadav,sold,set_order,39,UFA5,official IPL auction list (iplt20.com)
+2020,116,Shahbaz Ahmed,sold,set_order,16,UWK2,official IPL auction list (iplt20.com)
+2020,117,Mohsin Khan,sold,set_order,17,UFA2,official IPL auction list (iplt20.com)
+2020,118,Nikhil Naik,sold,set_order,16,UWK2,official IPL auction list (iplt20.com)
+2020,119,Tom Curran,sold,set_order,20,AL3,official IPL auction list (iplt20.com)
+2020,120,Isuru Udana,sold,set_order,20,AL3,official IPL auction list (iplt20.com)
+2020,121,Liam Plunkett,unsold,set_order,31,FA4,official IPL auction list (iplt20.com)
 2020,,Sanjay Yadav,sold,not_ordered,,,
-2020,,Saurabh Tiwary,sold,not_ordered,11,BA2,official IPL auction list (iplt20.com)
-2020,,Shahbaz Ahamad,sold,not_ordered,16,UWK2,official IPL auction list (iplt20.com)
-2020,,Sheldon Cottrell,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2020,,Shimron Hetmyer,sold,not_ordered,11,BA2,official IPL auction list (iplt20.com)
-2020,,Tajinder Dhillon,sold,not_ordered,33,UAL4,official IPL auction list (iplt20.com)
-2020,,Tom Banton,sold,not_ordered,19,BA3,official IPL auction list (iplt20.com)
-2020,,Tom Curran,sold,not_ordered,20,AL3,official IPL auction list (iplt20.com)
-2020,,Tushar Deshpande,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
-2020,,Varun Chakaravarthy,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2020,,Virat Singh,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
-2020,,Yashasvi Jaiswal,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2021,,Adam Milne,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2021,,Akash Singh,sold,not_ordered,17,UFA2,official IPL auction list (iplt20.com)
-2021,,Arjun Tendulkar,sold,not_ordered,30,UAL4,official IPL auction list (iplt20.com)
-2021,,Ben Cutting,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2021,,C Hari Nishaanth,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
-2021,,Chetan Sakariya,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
-2021,,Cheteshwar Pujara,sold,not_ordered,11,BA2,official IPL auction list (iplt20.com)
-2021,,Christopher Morris,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Dan Christian,sold,not_ordered,19,AL3,official IPL auction list (iplt20.com)
-2021,,Dawid Malan,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Fabian Allen,sold,not_ordered,19,AL3,official IPL auction list (iplt20.com)
-2021,,Glenn Maxwell,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Harbhajan Singh,sold,not_ordered,5,SP1,official IPL auction list (iplt20.com)
-2021,,J Suchith,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
-2021,,Jalaj Saxena,sold,not_ordered,15,UAL2,official IPL auction list (iplt20.com)
-2021,,James Neesham,sold,not_ordered,27,AL4,official IPL auction list (iplt20.com)
-2021,,Jhye Richardson,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2021,,K.Bhagath Varma,sold,not_ordered,36,UAL6,official IPL auction list (iplt20.com)
-2021,,K.C Cariappa,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
-2021,,Karun Nair,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2021,,Kedar Jadhav,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Kona Srikar Bharat,sold,not_ordered,24,UWK3,official IPL auction list (iplt20.com)
-2021,,Krishnappa Gowtham,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2021,,Kuldip Yadav,sold,not_ordered,25,UFA3,official IPL auction list (iplt20.com)
-2021,,Kyle Jamieson,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2021,,Liam Livingstone,sold,not_ordered,19,AL3,official IPL auction list (iplt20.com)
-2021,,Lukman Hussain Meriwala,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
-2021,,M Siddharth,sold,not_ordered,10,USP1,official IPL auction list (iplt20.com)
-2021,,M. Harisankar Reddy,sold,not_ordered,25,UFA3,official IPL auction list (iplt20.com)
-2021,,Marco Jansen,sold,not_ordered,39,UAL8,official IPL auction list (iplt20.com)
-2021,,Moeen Ali,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Mohammed Azharudeen,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
-2021,,Moises Henriques,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2021,,Mujeeb Zadran,sold,not_ordered,,,
-2021,,Mustafizur Rahman,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2021,,Nathan Coulter-Nile,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2021,,Pawan Negi,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2021,,Piyush Chawla,sold,not_ordered,5,SP1,official IPL auction list (iplt20.com)
-2021,,Rajat Patidar,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
-2021,,Riley Meredith,sold,not_ordered,9,UFA1,official IPL auction list (iplt20.com)
-2021,,Ripal Patel,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2021,,Sachin Baby,sold,not_ordered,6,UBA1,official IPL auction list (iplt20.com)
-2021,,Sam Billings,sold,not_ordered,3,WK1,official IPL auction list (iplt20.com)
-2021,,Saurabh Kumar,sold,not_ordered,15,UAL2,official IPL auction list (iplt20.com)
-2021,,Shahrukh Khan,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2021,,Shakib Al Hasan,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Sheldon Jackson,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
-2021,,Shivam Dube,sold,not_ordered,2,AL1,official IPL auction list (iplt20.com)
-2021,,Steven Smith,sold,not_ordered,1,BA1,official IPL auction list (iplt20.com)
-2021,,Suyash Prabhudesai,sold,not_ordered,23,UAL3,official IPL auction list (iplt20.com)
-2021,,Tom Curran,sold,not_ordered,12,AL2,official IPL auction list (iplt20.com)
-2021,,Umesh Yadav,sold,not_ordered,4,FA1,official IPL auction list (iplt20.com)
-2021,,Utkarsh Singh,sold,not_ordered,15,UAL2,official IPL auction list (iplt20.com)
-2021,,Vaibhav Arora,sold,not_ordered,17,UFA2,official IPL auction list (iplt20.com)
-2021,,Venkatesh Iyer,sold,not_ordered,7,UAL1,official IPL auction list (iplt20.com)
-2021,,Vishnu Vinod,sold,not_ordered,8,UWK1,official IPL auction list (iplt20.com)
-2021,,Yudhvir Charak,sold,not_ordered,36,UAL6,official IPL auction list (iplt20.com)
+2020,,Yudhvir Singh,unsold,not_ordered,,,
+2020,,R Vinay Kumar,unsold,not_ordered,,,
+2021,1,Alex Hales,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,2,Jason Roy,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,3,Evin Lewis,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,4,Aaron Finch,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,5,Hanuma Vihari,unsold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,6,Steven Smith,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,7,Chris Morris,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,8,Glenn Maxwell,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,9,Moeen Ali,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,10,Dawid Malan,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,11,Shivam Dube,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,12,Shakib Al Hasan,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,13,Glenn Phillips,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2021,14,Alex Carey,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2021,15,Kusal Perera,unsold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2021,16,Sheldon Cottrell,unsold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2021,17,Jhye Richardson,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2021,18,Adam Milne,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2021,19,Mustafizur Rahman,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2021,20,Nathan Coulter-Nile,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2021,21,Umesh Yadav,sold,set_order,4,FA1,official IPL auction list (iplt20.com)
+2021,22,Adil Rashid,unsold,set_order,5,SP2,official IPL auction list (iplt20.com)
+2021,23,Ish Sodhi,unsold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2021,24,Qais Ahmad,unsold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2021,25,Piyush Chawla,sold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2021,26,Himanshu Rana,unsold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2021,27,Himmat Singh,unsold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2021,28,Vishnu Solanki,unsold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2021,29,Sachin Baby,sold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2021,30,Rajat Patidar,sold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2021,31,Atit Sheth,unsold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,32,Ayush Badoni,unsold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,33,Vivek Singh,unsold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,34,Krishnappa Gowtham,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,35,Ripal Patel,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,36,Shahrukh Khan,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,37,Avi Barot,unsold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2021,38,Kedar Devdhar,unsold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2021,39,Vishnu Vinod,sold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2021,40,Sheldon Jackson,sold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2021,41,Mohammed Azharuddeen,sold,set_order,8,UWK1,official IPL auction list (iplt20.com)
+2021,42,Ankit Rajpoot,unsold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,43,Mujtaba Yousuf,unsold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,44,Kuldeep Sen,unsold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,45,Tushar Deshpande,unsold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,46,Riley Meredith,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,47,Lukman Meriwala,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,48,Chetan Sakariya,sold,set_order,9,UFA1,official IPL auction list (iplt20.com)
+2021,49,Karanveer Singh,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,50,Sandeep Lamichhane,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,51,Sudhesan Midhun,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,52,Tejas Baroka,unsold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,53,M Siddharth,sold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,54,Jagadeesha Suchith,sold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,55,KC Cariappa,sold,set_order,10,USP1,official IPL auction list (iplt20.com)
+2021,56,Rovman Powell,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,57,Shaun Marsh,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,58,Corey Anderson,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,59,Devon Conway,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,60,Darren Bravo,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,61,Rassie van der Dussen,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,62,Martin Guptill,unsold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,63,Cheteshwar Pujara,sold,set_order,11,BA2,official IPL auction list (iplt20.com)
+2021,64,Gahlaut Singh,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,65,Gurkeerat Singh,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,66,Marnus Labuschagne,unsold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,67,Kyle Jamieson,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,68,Tom Curran,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,69,Moises Henriques,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,70,Varun Aaron,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,71,Oshane Thomas,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,72,Mohit Sharma,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,73,Billy Stanlake,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,74,Mitchell McClenaghan,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,75,Jason Behrendorff,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,76,Naveen Ul Haq,unsold,set_order,13,FA2,official IPL auction list (iplt20.com)
+2021,77,Karan Sharma,unsold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2021,78,Jalaj Saxena,sold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2021,79,Utkarsh Singh,sold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2021,80,KL Shrijith,unsold,set_order,16,UWK2,official IPL auction list (iplt20.com)
+2021,81,Ben Dwarshuis,unsold,set_order,17,UFA2,official IPL auction list (iplt20.com)
+2021,82,G Periyasamy,unsold,set_order,17,UFA2,official IPL auction list (iplt20.com)
+2021,83,Vaibhav Arora,sold,set_order,17,UFA2,official IPL auction list (iplt20.com)
+2021,84,Thisara Perera,unsold,set_order,19,AL3,official IPL auction list (iplt20.com)
+2021,85,Daniel Christian,sold,set_order,19,AL3,official IPL auction list (iplt20.com)
+2021,86,Fabian Allen,sold,set_order,19,AL3,official IPL auction list (iplt20.com)
+2021,87,Liam Livingstone,sold,set_order,19,AL3,official IPL auction list (iplt20.com)
+2021,88,Ben McDermott,unsold,set_order,20,WK2,official IPL auction list (iplt20.com)
+2021,89,Matthew Wade,unsold,set_order,20,WK2,official IPL auction list (iplt20.com)
+2021,90,Sean Abbott,unsold,set_order,21,FA3,official IPL auction list (iplt20.com)
+2021,91,Siddhesh Lad,unsold,set_order,22,UBA3,official IPL auction list (iplt20.com)
+2021,92,Prerak Mankad,unsold,set_order,23,UAL3,official IPL auction list (iplt20.com)
+2021,93,Suyash Prabhudessai,sold,set_order,23,UAL3,official IPL auction list (iplt20.com)
+2021,94,Josh Inglis,unsold,set_order,24,UWK3,official IPL auction list (iplt20.com)
+2021,95,KS Bharat,sold,set_order,24,UWK3,official IPL auction list (iplt20.com)
+2021,96,Simarjeet Singh,unsold,set_order,25,UFA3,official IPL auction list (iplt20.com)
+2021,97,Kuldip Yadav,sold,set_order,25,UFA3,official IPL auction list (iplt20.com)
+2021,98,Scott Kuggeleijn,unsold,set_order,27,AL4,official IPL auction list (iplt20.com)
+2021,99,Wayne Parnell,unsold,set_order,27,AL4,official IPL auction list (iplt20.com)
+2021,100,James Neesham,sold,set_order,27,AL4,official IPL auction list (iplt20.com)
+2021,101,Reece Topley,unsold,set_order,28,FA4,official IPL auction list (iplt20.com)
+2021,102,Chris Green,unsold,set_order,30,UAL4,official IPL auction list (iplt20.com)
+2021,103,Isuru Udana,unsold,set_order,32,AL5,official IPL auction list (iplt20.com)
+2021,104,George Linde,unsold,set_order,35,AL6,official IPL auction list (iplt20.com)
+2021,105,Chaitanya Bishnoi,unsold,set_order,36,UAL6,official IPL auction list (iplt20.com)
+2021,106,Ajay Dev Goud,unsold,set_order,36,UAL6,official IPL auction list (iplt20.com)
+2021,107,Jack Wildermuth,unsold,set_order,37,AL7,official IPL auction list (iplt20.com)
+2021,108,Harsh Tyagi,unsold,set_order,38,UAL7,official IPL auction list (iplt20.com)
+2021,109,Gerald Coetzee,unsold,set_order,39,UAL8,official IPL auction list (iplt20.com)
+2021,110,Tim David,unsold,set_order,39,UAL8,official IPL auction list (iplt20.com)
+2021,111,Pratyush Singh,unsold,set_order,39,UAL8,official IPL auction list (iplt20.com)
+2021,112,Marco Jansen,sold,set_order,39,UAL8,official IPL auction list (iplt20.com)
+2021,113,Saurabh Kumar,sold,set_order,15,UAL2,official IPL auction list (iplt20.com)
+2021,114,Karun Nair,sold,set_order,1,BA1,official IPL auction list (iplt20.com)
+2021,115,Kedar Jadhav,sold,set_order,2,AL1,official IPL auction list (iplt20.com)
+2021,116,Sam Billings,sold,set_order,3,WK1,official IPL auction list (iplt20.com)
+2021,117,Mujeeb Ur Rahman,sold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2021,118,Harbhajan Singh,sold,set_order,5,SP1,official IPL auction list (iplt20.com)
+2021,119,C Hari Nishanth,sold,set_order,6,UBA1,official IPL auction list (iplt20.com)
+2021,120,Ben Cutting,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,121,Venkatesh Iyer,sold,set_order,7,UAL1,official IPL auction list (iplt20.com)
+2021,122,Pawan Negi,sold,set_order,12,AL2,official IPL auction list (iplt20.com)
+2021,123,Akash Singh,sold,set_order,17,UFA2,official IPL auction list (iplt20.com)
+2021,124,Arjun Tendulkar,sold,set_order,30,UAL4,official IPL auction list (iplt20.com)
+2021,,Harishankar Reddy,sold,not_ordered,,,
+2021,,Yudhvir Singh,sold,not_ordered,,,
+2021,,Bhagath Verma,sold,not_ordered,,,
+2021,,Tajinder Singh,unsold,not_ordered,,,
 2022,1,Shikhar Dhawan,sold,live_blog,1,M,official IPL auction list (iplt20.com)
 2022,2,R Ashwin,sold,live_blog,1,M,official IPL auction list (iplt20.com)
 2022,3,Pat Cummins,sold,live_blog,1,M,official IPL auction list (iplt20.com)
@@ -441,7 +780,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2022,93,Shivam Dube,sold,live_blog,13,AL2,official IPL auction list (iplt20.com)
 2022,94,K Gowtham,sold,live_blog,13,AL2,official IPL auction list (iplt20.com)
 2022,95,Ishant Sharma,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
-2022,96,Khaleel Ahmed,sold,live_blog,,,
+2022,96,Khaleel Ahmed,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
 2022,97,Dushmantha Chameera,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
 2022,98,Lungi Ngidi,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
 2022,99,Chetan Sakariya,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
@@ -465,7 +804,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2022,117,Ricky Bhui,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
 2022,118,Ripal Patel,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
 2022,119,Yash Dhull,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
-2022,120,Tilak Varma,sold,live_blog,,,
+2022,120,Tilak Varma,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
 2022,121,Darshan Nalkande,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
 2022,122,Vicky Ostwal,unsold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
 2022,123,Sanjay Yadav,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
@@ -731,18 +1070,18 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2023,116,Swapnil Singh,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
 2023,117,Sumeet Verma,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
 2023,118,David Wiese,sold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
-2023,119,R Sanjay Yadav,unsold,live_blog,,,
-2023,120,G Ajitesh,unsold,live_blog,,,
+2023,119,R Sanjay Yadav,unsold,live_blog,25,UAL3,official IPL auction list (iplt20.com)
+2023,120,G Ajitesh,unsold,live_blog,26,UWK3,official IPL auction list (iplt20.com)
 2023,121,Nitish Kumar Reddy,sold,live_blog,26,UWK3,official IPL auction list (iplt20.com)
 2023,122,Avinash Singh,sold,live_blog,27,UFA3,official IPL auction list (iplt20.com)
 2023,123,Rehan Ahmed,unsold,live_blog,32,UAL4,official IPL auction list (iplt20.com)
 2023,124,Tom Curran,unsold,live_blog,29,AL4,official IPL auction list (iplt20.com)
 2023,125,Varun Aaron,unsold,live_blog,30,FA4,official IPL auction list (iplt20.com)
 2023,126,Priyank Panchal,unsold,live_blog,31,UBA4,official IPL auction list (iplt20.com)
-2023,127,R Sanjay,unsold,live_blog,,,
+2023,127,R Sanjay,unsold,live_blog,31,UBA4,official IPL auction list (iplt20.com)
 2023,128,B Surya,unsold,live_blog,32,UAL4,official IPL auction list (iplt20.com)
 2023,129,Kunal Rathore,sold,live_blog,33,UWK4,official IPL auction list (iplt20.com)
-2023,130,R Sonu Yadav,sold,live_blog,,,
+2023,130,R Sonu Yadav,sold,live_blog,36,UAL5,official IPL auction list (iplt20.com)
 2023,131,Kulwant Khejroliya,sold,live_blog,37,UFA5,official IPL auction list (iplt20.com)
 2023,132,Ajay Mandal,sold,live_blog,38,UAL6,official IPL auction list (iplt20.com)
 2023,133,Jitendra Pal,unsold,live_blog,38,UAL6,official IPL auction list (iplt20.com)
@@ -794,7 +1133,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2024,28,Mitchell Starc,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
 2024,29,Jaydev Unadkat,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
 2024,30,Dilshan Madushanka,sold,live_blog,4,FA1,official IPL auction list (iplt20.com)
-2024,31,Waqar Salamkheil,unsold,live_blog,,,
+2024,31,Waqar Salamkheil,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
 2024,32,Adil Rashid,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
 2024,33,Akeal Hosein,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
 2024,34,Tabraiz Shamsi,unsold,live_blog,5,SP1,official IPL auction list (iplt20.com)
@@ -884,7 +1223,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2025,35,Avesh Khan,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
 2025,36,Anrich Nortje,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
 2025,37,Jofra Archer,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
-2025,38,Khaleel Ahmed,sold,live_blog,,,
+2025,38,Khaleel Ahmed,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
 2025,39,T Natarajan,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
 2025,40,Trent Boult,sold,live_blog,6,FA1,official IPL auction list (iplt20.com)
 2025,41,Maheesh Theekshana,sold,live_blog,7,SP1,official IPL auction list (iplt20.com)
@@ -1045,7 +1384,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2025,196,Vipraj Nigam,sold,live_blog,38,UAL4,official IPL auction list (iplt20.com)
 2025,197,KL Shrijith,sold,live_blog,,,
 2025,198,Arpit Guleria,unsold,live_blog,40,UFA4,official IPL auction list (iplt20.com)
-2025,199,Jacob Bethell,sold,live_blog,,,
+2025,199,Jacob Bethell,sold,live_blog,43,AL5,official IPL auction list (iplt20.com)
 2025,200,Brydon Carse,sold,live_blog,43,AL5,official IPL auction list (iplt20.com)
 2025,201,Aaron Hardie,sold,live_blog,43,AL5,official IPL auction list (iplt20.com)
 2025,202,Sarfaraz Khan,unsold,live_blog,43,AL5,official IPL auction list (iplt20.com)
@@ -1128,7 +1467,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2025,279,Moeen,sold,live_blog,,,
 2025,280,Umran Malik,sold,live_blog,26,FA3,official IPL auction list (iplt20.com)
 2025,281,Sachin Baby,sold,live_blog,28,UBA3,official IPL auction list (iplt20.com)
-2025,282,C Andre Siddarth,sold,live_blog,,,
+2025,282,C Andre Siddarth,sold,live_blog,28,UBA3,official IPL auction list (iplt20.com)
 2025,283,Raj Hangargekar,sold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
 2025,284,Tanush Kotian,unsold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
 2025,285,Arshin Kulkarni,sold,live_blog,29,UAL3,official IPL auction list (iplt20.com)
@@ -1229,7 +1568,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2026,57,Jordan Cox,sold,live_blog,13,WK2,official IPL auction list (iplt20.com)
 2026,58,Josh Inglis,sold,live_blog,13,WK2,official IPL auction list (iplt20.com)
 2026,59,Lungi Ngidi,sold,live_blog,14,FA2,official IPL auction list (iplt20.com)
-2026,60,Aman Rao,sold,live_blog,,,
+2026,60,Aman Rao,sold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
 2026,61,Mayank Rawat,sold,live_blog,17,UAL2,official IPL auction list (iplt20.com)
 2026,62,Praveen Dubey,sold,live_blog,20,USP2,official IPL auction list (iplt20.com)
 2026,63,Vishal Nishad,sold,live_blog,27,USP3,official IPL auction list (iplt20.com)
@@ -1280,7 +1619,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2026,108,Wahidullah Zadran,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
 2026,109,Shivam Shukla,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
 2026,110,Karn Sharma,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
-2026,111,Kumar Kartikeya,unsold,live_blog,,,
+2026,111,Kumar Kartikeya,unsold,live_blog,10,USP1,official IPL auction list (iplt20.com)
 2026,112,Raj Limbani,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
 2026,113,Simarjeet Singh,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
 2026,114,Akash Madhwal,unsold,live_blog,9,UFA1,official IPL auction list (iplt20.com)
@@ -1296,7 +1635,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2026,124,Taskin Ahmed,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
 2026,125,Richard Gleeson,unsold,live_blog,22,FA3,official IPL auction list (iplt20.com)
 2026,126,Chetan Sakariya,unsold,live_blog,14,FA2,official IPL auction list (iplt20.com)
-2026,127,Waqar Salamkheil,unsold,live_blog,,,
+2026,127,Waqar Salamkheil,unsold,live_blog,15,SP2,official IPL auction list (iplt20.com)
 2026,128,KM Asif,unsold,live_blog,19,UFA2,official IPL auction list (iplt20.com)
 2026,129,KC Cariappa,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
 2026,130,Mohit Rathee,unsold,live_blog,20,USP2,official IPL auction list (iplt20.com)
@@ -1313,7 +1652,7 @@ season,seq,player,status,order_basis,set_no,set_code,set_source
 2026,141,Chintal Gandhi,unsold,live_blog,27,USP3,official IPL auction list (iplt20.com)
 2026,142,Connor Esterhuizen,unsold,live_blog,25,UWK3,official IPL auction list (iplt20.com)
 2026,143,Irfan Umair,unsold,live_blog,26,UFA3,official IPL auction list (iplt20.com)
-2026,144,Dheeraj Kumar,unsold,live_blog,,,
+2026,144,Dheeraj Kumar,unsold,live_blog,23,UBA3,official IPL auction list (iplt20.com)
 2026,145,Tanay Thyagarajan,unsold,live_blog,24,UAL3,official IPL auction list (iplt20.com)
 2026,146,Salman Nizar,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)
 2026,147,Manan Vohra,unsold,live_blog,16,UBA2,official IPL auction list (iplt20.com)

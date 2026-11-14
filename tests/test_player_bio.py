@@ -56,3 +56,22 @@ def test_2024_order_moves_forward_through_sets():
 def test_2025_starts_with_marquee_set_1():
     first = [r["player"] for r in csv.DictReader(open(ORDER, encoding="utf-8")) if r["season"] == "2025"][:6]
     assert set(first) == {"Rishabh Pant", "Shreyas Iyer", "Mitchell Starc", "Jos Buttler", "Arshdeep Singh", "Kagiso Rabada"}
+
+
+def _order(season):
+    rows = [r for r in csv.DictReader(open(ORDER, encoding="utf-8")) if r["season"] == str(season) and r["seq"]]
+    return sorted(rows, key=lambda r: int(r["seq"]))
+
+
+@pytest.mark.skipif(not _order(2019) if ORDER.exists() else True, reason="2018-21 order needs the private lists")
+def test_2018_21_order_and_counts():
+    # sold counts match the official totals and our 2018-21 sold table
+    for y, n in ((2018, 169), (2019, 60), (2020, 61), (2021, 57)):
+        rows = [r for r in csv.DictReader(open(ORDER, encoding="utf-8")) if r["season"] == str(y)]
+        assert sum(r["status"] == "sold" for r in rows) == n, y
+    # 2019 opened with Manoj Tiwary and Pujara unsold; Hanuma Vihari was the first sale (widely reported)
+    o = _order(2019)
+    assert [r["player"] for r in o[:2]] == ["Manoj Tiwary", "Cheteshwar Pujara"]
+    assert next(r["player"] for r in o if r["status"] == "sold") == "Hanuma Vihari"
+    # 2018 opened with marquee set 1
+    assert {r["set_code"] for r in _order(2018)[:7]} == {"M1"}

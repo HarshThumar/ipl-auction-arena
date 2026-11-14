@@ -15,6 +15,7 @@ required by those licences and is provided here.
 | International caps (Tests, ODIs, T20Is) for capped/uncapped status | Cricsheet full-history international archives | ODC-BY 1.0 |
 | Auction set structure and the 2024 set-wise list | News reports, one URL per season in `data/reference/auction_set_structure.yaml` | facts, cited |
 | Set number and code of each called lot 2018, 2020-26; four 2018-20 overseas-flag fixes; 17 base-price corrections (`data/reference/base_price_corrections.csv`); cross-checks of capped status and date of birth | Official IPL auction lists on iplt20.com: PDFs 2020-26, and the 2018-19 news-page tables via web.archive.org, downloaded with permission. The PDFs and the full parsed list stay private and are not redistributed | facts, cited by URL |
+| 2018-21 unsold players and calling order (`lot_order.csv`, order_basis `set_order`). Not the source of the 2018-21 bid details | ESPNcricinfo "list of sold and unsold players" pages, 2018-21, via web.archive.org copies (URLs in the private parser, facts only) | facts, cited |
 | Official pre-auction purse and slots | News reports, one URL per row in `data/reference/pre_auction_official.csv` | facts, cited |
 | Bid sequences (opener → raises → final two) | Reconstructed **facts** from publicly archived match commentary | facts not subject to copyright |
 
