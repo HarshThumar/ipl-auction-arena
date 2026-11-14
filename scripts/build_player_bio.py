@@ -140,6 +140,8 @@ def parse_dob(s):
     """'17/09/1986' or '08/10/71' (two-digit years appear in the 2020-21 lists)."""
     from datetime import datetime
     s = s.strip().replace("‐", "/").replace("-", "/")
+    if not s:   # 2018-19 lists have no date of birth
+        return ""
     try:
         return datetime.strptime(s, "%d/%m/%Y").date().isoformat()
     except ValueError:
@@ -188,7 +190,8 @@ def main():
     official = official_pool()
     off_dob = {}
     for (y, cid), r in sorted(official.items()):
-        off_dob[cid] = parse_dob(r["dob"])
+        if parse_dob(r["dob"]):   # 2018-19 lists carry no date of birth
+            off_dob[cid] = parse_dob(r["dob"])
     ci = {}
     for r in csv.DictReader(open(PROC / "players_register.csv", encoding="utf-8")):
         if r["cricsheet_id"] in ids and r["key_cricinfo"]:

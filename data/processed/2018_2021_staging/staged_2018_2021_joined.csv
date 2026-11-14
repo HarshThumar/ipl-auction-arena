@@ -120,7 +120,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Jason Roy,batsman,True,150,150,DC,sold,d1c36f5c
 2020,Jason Roy,batsman,True,150,150,DC,sold,d1c36f5c
 2018,Jatin Saxena,all-rounder,False,20,20,RR,sold,0b960e01
-2018,Javon Searless,all-rounder,False,30,30,KKR,sold,
+2018,Javon Searless,all-rounder,True,30,30,KKR,sold,
 2018,Jayant Yadav,all-rounder,False,50,50,DC,sold,81049310
 2018,Jaydev Unadkat,bowler,False,1150,1150,RR,sold,1e66c162
 2019,Jaydev Unadkat,bowler,False,840,840,RR,sold,1e66c162
@@ -227,7 +227,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Nitish Rana,all-rounder,False,340,340,KKR,sold,fb2d1dda
 2019,Oshane Thomas,bowler,True,110,110,RR,sold,c6097d68
 2020,Oshane Thomas,bowler,True,50,50,RR,sold,c6097d68
-2019,Pankaj Jaswal,all-rounder,True,20,20,MI,sold,3bc10d5b
+2019,Pankaj Jaswal,all-rounder,False,20,20,MI,sold,3bc10d5b
 2018,Pardeep Sahu,bowler,False,20,20,PBKS,sold,9a0146b3
 2018,Parthiv Patel,wicket keeper,False,170,170,RCB,sold,b5da6c24
 2018,Pat Cummins,bowler,True,540,540,MI,sold,ded9240e
@@ -275,7 +275,7 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2021,Sam Billings,wicket keeper,True,200,200,DC,sold,c16d4035
 2019,Sam Curran,all-rounder,True,720,720,PBKS,sold,e94915e6
 2020,Sam Curran,all-rounder,True,550,550,CSK,sold,e94915e6
-2020,Sandeep Bavanaka,all-rounder,True,20,20,SRH,sold,
+2020,Sandeep Bavanaka,all-rounder,False,20,20,SRH,sold,
 2018,Sandeep Lamichhane,bowler,True,20,20,DC,sold,b410bd3d
 2018,Sandeep Sharma,bowler,False,300,300,SRH,sold,ce820073
 2020,Sanjay Yadav,all-rounder,False,20,20,SRH,sold,
@@ -345,4 +345,4 @@ season,player_name,role,is_overseas,hammer_price_lakh,paid_price_lakh,winner_tea
 2018,Yuvraj Singh,all-rounder,False,200,200,PBKS,sold,
 2019,Yuvraj Singh,all-rounder,False,100,100,MI,sold,
 2018,Yuzvendra Singh Chahal,bowler,False,600,600,RCB,sold,57ee1fde
-2018,Zahir Khan Pakteen,bowler,False,60,60,RR,sold,
+2018,Zahir Khan Pakteen,bowler,True,60,60,RR,sold,

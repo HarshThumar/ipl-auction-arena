@@ -51,7 +51,9 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
    - **Capped status:** our rule-based status agrees with the official C/U flag for 796 of 810 matched players (98.3%). The misses are players capped between the list date and the auction, and Afghans (Cricsheet has no Afghanistan internationals). The official flag now takes priority where the player is in the list.
    - **Date of birth:** the official list is now the first source. Wikidata agreed with it for only 408 of 455 players, so Wikidata is the fallback.
    - **Sets:** each called lot 2022-26 now has its official set number and code in `lot_order.csv`. The live-blog order runs forward through the sets until the accelerated round, as expected.
-   - 2018 and 2019 official lists were not found.
+   - **2018 and 2019** (added 15 Nov): there was no PDF for these years. The official lists were published as tables on iplt20.com news pages, and archived copies were used: 578 players in 2018 and 351 in 2019, both matching the reported pool sizes. 2018 has set numbers. 2019 has none.
+   - **Four more 2018–20 overseas flags fixed** from those lists (Javon Searles and Zahir Khan Pakteen are overseas; Pankaj Jaswal and Sandeep Bavanaka are Indian), cited in [nationality_corrections_2018_2021.csv](../data/reference/nationality_corrections_2018_2021.csv). The gate still passes, and no price or winner changed.
+   - **Lot order 2018–21:** only sold players are known and not in calling order, so they are listed as `not_ordered` with their official set (2018, 2020, 2021).
 
 ## Resolved 12 Nov
 - **Historical retentions loaded** ([scripts/parse_retentions.py](../scripts/parse_retentions.py) → `data/processed/retentions_by_season.json`, 2022–26, from Wikipedia CC BY-SA). This un-blocked the squad-size and overseas-cap checks for all historical years. **2027 retentions land 17 Nov** and slot straight in.
