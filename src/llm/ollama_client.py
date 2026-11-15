@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -72,10 +73,15 @@ def _http_post(url: str, body: Dict[str, Any], timeout: float) -> Dict[str, Any]
 
 
 class OllamaClient:
-    def __init__(self, model: str = "qwen2:7b", host: str = "http://localhost:11434",
+    def __init__(self, model: Optional[str] = None, host: Optional[str] = None,
                  cache_dir: Optional[Path] = None, timeout: float = 300.0,
                  post: Optional[Callable[[str, Dict[str, Any], float], Dict[str, Any]]] = None):
-        self.model = model
+        # model and host default to the OLLAMA_MODEL / OLLAMA_HOST environment variables, so the same
+        # code runs on the laptop and on the cloud GPU notebook (docs/kaggle-gpu.md)
+        self.model = model or os.environ.get("OLLAMA_MODEL", "qwen2:7b")
+        host = host or os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+        if not host.startswith("http"):
+            host = "http://" + host
         self.url = host.rstrip("/") + "/api/generate"
         self.cache_dir = Path(cache_dir) if cache_dir is not None else DEFAULT_CACHE
         self.timeout = timeout

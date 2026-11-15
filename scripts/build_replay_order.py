@@ -64,7 +64,8 @@ def last_names(d: dict) -> dict:
     return {k: v[0] for k, v in cnt.items() if len(v) == 1}
 
 
-# the live blog uses a fuller or different form of the name than the master (same player in each case)
+# the live blog uses a fuller or different form of the name than the master (same player in each case;
+# Tejasvi Dahiya = Tejasvi Singh Dahiya, confirmed by Harsh 15 Nov 2026)
 ALIASES = {(2025, "Kumar Kartikeya Singh"): "Kumar Kartikeya", (2025, "Yudhvir Charak"): "Yudhvir Singh",
            (2026, "Tejasvi Dahiya"): "Tejasvi Singh"}
 

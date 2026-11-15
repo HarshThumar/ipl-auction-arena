@@ -1,6 +1,9 @@
 """Run one simulated auction with code bidders on a synthetic pool.
 
     python scripts/run_auction.py --season 2026 --seed 1 --bidders valuation [--pool synthetic]
+    python scripts/run_auction.py --bidder src.bidders.stub_bidder:MyBidder --team KKR
+        (your own bidder plays the teams given with --team, all teams if --team is left out;
+         the other teams use --bidders)
 
 Writes runs/<season>-<seed>.jsonl (the event log) and prints the board and a summary. The real
 official pool is private, so only the synthetic pool is available here.
@@ -8,6 +11,7 @@ official pool is private, so only the synthetic pool is available here.
 from __future__ import annotations
 
 import argparse
+import importlib
 import sys
 from collections import Counter
 from pathlib import Path
@@ -28,12 +32,21 @@ def main(argv=None) -> int:
     ap.add_argument("--pool", choices=["synthetic"], default="synthetic")
     ap.add_argument("--pool-size", type=int, default=150)
     ap.add_argument("--out", type=Path, default=None, help="default runs/<season>-<seed>.jsonl")
+    ap.add_argument("--bidder", default=None, help="module:Class of your own bidder, e.g. src.bidders.stub_bidder:MyBidder")
+    ap.add_argument("--team", action="append", default=None, help="team(s) your bidder plays (repeat); default all")
     a = ap.parse_args(argv)
 
     rules = load_season(a.season)
     teams = load_teams(rules)
     pool = make_pool(rules, a.pool_size, a.seed, sorted(teams))
     bidders = make_bidders(a.bidders, sorted(teams), a.seed)
+    if a.bidder:
+        mod, _, cls = a.bidder.partition(":")
+        Custom = getattr(importlib.import_module(mod), cls)
+        for code in (a.team or sorted(teams)):
+            if code not in teams:
+                ap.error(f"unknown team {code}; teams: {', '.join(sorted(teams))}")
+            bidders[code] = Custom()
     res = run_auction(rules, pool, teams, bidders, seed=a.seed)
 
     out = a.out or ROOT / "runs" / f"{a.season}-{a.seed}.jsonl"
@@ -48,6 +61,8 @@ def main(argv=None) -> int:
     decisions = res.log.of_type(E.DECISION)
     invalid = [e for e in decisions if not e.data["valid"]]
     print(f"\nseason {a.season} seed {a.seed} bidders {a.bidders} pool {a.pool} ({len(pool)} players)")
+    if a.bidder:
+        print(f"your bidder {a.bidder} plays: {', '.join(a.team or sorted(teams))}")
     print(f"lots {len(res.lots)}  sold {len(sold)}  unsold {len(res.lots) - len(sold)}")
     print("spend (crore): " + ", ".join(f"{c} {spend[c] / 100:.2f}" for c in sorted(res.room.teams)))
     print(f"decisions {len(decisions)}  invalid {len(invalid)}"
