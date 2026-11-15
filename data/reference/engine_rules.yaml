@@ -1,0 +1,105 @@
+# Auction-room rules the engine runs on, per season. Money in integer lakhs.
+# Every rule carries a `basis`:
+#   official       - IPL/BCCI release, or a BCCI communication quoted in the press (URL given)
+#   observed       - seen in the real auction's recorded results/bid trails in this repo
+#   implementation - the room needs some way to do it and no source says how (kept minimal)
+# Season-level purse / squad / overseas limits come from rules_by_season.yaml; team purses and
+# slots come from data/processed/pre_auction_state/<season>.json (official retention-day figures).
+# See docs/L1-plan.md section 3.
+
+ladders:
+  # [from_lakh, step_lakh]: from this price upwards the grid has this step. The next bid is the
+  # next grid value above the current price (so a 125-lakh base goes 130, 140, ... 200, 220 ...).
+  grid_2023:
+    bands: [[0, 5], [100, 10], [200, 20]]
+    basis: official
+    source: https://www.insidesport.in/?p=598274
+    note: >-
+      BCCI communication for the Dec 2022 auction: +5 to 1 cr, +10 to 2 cr, +20 to 3 cr, above 3 cr
+      the auctioneer sets the step with a minimum of 20 lakh. Every recorded price above 3 cr in
+      2022, 2023, 2024 and 2026 sits on 20-lakh steps (observed), so the step stays 20.
+  grid_2025:
+    bands: [[0, 5], [100, 10], [200, 20], [500, 25]]
+    basis: official
+    source: https://www.mykhel.com/cricket/ipl-mega-auction-2025-rules-what-is-accelerated-process-how-do-incremental-bids-work-322209.html
+    note: All 179 recorded 2025 prices with a base price fit this grid (observed).
+
+seasons:
+  2022:
+    ladder: grid_2023
+    ladder_basis: "observed: all 204 recorded 2022 prices fit; no published table for Feb 2022 was found"
+    min_base_lakh: 20            # lowest reserve price in the official auction list (official)
+    rtm: false                   # official (rules_by_season.yaml)
+    overseas_pay_cap_lakh: null
+    silent_tie_breaker: true     # official (ESPNcricinfo 2022 auction FAQ)
+  2023:
+    ladder: grid_2023
+    ladder_basis: official
+    min_base_lakh: 20
+    rtm: false
+    overseas_pay_cap_lakh: null
+    silent_tie_breaker: true
+  2024:
+    ladder: grid_2023
+    ladder_basis: >-
+      observed: every recorded 2024 price above 5 cr is on 20-lakh steps (Head 680, Rizvi 840,
+      Shahrukh 740, ...), so the 25-lakh band reported for 2024 was not used in the room
+    min_base_lakh: 20
+    rtm: false
+    overseas_pay_cap_lakh: null
+    silent_tie_breaker: true
+  2025:
+    ladder: grid_2025
+    ladder_basis: official
+    min_base_lakh: 30
+    rtm: true
+    rtm_rules:
+      basis: official
+      sources:
+        - https://www.iplt20.com/news/article/ipl-governing-council-announces-tata-ipl-player-regulations-2025-27
+        - https://www.rajasthanroyals.com/latest-news/indian-premier-league-ipl-2025-mega-auction-right-to-match-rtm-card
+      flow: >-
+        When the hammer would fall, the player's previous team may use an RTM card (if it holds one
+        of the right type). The highest bidder may then raise once. The RTM team matches the raise
+        or declines. No raise: the RTM team gets the player at the hammer price. A card is spent only
+        when the RTM team gets the player.
+      # cards per team (6 minus retentions, with capped/uncapped limits), official via the source above
+      cards:
+        RR: {capped: 0, uncapped: 0, any: 0}
+        KKR: {capped: 0, uncapped: 0, any: 0}
+        CSK: {capped: 0, uncapped: 0, any: 1}
+        MI: {capped: 0, uncapped: 1, any: 0}
+        LSG: {capped: 1, uncapped: 0, any: 0}
+        GT: {capped: 1, uncapped: 0, any: 0}
+        SRH: {capped: 0, uncapped: 1, any: 0}
+        DC: {capped: 2, uncapped: 0, any: 0}
+        RCB: {capped: 3, uncapped: 0, any: 0}
+        PBKS: {capped: 4, uncapped: 0, any: 0}
+    overseas_pay_cap_lakh: null
+    silent_tie_breaker: true
+  2026:
+    ladder: grid_2023
+    ladder_basis: "observed: every recorded 2026 price above 5 cr is on 20-lakh steps (Green 2520, Nabi 840, Inglis 860, ...)"
+    min_base_lakh: 30
+    rtm: false
+    overseas_pay_cap_lakh: 1800  # official: paid = min(hammer, 18 cr); the purse is charged the full hammer
+    overseas_pay_cap_basis: >-
+      official (BCCI 2025-27 rule, widely reported). Purse charged at hammer: the official 2026
+      auction total 215.45 cr equals the hammer sum, not the paid sum 208.25 cr (observed).
+    silent_tie_breaker: true
+  2027:
+    ladder: grid_2023
+    ladder_basis: "unknown until the auction; same as the last mini (2026)"
+    min_base_lakh: 30
+    rtm: false
+    overseas_pay_cap_lakh: 1800
+    silent_tie_breaker: true
+
+room:
+  late_entry: {allowed: true, basis: "observed: a third team joined mid-lot in 26 of 52 detailed 2022-26 lots (e.g. Pooran 2023)"}
+  re_entry: {allowed: true, basis: "observed: Shreyas Iyer 2025 (PBKS opened, KKR and DC fought, PBKS came back and won), Chahal 2025, Cameron Green 2026"}
+  simultaneous_raise: {rule: seeded random pick, team order shuffled per seed, basis: implementation}
+  affordability_guardrail:
+    rule: "a team may not bid above purse - (players still needed to reach 18 - 1) x min_base"
+    basis: "implementation (guardrail A1): no public rule; no real team broke it in 2022-26"
+  order_within_set: {rule: random draw, basis: "official (reported each season); seeded"}

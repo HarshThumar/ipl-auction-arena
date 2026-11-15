@@ -167,11 +167,13 @@ All of these run in CI (`.github/workflows/l1.yml`). H3, A1 and A10 move to Clos
 | Re-entry, late entry, simultaneous paddles | §3.3: re-entry and late entry are observed in real lots; the simultaneous pick is the one implementation choice |
 | Full official auction regulations | Not public (sent to franchises only). If Harsh can get a copy, it replaces every non-official row in §3.3 |
 | Does the auctioneer really enforce a reserve for empty slots? | Not public. We enforce it (A1). Real teams never broke it in 2022-26 (dry run) |
-| Purse charged at hammer or paid amount (cap case) | Most sources say hammer. Check KKR's official post-auction purse for 2026 |
+| Purse charged at hammer or paid amount (cap case) | **Settled: hammer.** The official 2026 auction total (215.45 cr) equals the hammer sum, not the paid sum (208.25 cr) |
 | 2027 purse, RTM, pay cap | Config flags. Filled when announced, and L1 doesn't need them |
 | 2018-21 | Not in the L1 gate (2022-26 only); can be replayed later at set-level order |
 
-## 7. Schedule (11 days; Harsh explains each part back before the next starts)
+## 7. Schedule
+
+*Changed 15 Nov (Harsh): time is the constraint, so all steps are built straight through with no explain-back pauses. Correctness rests on the tests in §5, not on review checkpoints.*
 
 | Date | Deliverable | "Done when" |
 |---|---|---|
@@ -193,5 +195,5 @@ All of these run in CI (`.github/workflows/l1.yml`). H3, A1 and A10 move to Clos
   2. lot + log + schedule;
   3. replay driver + data fixes.
 
-  Each is reviewed before merge.
-- **Harsh:** writes the bidder agent (rule #3) against `bidder_api.py`, and explains each engine part back.
+  Claude builds the shared core first (rules, ledger, lot engine, event log, bidder API), so the sub-agents work on separate files against a fixed interface. Every part is merged only when the full test suite passes.
+- **Harsh:** writes the bidder agent (rule #3) against `bidder_api.py`. No explain-back step for the engine (decided 15 Nov); the primer in `docs/bidder-harness.md` covers what he needs to write the bidder.
