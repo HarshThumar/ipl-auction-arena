@@ -20,7 +20,7 @@
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| A1 | **Budget myopia:** spends early, then can't fill the squad minimum | H | Runs ending with slots × base > purse; purse-left curve vs real | Auctioneer computes **max legal bid = purse − (min slots left − 1) × min base** and rejects anything above it; send remaining needs every turn | AucArena: rule bidders beat most LLMs [1] | Open |
+| A1 | **Budget myopia:** spends early, then can't fill the squad minimum | H | Runs ending with slots × base > purse; purse-left curve vs real | Auctioneer computes **max legal bid = purse − (min slots left − 1) × min base** and rejects anything above it; send remaining needs every turn | AucArena: rule bidders beat most LLMs [1] | Closed, engine side (15 Nov): Treasurer.max_legal_bid enforced on every bid (src/engine/ledger.py), checked on every BID in the property tests and the replay; remaining needs are in every bidder view. Bidder side at L3 |
 | A2 | **Overbidding / winner's curse** on stars | H | Sim vs actual price on the top-10 lots; % of wins above the price model's p90 | **Ceiling discipline** (revised 12 Nov for live bidding): the agent sets a ceiling before bidding starts and code enforces it; it may raise it **once per lot, only in a huddle, only up to code's `max_affordable`**, logged with a reason; show the price band | [1][2] | Open |
 | A3 | **Ignoring remaining needs** (4th keeper) | H | Wins in roles where the gap = 0 | Structured role-gap vector each turn; post-hoc audit | [1] | Open |
 | A4 | **Non-monotonic / irrational bids** | M | Monotonicity checker; re-entry rate | Code autopilot raises below the ceiling; the LLM only decides at 3 points (enter / huddle / final two); fuzz the decision points for contradictions | [1] | Open |
@@ -29,7 +29,7 @@
 | A7 | **Position/order bias** | M | Win rate by agent index (chi-square) | Seeded random pick among teams willing to raise at the same price; shuffle team order per seed | [7] | Open |
 | A8 | **Collusion-like restraint** | M | Star prices and unsold rate vs real; isolated-agent rerun | No inter-agent messages | [9] | Open |
 | A9 | **Refusal / passivity** | M | Participation rate per agent | Neutral "simulation" framing; engagement threshold | [1] | Open |
-| A10 | **Crore/lakh arithmetic errors** | H | Unit-fuzz suite: 200 synthetic states → invalid-action rate | **All money is integer lakhs in code; the LLM never does arithmetic**; the auctioneer supplies next bid and purse-after | [1][10] | In progress — data is integer lakhs; LLM-no-arithmetic + unit-fuzz suite land at L1/L3 |
+| A10 | **Crore/lakh arithmetic errors** | H | Unit-fuzz suite: 200 synthetic states → invalid-action rate | **All money is integer lakhs in code; the LLM never does arithmetic**; the auctioneer supplies next bid and purse-after | [1][10] | Closed, engine side (15 Nov): all money is integer lakhs; the engine gives next price, purse after, max affordable; tests/test_harness_fuzz.py (200 states, 5,475 answers, every invalid answer → safe default, never a crash; garbage-bidder auction 0 violations). LLM bidder rate measured at L3 |
 | A11 | **Pretraining reputation / hallucinated stats override our data** | H | **Name-swap / anonymised-player test**; check cited stats against our table | Stats in the prompt; anonymised-ID ablation | [11] | Open |
 | A12 | **Sycophancy to card wording** | M | Neutral vs loaded wording of the same card → spend delta | Numeric, neutral cards | [12] | Open |
 | A13 | **Persona drift** over 80+ lots | M | Card-consistency vs lot index | **Stateless calls**: re-inject card + state on every lot | [13] | Open |
@@ -106,9 +106,9 @@
 | G1 | **Player entity resolution** | H | Join rate against official lists; collision report | **Cricsheet Register IDs** | UV | In progress — `validate_l0.py` (capped-ID check PASS; 91% overall accepted). Closes on first green CI |
 | G2 | Renames / new vs renamed franchises | M | – | `franchises.csv` (rules-and-data.md §2) | – | In progress — `franchises.csv` + winner-code check PASS. Closes on first green CI |
 | G3 | **Units:** USD 2008–13, lakh/crore | H | Range checks | Integer lakhs + as-of FX table | rules-and-data.md | In progress — integer lakhs + `fx_usd_inr.csv`; money check PASS. Closes on first green CI |
-| G4 | Accelerated rounds / re-entries | M | One lot ID per (auction, round, player) | – | [30] | Open |
+| G4 | Accelerated rounds / re-entries | M | One lot ID per (auction, round, player) | – | [30] | Closed (15 Nov): one lot id per (season, round, player), repeats suffixed; tests in test_engine_rules.py and test_engine_properties.py |
 | G5 | **Hammer ≠ paid** (tie-breaks, 18cr overseas cap), withdrawals, replacements, trades | M | – | Store hammer and paid separately; status flags | [28] | In progress — hammer/paid/withdrawn columns; cap check PASS. Trades/replacements not modelled yet |
-| G6 | Increments differ by year | M | Consecutive bids match the table | Year-specific table | UV | Open |
+| G6 | Increments differ by year | M | Consecutive bids match the table | Year-specific table | UV | Closed (15 Nov): per-season grid in data/reference/engine_rules.yaml with basis; every BID checked on the grid path (property tests); every recorded 2022-26 hammer is on its season grid (replay; 2024 used both 20 and 25 steps above 5 cr, as the auctioneer may) |
 | G7 | **Rules table errors** (conflicting previews, e.g. 2026 purse 125 vs 151cr) | H | Every rule row has a source URL; conflicts listed | Prefer BCCI/iplt20 documents; mark UNVERIFIED | rules-and-data.md | In progress — rules source + UNVERIFIED checks PASS. Closes on first green CI |
 | G8 | **Licence violations** | M | Licence column per source | Don't redistribute iplt20 or CC BY-NC data; attribute ODC-BY / CC BY-SA | rules-and-data.md §3 | In progress — SOURCES.md; no iplt20/CC BY-NC data in repo |
 
@@ -118,7 +118,7 @@
 |---|---|---|---|---|---|---|
 | H1 | **The arena doesn't reproduce real auction patterns** | H | KS tests: bidders per lot, price/base ratio, unsold rate, purse-left curve | **L4 gate** before calling anything a forecast | [32] | Open |
 | H2 | One rogue agent inflates prices | M | Swap one agent for a rule bidder | Circuit breaker | UV | Open |
-| H3 | **Auctioneer bugs / nondeterminism** | H | **Property tests** (hypothesis): purse ≥ 0, squad 18–25, overseas ≤ 8; log replay reproduces the run exactly | Event-sourced, seeded log; **replay real auctions through the engine (L1)** | UV | Open |
+| H3 | **Auctioneer bugs / nondeterminism** | H | **Property tests** (hypothesis): purse ≥ 0, squad 18–25, overseas ≤ 8; log replay reproduces the run exactly | Event-sourced, seeded log; **replay real auctions through the engine (L1)** | UV | Closed (15 Nov): event log with rebuild + digest; tests/test_engine_properties.py (155 hypothesis auctions: purse ≥ 0, squad ≤ 25, overseas ≤ 8, same seed → same digest, log rebuild = live state) and tests/test_replay.py (2022-26 real auctions replayed, 0 violations, squads 18-25 at the end) |
 | H4 | Missing private information (injuries, intent) | L | – | Document the scope | UV | Open |
 | H5 | **Pre-registration not verifiable** | H | – | Freeze predictions; **SHA-256 hash posted publicly + Zenodo/OSF DOI before 16 Dec** | [26] | Open |
 | H6 | **Bidding wars don't look like real ones** (wrong openers, wrong final-two pairs, wars too long or too short) | M | Simulated opening bidder / final-two pairs / number of teams in each war vs real ones from live blogs, where available | Live bidding engine (L1); report the gap; full check moves to L8 if live-blog reconstruction isn't ready | UV | Open |

@@ -1,0 +1,47 @@
+{
+ "season": 2023,
+ "seed": 0,
+ "ok": true,
+ "lots": 152,
+ "sold": 80,
+ "unsold": 72,
+ "official_sold": 80,
+ "hammer_total_lakh": 16700,
+ "official_hammer_lakh": 16700,
+ "outcomes_exact": 152,
+ "min_squad": 22,
+ "max_squad": 25,
+ "max_overseas": 8,
+ "log_events": 3033,
+ "log_digest": "b39a2ad357cf9425ae869635c8539f0f4a92414e3bdeabe43c2b63ceef369945",
+ "order_basis": {
+  "live_blog": 151,
+  "set_insert": 1
+ },
+ "alt_grid_lots": [],
+ "moves": [],
+ "problems": [],
+ "notes": [],
+ "reconciliation": {
+  "season": 2023,
+  "lot_order_rows": 151,
+  "lot_order_ordered_calls": 151,
+  "lot_order_unordered_rows": 0,
+  "lot_order_unmatched": [],
+  "names_split_from_one_row": 0,
+  "sold_calls_inferred": 0,
+  "repeat_calls": 1,
+  "players_called_more_than_once": 1,
+  "master_rows": 151,
+  "master_players": 151,
+  "master_sold_players": 80,
+  "master_players_not_in_lot_order": 1,
+  "inserted_by_set": 1,
+  "inserted_by_set_sold": 1,
+  "appended_without_set": [],
+  "replay_lots": 152,
+  "conflicts": [
+   "R Sanjay Yadav: lot_order says sold but master says unsold; replayed unsold"
+  ]
+ }
+}

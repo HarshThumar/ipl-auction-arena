@@ -99,6 +99,8 @@ def validate(point: str, view: Dict[str, Any], d: Any) -> Tuple[Dict[str, Any], 
                 return default, False, f"ceiling {c} below the price to bid {to_bid}"
             reason = ""
             if max_aff is not None and c > max_aff:
+                if to_bid is not None and max_aff < to_bid:
+                    return default, False, f"cannot afford the price to bid {to_bid} (max_affordable {max_aff})"
                 reason, c = f"ceiling cut to max_affordable {max_aff}", max_aff
             return {"action": a, "ceiling_lakh": c}, True, reason
     elif point == "huddle":

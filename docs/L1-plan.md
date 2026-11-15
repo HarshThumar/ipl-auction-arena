@@ -1,6 +1,6 @@
 # L1 plan: the auction engine
 
-*Written 15 Nov 2026. Gate target 25 Nov ([levels.md](levels.md) L1). The bidder harness must be ready for Harsh by 23 Nov.*
+*Written 15 Nov 2026. **Status 15 Nov: built.** All parts in §2 exist and 162 tests pass; the 2022-26 replay is exact with 0 violations ([replay-report.md](replay-report.md)). The L1 gate is met on its own terms and formally passes once L0 closes (2027 retentions). Gate target 25 Nov ([levels.md](levels.md) L1). The bidder harness must be ready for Harsh by 23 Nov.*
 
 ## 0. The short answer: is it deterministic?
 
@@ -88,9 +88,11 @@ There is one cited table (2025 cycle: +5 up to 1 cr, +10 up to 2 cr, +20 up to 5
 
 - **2022-23:** every price fits the ladder (0 off).
 - **2025:** fits too, except the 125-lakh bases. The rule built: a bid snaps up to the next ladder value.
-- **2024 and 2026:** every price above 5 cr sits on **+20 steps, not +25**.
+- **2022 and 2023:** every price fits the 25-lakh step above 5 cr (33 and 8 lots only fit that way).
+- **2026:** every price above 5 cr sits on **+20 steps**.
+- **2024:** both steps were used above 5 cr (8 lots on +20, 4 on +25): the official rule lets the auctioneer set the step above 3 cr.
 
-So the engine uses **+20 above 5 cr for 2024 and 2026** and +25 for 2025. This is inferred from the recorded prices, recorded as such, and is G6's test ("consecutive bids match the table").
+So the engine uses +25 above 5 cr for 2022, 2023 and 2025, +20 for 2026 and 2027, and +20 for 2024 with +25 also accepted in the replay (corrected 15 Nov after the replay checked every price). This is inferred from the recorded prices, recorded as such, and is G6's test ("consecutive bids match the table").
 
 ### 3.3 Room mechanics: where each rule comes from (Harsh, 15 Nov: "follow the real rules exactly, nothing derived")
 

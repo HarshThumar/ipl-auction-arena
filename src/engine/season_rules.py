@@ -69,6 +69,7 @@ class SeasonRules:
     min_base_lakh: int
     ladder: Ladder
     rtm: bool
+    alt_ladders: Tuple[Ladder, ...] = ()       # other grids the auctioneer used that season (2024)
     rtm_cards: Dict[str, RtmCards] = field(default_factory=dict)
     overseas_pay_cap_lakh: Optional[int] = None
     silent_tie_breaker: bool = True
@@ -107,6 +108,8 @@ def load_season(season: int, rules_path: Optional[Path] = None, engine_path: Opt
         overseas_max=int(base.get("overseas_max", 8)),
         min_base_lakh=int(eng["min_base_lakh"]),
         ladder=Ladder(tuple((int(a), int(b)) for a, b in lad)),
+        alt_ladders=tuple(Ladder(tuple((int(a), int(b)) for a, b in eng_all["ladders"][n]["bands"]))
+                          for n in (eng.get("alt_ladders") or [])),
         rtm=bool(eng.get("rtm")),
         rtm_cards=cards,
         overseas_pay_cap_lakh=eng.get("overseas_pay_cap_lakh"),

@@ -9,3 +9,6 @@ data/cache/
 .env
 __pycache__/
 .venv/
+
+# Run outputs and LLM cache
+runs/

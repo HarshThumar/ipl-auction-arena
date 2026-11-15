@@ -690,7 +690,7 @@ season,auction_type,player,cricsheet_id,cricinfo_id,id_match,nationality,role,ca
 2025,mega,Ashwani Kumar,d45c29b1,1209126,full,India,bowler,uncapped,0.3,30,sold,MI,0.3,30,30,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Akash Singh,b483905d,1175458,full,India,bowler,uncapped,0.3,30,sold,LSG,0.3,30,30,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Gurjapneet Singh,cc61ee8f,1269869,full,India,bowler,uncapped,0.3,30,sold,CSK,2.2,220,220,False,False,1,CSK,CSK,,CSK 2.2,partial,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
-2025,mega,Matthew Breetzke,35f173a0,595267,ini,Overseas,batter,capped,,,sold,LSG,0.75,75,75,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,South Africa,
+2025,mega,Matthew Breetzke,35f173a0,595267,ini,Overseas,batter,capped,0.75,75,sold,LSG,0.75,75,75,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,South Africa,
 2025,mega,Mitchell Santner,e4a0deae,502714,ini,Overseas,all-rounder,capped,2.0,200,sold,MI,2.0,200,200,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,New Zealand,
 2025,mega,Jayant Yadav,81049310,447587,ini_ipl,India,all-rounder,capped,0.75,75,sold,GT,0.75,75,75,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Fazalhaq Farooqi,e9c7f0d0,974175,full,Overseas,bowler,capped,2.0,200,sold,RR,2.0,200,200,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,Afghanistan,
@@ -721,7 +721,7 @@ season,auction_type,player,cricsheet_id,cricinfo_id,id_match,nationality,role,ca
 2025,mega,Prince Yadav,80b2fb19,1350768,full,India,all-rounder,uncapped,0.3,30,sold,LSG,0.3,30,30,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Jamie Overton,59559bc2,510530,ini,Overseas,all-rounder,capped,1.5,150,sold,CSK,1.5,150,150,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,England,
 2025,mega,Xavier Bartlett,3b53243a,1050545,ini,Overseas,bowler,capped,0.75,75,sold,PBKS,0.8,80,80,False,False,1,PBKS,PBKS,,PBKS 0.8,partial,ESPNcricinfo,Wikipedia(CC BY-SA),True,Australia,
-2025,mega,Lungi Ngidi,f834dcfc,542023,ini,Overseas,bowler,capped,0.3,30,sold,RCB,1.0,100,100,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,South Africa,
+2025,mega,Lungi Ngidi,f834dcfc,542023,ini,Overseas,bowler,capped,1.0,100,sold,RCB,1.0,100,100,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,South Africa,
 2025,mega,Yuvraj Chaudhary,1730e08e,1175463,full,India,all-rounder,uncapped,0.3,30,sold,LSG,0.3,30,30,False,False,1,LSG,LSG,,LSG 0.3,partial,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Kamlesh Nagarkoti,b4f5c2d9,1070188,ini,India,all-rounder,uncapped,0.3,30,sold,CSK,0.3,30,30,False,False,1,CSK,CSK,,CSK 0.3,partial,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Abhinandan Singh,82c10dac,1449085,full,India,bowler,uncapped,0.3,30,sold,RCB,0.3,30,30,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
@@ -735,8 +735,8 @@ season,auction_type,player,cricsheet_id,cricinfo_id,id_match,nationality,role,ca
 2025,mega,Tripurana Vijay,51ec3919,1292527,ini,India,all-rounder,uncapped,0.3,30,sold,DC,0.3,30,30,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Madhav Tiwari,fb5f69e4,1460385,ini,India,all-rounder,uncapped,0.3,30,sold,DC,0.4,40,40,False,False,0,,,,,outcome_only,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
 2025,mega,Vignesh Puthur,1e030637,1460388,ini,India,all-rounder,uncapped,0.3,30,sold,MI,0.3,30,30,False,False,1,MI,MI,,MI 0.3,partial,ESPNcricinfo,Wikipedia(CC BY-SA),True,India,
-2025,mega,Moeen Ali,bb351c23,8917,ini_ipl,,,,,,sold,KKR,2.0,200,200,False,False,0,,,,,outcome_only,,,True,,omitted from Wikipedia sold table; outcome verified vs raw ESPN live blog
-2025,mega,Satyanarayana Raju,c27b5a0e,1392201,surname_ipl,,,,,,sold,MI,0.3,30,30,False,False,0,,,,,outcome_only,,,True,,omitted from Wikipedia sold table; outcome verified vs raw ESPN live blog
+2025,mega,Moeen Ali,bb351c23,8917,ini_ipl,Overseas,,,2.0,200,sold,KKR,2.0,200,200,False,False,0,,,,,outcome_only,,,True,,omitted from Wikipedia sold table; outcome verified vs raw ESPN live blog
+2025,mega,Satyanarayana Raju,c27b5a0e,1392201,surname_ipl,India,,,0.3,30,sold,MI,0.3,30,30,False,False,0,,,,,outcome_only,,,True,,omitted from Wikipedia sold table; outcome verified vs raw ESPN live blog
 2025,mega,David Warner,dcce6f09,219889,ini,,,,2.0,200,unsold,,,,,False,False,0,,,,,unsold_narrated,ESPNcricinfo,,False,,
 2025,mega,Jonny Bairstow,abb83e27,297433,ini,,,,2.0,200,unsold,,,,,False,False,0,,,,,unsold_narrated,ESPNcricinfo,,False,,
 2025,mega,Waqar Salamkheil,3f1066d0,1108490,full,,,,0.75,75,unsold,,,,,False,False,0,,,,,unsold_narrated,ESPNcricinfo,,False,,

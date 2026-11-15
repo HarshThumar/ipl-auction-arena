@@ -1,0 +1,55 @@
+{
+ "season": 2024,
+ "seed": 0,
+ "ok": true,
+ "lots": 83,
+ "sold": 72,
+ "unsold": 11,
+ "official_sold": 72,
+ "hammer_total_lakh": 23045,
+ "official_hammer_lakh": 23045,
+ "outcomes_exact": 83,
+ "min_squad": 22,
+ "max_squad": 25,
+ "max_overseas": 8,
+ "log_events": 2786,
+ "log_digest": "3630242c6935f904c41a22406de3e08fc5bb215d36c8924fab95cb3a54808520",
+ "order_basis": {
+  "live_blog": 37,
+  "set_insert": 46
+ },
+ "alt_grid_lots": [
+  "Pat Cummins 2050",
+  "Harshal Patel 1175",
+  "Alzarri Joseph 1150",
+  "Mitchell Starc 2475"
+ ],
+ "moves": [
+  "Nuwan Thushara (set 14): moved from position 64 to 48",
+  "Jhye Richardson (set 14): moved from position 64 to 48",
+  "Spencer Johnson (set 14): moved from position 63 to 48",
+  "Nandre Burger (set 18): moved from position 80 to 48"
+ ],
+ "problems": [],
+ "notes": [],
+ "reconciliation": {
+  "season": 2024,
+  "lot_order_rows": 83,
+  "lot_order_ordered_calls": 37,
+  "lot_order_unordered_rows": 46,
+  "lot_order_unmatched": [],
+  "names_split_from_one_row": 0,
+  "sold_calls_inferred": 0,
+  "repeat_calls": 0,
+  "players_called_more_than_once": 0,
+  "master_rows": 83,
+  "master_players": 83,
+  "master_sold_players": 72,
+  "master_players_not_in_lot_order": 46,
+  "inserted_by_set": 46,
+  "inserted_by_set_sold": 46,
+  "appended_without_set": [],
+  "replay_lots": 83,
+  "conflicts": []
+ }
+}

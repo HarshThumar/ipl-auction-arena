@@ -1,0 +1,46 @@
+{
+ "season": 2026,
+ "seed": 0,
+ "ok": true,
+ "lots": 156,
+ "sold": 77,
+ "unsold": 79,
+ "official_sold": 77,
+ "hammer_total_lakh": 21545,
+ "official_hammer_lakh": 21545,
+ "outcomes_exact": 156,
+ "min_squad": 25,
+ "max_squad": 25,
+ "max_overseas": 8,
+ "log_events": 2793,
+ "log_digest": "6840a7b26e93a8f28543686eae22a1a9ccd24ecb71507f291911ccc6906afa7f",
+ "order_basis": {
+  "live_blog": 156
+ },
+ "alt_grid_lots": [],
+ "moves": [],
+ "problems": [],
+ "notes": [
+  "Cameron Green (KKR): hammer 2520, paid 1800, purse charged 2520 (overseas pay cap)"
+ ],
+ "reconciliation": {
+  "season": 2026,
+  "lot_order_rows": 156,
+  "lot_order_ordered_calls": 156,
+  "lot_order_unordered_rows": 0,
+  "lot_order_unmatched": [],
+  "names_split_from_one_row": 0,
+  "sold_calls_inferred": 0,
+  "repeat_calls": 0,
+  "players_called_more_than_once": 0,
+  "master_rows": 156,
+  "master_players": 156,
+  "master_sold_players": 77,
+  "master_players_not_in_lot_order": 0,
+  "inserted_by_set": 0,
+  "inserted_by_set_sold": 0,
+  "appended_without_set": [],
+  "replay_lots": 156,
+  "conflicts": []
+ }
+}

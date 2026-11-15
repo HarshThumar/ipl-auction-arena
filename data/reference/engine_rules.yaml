@@ -26,29 +26,48 @@ ladders:
 
 seasons:
   2022:
-    ladder: grid_2023
-    ladder_basis: "observed: all 204 recorded 2022 prices fit; no published table for Feb 2022 was found"
+    accelerated:
+      after_lots: 161
+      rounds: 2
+      basis: "official (press report of the IPL schedule, single source): 'accelerated bidding begins from Player No. 162 (Finn Allen, Set 19)' on Day 2, https://thesportsrush.com/cricket-news-ipl-auction-2022-format-how-does-a-mega-ipl-auction-work/ . A live report has a break after Set 16, so the exact cut is uncertain. More than one round: 'the process could be repeated' (https://crictracker.com/ipl-2022-all-you-need-to-know-about-accelerated-process-in-mega-auction); rounds=2 is implementation (no fixed count published)"
+    ladder: grid_2025
+    ladder_basis: "observed: all 204 recorded 2022 prices fit this grid, 33 of them only with 25-lakh steps above 5 cr (e.g. Dhawan 825, Iyer 1225); no published table for Feb 2022 was found"
     min_base_lakh: 20            # lowest reserve price in the official auction list (official)
     rtm: false                   # official (rules_by_season.yaml)
     overseas_pay_cap_lakh: null
     silent_tie_breaker: true     # official (ESPNcricinfo 2022 auction FAQ)
   2023:
-    ladder: grid_2023
-    ladder_basis: official
+    accelerated:
+      after_lots: 86
+      rounds: 2
+      basis: "official (BCCI communication quoted by InsideSport): first 86 names over 13 sets, then each franchise submits ten names, https://www.insidesport.in/?p=598274 . rounds=2 is implementation: a repeat is possible, the count is not fixed"
+    ladder: grid_2025
+    ladder_basis: "official up to 3 cr (BCCI communication, grid_2023 source); above 3 cr the auctioneer sets the step (min 20). Observed: all 80 recorded prices fit 25-lakh steps above 5 cr, 8 only that way (e.g. Brook 1325, Curran 1850)"
     min_base_lakh: 20
     rtm: false
     overseas_pay_cap_lakh: null
     silent_tie_breaker: true
   2024:
+    accelerated:
+      after_lots: 70
+      rounds: 2
+      basis: "official: first 70 names = first 10 sets in set order, then the accelerated phase, https://www.mykhel.com/cricket/ipl-auction-2024-rules-accelerated-process-incremental-bids-sets-252271.html ; repeat rounds for unfilled squads are reported (https://www.crictracker.com/cricket-news/explained-what-are-the-rules-for-accelerated-round-in-ipl-2024-auction/); rounds=2 is implementation"
     ladder: grid_2023
+    alt_ladders: [grid_2025]
     ladder_basis: >-
-      observed: every recorded 2024 price above 5 cr is on 20-lakh steps (Head 680, Rizvi 840,
-      Shahrukh 740, ...), so the 25-lakh band reported for 2024 was not used in the room
+      official: above 3 cr the auctioneer sets the step (min 20 lakh). Observed: both were used in
+      this auction above 5 cr: 20-lakh steps (Head 680, Rizvi 840, 8 lots) and 25-lakh steps
+      (Cummins 2050, Starc 2475, 4 lots). The simulation uses 20 (the more common); the replay
+      accepts either.
     min_base_lakh: 20
     rtm: false
     overseas_pay_cap_lakh: null
     silent_tie_breaker: true
   2025:
+    accelerated:
+      after_lots: 116
+      rounds: 2
+      basis: "official: first 116 players (17 sets) in set order, accelerated process begins with the 117th player, https://www.mykhel.com/cricket/ipl-mega-auction-2025-rules-what-is-accelerated-process-how-do-incremental-bids-work-322209.html . rounds=2 is implementation"
     ladder: grid_2025
     ladder_basis: official
     min_base_lakh: 30
@@ -63,7 +82,25 @@ seasons:
         of the right type). The highest bidder may then raise once. The RTM team matches the raise
         or declines. No raise: the RTM team gets the player at the hammer price. A card is spent only
         when the RTM team gets the player.
-      # cards per team (6 minus retentions, with capped/uncapped limits), official via the source above
+      flow_sources: >-
+        Raise-once, match, decline (card kept on decline): https://www.crictracker.com/cricket-news/ipl-2025-what-is-rtm-card-what-are-the-new-rules-associated-with-it-4726/?amp=1 .
+        Examples: Arshdeep Singh (SRH bid 15.75 cr, PBKS used RTM, SRH raised to 18 cr, PBKS matched;
+        https://sportskeeda.com/cricket/news-punjab-kings-buy-back-arshdeep-singh-inr-18-crore-using-rtm-card-ipl-2025-auction);
+        Jake Fraser-McGurk (PBKS won at 5.5 cr, DC used RTM, PBKS raised to 9 cr, DC matched; https://khelnow.com/cricket/ipl-2025-mega-auction-dc-rtm-jake-fraser-mcgurk-202411);
+        Pant (DC RTM at 20.75 cr, LSG raised to 27 cr). The no-raise case (RTM team gets the player at
+        the hammer price) follows from "match the final bid"; no single recorded lot with a source was found
+        for it, so that branch is implementation.
+      # Cards per team: counts verified against a second source (14 cards in total, 6 of 14 unused:
+      # https://www.sportskeeda.com/cricket/ipl-2025-auction-the-rtm-twist-endless-possibilities-teams-tenterhooks ;
+      # per-team counts CSK 1, DC 2, GT 1, KKR 0, LSG 1, MI 1, PBKS 4, RR 0, RCB 3, SRH 1 in
+      # https://www.mykhel.com/cricket/ipl-auction-2025-how-many-rtm-cards-left-for-each-team-ahead-of-the-mega-auction-322153.html ).
+      # Types follow the official cap of 5 capped + 2 uncapped across retentions and RTM
+      # (https://www.iplt20.com/news/article/ipl-governing-council-announces-tata-ipl-player-regulations-2025-27)
+      # applied to each team's retained list: MI (5 capped retained) and PBKS (2 uncapped retained) are
+      # one-type; a team with a free uncapped slot holds "any" cards for it. Press: MI and SRH uncapped only.
+      # Fix 15 Nov 2026: RCB was capped 3 and DC capped 2, which would block an uncapped RTM; RCB used its RTM
+      # on uncapped Swapnil Singh (observed, https://www.sportskeeda.com/cricket/ipl-2025-auction-the-rtm-twist-endless-possibilities-teams-tenterhooks),
+      # and press says RCB could use "1 uncapped and 2 capped" cards. RCB and DC now carry capped + any.
       cards:
         RR: {capped: 0, uncapped: 0, any: 0}
         KKR: {capped: 0, uncapped: 0, any: 0}
@@ -72,12 +109,16 @@ seasons:
         LSG: {capped: 1, uncapped: 0, any: 0}
         GT: {capped: 1, uncapped: 0, any: 0}
         SRH: {capped: 0, uncapped: 1, any: 0}
-        DC: {capped: 2, uncapped: 0, any: 0}
-        RCB: {capped: 3, uncapped: 0, any: 0}
+        DC: {capped: 1, uncapped: 0, any: 1}     # retained 3 capped + Porel (uncapped): 1 uncapped slot free
+        RCB: {capped: 2, uncapped: 0, any: 1}    # retained Kohli, Patidar (capped) + Dayal (uncapped): 1 uncapped slot free
         PBKS: {capped: 4, uncapped: 0, any: 0}
     overseas_pay_cap_lakh: null
     silent_tie_breaker: true
   2026:
+    accelerated:
+      after_lots: 70
+      rounds: 2
+      basis: "official: accelerated round starts after the first 70 players, https://www.mykhel.com/cricket/ipl-2026-auction-session-timings-when-will-the-mini-auction-start-how-many-breaks-will-be-taken-402031.html and https://africa.espn.com/cricket/story/_/id/47290249/ipl-auction-2026-faqs-where-how-much ; live coverage shows several accelerated rounds (https://www.deccanchronicle.com/amp/sports/ipl-auction-live-updates-1924185); rounds=2 is implementation"
     ladder: grid_2023
     ladder_basis: "observed: every recorded 2026 price above 5 cr is on 20-lakh steps (Green 2520, Nabi 840, Inglis 860, ...)"
     min_base_lakh: 30
@@ -88,6 +129,10 @@ seasons:
       auction total 215.45 cr equals the hammer sum, not the paid sum 208.25 cr (observed).
     silent_tie_breaker: true
   2027:
+    accelerated:
+      after_lots: null
+      rounds: 2
+      basis: "unknown: not announced (official list expected ~3 Dec 2026); left null, so the whole pool is called in set order until announced"
     ladder: grid_2023
     ladder_basis: "unknown until the auction; same as the last mini (2026)"
     min_base_lakh: 30
