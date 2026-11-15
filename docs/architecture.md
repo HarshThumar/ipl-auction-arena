@@ -37,46 +37,41 @@ Legend: **CORE** = ship before 16 Dec. **STRETCH** = before 16 Dec only if on tr
 
 ## Part A — The deep bidder agent (L3)
 
-One franchise bidder = a cognitive agent with a war room inside it, powered by a **Two-Stage Hierarchical LoRA** served via vLLM multi-adapter inference.
+One franchise bidder = a cognitive agent with a war room inside it, powered by **one shared LoRA + a learned team-identity embedding**, served on Ollama (decision #16).
 
-### A0. Two-Stage Hierarchical LoRA & Multi-Adapter Serving — CORE
-Instead of single-prompt zero-shot generation, the bidding intelligence is learned hierarchically:
+### A0. Team identity: one shared LoRA + a learned identity embedding — CORE
+*Revised 15 Nov 2026 (decision #16). The earlier spec trained 10 separate per-team LoRA adapters ("Stage 2") plus a hand-written "Franchise DNA card." **Both are dropped.** Per-team adapters overfit on thin, era-skewed data; the card was just prose facts in a prompt. Identity is now a **learned knob inside one model**, which is more data-efficient and is the clean instrument for the research question.*
 
 ```
-                       [ Base Model: Qwen-2.5 7B ]
-                                    │
-                       ┌────────────┴────────────┐
-                       │  Stage 1: Shared LoRA   │  <- Trained on all 10 franchises
-                       │   (General Auction Sense)│     (Rules, purse pacing, squad limits)
-                       └────────────┬────────────┘
-                                    │ (branch with lower LR)
-         ┌──────────────┬───────────┼───────────┬──────────────┐
-         ▼              ▼           ▼           ▼              ▼
-     [ CSK LoRA ]  [ MI LoRA ] [ KKR LoRA ] [ RCB LoRA ] ... [ GT/LSG ]
-     (Patience,     (Young pace, (Spin fit,   (Top-order,     (Fallback to
-      veterans)      power-hit)   role-value)  star-power)     Shared if thin)
+                 [ Base model: Qwen-2.5 7B, frozen ]
+                              │
+          [ One shared LoRA — trained on ALL teams' bid trails ]
+              general auction sense: increment rules, purse pacing,
+              squad/overseas limits, when raising is viable
+                              │
+        + team-identity EMBEDDING   <CSK> <MI> <KKR> <RCB> ...
+              one learned vector per team (learned from how that team
+              actually bid — NOT written by hand, NOT a separate adapter)
+        + behavioural FEATURES in the state (computed in code, per team):
+              spend-by-role, overseas appetite, typical drop price, aggression
 ```
 
-1. **Stage 1 (Shared Foundation LoRA):**
-   - Trained on all 10 franchises across 2018–2024 historical bid trails.
-   - Learns universal auction dynamics: increment rules, purse pacing, squad limit awareness, and when raising is generally viable.
-2. **Stage 2 (Franchise-Specific Adapters):**
-   - 10 lightweight per-team adapters trained on top of Stage 1 using only that franchise's historical decisions at a lower learning rate.
-   - Learns franchise-specific bidding DNA (e.g. MI's appetite for young pacers, CSK's valuation of experienced anchors).
-   - Newer franchises with thinner history (GT, LSG) regularize heavily or fall back to Stage 1.
-3. **vLLM Multi-LoRA Serving (10 Adapters on 1 GPU):**
-   - Base model loaded once into GPU VRAM (e.g. on a single 16–24 GB GPU).
-   - All 10 franchise LoRA adapters loaded concurrently into the same engine.
-   - Every increment evaluated in a single batched forward pass across active teams with shared prompt prefix caching.
-4. **Logit-Probability Sampling (No Free-Form Hallucinations):**
-   - Restricted output head predicting binary tokens: `RAISE` vs `DROP`.
-   - Sample actions directly from calibrated probabilities (calibrated via temperature scaling on held-out validation data).
-   - Guarantees 0 syntax or invalid number errors while preserving organic bidding wars across Monte Carlo seeds.
-5. **Richer State Representation (What real management considers):**
-   - **Pool Scarcity:** Number of comparable players remaining in subsequent sets and their average quality (drives bidding wars).
-   - **Opponent State & Identity:** Rival holding the bid, their remaining purse, and their squad gaps (enables strategic price-pushing).
-   - **Ball-by-Ball Cricket Features:** Powerplay SR, death-over economy, performance vs spin/pace, home-ground fit, and post-2023 Impact Player era flag.
-   - **Auction-So-Far Sequence State:** Number of targets missed in this role, spend pace vs expected curve.
+1. **One shared LoRA.** Trained on the whole decision dataset (2018–26, and 2008–17 if we source it). Learns general auction competence: increments, purse pacing, squad/overseas limits, when raising is viable. This is the solid floor.
+2. **Team identity = a learned embedding, not an adapter, not a card.** Each team gets a special token (`<CSK>`, `<MI>`, …) whose vector the model learns during the *same* training run. It encodes "how this team bids" as numbers derived from data — the model that never hand-writes a stereotype.
+3. **Behavioural features (optional, in the state vector).** Avg spend by role, overseas appetite, how late the team usually quits a war — all computed in code, no prose, no LLM narration. Identity as *what a team does*, not a label. Doubles as the **no-fine-tune baseline** (features-in-prompt, no LoRA).
+4. **Serving on Ollama (rule #9).** One base + one shared LoRA; the embedding selects identity, so **all 10 teams run on the same served model** — no multi-adapter vLLM needed for the frozen forecast. (vLLM only as a dev-speed option, never for the frozen run; the frozen forecast is Ollama-only. Train QLoRA on Kaggle → merge/convert to GGUF → serve on Ollama.)
+5. **Logit-probability sampling** of binary `RAISE` vs `DROP`, temperature-calibrated on held-out data. Unchanged — this was the strong part. Guarantees 0 invalid actions while preserving organic bidding wars across seeds.
+6. **Optional per-team deltas — ENCORE / ablation arm only.** Rank-2 LoRA per team on top of shared, heavily regularised. Build *only* if the embedding proves too coarse and time allows. **Not on the critical path**; GT/LSG would fall back to shared.
+
+**Why this, not 10 adapters:** per-team data is thin (326 contested ladders total, ~half from 2018 under *old* rules) and franchises are discontinuous (Deccan→SRH, defunct Pune/Kochi/Gujarat Lions, GT/LSG new in 2022). More data would let us *measure* the identity effect, not *enlarge* it. The embedding is data-efficient and is the clean test for "does franchise history help?": **zero or shuffle the embedding and measure the held-out log-loss change** (L6). Comparing 10 separately-trained adapters confounds identity with random seed, data size and convergence.
+
+**Split & leakage discipline (non-negotiable):** split train/test **by auction/season**, never random rows; every feature is computed **as-of** the decision point (no future pool/price info). Otherwise the L3 log-loss is leaked.
+
+**Rich state representation (what real management considers), fed into every decision:**
+   - **Pool Scarcity:** comparable players remaining in later sets and their average quality (drives bidding wars).
+   - **Opponent State & Identity:** rival holding the bid, their remaining purse, and their squad gaps (enables strategic price-pushing).
+   - **Ball-by-Ball Cricket Features:** Powerplay SR, death-over economy, performance vs spin/pace, home-ground fit, post-2023 Impact Player era flag.
+   - **Auction-So-Far Sequence State:** targets missed in this role, spend pace vs expected curve.
 
 ### A1. The cognitive core (Generative-Agents style) — CORE
 A **memory stream**: a time-ordered log of what the agent has seen, concluded and planned.
@@ -140,7 +135,7 @@ At most **3 decision points per team per lot**, and only for teams actually invo
 - **No arithmetic in the LLM (A10):** next price, purse-after, affordability, the increment ladder — all **computed in code** and handed in. The LLM picks decisions and valuation numbers only.
 - **Ceiling discipline (A2, replaces commit-then-bid):** the agent sets a ceiling **before** bidding starts and code enforces it. It may raise it **once per lot, only in a huddle**, only up to the Treasurer's `max_affordable`, and the raise is logged with a reason. This keeps the realism of a team "going over its number" without letting it chase forever.
 - **Max legal bid (A1):** `purse − (min_slots_left − 1) × min_base`, enforced by the auctioneer — the agent physically cannot strand its squad.
-- **Stateless re-injection (A13):** every call re-injects the DNA card + current state + retrieved memories; no hidden chat history to drift.
+- **Stateless re-injection (A13):** every call re-injects the identity (embedding token + behavioural features) + current state + retrieved memories; no hidden chat history to drift.
 - **Strict JSON (A16):** every decision has a schema; a parse failure = a logged "drop", not a crash.
 - **Public info only (A6/A8):** an agent sees bids, the board and its own war room — never another team's reasoning, never a message from another team.
 

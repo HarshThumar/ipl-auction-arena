@@ -78,8 +78,8 @@ Possible ownership-change breaks: RR (2026) and RCB (2026), if those sales close
 | Kaggle [sunnyyadav754](https://www.kaggle.com/datasets/sunnyyadav754/ipl-auction-dataset-20132026) | 2013–2026 | **CC BY-NC-SA**, non-commercial | Cross-check only; don't redistribute |
 | Kaggle [souviksamanta1053](https://www.kaggle.com/datasets/souviksamanta1053/ipl-2025-mega-auction-dataset) | 2025 mega, 600+ registered players | ODbL | 2025 register |
 | iplt20.com/auction (Wayback, 2013–2025) | Official sold/unsold lists | **Terms forbid copying without BCCI permission** | **Verify only; don't scrape or redistribute** |
-| Live blogs (ESPNcricinfo, news) | Free-text narration: opening bidder, bidding wars, often the final two bidders | Terms UNVERIFIED | Partial bidder reconstruction (L8) |
-| **Bid-by-bid dataset** | **None exists.** Every public dataset has final prices only | – | Only partial reconstruction is possible |
+| Live blogs (ESPNcricinfo, news) | Free-text narration: opening bidder, bidding wars, often the final two bidders | Terms UNVERIFIED | Reconciled into the reconstructed bid trails; feeds L3 |
+| **Bid-by-bid dataset** | **No *public* one exists** (every public dataset has final prices only). We reconstructed one from a **secondary tracker (`"withheld"`)** reconciled with live blogs + Wikipedia: 2018–26, **326 contested lots with full raise-by-raise ladders**, ~5.1k bid steps, per-row provenance + `redistributable` flag | source withheld; don't redistribute non-clean rows | **Feeds L3 decision rows;** deep bid-level modelling stays L8 |
 | JioStar "Auction War Room" mock 2026 ([InsideSport](https://www.insidesport.in/cricket/full-list-of-sold-unsold-players-in-jiostar-mock-ipl-2026-auction/)) | Full mock sold/unsold list | News coverage | **Pundit baseline** |
 
 ## 4. Known data traps (also listed in the register, section G)

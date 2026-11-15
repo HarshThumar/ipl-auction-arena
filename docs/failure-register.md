@@ -52,16 +52,17 @@
 | B5 | **Temporal mixing** (pre-retention pieces, pages edited after the auction) | H | Published and updated dates before the cutoff; flag needs naming already retained or released players | **Wayback as-of snapshots**; drop "updated" pages | [19] | Open |
 | B6 | **Opinion turned into fact** | L | Audit a sample | Keep "expert X says" | [18] | Open |
 
-## C. Franchise DNA cards
+## C. Team identity (embedding + behavioural features)
+*DNA card dropped 15 Nov (decision #16); identity is now a learned embedding + code-computed behavioural features. These rows carry over — same risks, new mechanism.*
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| C1 | **Unfaithful claims** | H | Atomic-claim check against the stats table | **Facts computed in code; the LLM only rephrases**; every claim cites a number | [20] | Open |
-| C2 | **Cherry-picking famous buys** | M | Claims vs full spend distribution | Template with mandatory fields | UV | Open |
-| C3 | **Recency / lost-in-the-middle** | M | Shuffle era order → card delta | Pre-aggregate by era | [21] | Open |
-| C4 | **Pretraining stereotypes** ("CSK loves veterans") | M | Generate with names masked; compare | Mask, then verify | [22] | Open |
-| C5 | **Leakage:** a backtest card includes the target auction | H | Cutoff date on every card | **Time-sliced cards** as of each auction | [25] | Open |
-| C6 | **DNA has no signal in minis** (AuctionIQ found team habits ≈ chance) | H | **Shuffled-DNA and no-DNA ablations** | This is the main hypothesis to test, not an assumption | AuctionIQ | Open |
+| C1 | **Unfaithful behavioural features** | H | Atomic-check each feature against the stats table | **Features computed in code**, never LLM-authored; every value traces to a number | [20] | Open |
+| C2 | **Cherry-picking famous buys** | M | Features vs full spend distribution | Fixed feature set, mandatory fields | UV | Open |
+| C3 | **Era skew** (2018 dominates the trails) | M | Shuffle/reweight era → feature delta | Pre-aggregate and era-weight; era flag in state | [21] | Open |
+| C4 | **Pretraining stereotypes** ("CSK loves veterans") | M | Zero/shuffle the identity embedding; compare | Identity is learned from data; shuffle-test it | [22] | Open |
+| C5 | **Leakage:** features/embedding see the target auction | H | Cutoff date on every feature; split by season | **As-of features**, time-sliced per auction | [25] | Open |
+| C6 | **Identity has no signal in minis** (AuctionIQ found team habits ≈ chance) | H | **Zeroed- and shuffled-embedding ablations** | This is the main hypothesis to test, not an assumption | AuctionIQ | Open |
 
 ## D. Backtesting and forecasting
 
@@ -80,7 +81,7 @@
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| E0 | **No bid-by-bid dataset exists** | H | – | Dec build: the price model uses final outcomes (censored). Partial bidder reconstruction from live blogs is L8 (after 16 Dec) | rules-and-data.md §3 | Deferred (L8) — after the 16 Dec auction |
+| E0 | **No *public* bid-by-bid dataset exists** | H | – | A **reconstructed** bid-trail dataset now exists (2018–26, 326 contested lots with full ladders, ~5.1k steps, per-row provenance) and drives the L3 `state → RAISE/DROP` rows. It is still **incomplete and censored** (most lots outcome-only; raises seen only up to each team's drop), so deep bid-level modelling (Haile–Tamer bounds, sequence transformers) stays L8 | rules-and-data.md §3 | Deferred (L8) — reconstructed set feeds L3; deep modelling after 16 Dec |
 | E1 | **Censoring:** the hammer price only bounds valuations | H | – | Interval-censored / survival model with bounds (Haile & Tamer) | [27] | Deferred (L8) — after the 16 Dec auction |
 | E2 | **Incomplete live-blog bids** | H | Chain consistent with final price and increments | Flag partial lots; two sources | UV | Deferred (L8) — after the 16 Dec auction |
 | E3 | **Selection bias:** only contested lots are narrated | H | Logged vs official lots | Uncontested = single-bidder; model the narration probability | UV | Deferred (L8) — after the 16 Dec auction |
@@ -97,7 +98,7 @@
 | F3 | **Losing instruction-following / formatting** | M | Action validity rate | Restricted logit head on binary tokens (`RAISE` vs `DROP`) — eliminates JSON generation | [29] | Closed (15 Nov): logit head predicts RAISE/DROP directly; engine does all rule & money handling |
 | F4 | **Eval leakage from random split** | H | Held-out auction validation | Strict split by auction: train on 2018–2022, hold out Dec 2023 mini-auction | [25] | In progress (L3) — dataset generator splits strictly by season |
 | F5 | **Number tokenisation / arithmetic errors** | M | Arithmetic consistency checks | Engine handles all increment steps and budget math; model only decides binary RAISE/DROP | [10] | Closed (15 Nov): engine computes next increment; model never predicts numbers |
-| F6 | **Team conditioning ignored** | M | Swap team adapter → output probability delta | Explicit per-team LoRA weights (Stage 2) ensure distinct behavioral policies | UV | In progress (L3) — verified via delta check across team adapters |
+| F6 | **Team conditioning ignored** | M | Swap/shuffle the identity embedding → output probability delta | The learned team-identity embedding gives each team a distinct policy; verified by a swap-delta check | UV | In progress (L3) — verified via embedding swap-delta check |
 
 ## G. Data engineering
 

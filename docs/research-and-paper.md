@@ -72,7 +72,7 @@
 **It is a demo, not a paper, if** it's 10 persona prompts replaying an auction. AucArena did the generic version, and AuctionIQ did IPL with strong numbers.
 
 **It is a paper if it makes one sharp, falsifiable claim:**
-1. **Behavioural fidelity (main):** does conditioning a shared open model on an organisation's historical decision record (DNA card, then LoRA) reproduce *franchise-specific* bidding beyond a rule/structural model? AuctionIQ found habits ≈ chance in minis, so **either a yes or a no is a result.**
+1. **Behavioural fidelity (main):** does conditioning a shared open model on an organisation's historical decision record (a shared LoRA + a learned team-identity embedding; ablated by zeroing/shuffling the embedding) reproduce *franchise-specific* bidding beyond a rule/structural model? AuctionIQ found habits ≈ chance in minis, so **either a yes or a no is a result.**
 2. **Method:** a leakage-controlled protocol for evaluating LLM simulations of real events that the model may already know about. The **contaminated 2025 backtest vs the clean, pre-registered 2026 live forecast**; the gap is itself a finding.
 3. **Economics (if the data allow):** winner's curse, purse pressure, lot-order price decline, recovered by the censored model and compared with what the agents do.
 
