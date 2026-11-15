@@ -88,16 +88,16 @@
 | E5 | **Class imbalance** (unsold/base) | M | PR-AUC | Hurdle model | UV | Open |
 | E6 | **Lot-order effects** | M | Residual vs lot index | Order features | [8] | Open |
 
-## F. LoRA (after 16 Dec, L8)
+## F. 2-Stage Hierarchical LoRA (L3–L5)
 
 | # | Failure | Sev | Detect | Mitigate | Src | Status |
 |---|---|---|---|---|---|---|
-| F1 | Overfitting | H | Held-out-auction loss | Low rank, early stopping, leave-one-auction-out | UV | Deferred (L8) — after the 16 Dec auction |
-| F2 | **Memorising names and outcomes** | H | Anonymised-name score | Train on features and IDs, not names | UV | Deferred (L8) — after the 16 Dec auction |
-| F3 | Losing JSON / instruction-following | M | Format pass rate before and after | Mix in general data | [29] | Open |
-| F4 | Eval leakage from a random split | H | – | Split by auction | [25] | Deferred (L8) — after the 16 Dec auction |
-| F5 | Number tokenisation | M | Digit-error analysis | Predict the number of increments as a class | [10] | Open |
-| F6 | Team conditioning ignored | M | Swap the team token → output delta | – | UV | Open |
+| F1 | **Overfitting on thin team data** | H | Held-out-auction loss | Low rank (r=8–16), low LR on team adapters, fall back to Stage 1 Shared LoRA for GT/LSG | UV | In progress (L3) — Stage 1 shared foundation regularizes all teams |
+| F2 | **Memorising names and outcomes** | H | Anonymised-name score vs named score | Train on features and IDs, not names; player attributes anonymised in training rows | UV | In progress (L3) — feature schema masks specific names during fine-tune |
+| F3 | **Losing instruction-following / formatting** | M | Action validity rate | Restricted logit head on binary tokens (`RAISE` vs `DROP`) — eliminates JSON generation | [29] | Closed (15 Nov): logit head predicts RAISE/DROP directly; engine does all rule & money handling |
+| F4 | **Eval leakage from random split** | H | Held-out auction validation | Strict split by auction: train on 2018–2022, hold out Dec 2023 mini-auction | [25] | In progress (L3) — dataset generator splits strictly by season |
+| F5 | **Number tokenisation / arithmetic errors** | M | Arithmetic consistency checks | Engine handles all increment steps and budget math; model only decides binary RAISE/DROP | [10] | Closed (15 Nov): engine computes next increment; model never predicts numbers |
+| F6 | **Team conditioning ignored** | M | Swap team adapter → output probability delta | Explicit per-team LoRA weights (Stage 2) ensure distinct behavioral policies | UV | In progress (L3) — verified via delta check across team adapters |
 
 ## G. Data engineering
 

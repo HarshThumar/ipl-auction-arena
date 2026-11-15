@@ -30,14 +30,14 @@
 |---|---|---|
 | A | **Data foundation** (L0) | `franchises.csv`, `rules_by_season.yaml`, Cricsheet Register IDs, integer lakhs + FX, hammer vs paid, point-in-time store, validation suite |
 | B | **Auctioneer** (L1) | Deterministic, event-sourced, seeded; league-agnostic config; **live open ascending bidding** with a full bid log; enforces max legal bid; **replays real auctions exactly**. Living-auction depth: real sets / accelerated round / RTM + an auctioneer-agent voice — [architecture.md](architecture.md) Part B |
-| C | **Baselines** (L2) | Base price, last price, GBM/hedonic, **AuctionIQ** (MIT), single-prompt LLM, JioStar pundit mock |
-| D | **Bidder agent** (L3) | **Harsh writes this**. Stateless calls; strict JSON; **the LLM never does arithmetic**. **Bids live like a real team (realism pass, 12 Nov):** sets a ceiling, code keeps the paddle up below it, the LLM decides only at **enter / huddle / final two**; plan with targets, ceilings and backups; war room argues at huddles; opponent model learned from live bids; price-pushing allowed. Built v0→v6: **v0–v3 by 3 Dec, v4–v6 stretch to 10 Dec** — [architecture.md](architecture.md) Part A |
-| E | **Franchise DNA cards** | Facts computed in code, LLM only rephrases; time-sliced; names masked for the stereotype check |
+| C | **Baselines** (L2) | Base price, last price, **LightGBM decision model (trained on identical state rows)**, **AuctionIQ** (MIT), single-prompt LLM, JioStar pundit mock |
+| D | **Bidder agent & 2-Stage LoRA** (L3) | **Harsh writes the bidder & data pipeline**. Two-stage hierarchical LoRA: Stage 1 Shared LoRA across all teams (general auction mechanics), Stage 2 Per-Team Adapters (10 franchise-specific adapters with lower LR, falling back to Stage 1 for thin data). Predicts binary `RAISE` vs `DROP` from state logits; served via vLLM multi-LoRA on 1 GPU. State includes pool scarcity, rival purse/gaps, ball-by-ball cricket features, and auction sequence history — [architecture.md](architecture.md) Part A |
+| E | **Franchise DNA cards** | Facts computed in code, LLM only rephrases; time-sliced; names masked for the stereotype check; acts as prompt baseline against LoRA |
 | F | **Expert-consensus needs** | Wayback as-of snapshots; verbatim quote required; split by team; distinct outlets; capped per outlet |
 | G | **Price model** | Interval-censored / hurdle model on final outcomes; era features |
-| H | **Arena + evaluation** (L4–L6) | ≥20 seeds, probabilities, calibration, KS validity tests, ablations (DNA / shuffled / none / + experts), bootstrap CIs. War-room deliberation + bidding micro-dynamics — [architecture.md](architecture.md) Part B |
-| I | **Pre-registration + site** (L7) | Zenodo/OSF DOI + public SHA-256 before the auction; per-franchise fan pages; 5-way scorecard after |
-| J | **Paper extras** (L8) | Partial bid reconstruction, Haile–Tamer bounds, **team-conditioned LoRA vs prompt DNA**. LoRA is done after the auction (L8), as part of the paper |
+| H | **Arena + evaluation** (L4–L6) | Multi-adapter vLLM simulation (≥20 seeds), logit probability sampling (calibrated with temperature scaling), KS validity tests, ablations (2-Stage LoRA vs 1-Stage LoRA vs LightGBM vs Prompt DNA vs no DNA), bootstrap CIs — [architecture.md](architecture.md) Part B |
+| I | **Pre-registration + site** (L7) | Zenodo/OSF DOI + public SHA-256 before the auction; 10 fine-tuned franchise agents run 2027 pool; per-franchise fan pages; 5-way scorecard after |
+| J | **Paper extras** (L8) | Post-auction analysis: GAIL-style adversarial imitation, sequence transformers over the bid log, preprint written with Claude |
 
 **Model:**
 - **Backtests:** local Ollama, with a model whose training cutoff is **before Dec 2025** (to be checked).
@@ -56,10 +56,10 @@
 |---|---|---|
 | 11–16 Nov | L0 data foundation starts | Post #1 |
 | 17–22 Nov | **Retentions land 17 Nov** → purses, slots. L0 done. Expert articles collected (as-of) | Review L0 |
-| 23–29 Nov | L1 engine replays real auctions; L2 baselines | **Writes the bidder agent (L3)** |
-| 30 Nov – 6 Dec | **Final player list 3 Dec.** L3 fuzz suite; L4 arena validity | L3 done; review |
-| 7–12 Dec | L5 backtests + contamination probe; L6 ablations; site | Read results; draft posts |
-| 13–15 Dec | **L7: final runs, freeze, hash, DOI** | Post 1: "10 AI franchises made their picks, hash attached" |
+| 23–29 Nov | L2 baselines (LightGBM on decision rows + AuctionIQ); `build_decision_dataset.py` | **Writes data-conversion & trains 2-Stage LoRA (L3)** |
+| 30 Nov – 6 Dec | **Final player list 3 Dec.** L4 multi-LoRA arena simulation (vLLM, logit sampling, KS tests) | Runs multi-agent simulations; reviews fidelity |
+| 7–12 Dec | L5 backtests & ablations (2-Stage LoRA vs LightGBM vs Prompt DNA); site | Read results; draft posts |
+| 13–15 Dec | **L7: final 2027 runs with 10 team LoRAs, freeze, hash, DOI** | Post 1: "10 fine-tuned AI franchises made their picks, hash attached" |
 | 16 Dec | Live auction | Watch |
 | 17–18 Dec | 5-way scorecard | Post 2: pundits vs AI vs rules vs reality |
 | Late Dec – Jan | L8 + preprint | Writes the paper with Claude |

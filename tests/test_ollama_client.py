@@ -26,7 +26,7 @@ def test_extract_json_cases():
 
 def test_request_shape_and_options(tmp_path):
     post = fake_post()
-    c = OllamaClient("qwen2:7b", cache_dir=tmp_path, timeout=12, post=post)
+    c = OllamaClient("qwen2:7b", host="http://localhost:11434", cache_dir=tmp_path, timeout=12, post=post)
     schema = {"type": "object"}
     r = c.generate_json("hello", schema=schema, seed=7, num_predict=50, system="be brief")
     url, body, timeout = post.sent[0]

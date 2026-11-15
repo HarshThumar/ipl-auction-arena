@@ -37,7 +37,46 @@ Legend: **CORE** = ship before 16 Dec. **STRETCH** = before 16 Dec only if on tr
 
 ## Part A — The deep bidder agent (L3)
 
-One franchise bidder = a cognitive agent with a war room inside it. Target depth: **cognitive core + a war room that argues at huddles + an opponent model that learns from live bids.**
+One franchise bidder = a cognitive agent with a war room inside it, powered by a **Two-Stage Hierarchical LoRA** served via vLLM multi-adapter inference.
+
+### A0. Two-Stage Hierarchical LoRA & Multi-Adapter Serving — CORE
+Instead of single-prompt zero-shot generation, the bidding intelligence is learned hierarchically:
+
+```
+                       [ Base Model: Qwen-2.5 7B ]
+                                    │
+                       ┌────────────┴────────────┐
+                       │  Stage 1: Shared LoRA   │  <- Trained on all 10 franchises
+                       │   (General Auction Sense)│     (Rules, purse pacing, squad limits)
+                       └────────────┬────────────┘
+                                    │ (branch with lower LR)
+         ┌──────────────┬───────────┼───────────┬──────────────┐
+         ▼              ▼           ▼           ▼              ▼
+     [ CSK LoRA ]  [ MI LoRA ] [ KKR LoRA ] [ RCB LoRA ] ... [ GT/LSG ]
+     (Patience,     (Young pace, (Spin fit,   (Top-order,     (Fallback to
+      veterans)      power-hit)   role-value)  star-power)     Shared if thin)
+```
+
+1. **Stage 1 (Shared Foundation LoRA):**
+   - Trained on all 10 franchises across 2018–2024 historical bid trails.
+   - Learns universal auction dynamics: increment rules, purse pacing, squad limit awareness, and when raising is generally viable.
+2. **Stage 2 (Franchise-Specific Adapters):**
+   - 10 lightweight per-team adapters trained on top of Stage 1 using only that franchise's historical decisions at a lower learning rate.
+   - Learns franchise-specific bidding DNA (e.g. MI's appetite for young pacers, CSK's valuation of experienced anchors).
+   - Newer franchises with thinner history (GT, LSG) regularize heavily or fall back to Stage 1.
+3. **vLLM Multi-LoRA Serving (10 Adapters on 1 GPU):**
+   - Base model loaded once into GPU VRAM (e.g. on a single 16–24 GB GPU).
+   - All 10 franchise LoRA adapters loaded concurrently into the same engine.
+   - Every increment evaluated in a single batched forward pass across active teams with shared prompt prefix caching.
+4. **Logit-Probability Sampling (No Free-Form Hallucinations):**
+   - Restricted output head predicting binary tokens: `RAISE` vs `DROP`.
+   - Sample actions directly from calibrated probabilities (calibrated via temperature scaling on held-out validation data).
+   - Guarantees 0 syntax or invalid number errors while preserving organic bidding wars across Monte Carlo seeds.
+5. **Richer State Representation (What real management considers):**
+   - **Pool Scarcity:** Number of comparable players remaining in subsequent sets and their average quality (drives bidding wars).
+   - **Opponent State & Identity:** Rival holding the bid, their remaining purse, and their squad gaps (enables strategic price-pushing).
+   - **Ball-by-Ball Cricket Features:** Powerplay SR, death-over economy, performance vs spin/pace, home-ground fit, and post-2023 Impact Player era flag.
+   - **Auction-So-Far Sequence State:** Number of targets missed in this role, spend pace vs expected curve.
 
 ### A1. The cognitive core (Generative-Agents style) — CORE
 A **memory stream**: a time-ordered log of what the agent has seen, concluded and planned.
