@@ -34,7 +34,7 @@ def years():
     return sorted(set(YEARS) | {y for y in cached if y > max(YEARS)})
 
 # headings that hold the retained-player tables (exclude "Retention policy")
-SEC_NAMES = ("retained players", "retained player", "player retention")
+SEC_NAMES = ("retained players", "retained player", "player retention", "retention policy")
 
 def load_alias():
     alias = {}

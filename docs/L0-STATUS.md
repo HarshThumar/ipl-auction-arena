@@ -9,7 +9,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 ```
 
 ## Current result (last run)
-**16 PASS · 0 FAIL · 1 WARN · 1 BLOCKED** (15 Nov). The only WARN is the accepted ID join, now 89.5% after wrong matches were removed (below). The only BLOCKED item is the 2027 retentions, due 17 Nov ([runbook](retention-day-runbook.md)).
+**17 PASS · 0 FAIL · 1 WARN · 0 BLOCKED** (18 Nov). The only WARN is the accepted ID join, now 89.5% after wrong matches were removed (below). The 2027 retentions loaded cleanly on 18 Nov ([runbook](retention-day-runbook.md)).
 
 | Area | State | Register |
 |---|---|---|
@@ -24,7 +24,7 @@ python scripts/validate_l0.py       # prints PASS/FAIL/WARN/BLOCKED, writes l0_v
 | Per-team spend ≤ pre-auction purse left (official, 50 team-seasons) | ✅ PASS | — |
 | Pre-auction state 2018–26: slots and overseas slots match the official figures exactly | ✅ PASS | — |
 | One Cricsheet ID = one player (2018–26) | ✅ PASS | — |
-| 2027 retentions loaded | ⛔ BLOCKED until 17 Nov | — |
+| 2027 retentions loaded | ✅ PASS (FINAL: slots 66, overseas 25, purse 297.95 cr) | — |
 | Winner codes resolve to a franchise | ✅ PASS | G2 |
 | Squad size 18–25 (retained + bought) | ✅ 50/50 | — |
 | Overseas ≤ cap in full squad | ✅ 50/50 | — |

@@ -178,6 +178,11 @@ seasons:
     venue: Goa
     purse_inr_lakh: 13000
     rtm: false
+    slots: {total: 66, overseas: 25}
+    squad_min: 18
+    squad_max: 25
+    overseas_max: 8
+    impact_player: true
     retention_deadline: 2026-11-17
     registration_window: [2026-11-02, 2026-11-23]
     preferred_lists: 2026-12-01
@@ -185,7 +190,9 @@ seasons:
     overseas_pay_cap_lakh: 1800
     verified: false
     notes: "Purse 130cr reported, UNCONFIRMED (salary cap 157cr incl. match fees and performance pay, also reported). Last mini of the 2025-27 cycle. Per-team purse and slots come from the official retention-day figures (data/reference/pre_auction_official.csv), not from this number."
-    sources: [https://khelnow.com/cricket/ipl-2027-auction-bcci-extends-retention-202611]
+    sources:
+      - https://khelnow.com/cricket/ipl-2027-auction-bcci-extends-retention-202611
+      - https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions
 
 # --- 2025-27 cycle standing rules (apply 2025, 2026, 2027) ---
 cycle_2025_2027:

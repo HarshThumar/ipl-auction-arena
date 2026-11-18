@@ -1,9 +1,9 @@
 {
   "summary": {
-    "PASS": 16,
+    "PASS": 17,
     "FAIL": 0,
     "WARN": 1,
-    "BLOCKED": 1
+    "BLOCKED": 0
   },
   "checks": [
     {
@@ -93,8 +93,8 @@
     },
     {
       "check": "2027 retentions loaded",
-      "status": "BLOCKED",
-      "detail": "retentions land 17 Nov 2026 (wiki 2027 teams so far: 0); see docs/retention-day-runbook.md"
+      "status": "PASS",
+      "detail": "FINAL: slots 66, overseas 25, purse 297.95 cr; fails: none"
     }
   ]
 }

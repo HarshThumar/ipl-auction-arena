@@ -12,7 +12,8 @@ import build_pre_auction_state as bps  # noqa: E402
 MOCK = ROOT / "tests" / "fixtures" / "mock_2027_retained.csv"
 # published totals for the mini auctions (2021 purse uses the CSK 19.90 cr figure, see the csv note) (purse in lakh, slots, overseas slots)
 PUBLISHED_TOTALS = {2019: (14525, 70, 20), 2020: (20765, 73, 29), 2021: (19660, 61, 22),
-                    2023: (20650, 87, 30), 2024: (26295, 77, 30), 2026: (23755, 77, 31)}
+                    2023: (20650, 87, 30), 2024: (26295, 77, 30), 2026: (23755, 77, 31),
+                    2027: (29795, 66, 25)}
 
 
 def fails(issues):
@@ -81,6 +82,12 @@ def test_unit_typo_salary_fails():
     retained = copy.deepcopy(_mock())
     retained["LSG"][0]["salary_lakh"] = 8   # "7.75 lakh" for 7.75 crore
     assert any("below the 20 lakh minimum" in m for m in fails(_build(retained)[1]))
+
+
+def test_2027_is_final():
+    state, issues = bps.run(2027, write=False, quiet=True)
+    assert [m for l, m in issues if l == "FAIL"] == []
+    assert state["status"] == "FINAL"
 
 
 def test_missing_team_fails():

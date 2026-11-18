@@ -1,0 +1,1480 @@
+{
+ "season": 2027,
+ "status": "FINAL",
+ "season_purse_lakh": 13000,
+ "totals": {
+  "slots_left": 66,
+  "overseas_slots_left": 25,
+  "purse_left_lakh": 29795
+ },
+ "teams": {
+  "CSK": {
+   "retained": [
+    {
+     "player": "Ruturaj Gaikwad",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sanju Samson",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kartik Sharma",
+     "nationality": "India",
+     "salary_lakh": 1420,
+     "purse_charge_lakh": 1420,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shivam Dube",
+     "nationality": "India",
+     "salary_lakh": 1200,
+     "purse_charge_lakh": 1200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Noor Ahmad",
+     "nationality": "Overseas",
+     "salary_lakh": 1000,
+     "purse_charge_lakh": 1000,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Liam Livingstone",
+     "nationality": "Overseas",
+     "salary_lakh": 600,
+     "purse_charge_lakh": 600,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rahul Chahar",
+     "nationality": "India",
+     "salary_lakh": 520,
+     "purse_charge_lakh": 520,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Anshul Kamboj",
+     "nationality": "India",
+     "salary_lakh": 340,
+     "purse_charge_lakh": 340,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jack Edwards",
+     "nationality": "Overseas",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Dewald Brevis",
+     "nationality": "Overseas",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Gurjapneet Singh",
+     "nationality": "India",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Akeal Hosein",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jamie Overton",
+     "nationality": "Overseas",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sarfaraz Khan",
+     "nationality": "India",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mukesh Choudhary",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ramakrishna Ghosh",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shreyas Gopal",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ayush Mhatre",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Urvil Patel",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 19,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 9995,
+   "retained_purse_charge_lakh": 9995,
+   "purse_left_lakh": 2805,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 3005,
+   "slots_left": 6,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 2805,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "DC": {
+   "retained": [
+    {
+     "player": "Axar Patel",
+     "nationality": "India",
+     "salary_lakh": 1650,
+     "purse_charge_lakh": 1650,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rishabh Pant",
+     "nationality": "India",
+     "salary_lakh": 1500,
+     "purse_charge_lakh": 1500,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "KL Rahul",
+     "nationality": "India",
+     "salary_lakh": 1400,
+     "purse_charge_lakh": 1400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tristan Stubbs",
+     "nationality": "Overseas",
+     "salary_lakh": 1000,
+     "purse_charge_lakh": 1000,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Auqib Nabi",
+     "nationality": "India",
+     "salary_lakh": 840,
+     "purse_charge_lakh": 840,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mukesh Kumar",
+     "nationality": "India",
+     "salary_lakh": 800,
+     "purse_charge_lakh": 800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ashutosh Sharma",
+     "nationality": "India",
+     "salary_lakh": 380,
+     "purse_charge_lakh": 380,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "David Miller",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kyle Jamieson",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Lungi Ngidi",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sameer Rizvi",
+     "nationality": "India",
+     "salary_lakh": 95,
+     "purse_charge_lakh": 95,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prithvi Shaw",
+     "nationality": "India",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Madhav Tiwari",
+     "nationality": "India",
+     "salary_lakh": 40,
+     "purse_charge_lakh": 40,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Zeeshan Ansari",
+     "nationality": "India",
+     "salary_lakh": 40,
+     "purse_charge_lakh": 40,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tripurana Vijay",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vipraj Nigam",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 4,
+   "retained_salary_lakh": 8480,
+   "retained_purse_charge_lakh": 8480,
+   "purse_left_lakh": 3950,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4520,
+   "slots_left": 9,
+   "overseas_slots_left": 4,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 3920,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "GT": {
+   "retained": [
+    {
+     "player": "Rashid Khan",
+     "nationality": "Overseas",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shubman Gill",
+     "nationality": "India",
+     "salary_lakh": 1650,
+     "purse_charge_lakh": 1650,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jos Buttler",
+     "nationality": "Overseas",
+     "salary_lakh": 1575,
+     "purse_charge_lakh": 1575,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mohammed Siraj",
+     "nationality": "India",
+     "salary_lakh": 1225,
+     "purse_charge_lakh": 1225,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kagiso Rabada",
+     "nationality": "Overseas",
+     "salary_lakh": 1075,
+     "purse_charge_lakh": 1075,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prasidh Krishna",
+     "nationality": "India",
+     "salary_lakh": 950,
+     "purse_charge_lakh": 950,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sai Sudharsan",
+     "nationality": "India",
+     "salary_lakh": 850,
+     "purse_charge_lakh": 850,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jason Holder",
+     "nationality": "Overseas",
+     "salary_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rahul Tewatia",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harshal Patel",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Washington Sundar",
+     "nationality": "India",
+     "salary_lakh": 320,
+     "purse_charge_lakh": 320,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sai Kishore",
+     "nationality": "India",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Glenn Phillips",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tom Banton",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Arshad Khan",
+     "nationality": "India",
+     "salary_lakh": 130,
+     "purse_charge_lakh": 130,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Gurnoor Brar",
+     "nationality": "India",
+     "salary_lakh": 130,
+     "purse_charge_lakh": 130,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ashok Sharma",
+     "nationality": "India",
+     "salary_lakh": 90,
+     "purse_charge_lakh": 90,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jayant Yadav",
+     "nationality": "India",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kumar Kushagra",
+     "nationality": "India",
+     "salary_lakh": 65,
+     "purse_charge_lakh": 65,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Anuj Rawat",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Manav Suthar",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nishant Sindhu",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 22,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 12125,
+   "retained_purse_charge_lakh": 12125,
+   "purse_left_lakh": 875,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 875,
+   "slots_left": 3,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 875,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "KKR": {
+   "retained": [
+    {
+     "player": "Cameron Green",
+     "nationality": "Overseas",
+     "salary_lakh": 2520,
+     "purse_charge_lakh": 2520,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rinku Singh",
+     "nationality": "India",
+     "salary_lakh": 1300,
+     "purse_charge_lakh": 1300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sunil Narine",
+     "nationality": "Overseas",
+     "salary_lakh": 1200,
+     "purse_charge_lakh": 1200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Varun Chakravarthy",
+     "nationality": "India",
+     "salary_lakh": 1200,
+     "purse_charge_lakh": 1200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harshit Rana",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ramandeep Singh",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Angkrish Raghuvanshi",
+     "nationality": "India",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Finn Allen",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tim Seifert",
+     "nationality": "Overseas",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vaibhav Arora",
+     "nationality": "India",
+     "salary_lakh": 180,
+     "purse_charge_lakh": 180,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rovman Powell",
+     "nationality": "Overseas",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Manish Pandey",
+     "nationality": "India",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Anukul Roy",
+     "nationality": "India",
+     "salary_lakh": 40,
+     "purse_charge_lakh": 40,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kartik Tyagi",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prashant Solanki",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sarthak Ranjan",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Saurabh Dubey",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 17,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 8235,
+   "retained_purse_charge_lakh": 8235,
+   "purse_left_lakh": 4165,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4765,
+   "slots_left": 8,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 1,
+   "max_single_bid_lakh": 4165,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "LSG": {
+   "retained": [
+    {
+     "player": "Nicholas Pooran",
+     "nationality": "Overseas",
+     "salary_lakh": 2100,
+     "purse_charge_lakh": 2100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kuldeep Yadav",
+     "nationality": "India",
+     "salary_lakh": 1350,
+     "purse_charge_lakh": 1350,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mayank Yadav",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Josh Inglis",
+     "nationality": "Overseas",
+     "salary_lakh": 860,
+     "purse_charge_lakh": 860,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Abdul Samad",
+     "nationality": "India",
+     "salary_lakh": 420,
+     "purse_charge_lakh": 420,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ayush Badoni",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mohsin Khan",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mitchell Marsh",
+     "nationality": "Overseas",
+     "salary_lakh": 340,
+     "purse_charge_lakh": 340,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mukul Choudhary",
+     "nationality": "India",
+     "salary_lakh": 260,
+     "purse_charge_lakh": 260,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shahbaz Ahmed",
+     "nationality": "India",
+     "salary_lakh": 240,
+     "purse_charge_lakh": 240,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sam Curran",
+     "nationality": "Overseas",
+     "salary_lakh": 240,
+     "purse_charge_lakh": 240,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Akshat Raghuwanshi",
+     "nationality": "India",
+     "salary_lakh": 220,
+     "purse_charge_lakh": 220,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Aiden Markram",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Akash Singh",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Arjun Tendulkar",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Arshin Kulkarni",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Digvesh Rathi",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prince Yadav",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 18,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 8280,
+   "retained_purse_charge_lakh": 8280,
+   "purse_left_lakh": 4745,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4720,
+   "slots_left": 7,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 4745,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "MI": {
+   "retained": [
+    {
+     "player": "Jasprit Bumrah",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Arshdeep Singh",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Suryakumar Yadav",
+     "nationality": "India",
+     "salary_lakh": 1635,
+     "purse_charge_lakh": 1635,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rohit Sharma",
+     "nationality": "India",
+     "salary_lakh": 1630,
+     "purse_charge_lakh": 1630,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tilak Varma",
+     "nationality": "India",
+     "salary_lakh": 800,
+     "purse_charge_lakh": 800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Will Jacks",
+     "nationality": "Overseas",
+     "salary_lakh": 525,
+     "purse_charge_lakh": 525,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Naman Dhir",
+     "nationality": "India",
+     "salary_lakh": 525,
+     "purse_charge_lakh": 525,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sherfane Rutherford",
+     "nationality": "Overseas",
+     "salary_lakh": 260,
+     "purse_charge_lakh": 260,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shardul Thakur",
+     "nationality": "India",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mitchell Santner",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ryan Rickelton",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Quinton de Kock",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Corbin Bosch",
+     "nationality": "Overseas",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Raj Angad Bawa",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ashwani Kumar",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Raghu Sharma",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 16,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 9740,
+   "retained_purse_charge_lakh": 9740,
+   "purse_left_lakh": 3260,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 3260,
+   "slots_left": 9,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 2,
+   "max_single_bid_lakh": 3230,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "PBKS": {
+   "retained": [
+    {
+     "player": "Shreyas Iyer",
+     "nationality": "India",
+     "salary_lakh": 2675,
+     "purse_charge_lakh": 2675,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Yuzvendra Chahal",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Hardik Pandya",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Marcus Stoinis",
+     "nationality": "Overseas",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Marco Jansen",
+     "nationality": "Overseas",
+     "salary_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shashank Singh",
+     "nationality": "India",
+     "salary_lakh": 550,
+     "purse_charge_lakh": 550,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ben Dwarshuis",
+     "nationality": "Overseas",
+     "salary_lakh": 440,
+     "purse_charge_lakh": 440,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Prabhsimran Singh",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Priyansh Arya",
+     "nationality": "India",
+     "salary_lakh": 380,
+     "purse_charge_lakh": 380,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Cooper Connolly",
+     "nationality": "Overseas",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Azmatullah Omarzai",
+     "nationality": "Overseas",
+     "salary_lakh": 240,
+     "purse_charge_lakh": 240,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vijaykumar Vyshak",
+     "nationality": "India",
+     "salary_lakh": 180,
+     "purse_charge_lakh": 180,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Yash Thakur",
+     "nationality": "India",
+     "salary_lakh": 160,
+     "purse_charge_lakh": 160,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harpreet Brar",
+     "nationality": "India",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vishnu Vinod",
+     "nationality": "India",
+     "salary_lakh": 95,
+     "purse_charge_lakh": 95,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Xavier Bartlett",
+     "nationality": "Overseas",
+     "salary_lakh": 80,
+     "purse_charge_lakh": 80,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harnoor Pannu",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Musheer Khan",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Suryansh Shedge",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 19,
+   "retained_overseas": 6,
+   "retained_salary_lakh": 11140,
+   "retained_purse_charge_lakh": 11140,
+   "purse_left_lakh": 1860,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1860,
+   "slots_left": 6,
+   "overseas_slots_left": 2,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1860,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "RCB": {
+   "retained": [
+    {
+     "player": "Virat Kohli",
+     "nationality": "India",
+     "salary_lakh": 2100,
+     "purse_charge_lakh": 2100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Josh Hazlewood",
+     "nationality": "Overseas",
+     "salary_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Phil Salt",
+     "nationality": "Overseas",
+     "salary_lakh": 1150,
+     "purse_charge_lakh": 1150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rajat Patidar",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jitesh Sharma",
+     "nationality": "India",
+     "salary_lakh": 1100,
+     "purse_charge_lakh": 1100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Bhuvneshwar Kumar",
+     "nationality": "India",
+     "salary_lakh": 1075,
+     "purse_charge_lakh": 1075,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Venkatesh Iyer",
+     "nationality": "India",
+     "salary_lakh": 700,
+     "purse_charge_lakh": 700,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Rasikh Salam",
+     "nationality": "India",
+     "salary_lakh": 600,
+     "purse_charge_lakh": 600,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Krunal Pandya",
+     "nationality": "India",
+     "salary_lakh": 575,
+     "purse_charge_lakh": 575,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Yash Dayal",
+     "nationality": "India",
+     "salary_lakh": 500,
+     "purse_charge_lakh": 500,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Tim David",
+     "nationality": "Overseas",
+     "salary_lakh": 300,
+     "purse_charge_lakh": 300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Suyash Sharma",
+     "nationality": "India",
+     "salary_lakh": 260,
+     "purse_charge_lakh": 260,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Devdutt Padikkal",
+     "nationality": "India",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jacob Duffy",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nuwan Thushara",
+     "nationality": "Overseas",
+     "salary_lakh": 160,
+     "purse_charge_lakh": 160,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Romario Shepherd",
+     "nationality": "Overseas",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jordan Cox",
+     "nationality": "Overseas",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Abhinandan Singh",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Kanishk Chouhan",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vicky Ostwal",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 20,
+   "retained_overseas": 7,
+   "retained_salary_lakh": 11585,
+   "retained_purse_charge_lakh": 11585,
+   "purse_left_lakh": 1415,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 1415,
+   "slots_left": 5,
+   "overseas_slots_left": 1,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 1415,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "RR": {
+   "retained": [
+    {
+     "player": "Yashasvi Jaiswal",
+     "nationality": "India",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Riyan Parag",
+     "nationality": "India",
+     "salary_lakh": 1400,
+     "purse_charge_lakh": 1400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ravindra Jadeja",
+     "nationality": "India",
+     "salary_lakh": 1400,
+     "purse_charge_lakh": 1400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Dhruv Jurel",
+     "nationality": "India",
+     "salary_lakh": 1400,
+     "purse_charge_lakh": 1400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Jofra Archer",
+     "nationality": "Overseas",
+     "salary_lakh": 1250,
+     "purse_charge_lakh": 1250,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Mohammed Shami",
+     "nationality": "India",
+     "salary_lakh": 800,
+     "purse_charge_lakh": 800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ravi Bishnoi",
+     "nationality": "India",
+     "salary_lakh": 720,
+     "purse_charge_lakh": 720,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sandeep Sharma",
+     "nationality": "India",
+     "salary_lakh": 400,
+     "purse_charge_lakh": 400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nandre Burger",
+     "nationality": "Overseas",
+     "salary_lakh": 350,
+     "purse_charge_lakh": 350,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Dasun Shanaka",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Vaibhav Sooryavanshi",
+     "nationality": "India",
+     "salary_lakh": 110,
+     "purse_charge_lakh": 110,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Donovan Ferreira",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sushant Mishra",
+     "nationality": "India",
+     "salary_lakh": 90,
+     "purse_charge_lakh": 90,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shubham Dubey",
+     "nationality": "India",
+     "salary_lakh": 80,
+     "purse_charge_lakh": 80,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Manimaran Siddharth",
+     "nationality": "India",
+     "salary_lakh": 75,
+     "purse_charge_lakh": 75,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Lhuan-dre Pretorius",
+     "nationality": "Overseas",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Aman Rao Perla",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Brijesh Sharma",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Yash Raj Punja",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 19,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 10295,
+   "retained_purse_charge_lakh": 10295,
+   "purse_left_lakh": 2705,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 2705,
+   "slots_left": 6,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 2705,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  },
+  "SRH": {
+   "retained": [
+    {
+     "player": "Heinrich Klaasen",
+     "nationality": "Overseas",
+     "salary_lakh": 2300,
+     "purse_charge_lakh": 2300,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Pat Cummins",
+     "nationality": "Overseas",
+     "salary_lakh": 1800,
+     "purse_charge_lakh": 1800,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Abhishek Sharma",
+     "nationality": "India",
+     "salary_lakh": 1400,
+     "purse_charge_lakh": 1400,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Ishan Kishan",
+     "nationality": "India",
+     "salary_lakh": 1125,
+     "purse_charge_lakh": 1125,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nitish Kumar Reddy",
+     "nationality": "India",
+     "salary_lakh": 600,
+     "purse_charge_lakh": 600,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "T. Natarajan",
+     "nationality": "India",
+     "salary_lakh": 500,
+     "purse_charge_lakh": 500,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Khaleel Ahmed",
+     "nationality": "India",
+     "salary_lakh": 480,
+     "purse_charge_lakh": 480,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Nathan Ellis",
+     "nationality": "Overseas",
+     "salary_lakh": 200,
+     "purse_charge_lakh": 200,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Salil Arora",
+     "nationality": "India",
+     "salary_lakh": 150,
+     "purse_charge_lakh": 150,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Eshan Malinga",
+     "nationality": "Overseas",
+     "salary_lakh": 120,
+     "purse_charge_lakh": 120,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Brydon Carse",
+     "nationality": "Overseas",
+     "salary_lakh": 100,
+     "purse_charge_lakh": 100,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Smaran Ravichandran",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Aniket Verma",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Harsh Dubey",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Krains Fuletra",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Praful Hinge",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Sakib Hussain",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    },
+    {
+     "player": "Shivang Kumar",
+     "nationality": "India",
+     "salary_lakh": 30,
+     "purse_charge_lakh": 30,
+     "charge_basis": "salary"
+    }
+   ],
+   "retained_count": 18,
+   "retained_overseas": 5,
+   "retained_salary_lakh": 8985,
+   "retained_purse_charge_lakh": 8985,
+   "purse_left_lakh": 4015,
+   "purse_left_source": "official",
+   "purse_left_derived_lakh": 4015,
+   "slots_left": 7,
+   "overseas_slots_left": 3,
+   "must_buy_to_reach_18": 0,
+   "max_single_bid_lakh": 4015,
+   "official_source": "https://wisden.com/series/ipl-2027/cricket-news/ipl-2027-auction-purse-remaining-for-each-team-after-retentions"
+  }
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "message": "CSK: purse derived 3005 vs official 2805 (gap 200 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "DC: purse derived 4520 vs official 3950 (gap 570 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "KKR: purse derived 4765 vs official 4165 (gap 600 lakh; official used)"
+  },
+  {
+   "level": "WARN",
+   "message": "LSG: purse derived 4720 vs official 4745 (gap -25 lakh; official used)"
+  }
+ ],
+ "trades_applied": [],
+ "corrections_applied": []
+}

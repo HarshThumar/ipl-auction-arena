@@ -5130,5 +5130,946 @@
    }
   ]
  },
- "2027": {}
+ "2027": {
+  "CSK": [
+   {
+    "player": "Ruturaj Gaikwad",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Sanju Samson",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Kartik Sharma",
+    "nationality": "India",
+    "salary_lakh": 1420
+   },
+   {
+    "player": "Shivam Dube",
+    "nationality": "India",
+    "salary_lakh": 1200
+   },
+   {
+    "player": "Noor Ahmad",
+    "nationality": "Overseas",
+    "salary_lakh": 1000
+   },
+   {
+    "player": "Liam Livingstone",
+    "nationality": "Overseas",
+    "salary_lakh": 600
+   },
+   {
+    "player": "Rahul Chahar",
+    "nationality": "India",
+    "salary_lakh": 520
+   },
+   {
+    "player": "Anshul Kamboj",
+    "nationality": "India",
+    "salary_lakh": 340
+   },
+   {
+    "player": "Jack Edwards",
+    "nationality": "Overseas",
+    "salary_lakh": 300
+   },
+   {
+    "player": "Dewald Brevis",
+    "nationality": "Overseas",
+    "salary_lakh": 220
+   },
+   {
+    "player": "Gurjapneet Singh",
+    "nationality": "India",
+    "salary_lakh": 220
+   },
+   {
+    "player": "Akeal Hosein",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Jamie Overton",
+    "nationality": "Overseas",
+    "salary_lakh": 150
+   },
+   {
+    "player": "Sarfaraz Khan",
+    "nationality": "India",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Mukesh Choudhary",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Ramakrishna Ghosh",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Shreyas Gopal",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Ayush Mhatre",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Urvil Patel",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "DC": [
+   {
+    "player": "Axar Patel",
+    "nationality": "India",
+    "salary_lakh": 1650
+   },
+   {
+    "player": "Rishabh Pant",
+    "nationality": "India",
+    "salary_lakh": 1500
+   },
+   {
+    "player": "KL Rahul",
+    "nationality": "India",
+    "salary_lakh": 1400
+   },
+   {
+    "player": "Tristan Stubbs",
+    "nationality": "Overseas",
+    "salary_lakh": 1000
+   },
+   {
+    "player": "Auqib Nabi",
+    "nationality": "India",
+    "salary_lakh": 840
+   },
+   {
+    "player": "Mukesh Kumar",
+    "nationality": "India",
+    "salary_lakh": 800
+   },
+   {
+    "player": "Ashutosh Sharma",
+    "nationality": "India",
+    "salary_lakh": 380
+   },
+   {
+    "player": "David Miller",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Kyle Jamieson",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Lungi Ngidi",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Sameer Rizvi",
+    "nationality": "India",
+    "salary_lakh": 95
+   },
+   {
+    "player": "Prithvi Shaw",
+    "nationality": "India",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Madhav Tiwari",
+    "nationality": "India",
+    "salary_lakh": 40
+   },
+   {
+    "player": "Zeeshan Ansari",
+    "nationality": "India",
+    "salary_lakh": 40
+   },
+   {
+    "player": "Tripurana Vijay",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Vipraj Nigam",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "GT": [
+   {
+    "player": "Rashid Khan",
+    "nationality": "Overseas",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Shubman Gill",
+    "nationality": "India",
+    "salary_lakh": 1650
+   },
+   {
+    "player": "Jos Buttler",
+    "nationality": "Overseas",
+    "salary_lakh": 1575
+   },
+   {
+    "player": "Mohammed Siraj",
+    "nationality": "India",
+    "salary_lakh": 1225
+   },
+   {
+    "player": "Kagiso Rabada",
+    "nationality": "Overseas",
+    "salary_lakh": 1075
+   },
+   {
+    "player": "Prasidh Krishna",
+    "nationality": "India",
+    "salary_lakh": 950
+   },
+   {
+    "player": "Sai Sudharsan",
+    "nationality": "India",
+    "salary_lakh": 850
+   },
+   {
+    "player": "Jason Holder",
+    "nationality": "Overseas",
+    "salary_lakh": 700
+   },
+   {
+    "player": "Rahul Tewatia",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Harshal Patel",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Washington Sundar",
+    "nationality": "India",
+    "salary_lakh": 320
+   },
+   {
+    "player": "Sai Kishore",
+    "nationality": "India",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Glenn Phillips",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Tom Banton",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Arshad Khan",
+    "nationality": "India",
+    "salary_lakh": 130
+   },
+   {
+    "player": "Gurnoor Brar",
+    "nationality": "India",
+    "salary_lakh": 130
+   },
+   {
+    "player": "Ashok Sharma",
+    "nationality": "India",
+    "salary_lakh": 90
+   },
+   {
+    "player": "Jayant Yadav",
+    "nationality": "India",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Kumar Kushagra",
+    "nationality": "India",
+    "salary_lakh": 65
+   },
+   {
+    "player": "Anuj Rawat",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Manav Suthar",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Nishant Sindhu",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "KKR": [
+   {
+    "player": "Cameron Green",
+    "nationality": "Overseas",
+    "salary_lakh": 2520
+   },
+   {
+    "player": "Rinku Singh",
+    "nationality": "India",
+    "salary_lakh": 1300
+   },
+   {
+    "player": "Sunil Narine",
+    "nationality": "Overseas",
+    "salary_lakh": 1200
+   },
+   {
+    "player": "Varun Chakravarthy",
+    "nationality": "India",
+    "salary_lakh": 1200
+   },
+   {
+    "player": "Harshit Rana",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Ramandeep Singh",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Angkrish Raghuvanshi",
+    "nationality": "India",
+    "salary_lakh": 300
+   },
+   {
+    "player": "Finn Allen",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Tim Seifert",
+    "nationality": "Overseas",
+    "salary_lakh": 150
+   },
+   {
+    "player": "Vaibhav Arora",
+    "nationality": "India",
+    "salary_lakh": 180
+   },
+   {
+    "player": "Rovman Powell",
+    "nationality": "Overseas",
+    "salary_lakh": 150
+   },
+   {
+    "player": "Manish Pandey",
+    "nationality": "India",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Anukul Roy",
+    "nationality": "India",
+    "salary_lakh": 40
+   },
+   {
+    "player": "Kartik Tyagi",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Prashant Solanki",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Sarthak Ranjan",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Saurabh Dubey",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "LSG": [
+   {
+    "player": "Nicholas Pooran",
+    "nationality": "Overseas",
+    "salary_lakh": 2100
+   },
+   {
+    "player": "Kuldeep Yadav",
+    "nationality": "India",
+    "salary_lakh": 1350
+   },
+   {
+    "player": "Mayank Yadav",
+    "nationality": "India",
+    "salary_lakh": 1100
+   },
+   {
+    "player": "Josh Inglis",
+    "nationality": "Overseas",
+    "salary_lakh": 860
+   },
+   {
+    "player": "Abdul Samad",
+    "nationality": "India",
+    "salary_lakh": 420
+   },
+   {
+    "player": "Ayush Badoni",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Mohsin Khan",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Mitchell Marsh",
+    "nationality": "Overseas",
+    "salary_lakh": 340
+   },
+   {
+    "player": "Mukul Choudhary",
+    "nationality": "India",
+    "salary_lakh": 260
+   },
+   {
+    "player": "Shahbaz Ahmed",
+    "nationality": "India",
+    "salary_lakh": 240
+   },
+   {
+    "player": "Sam Curran",
+    "nationality": "Overseas",
+    "salary_lakh": 240
+   },
+   {
+    "player": "Akshat Raghuwanshi",
+    "nationality": "India",
+    "salary_lakh": 220
+   },
+   {
+    "player": "Aiden Markram",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Akash Singh",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Arjun Tendulkar",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Arshin Kulkarni",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Digvesh Rathi",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Prince Yadav",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "MI": [
+   {
+    "player": "Jasprit Bumrah",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Arshdeep Singh",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Suryakumar Yadav",
+    "nationality": "India",
+    "salary_lakh": 1635
+   },
+   {
+    "player": "Rohit Sharma",
+    "nationality": "India",
+    "salary_lakh": 1630
+   },
+   {
+    "player": "Tilak Varma",
+    "nationality": "India",
+    "salary_lakh": 800
+   },
+   {
+    "player": "Will Jacks",
+    "nationality": "Overseas",
+    "salary_lakh": 525
+   },
+   {
+    "player": "Naman Dhir",
+    "nationality": "India",
+    "salary_lakh": 525
+   },
+   {
+    "player": "Sherfane Rutherford",
+    "nationality": "Overseas",
+    "salary_lakh": 260
+   },
+   {
+    "player": "Shardul Thakur",
+    "nationality": "India",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Mitchell Santner",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Ryan Rickelton",
+    "nationality": "Overseas",
+    "salary_lakh": 100
+   },
+   {
+    "player": "Quinton de Kock",
+    "nationality": "Overseas",
+    "salary_lakh": 100
+   },
+   {
+    "player": "Corbin Bosch",
+    "nationality": "Overseas",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Raj Angad Bawa",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Ashwani Kumar",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Raghu Sharma",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "PBKS": [
+   {
+    "player": "Shreyas Iyer",
+    "nationality": "India",
+    "salary_lakh": 2675
+   },
+   {
+    "player": "Yuzvendra Chahal",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Hardik Pandya",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Marcus Stoinis",
+    "nationality": "Overseas",
+    "salary_lakh": 1100
+   },
+   {
+    "player": "Marco Jansen",
+    "nationality": "Overseas",
+    "salary_lakh": 700
+   },
+   {
+    "player": "Shashank Singh",
+    "nationality": "India",
+    "salary_lakh": 550
+   },
+   {
+    "player": "Ben Dwarshuis",
+    "nationality": "Overseas",
+    "salary_lakh": 440
+   },
+   {
+    "player": "Prabhsimran Singh",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Priyansh Arya",
+    "nationality": "India",
+    "salary_lakh": 380
+   },
+   {
+    "player": "Cooper Connolly",
+    "nationality": "Overseas",
+    "salary_lakh": 300
+   },
+   {
+    "player": "Azmatullah Omarzai",
+    "nationality": "Overseas",
+    "salary_lakh": 240
+   },
+   {
+    "player": "Vijaykumar Vyshak",
+    "nationality": "India",
+    "salary_lakh": 180
+   },
+   {
+    "player": "Yash Thakur",
+    "nationality": "India",
+    "salary_lakh": 160
+   },
+   {
+    "player": "Harpreet Brar",
+    "nationality": "India",
+    "salary_lakh": 150
+   },
+   {
+    "player": "Vishnu Vinod",
+    "nationality": "India",
+    "salary_lakh": 95
+   },
+   {
+    "player": "Xavier Bartlett",
+    "nationality": "Overseas",
+    "salary_lakh": 80
+   },
+   {
+    "player": "Harnoor Pannu",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Musheer Khan",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Suryansh Shedge",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "RR": [
+   {
+    "player": "Yashasvi Jaiswal",
+    "nationality": "India",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Riyan Parag",
+    "nationality": "India",
+    "salary_lakh": 1400
+   },
+   {
+    "player": "Ravindra Jadeja",
+    "nationality": "India",
+    "salary_lakh": 1400
+   },
+   {
+    "player": "Dhruv Jurel",
+    "nationality": "India",
+    "salary_lakh": 1400
+   },
+   {
+    "player": "Jofra Archer",
+    "nationality": "Overseas",
+    "salary_lakh": 1250
+   },
+   {
+    "player": "Mohammed Shami",
+    "nationality": "India",
+    "salary_lakh": 800
+   },
+   {
+    "player": "Ravi Bishnoi",
+    "nationality": "India",
+    "salary_lakh": 720
+   },
+   {
+    "player": "Sandeep Sharma",
+    "nationality": "India",
+    "salary_lakh": 400
+   },
+   {
+    "player": "Nandre Burger",
+    "nationality": "Overseas",
+    "salary_lakh": 350
+   },
+   {
+    "player": "Dasun Shanaka",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Vaibhav Sooryavanshi",
+    "nationality": "India",
+    "salary_lakh": 110
+   },
+   {
+    "player": "Donovan Ferreira",
+    "nationality": "Overseas",
+    "salary_lakh": 100
+   },
+   {
+    "player": "Sushant Mishra",
+    "nationality": "India",
+    "salary_lakh": 90
+   },
+   {
+    "player": "Shubham Dubey",
+    "nationality": "India",
+    "salary_lakh": 80
+   },
+   {
+    "player": "Manimaran Siddharth",
+    "nationality": "India",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Lhuan-dre Pretorius",
+    "nationality": "Overseas",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Aman Rao Perla",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Brijesh Sharma",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Yash Raj Punja",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "RCB": [
+   {
+    "player": "Virat Kohli",
+    "nationality": "India",
+    "salary_lakh": 2100
+   },
+   {
+    "player": "Josh Hazlewood",
+    "nationality": "Overseas",
+    "salary_lakh": 1250
+   },
+   {
+    "player": "Phil Salt",
+    "nationality": "Overseas",
+    "salary_lakh": 1150
+   },
+   {
+    "player": "Rajat Patidar",
+    "nationality": "India",
+    "salary_lakh": 1100
+   },
+   {
+    "player": "Jitesh Sharma",
+    "nationality": "India",
+    "salary_lakh": 1100
+   },
+   {
+    "player": "Bhuvneshwar Kumar",
+    "nationality": "India",
+    "salary_lakh": 1075
+   },
+   {
+    "player": "Venkatesh Iyer",
+    "nationality": "India",
+    "salary_lakh": 700
+   },
+   {
+    "player": "Rasikh Salam",
+    "nationality": "India",
+    "salary_lakh": 600
+   },
+   {
+    "player": "Krunal Pandya",
+    "nationality": "India",
+    "salary_lakh": 575
+   },
+   {
+    "player": "Yash Dayal",
+    "nationality": "India",
+    "salary_lakh": 500
+   },
+   {
+    "player": "Tim David",
+    "nationality": "Overseas",
+    "salary_lakh": 300
+   },
+   {
+    "player": "Suyash Sharma",
+    "nationality": "India",
+    "salary_lakh": 260
+   },
+   {
+    "player": "Devdutt Padikkal",
+    "nationality": "India",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Jacob Duffy",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Nuwan Thushara",
+    "nationality": "Overseas",
+    "salary_lakh": 160
+   },
+   {
+    "player": "Romario Shepherd",
+    "nationality": "Overseas",
+    "salary_lakh": 150
+   },
+   {
+    "player": "Jordan Cox",
+    "nationality": "Overseas",
+    "salary_lakh": 75
+   },
+   {
+    "player": "Abhinandan Singh",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Kanishk Chouhan",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Vicky Ostwal",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ],
+  "SRH": [
+   {
+    "player": "Heinrich Klaasen",
+    "nationality": "Overseas",
+    "salary_lakh": 2300
+   },
+   {
+    "player": "Pat Cummins",
+    "nationality": "Overseas",
+    "salary_lakh": 1800
+   },
+   {
+    "player": "Abhishek Sharma",
+    "nationality": "India",
+    "salary_lakh": 1400
+   },
+   {
+    "player": "Ishan Kishan",
+    "nationality": "India",
+    "salary_lakh": 1125
+   },
+   {
+    "player": "Nitish Kumar Reddy",
+    "nationality": "India",
+    "salary_lakh": 600
+   },
+   {
+    "player": "T. Natarajan",
+    "nationality": "India",
+    "salary_lakh": 500
+   },
+   {
+    "player": "Khaleel Ahmed",
+    "nationality": "India",
+    "salary_lakh": 480
+   },
+   {
+    "player": "Nathan Ellis",
+    "nationality": "Overseas",
+    "salary_lakh": 200
+   },
+   {
+    "player": "Salil Arora",
+    "nationality": "India",
+    "salary_lakh": 150
+   },
+   {
+    "player": "Eshan Malinga",
+    "nationality": "Overseas",
+    "salary_lakh": 120
+   },
+   {
+    "player": "Brydon Carse",
+    "nationality": "Overseas",
+    "salary_lakh": 100
+   },
+   {
+    "player": "Smaran Ravichandran",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Aniket Verma",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Harsh Dubey",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Krains Fuletra",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Praful Hinge",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Sakib Hussain",
+    "nationality": "India",
+    "salary_lakh": 30
+   },
+   {
+    "player": "Shivang Kumar",
+    "nationality": "India",
+    "salary_lakh": 30
+   }
+  ]
+ }
 }
