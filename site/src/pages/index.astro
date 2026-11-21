@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { franchises } from '../lib/data.js';
+const base = import.meta.env.BASE_URL;
+const active = franchises().filter(f => f.status === 'active');
+---
+<Base title="Home">
+  <h1>A simulated IPL-style auction arena, with a forecast locked before the auction</h1>
+  <p class="lede">Ten franchise agents, one per current team, run a simulated mini-auction on a single open model. Before the real auction on <strong>16 December 2026</strong>, their predictions are frozen, hashed and published. Afterwards they are scored in public against simple baselines, an existing rule-based model and a pundit mock.</p>
+
+  <div class="banner" role="note"><strong>Status: build in progress.</strong> The forecast does not exist yet. Pages that show forecast numbers use clearly marked fake samples until the freeze.</div>
+
+  <h2>What is being tested</h2>
+  <ul>
+    <li><strong>Does a franchise's own history help?</strong> One shared model plus a learned team-identity signal is compared with the same model without it. A "no" is a valid result.</li>
+    <li><strong>Pre-registration.</strong> Per player: probability of being sold, distribution over buyers, and a price interval. The file is hashed before the auction, so it cannot be edited afterwards. <a href={`${base}hash/`}>How to verify</a>.</li>
+    <li><strong>Public scoring.</strong> Five-way comparison: our model, base price, LightGBM, AuctionIQ and a pundit mock. <a href={`${base}scorecard/`}>Scorecard</a>, including the rows where we lose.</li>
+  </ul>
+
+  <h2>Honest caveats</h2>
+  <ul>
+    <li>Backtests on the December 2025 auction are likely contaminated: the base model may have seen reports of it. The 16 December 2026 run is the clean test, which is why the hash exists.</li>
+    <li>Samples are small (tens to a few hundred lots per season), so confidence intervals are wide.</li>
+    <li>I couldn't find anyone who has published a pre-registered forecast of an IPL auction and scored it afterwards. That is a statement about my search, not a claim of being first.</li>
+    <li>Historical bid trails for 2018–21: source withheld.</li>
+  </ul>
+
+  <h2>The ten franchises</h2>
+  <ul class="grid">
+    {active.map(f => (
+      <li class="card" style={`--c:${f.colour}`}>
+        <h3><a href={`${base}franchises/${f.id.toLowerCase()}/`}>{f.name}</a></h3>
+        <span class="muted">{f.id} · since {f.firstSeason}</span>
+      </li>
+    ))}
+  </ul>
+</Base>

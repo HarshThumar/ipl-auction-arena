@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IPL Auction Arena forecast (v1)",
+  "type": "object",
+  "required": ["schema_version", "status", "auction_date", "model", "n_seeds", "players"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "status": { "enum": ["FAKE_SAMPLE", "FROZEN"], "description": "FAKE_SAMPLE shows a warning banner. Only FROZEN files may be hashed and published." },
+    "auction_date": { "type": "string", "format": "date" },
+    "frozen_at": { "type": ["string", "null"], "format": "date-time" },
+    "model": { "type": "string", "description": "Model / version label." },
+    "n_seeds": { "type": "integer" },
+    "currency": { "const": "INR lakh", "description": "All prices in lakh rupees (100 lakh = 1 crore)." },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["player_id", "name", "role", "base_price_lakh", "p_sold", "buyer_distribution", "price_interval_lakh"],
+        "properties": {
+          "player_id": { "type": "string" },
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "base_price_lakh": { "type": "number" },
+          "p_sold": { "type": "number", "minimum": 0, "maximum": 1 },
+          "buyer_distribution": {
+            "type": "object",
+            "description": "franchise_id -> probability of being the buyer, conditional on being sold. Values sum to ~1.",
+            "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+          },
+          "price_interval_lakh": {
+            "type": "object",
+            "description": "Price distribution conditional on being sold.",
+            "required": ["p10", "p50", "p90"],
+            "properties": { "p10": {"type":"number"}, "p50": {"type":"number"}, "p90": {"type":"number"} }
+          }
+        }
+      }
+    }
+  }
+}

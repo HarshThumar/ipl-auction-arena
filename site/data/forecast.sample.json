@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "status": "FAKE_SAMPLE",
+  "auction_date": "2026-12-16",
+  "frozen_at": null,
+  "model": "FAKE SAMPLE - invented numbers, not a model output",
+  "n_seeds": 0,
+  "currency": "INR lakh",
+  "players": [
+    {
+      "player_id": "FAKE-001",
+      "name": "Sample Player A",
+      "role": "Batter",
+      "base_price_lakh": 200,
+      "p_sold": 0.93,
+      "buyer_distribution": {
+        "MI": 0.3,
+        "RCB": 0.25,
+        "KKR": 0.2,
+        "CSK": 0.15,
+        "DC": 0.1
+      },
+      "price_interval_lakh": {
+        "p10": 220,
+        "p50": 420,
+        "p90": 780
+      }
+    },
+    {
+      "player_id": "FAKE-002",
+      "name": "Sample Player B",
+      "role": "Bowler",
+      "base_price_lakh": 150,
+      "p_sold": 0.88,
+      "buyer_distribution": {
+        "GT": 0.35,
+        "RR": 0.25,
+        "SRH": 0.2,
+        "LSG": 0.2
+      },
+      "price_interval_lakh": {
+        "p10": 160,
+        "p50": 300,
+        "p90": 540
+      }
+    },
+    {
+      "player_id": "FAKE-003",
+      "name": "Sample Player C",
+      "role": "All-rounder",
+      "base_price_lakh": 200,
+      "p_sold": 0.97,
+      "buyer_distribution": {
+        "CSK": 0.4,
+        "PBKS": 0.3,
+        "KKR": 0.3
+      },
+      "price_interval_lakh": {
+        "p10": 300,
+        "p50": 650,
+        "p90": 1250
+      }
+    },
+    {
+      "player_id": "FAKE-004",
+      "name": "Sample Player D",
+      "role": "Wicketkeeper",
+      "base_price_lakh": 100,
+      "p_sold": 0.62,
+      "buyer_distribution": {
+        "DC": 0.4,
+        "LSG": 0.35,
+        "RR": 0.25
+      },
+      "price_interval_lakh": {
+        "p10": 100,
+        "p50": 140,
+        "p90": 260
+      }
+    },
+    {
+      "player_id": "FAKE-005",
+      "name": "Sample Player E",
+      "role": "Bowler",
+      "base_price_lakh": 50,
+      "p_sold": 0.35,
+      "buyer_distribution": {
+        "SRH": 0.5,
+        "MI": 0.5
+      },
+      "price_interval_lakh": {
+        "p10": 50,
+        "p50": 60,
+        "p90": 110
+      }
+    },
+    {
+      "player_id": "FAKE-006",
+      "name": "Sample Player F",
+      "role": "Batter",
+      "base_price_lakh": 30,
+      "p_sold": 0.12,
+      "buyer_distribution": {
+        "PBKS": 0.6,
+        "GT": 0.4
+      },
+      "price_interval_lakh": {
+        "p10": 30,
+        "p50": 30,
+        "p90": 50
+      }
+    },
+    {
+      "player_id": "FAKE-007",
+      "name": "Sample Player G",
+      "role": "All-rounder",
+      "base_price_lakh": 75,
+      "p_sold": 0.71,
+      "buyer_distribution": {
+        "RCB": 0.3,
+        "RR": 0.3,
+        "CSK": 0.2,
+        "DC": 0.2
+      },
+      "price_interval_lakh": {
+        "p10": 75,
+        "p50": 120,
+        "p90": 230
+      }
+    },
+    {
+      "player_id": "FAKE-008",
+      "name": "Sample Player H",
+      "role": "Bowler",
+      "base_price_lakh": 200,
+      "p_sold": 0.55,
+      "buyer_distribution": {
+        "KKR": 0.5,
+        "LSG": 0.3,
+        "MI": 0.2
+      },
+      "price_interval_lakh": {
+        "p10": 200,
+        "p50": 240,
+        "p90": 420
+      }
+    }
+  ]
+}

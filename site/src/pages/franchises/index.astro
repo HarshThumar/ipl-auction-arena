@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { franchises } from '../../lib/data.js';
+const base = import.meta.env.BASE_URL;
+const all = franchises();
+const active = all.filter(f => f.status === 'active');
+const defunct = all.filter(f => f.status !== 'active');
+---
+<Base title="Franchises">
+  <h1>Franchises</h1>
+  <p class="lede">Ten active franchises each get an agent. Defunct franchises appear only as history, because their bid records feed the training data.</p>
+  <h2>Active (10 agents)</h2>
+  <ul class="grid">
+    {active.map(f => (
+      <li class="card" style={`--c:${f.colour}`}>
+        <h3><a href={`${base}franchises/${f.id.toLowerCase()}/`}>{f.name}</a></h3>
+        <span class="muted">{f.id} · since {f.firstSeason}</span>
+      </li>
+    ))}
+  </ul>
+  <h2>Defunct (history only)</h2>
+  <ul class="grid">
+    {defunct.map(f => (
+      <li class="card" style={`--c:${f.colour}`}>
+        <h3><a href={`${base}franchises/${f.id.toLowerCase()}/`}>{f.name}</a></h3>
+        <span class="muted">{f.id} · {f.firstSeason}–{f.lastSeason}</span>
+      </li>
+    ))}
+  </ul>
+</Base>
