@@ -5,32 +5,44 @@ const base = import.meta.env.BASE_URL;
 const active = franchises().filter(f => f.status === 'active');
 ---
 <Base title="Home">
-  <h1>A simulated IPL-style auction arena, with a forecast locked before the auction</h1>
-  <p class="lede">Ten franchise agents, one per current team, run a simulated mini-auction on a single open model. Before the real auction on <strong>16 December 2026</strong>, their predictions are frozen, hashed and published. Afterwards they are scored in public against simple baselines, an existing rule-based model and a pundit mock.</p>
+  <h1>Ten simulated franchises. One forecast, locked before the auction.</h1>
+  <p class="lede">Ten agents, one per current IPL team, bid against each other in a simulated mini-auction on a single open model. Their predictions for the real auction on 16 December 2026 are frozen and hashed the day before, then scored in public against simpler methods.</p>
 
-  <div class="banner" role="note"><strong>Status: build in progress.</strong> The forecast does not exist yet. Pages that show forecast numbers use clearly marked fake samples until the freeze.</div>
+  <div class="dates" role="list" aria-label="Key dates">
+    <div role="listitem"><time datetime="2026-12-15">15 Dec 2026</time><span>Forecast frozen, SHA-256 published</span></div>
+    <div role="listitem"><time datetime="2026-12-16">16 Dec 2026</time><span>Real auction</span></div>
+    <div role="listitem"><time datetime="2026-12-17">17 Dec 2026</time><span>Scored against four baselines</span></div>
+  </div>
 
-  <h2>What is being tested</h2>
+  <div class="notice">
+    <span class="label">Status</span>
+    <p>Under construction. The forecast does not exist yet, so every forecast number on this site is a marked sample until the freeze.</p>
+  </div>
+
+  <h2>What it tests</h2>
   <ul>
-    <li><strong>Does a franchise's own history help?</strong> One shared model plus a learned team-identity signal is compared with the same model without it. A "no" is a valid result.</li>
-    <li><strong>Pre-registration.</strong> Per player: probability of being sold, distribution over buyers, and a price interval. The file is hashed before the auction, so it cannot be edited afterwards. <a href={`${base}hash/`}>How to verify</a>.</li>
-    <li><strong>Public scoring.</strong> Five-way comparison: our model, base price, LightGBM, AuctionIQ and a pundit mock. <a href={`${base}scorecard/`}>Scorecard</a>, including the rows where we lose.</li>
+    <li><strong>Does a franchise's own history help?</strong> One shared model with a learned team-identity signal, compared with the same model with that signal switched off. "No" is an acceptable answer.</li>
+    <li><strong>A forecast that can't be edited afterwards.</strong> For every player: the chance of being sold, who is likely to buy, and an 80% price range. The file is hashed before bidding starts. <a href={`${base}hash/`}>How to check the hash</a>.</li>
+    <li><strong>A public score.</strong> Our model against base price, LightGBM, AuctionIQ and a pundit mock, on the same lots. The <a href={`${base}scorecard/`}>scorecard</a> keeps the rows where we lose.</li>
   </ul>
 
-  <h2>Honest caveats</h2>
+  <h2>What it can't tell you</h2>
   <ul>
-    <li>Backtests on the December 2025 auction are likely contaminated: the base model may have seen reports of it. The 16 December 2026 run is the clean test, which is why the hash exists.</li>
-    <li>Samples are small (tens to a few hundred lots per season), so confidence intervals are wide.</li>
-    <li>I couldn't find anyone who has published a pre-registered forecast of an IPL auction and scored it afterwards. That is a statement about my search, not a claim of being first.</li>
-    <li>Historical bid trails for 2018–21: source withheld.</li>
+    <li>Backtests on the December 2025 auction are probably contaminated: the base model may have read about it. The 16 December 2026 run is the clean test, which is why the hash matters.</li>
+    <li>Seasons have tens to a few hundred lots, so the confidence intervals are wide.</li>
+    <li>I couldn't find a published, pre-registered IPL auction forecast that was scored afterwards. That describes my search, not a claim to be first.</li>
+    <li>The 2018–21 bid histories come from a source that is withheld.</li>
   </ul>
 
   <h2>The ten franchises</h2>
-  <ul class="grid">
+  <ul class="ledger">
     {active.map(f => (
-      <li class="card" style={`--c:${f.colour}`}>
-        <h3><a href={`${base}franchises/${f.id.toLowerCase()}/`}>{f.name}</a></h3>
-        <span class="muted">{f.id} · since {f.firstSeason}</span>
+      <li style={`--c:${f.colour}`}>
+        <a href={`${base}franchises/${f.id.toLowerCase()}/`}>
+          <span class="swatch" aria-hidden="true"></span>
+          <span class="name">{f.name}</span>
+          <span class="meta">{f.id} · {f.firstSeason}</span>
+        </a>
       </li>
     ))}
   </ul>

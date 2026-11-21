@@ -68,5 +68,5 @@ export function hashInfo() {
   };
 }
 
-export const fmtLakh = v => v >= 100 ? `₹${(v / 100).toFixed(v % 100 ? 2 : 0)} cr` : `₹${v} lakh`;
+export const fmtLakh = v => v >= 100 ? `₹${(v / 100).toFixed(2).replace(/\.?0+$/, "")} cr` : `₹${v} lakh`;
 export const pct = v => `${Math.round(v * 100)}%`;

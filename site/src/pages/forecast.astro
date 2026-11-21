@@ -3,22 +3,26 @@ import Base from '../layouts/Base.astro';
 import { forecast, franchises, fmtLakh, pct } from '../lib/data.js';
 const fc = forecast();
 const ids = franchises().filter(f => f.status === 'active').map(f => f.id);
-const fake = fc.status !== 'FROZEN';
+const sample = fc.status !== 'FROZEN';
 ---
 <Base title="Forecast">
-  <h1>Forecast: 16 December 2026 auction</h1>
-  {fake ? (
-    <div class="banner" role="alert"><strong>FAKE SAMPLE DATA.</strong> The numbers below were invented to test this page. The real forecast is frozen on 15 December 2026 and its hash is on the <a href={`${import.meta.env.BASE_URL}hash/`}>hash page</a>.</div>
+  <h1>Forecast for the 16 December 2026 auction</h1>
+  <p class="lede">For each player: the chance of being sold, the three likeliest buyers, and an 80% price range. Buyers and prices assume the player is sold.</p>
+
+  {sample ? (
+    <div class="notice sample">
+      <span class="label">Sample data</span>
+      <p>Every number below is invented to test this page. The real forecast is frozen on 15 December 2026; its fingerprint goes on the <a href={`${import.meta.env.BASE_URL}hash/`}>verify page</a>.</p>
+    </div>
   ) : (
-    <p class="muted">Frozen {fc.frozen_at}. Model: {fc.model}. Seeds: {fc.n_seeds}.</p>
+    <p class="small">Frozen {fc.frozen_at} · model {fc.model} · {fc.n_seeds} simulated auctions</p>
   )}
-  <p class="lede">For each player: probability of being sold, who is likely to buy (given sold), and an 80% price interval (p10 to p90, given sold).</p>
 
   <div class="tablewrap">
     <table>
-      <caption>{fc.players.length} players · prices in INR · buyer distribution over the 10 active franchises</caption>
+      <caption>{fc.players.length} players · 100 lakh = 1 crore</caption>
       <thead>
-        <tr><th>Player</th><th>Role</th><th class="num">Base</th><th>P(sold)</th><th>Top buyers (given sold)</th><th class="num">Price p10 / p50 / p90</th></tr>
+        <tr><th scope="col">Player</th><th scope="col">Role</th><th scope="col" class="num">Base</th><th scope="col">Chance sold</th><th scope="col">Likeliest buyers</th><th scope="col" class="num">Price range (low · median · high)</th></tr>
       </thead>
       <tbody>
         {fc.players.map(p => {
@@ -29,13 +33,13 @@ const fake = fc.status !== 'FROZEN';
               <td>{p.role}</td>
               <td class="num">{fmtLakh(p.base_price_lakh)}</td>
               <td><div class="bar-cell"><span class="meter" aria-hidden="true"><span style={`width:${p.p_sold * 100}%`}></span></span><span>{pct(p.p_sold)}</span></div></td>
-              <td>{top.map(([i, w]) => `${i} ${pct(w)}`).join(' · ')}</td>
-              <td class="num">{fmtLakh(p.price_interval_lakh.p10)} / {fmtLakh(p.price_interval_lakh.p50)} / {fmtLakh(p.price_interval_lakh.p90)}</td>
+              <td>{top.map(([i, w]) => `${i} ${pct(w)}`).join(', ')}</td>
+              <td class="num">{fmtLakh(p.price_interval_lakh.p10)} · {fmtLakh(p.price_interval_lakh.p50)} · {fmtLakh(p.price_interval_lakh.p90)}</td>
             </tr>
           );
         })}
       </tbody>
     </table>
   </div>
-  <p class="muted">Schema: <code>site/data/forecast.schema.json</code>. Prices: 100 lakh = 1 crore.</p>
+  <p class="small">Low and high are the 10th and 90th percentiles. File format: <code>site/data/forecast.schema.json</code>.</p>
 </Base>

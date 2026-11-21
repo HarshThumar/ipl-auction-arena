@@ -3,87 +3,102 @@ import Base from '../layouts/Base.astro';
 import { l2 } from '../lib/data.js';
 const { scores, aiq, llm } = l2();
 const seasons = ['2023', '2024'];
+const label = { '2023': '2023 season (December 2022 auction)', '2024': '2024 season (December 2023 auction)' };
+// [key, label, hint, better]: better is 'hi', 'lo' or a target value
 const metrics = [
-  ['sold_auc', 'Sold AUC', 'higher is better'],
-  ['sold_brier', 'Sold Brier', 'lower is better'],
-  ['buyer_top3', 'Buyer top-3 hit rate', 'higher is better'],
-  ['spearman', 'Price rank correlation', 'higher is better'],
-  ['log_price_mae', 'Log-price MAE', 'lower is better'],
-  ['interval80_coverage', '80% interval coverage', 'target 0.80'],
+  ['sold_auc', 'Sold or unsold, AUC', 'higher is better', 'hi'],
+  ['sold_brier', 'Sold or unsold, Brier', 'lower is better', 'lo'],
+  ['buyer_top3', 'Buyer in top three', 'higher is better', 'hi'],
+  ['spearman', 'Price rank correlation', 'higher is better', 'hi'],
+  ['log_price_mae', 'Log-price error', 'lower is better', 'lo'],
+  ['interval80_coverage', 'Prices inside the 80% range', 'closest to 0.80 is best', 0.8],
 ];
-const f = v => (v === null || v === undefined ? '—' : v.toFixed(3));
-const cell = (obj, k) => (obj ? f(obj[k]) : '—');
+const f = v => (v === null || v === undefined ? 'n/a' : v.toFixed(3));
+const bestOf = (vals, better) => {
+  const xs = vals.filter(v => typeof v === 'number');
+  if (xs.length < 2) return null;
+  if (better === 'hi') return Math.max(...xs);
+  if (better === 'lo') return Math.min(...xs);
+  return xs.reduce((a, b) => (Math.abs(b - better) < Math.abs(a - better) ? b : a));
+};
 const llmModel = llm ? Object.keys(llm)[0] : null;
+const models = [['prior', 'Prior (overall drop rate)'], ['team_prior', 'Team prior (each franchise\'s drop rate)'], ['lightgbm', 'LightGBM'], ['lightgbm_no_identity', 'LightGBM without team identity']];
 ---
 <Base title="Scorecard">
   <h1>Scorecard</h1>
-  <p class="lede">Five-way comparison after the 16 December 2026 auction: our model, base price, LightGBM, AuctionIQ and a pundit mock. Until then the "our model" and pundit columns stay empty. The other columns show <strong>backtests on past seasons</strong>, so you can see how hard the baselines are to beat.</p>
-  <div class="banner" role="note"><strong>Read this first.</strong> Backtest numbers below are on 2023 and 2024 lots, not on the live auction, and some baselines win some rows. Nothing here is a claim that our model works: it has not been scored yet. Dec 2025 backtests are contaminated, so they are not used as evidence.</div>
+  <p class="lede">After the auction on 16 December 2026, our model is scored against base price, LightGBM, AuctionIQ and a pundit mock. Until then this page shows how the baselines do on past seasons, which is the bar our model has to clear.</p>
 
-  {!scores && <p class="pending">Baseline file <code>data/processed/l2/l2_scores.json</code> not found at build time.</p>}
+  <div class="notice">
+    <span class="label">Read this first</span>
+    <p>These are backtests on the 2023 and 2024 seasons, not the live auction. Our model has not been scored, so nothing here says it works. The December 2025 auction is held back and treated as contaminated.</p>
+  </div>
+
+  {!scores && <p class="pending">Baseline file <code>data/processed/l2/l2_scores.json</code> was not found at build time.</p>}
 
   {scores && seasons.map(s => {
-    const base = scores.lots?.[s]?.base_price;
+    const bp = scores.lots?.[s]?.base_price;
     const ai = aiq?.seasons?.[s]?.value_model?.called;
     return (
       <>
-        <h2>Lot level, {s} auction</h2>
+        <h2>Lot outcomes, {label[s]}</h2>
         <div class="tablewrap"><table>
-          <caption>{base?.n_lots} lots called, {base?.n_sold} sold</caption>
-          <thead><tr><th>Metric</th><th class="num">Our model</th><th class="num">Base price</th><th class="num">LightGBM</th><th class="num">AuctionIQ</th><th class="num">Pundit mock</th></tr></thead>
+          <caption>{bp?.n_lots} lots called, {bp?.n_sold} sold. Bold marks the better score where both exist.</caption>
+          <thead><tr><th scope="col">Measure</th><th scope="col" class="num">Base price</th><th scope="col" class="num">AuctionIQ</th><th scope="col" class="num">Our model</th></tr></thead>
           <tbody>
-            {metrics.map(([k, label, hint]) => (
-              <tr>
-                <th scope="row">{label}<br /><span class="muted">{hint}</span></th>
-                <td class="num pending">pending</td>
-                <td class="num">{cell(base, k)}</td>
-                <td class="num muted" title="LightGBM is scored on keep/drop decisions, see below">n/a</td>
-                <td class="num">{cell(ai, k)}</td>
-                <td class="num pending">pending</td>
-              </tr>
-            ))}
+            {metrics.map(([k, name, hint, better]) => {
+              const a = bp?.[k], b = ai?.[k];
+              const best = bestOf([a, b], better);
+              return (
+                <tr>
+                  <th scope="row">{name}<span class="hint">{hint}</span></th>
+                  <td class:list={['num', { best: best !== null && a === best }]}>{f(a)}</td>
+                  <td class:list={['num', { best: best !== null && b === best }]}>{f(b)}</td>
+                  <td class="num pending">not yet</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table></div>
       </>
     );
   })}
-  <p class="muted">"—" means the baseline does not produce that quantity. AuctionIQ is scored on the lots we matched to its player list (<code>auctioniq_scores.json</code>); its commit is pinned there. LightGBM here predicts keep/drop decisions, not lot outcomes, so it has no lot-level numbers.</p>
+  {scores && <p class="small">"n/a" means that baseline does not produce the quantity. AuctionIQ is its price model alone, trained on earlier auctions and scored on the lots matched to its player list; its pinned commit is in <code>auctioniq_scores.json</code>.</p>}
 
   {scores && (
     <>
-      <h2>Decision level (keep or drop), log loss</h2>
-      <p class="muted">Lower is better. Brackets are 95% bootstrap intervals; with 95 to 169 rows they are wide.</p>
+      <h2>Bidding decisions: raise or drop</h2>
+      <p>Each row is one moment in a bidding war: a team either raises or drops out. Lower log-loss is better. Brackets are 95% bootstrap intervals over lots; with 95 to 169 decisions per season they are wide.</p>
       <div class="tablewrap"><table>
-        <thead><tr><th>Model</th>{seasons.map(s => <th class="num">{s} log loss</th>)}{seasons.map(s => <th class="num">{s} AUC</th>)}</tr></thead>
+        <thead><tr><th scope="col">Model</th>{seasons.map(s => <th scope="col" class="num">{s} log-loss</th>)}{seasons.map(s => <th scope="col" class="num">{s} AUC</th>)}</tr></thead>
         <tbody>
-          <tr><th scope="row">Our model</th><td class="num pending" colspan="4">pending (L3 not trained yet)</td></tr>
-          {['prior', 'team_prior', 'lightgbm', 'lightgbm_no_identity'].map(m => (
+          {models.map(([m, name]) => (
             <tr>
-              <th scope="row">{m.replace(/_/g, ' ')}</th>
+              <th scope="row">{name}</th>
               {seasons.map(s => {
                 const x = scores.decisions?.[s]?.models?.[m];
-                return <td class="num">{x ? `${f(x.log_loss)} [${f(x.log_loss_ci[0])}, ${f(x.log_loss_ci[1])}]` : '—'}</td>;
+                return <td class="num">{x ? <>{f(x.log_loss)}{' '}<span class="ci">[{f(x.log_loss_ci[0])}, {f(x.log_loss_ci[1])}]</span></> : 'n/a'}</td>;
               })}
               {seasons.map(s => <td class="num">{f(scores.decisions?.[s]?.models?.[m]?.auc)}</td>)}
             </tr>
           ))}
+          <tr><th scope="row">Our model</th><td class="num pending" colspan="4">not trained yet</td></tr>
         </tbody>
       </table></div>
-      <p class="muted">A "team prior" (franchise habit only) does not beat the plain prior here, so franchise history on its own has shown no detectable signal in these backtests.</p>
+      <p class="small">The team prior does no better than the overall prior, and LightGBM does slightly better without team identity than with it. So far, franchise history alone shows no detectable signal in these backtests.</p>
     </>
   )}
 
   {llm && llmModel && (
     <>
-      <h2>Reference: single-prompt LLM</h2>
-      <p class="muted">One prompt per lot to <code>{llmModel}</code>, shown with real names and with names removed. Possibly contaminated on 2023 and 2024 (the model may have seen those auctions), so this is context, not a fair baseline.</p>
+      <h2>For reference: one prompt per player</h2>
+      <p>A local language model (<code>{llmModel}</code>) asked about each lot once, with the player's real name and with it removed. It may have seen reports of these auctions, so treat it as context, not a fair baseline.</p>
       <div class="tablewrap"><table>
-        <thead><tr><th>Season</th><th>Variant</th><th class="num">Sold AUC</th><th class="num">Sold Brier</th><th class="num">Spearman</th><th class="num">Log-price MAE</th><th class="num">80% coverage</th></tr></thead>
+        <thead><tr><th scope="col">Season</th><th scope="col">Name shown</th><th scope="col" class="num">Sold AUC</th><th scope="col" class="num">Sold Brier</th><th scope="col" class="num">Price rank</th><th scope="col" class="num">Log-price error</th><th scope="col" class="num">In 80% range</th></tr></thead>
         <tbody>
           {seasons.flatMap(s => ['named', 'anon'].map(v => {
             const x = llm[llmModel]?.[s]?.[v];
             return x ? (
-              <tr><td>{s}</td><td>{v}</td><td class="num">{f(x.sold_auc)}</td><td class="num">{f(x.sold_brier)}</td><td class="num">{f(x.spearman)}</td><td class="num">{f(x.log_price_mae)}</td><td class="num">{f(x.interval80_coverage)}</td></tr>
+              <tr><th scope="row">{s}</th><td>{v === 'named' ? 'Yes' : 'No'}</td><td class="num">{f(x.sold_auc)}</td><td class="num">{f(x.sold_brier)}</td><td class="num">{f(x.spearman)}</td><td class="num">{f(x.log_price_mae)}</td><td class="num">{f(x.interval80_coverage)}</td></tr>
             ) : null;
           }))}
         </tbody>
@@ -92,5 +107,5 @@ const llmModel = llm ? Object.keys(llm)[0] : null;
   )}
 
   <h2>Pundit mock</h2>
-  <p class="pending">Pending. A published mock list will be matched to the actual results after the auction. Only lists published before the auction count.</p>
+  <p class="pending">Scored after the auction. Only mock lists published before bidding starts are counted.</p>
 </Base>

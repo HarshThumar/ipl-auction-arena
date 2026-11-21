@@ -4,38 +4,43 @@ import { hashInfo } from '../lib/data.js';
 const h = hashInfo();
 const placeholder = h.status !== 'FROZEN';
 ---
-<Base title="Hash & pre-registration">
-  <h1>Hash &amp; pre-registration</h1>
-  <p class="lede">Before the auction starts, the forecast file is frozen and its SHA-256 fingerprint is published here and on a public archive (Zenodo or OSF, with a DOI). If a single character of the file changes later, the fingerprint no longer matches.</p>
+<Base title="Verify the forecast">
+  <h1>Verify the forecast</h1>
+  <p class="lede">Before the auction starts, the forecast file is frozen and its SHA-256 fingerprint is published here and in a public archive with a DOI. Change one character of the file and the fingerprint no longer matches.</p>
 
-  {placeholder && <div class="banner" role="alert"><strong>PLACEHOLDER.</strong> Nothing has been frozen yet. The value below is all zeros and means nothing.</div>}
+  {placeholder && (
+    <div class="notice sample">
+      <span class="label">Placeholder</span>
+      <p>Nothing has been frozen yet. The value below is all zeros and means nothing.</p>
+    </div>
+  )}
 
-  <h2>Current record</h2>
-  <dl>
-    <dt>Status</dt><dd>{h.status}</dd>
+  <h2>Record</h2>
+  <dl class="record">
+    <dt>Status</dt><dd>{placeholder ? 'Not frozen' : 'Frozen'}</dd>
     <dt>File</dt><dd><code>{h.file}</code></dd>
-    <dt>SHA-256</dt><dd><code class="hash">{h.sha256}</code></dd>
-    <dt>Frozen at</dt><dd>{h.frozen_at ?? 'not frozen yet (planned: 15 December 2026)'}</dd>
-    <dt>Archive DOI</dt><dd>{h.doi ?? 'not minted yet'}</dd>
+    <dt>SHA-256</dt><dd class="hash">{h.sha256}</dd>
+    <dt>Frozen at</dt><dd>{h.frozen_at ?? 'Planned for 15 December 2026'}</dd>
+    <dt>Archive DOI</dt><dd>{h.doi ?? 'Not minted yet'}</dd>
   </dl>
 
-  <h2>How to verify</h2>
+  <h2>How to check it</h2>
   <ol>
-    <li>Download the frozen file from the archive (the DOI above), not from this site alone.</li>
+    <li>Download the frozen file from the archive (the DOI above), not only from this site.</li>
     <li>Compute its SHA-256.
-      <p>Windows PowerShell:</p>
-      <pre>Get-FileHash forecast.json -Algorithm SHA256</pre>
-      <p>macOS or Linux:</p>
-      <pre>sha256sum forecast.json</pre>
+      <p class="small">Windows PowerShell</p>
+      <pre><code>Get-FileHash forecast.json -Algorithm SHA256</code></pre>
+      <p class="small">macOS or Linux</p>
+      <pre><code>sha256sum forecast.json</code></pre>
     </li>
-    <li>Compare it with the value on this page and with the one in the archive record. All three must match exactly.</li>
-    <li>Check the archive's timestamp is earlier than the auction start on 16 December 2026.</li>
+    <li>Compare it with the value on this page and in the archive record. All three must match exactly.</li>
+    <li>Check that the archive's timestamp is earlier than the start of the auction on 16 December 2026.</li>
   </ol>
 
-  <h2>What the hash does and does not show</h2>
+  <h2>What the hash proves</h2>
   <ul>
-    <li>It shows the file existed in exactly this form at the archive's timestamp.</li>
-    <li>It does not show the forecast is good. That is what the <a href={`${import.meta.env.BASE_URL}scorecard/`}>scorecard</a> is for.</li>
-    <li>Fallbacks, if any (for example a different model for the live run), will be stated publicly.</li>
+    <li>That the file existed in exactly this form at the archive's timestamp.</li>
+    <li>Not that the forecast is any good. The <a href={`${import.meta.env.BASE_URL}scorecard/`}>scorecard</a> answers that.</li>
+    <li>Any fallback, such as a different model for the live run, will be stated publicly.</li>
   </ul>
 </Base>

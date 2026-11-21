@@ -8,22 +8,30 @@ const defunct = all.filter(f => f.status !== 'active');
 ---
 <Base title="Franchises">
   <h1>Franchises</h1>
-  <p class="lede">Ten active franchises each get an agent. Defunct franchises appear only as history, because their bid records feed the training data.</p>
-  <h2>Active (10 agents)</h2>
-  <ul class="grid">
+  <p class="lede">Each of the ten current franchises gets one agent. Defunct franchises have no agent; they are listed because their bidding records are part of the training data.</p>
+
+  <h2>Current (ten agents)</h2>
+  <ul class="ledger">
     {active.map(f => (
-      <li class="card" style={`--c:${f.colour}`}>
-        <h3><a href={`${base}franchises/${f.id.toLowerCase()}/`}>{f.name}</a></h3>
-        <span class="muted">{f.id} · since {f.firstSeason}</span>
+      <li style={`--c:${f.colour}`}>
+        <a href={`${base}franchises/${f.id.toLowerCase()}/`}>
+          <span class="swatch" aria-hidden="true"></span>
+          <span class="name">{f.name}</span>
+          <span class="meta">{f.id} · since {f.firstSeason}</span>
+        </a>
       </li>
     ))}
   </ul>
+
   <h2>Defunct (history only)</h2>
-  <ul class="grid">
+  <ul class="ledger defunct">
     {defunct.map(f => (
-      <li class="card" style={`--c:${f.colour}`}>
-        <h3><a href={`${base}franchises/${f.id.toLowerCase()}/`}>{f.name}</a></h3>
-        <span class="muted">{f.id} · {f.firstSeason}–{f.lastSeason}</span>
+      <li>
+        <a href={`${base}franchises/${f.id.toLowerCase()}/`}>
+          <span class="swatch" aria-hidden="true"></span>
+          <span class="name">{f.name}</span>
+          <span class="meta">{f.firstSeason}–{f.lastSeason}</span>
+        </a>
       </li>
     ))}
   </ul>

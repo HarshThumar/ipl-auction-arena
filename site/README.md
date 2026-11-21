@@ -22,7 +22,7 @@ Hosting is any static host ($0): GitHub Pages or Cloudflare Pages. For a GitHub 
 | Forecast, franchise "likely targets" | `site/data/forecast.json` if present (gitignored until freeze), else `site/data/forecast.sample.json` (FAKE) |
 | Hash | `site/data/hash.json` if present, else an all-zero placeholder |
 
-"Our model" and "Pundit mock" scorecard columns are `pending` until the live auction is scored.
+The "Our model" scorecard column reads "not yet" until the model is trained and scored; the pundit mock is scored only on the live auction. Fonts (Newsreader, IBM Plex Sans, IBM Plex Mono; SIL Open Font Licence) are self-hosted through `@fontsource`, so the site makes no third-party requests.
 
 ## Forecast JSON schema
 

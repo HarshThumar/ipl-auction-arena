@@ -7,39 +7,45 @@ export function getStaticPaths() {
 const { f } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const fc = forecast();
-const likely = f.status === 'active'
+const isActive = f.status === 'active';
+const likely = isActive
   ? fc.players
       .map(p => ({ p, w: p.buyer_distribution[f.id] ?? 0 }))
       .filter(x => x.w > 0).sort((a, b) => b.w - a.w).slice(0, 5)
   : [];
 ---
 <Base title={f.name}>
-  <p><a href={`${base}franchises/`}>← All franchises</a></p>
-  <h1 style={`border-left:8px solid ${f.colour}; padding-left:.6rem`}>{f.name}</h1>
-  <p class="muted">{f.id} · {f.status === 'active' ? `active since ${f.firstSeason}` : `defunct (${f.firstSeason}–${f.lastSeason})`}</p>
+  <p class="back"><a href={`${base}franchises/`}>All franchises</a></p>
+  <h1>{f.name}</h1>
+  <p class="lede"><span class="swatch" style={`--c:${f.colour}`} aria-hidden="true"></span> {f.id} · {isActive ? `in the auction since ${f.firstSeason}` : `defunct, played ${f.firstSeason}–${f.lastSeason}`}</p>
 
   <h2>Lineage</h2>
   <ul>
-    <li>Franchise id: <code>{f.id}</code></li>
+    <li>Franchise id <code>{f.id}</code></li>
     {f.aliases.length > 0 && <li>Earlier names: {f.aliases.join(', ')}</li>}
     {f.notes && <li>{f.notes}</li>}
   </ul>
 
-  {f.status === 'active' ? (
+  {isActive ? (
     <>
       <h2>Agent</h2>
-      <p class="pending">Agent profile pending: the team-identity signal from the L3 training run is not available yet.</p>
-      <p class="muted">The agent models this franchise <em>seat</em> and its historical decisions. It does not model, quote or imitate any person.</p>
+      <p class="pending">No profile yet. It appears once the team-identity model is trained.</p>
+      <p class="small">The agent stands for this franchise's seat at the auction table and its past decisions. It does not model, quote or imitate any person.</p>
 
-      <h2>Most likely targets in the forecast</h2>
-      {fc.status !== 'FROZEN' && <div class="banner" role="note"><strong>FAKE SAMPLE DATA.</strong> These rows are invented to test the page and say nothing about {f.name}.</div>}
+      <h2>Likeliest targets</h2>
+      {fc.status !== 'FROZEN' && (
+        <div class="notice sample">
+          <span class="label">Sample data</span>
+          <p>These rows are invented to test the page. They say nothing about {f.name}.</p>
+        </div>
+      )}
       {likely.length === 0 ? <p class="pending">No players in the current file.</p> : (
         <div class="tablewrap"><table>
-          <caption>Players where {f.id} has the highest buyer probability (given sold)</caption>
-          <thead><tr><th>Player</th><th>Role</th><th class="num">P(buyer = {f.id})</th><th class="num">Price p50</th></tr></thead>
+          <caption>Players {f.id} is most likely to buy, if they are sold</caption>
+          <thead><tr><th scope="col">Player</th><th scope="col">Role</th><th scope="col" class="num">Chance {f.id} buys</th><th scope="col" class="num">Median price</th></tr></thead>
           <tbody>
             {likely.map(({ p, w }) => (
-              <tr><td>{p.name}</td><td>{p.role}</td><td class="num">{pct(w)}</td><td class="num">{fmtLakh(p.price_interval_lakh.p50)}</td></tr>
+              <tr><th scope="row">{p.name}</th><td>{p.role}</td><td class="num">{pct(w)}</td><td class="num">{fmtLakh(p.price_interval_lakh.p50)}</td></tr>
             ))}
           </tbody>
         </table></div>
