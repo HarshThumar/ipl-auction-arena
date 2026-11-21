@@ -50,8 +50,35 @@ Price metrics use SOLD lots and hammer prices (D7).
 | base_price | 82 | 71 | 0.5346 | 0.1752 | 0.338 | 0.6534 | 0.8679 | 0.7746 |
 | last_price | 82 | 71 | 0.5346 | 0.1752 | 0.2817 | 0.6455 | 0.8394 | 0.7183 |
 
+## AuctionIQ (rule-based, MIT)
+
+Its own code, commit `487c8b8`, run out of tree; its per-player outputs stay private because its data came from archived iplt20.com pages (rule #7).
+
+- **called** = the lots actually called (same pool as the baselines above). **list** = AuctionIQ's whole auction list, including players never called (its own published pool). Never-called players are easy 'unsold' calls, so the list AUC is much higher and not comparable.
+- **Value model** = its Tobit price model alone, trained on earlier minis: out-of-sample. Its 80% range is ours (quantiles given a sale); it sits above base price, and about half of real sales happen at base, so it misses them.
+- **Simulation** = its full 10-agent Monte Carlo, taken from its published 2024 back-test. **Tuning set**: AuctionIQ chose its weights on 2024, so these are in-sample. 2023 has no simulation (AuctionIQ ships no 2023 team file).
+
+### 2023 season (Dec 2022 mini)
+
+Matched 146 of 151 called lots by name (unmatched: Abdul Basith, G Ajitesh, LR Chetan, Mohammed Azharudeen, R Sanjay).
+
+| model | pool | lots | sold | sold AUC | sold Brier | buyer top-3 | Spearman | log-price MAE | 80% coverage |
+|---|---|---|---|---|---|---|---|---|---|
+| value model | called | 146 | 79 | 0.6605 | 0.3216 | – | 0.807 | 0.6521 | 0.1899 |
+| value model | list | 405 | 80 | 0.8315 | 0.1225 | – | 0.8106 | 0.6482 | 0.1875 |
+
+### 2024 season (Dec 2023 mini)
+
+Matched 82 of 82 called lots by name.
+
+| model | pool | lots | sold | sold AUC | sold Brier | buyer top-3 | Spearman | log-price MAE | 80% coverage |
+|---|---|---|---|---|---|---|---|---|---|
+| value model | called | 82 | 71 | 0.3841 | 0.444 | – | 0.705 | 0.8822 | 0.1831 |
+| value model | list | 332 | 72 | 0.8115 | 0.1211 | – | 0.7011 | 0.8786 | 0.1944 |
+| simulation (tuning set) | called | 82 | 71 | 0.4085 | 0.3775 | – | 0.6676 | 0.7636 | 0.7324 |
+| simulation (tuning set) | list | 332 | 72 | 0.81 | 0.1167 | 0.38 | 0.6659 | 0.7651 | 0.7361 |
+
 ## Not yet scored
 
-- **AuctionIQ** (run its MIT code or reimplement and say so).
 - **Single-prompt LLM**: `qwen2.5:7b` was released Sep 2024, after both scored auctions, so its score here must be labelled *possibly contaminated* (`src/eval/contamination.py`).
 - **JioStar pundit mock**: covers the Dec 2025 mini only, so it is scored at L5 with the held-back season.

@@ -1,0 +1,88 @@
+{
+  "auctioniq_commit": "487c8b8209f0f6317ad7d043ed5aeaf7da3fc5b6",
+  "seasons": {
+    "2023": {
+      "called_lots": 151,
+      "matched": 146,
+      "unmatched": [
+        "Abdul Basith",
+        "G Ajitesh",
+        "LR Chetan",
+        "Mohammed Azharudeen",
+        "R Sanjay"
+      ],
+      "value_model": {
+        "called": {
+          "n_lots": 146,
+          "n_sold": 79,
+          "sold_auc": 0.6605,
+          "sold_brier": 0.3216,
+          "buyer_top3": null,
+          "spearman": 0.807,
+          "log_price_mae": 0.6521,
+          "interval80_coverage": 0.1899
+        },
+        "list": {
+          "n_lots": 405,
+          "n_sold": 80,
+          "sold_auc": 0.8315,
+          "sold_brier": 0.1225,
+          "buyer_top3": null,
+          "spearman": 0.8106,
+          "log_price_mae": 0.6482,
+          "interval80_coverage": 0.1875
+        }
+      }
+    },
+    "2024": {
+      "called_lots": 82,
+      "matched": 82,
+      "unmatched": [],
+      "value_model": {
+        "called": {
+          "n_lots": 82,
+          "n_sold": 71,
+          "sold_auc": 0.3841,
+          "sold_brier": 0.444,
+          "buyer_top3": null,
+          "spearman": 0.705,
+          "log_price_mae": 0.8822,
+          "interval80_coverage": 0.1831
+        },
+        "list": {
+          "n_lots": 332,
+          "n_sold": 72,
+          "sold_auc": 0.8115,
+          "sold_brier": 0.1211,
+          "buyer_top3": null,
+          "spearman": 0.7011,
+          "log_price_mae": 0.8786,
+          "interval80_coverage": 0.1944
+        }
+      },
+      "simulation_tuning_set": {
+        "called": {
+          "n_lots": 82,
+          "n_sold": 71,
+          "sold_auc": 0.4085,
+          "sold_brier": 0.3775,
+          "buyer_top3": null,
+          "spearman": 0.6676,
+          "log_price_mae": 0.7636,
+          "interval80_coverage": 0.7324
+        },
+        "list": {
+          "n_lots": 332,
+          "n_sold": 72,
+          "sold_auc": 0.81,
+          "sold_brier": 0.1167,
+          "buyer_top3": 0.38,
+          "spearman": 0.6659,
+          "log_price_mae": 0.7651,
+          "interval80_coverage": 0.7361
+        },
+        "note": "AuctionIQ chose its weights on 2024; buyer top-3 0.38 is its published number on its own pool (buyer probabilities were not in its output)."
+      }
+    }
+  }
+}

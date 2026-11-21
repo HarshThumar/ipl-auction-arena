@@ -223,3 +223,23 @@ def test_real_purse_file_shape():
     purses = lb.load_purses(2024)
     assert set(purses) == set(TEAMS) and all(isinstance(v, int) for v in purses.values())
     json.dumps(purses)
+
+
+# ---------- AuctionIQ adapter ----------
+
+def test_auctioniq_name_matching():
+    from scripts.score_auctioniq import match_names
+
+    ours = pd.DataFrame({"player": ["Phil Salt", "Mujeeb ur Rahman", "Steven Smith", "Nobody Known"],
+                         "base_lakh": [150, 200, 200, 20]})
+    theirs = pd.DataFrame({"name": ["Philip Salt", "Mujeeb Rahman", "Steve Smith", "Jos Buttler"],
+                           "base_lakh": [150, 200, 200, 200]})
+    mp = match_names(ours, theirs)
+    assert mp == {0: 0, 1: 1, 2: 2}  # surname within same base price; no forced match for the 4th
+
+
+def test_auctioniq_section_without_scores(tmp_path, monkeypatch):
+    import scripts.run_l2_baselines as run
+
+    monkeypatch.setattr(run, "AUCTIONIQ", tmp_path / "missing.json")
+    assert "Not scored yet" in "\n".join(run.auctioniq_section())

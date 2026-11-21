@@ -26,3 +26,9 @@ Notes:
   third-party prose, images, logos, audio or video are reproduced.
 - Figures are cross-checked against official auction totals; small residual
   disagreements with official spend are documented in the dataset's validation output.
+
+## Baselines
+- **AuctionIQ** (MIT licence, https://github.com/FuadAhamed91/auctioniq, commit 487c8b8) is run
+  out of tree as an L2 baseline. Only aggregate scores are kept here
+  (`data/processed/l2/auctioniq_scores.json`). Its per-player outputs and data are not
+  redistributed, because its auction data comes from archived iplt20.com pages.
