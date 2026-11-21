@@ -1,0 +1,100 @@
+{
+  "qwen2.5:7b": {
+    "2023": {
+      "named": {
+        "model": "qwen2.5:7b",
+        "variant": "named",
+        "season": 2023,
+        "contamination": "possibly_contaminated",
+        "n_lots": 151,
+        "n_invalid": 0,
+        "seed": 0,
+        "seconds": 425.2,
+        "n_sold": 80,
+        "sold_auc": 0.6625,
+        "sold_brier": 0.2771,
+        "buyer_top3": 0.3375,
+        "spearman": 0.7251,
+        "log_price_mae": 0.7348,
+        "interval80_coverage": 0.0875
+      },
+      "anon": {
+        "model": "qwen2.5:7b",
+        "variant": "anon",
+        "season": 2023,
+        "contamination": "possibly_contaminated",
+        "n_lots": 151,
+        "n_invalid": 0,
+        "seed": 0,
+        "seconds": 338.4,
+        "n_sold": 80,
+        "sold_auc": 0.7724,
+        "sold_brier": 0.2592,
+        "buyer_top3": 0.3375,
+        "spearman": 0.7114,
+        "log_price_mae": 0.717,
+        "interval80_coverage": 0.05
+      },
+      "named_minus_anon": {
+        "log_price_mae_diff": 0.0179,
+        "log_price_mae_diff_ci": [
+          -0.0082,
+          0.0416
+        ],
+        "buyer_top3_diff": 0.0,
+        "buyer_top3_diff_ci": [
+          -0.05,
+          0.05
+        ]
+      }
+    },
+    "2024": {
+      "named": {
+        "model": "qwen2.5:7b",
+        "variant": "named",
+        "season": 2024,
+        "contamination": "possibly_contaminated",
+        "n_lots": 82,
+        "n_invalid": 0,
+        "seed": 0,
+        "seconds": 182.9,
+        "n_sold": 71,
+        "sold_auc": 0.6959,
+        "sold_brier": 0.1269,
+        "buyer_top3": 0.3099,
+        "spearman": 0.5999,
+        "log_price_mae": 0.9498,
+        "interval80_coverage": 0.0282
+      },
+      "anon": {
+        "model": "qwen2.5:7b",
+        "variant": "anon",
+        "season": 2024,
+        "contamination": "possibly_contaminated",
+        "n_lots": 82,
+        "n_invalid": 0,
+        "seed": 0,
+        "seconds": 182.2,
+        "n_sold": 71,
+        "sold_auc": 0.863,
+        "sold_brier": 0.1217,
+        "buyer_top3": 0.2817,
+        "spearman": 0.5738,
+        "log_price_mae": 0.9526,
+        "interval80_coverage": 0.0423
+      },
+      "named_minus_anon": {
+        "log_price_mae_diff": -0.0028,
+        "log_price_mae_diff_ci": [
+          -0.0436,
+          0.0354
+        ],
+        "buyer_top3_diff": 0.0282,
+        "buyer_top3_diff_ci": [
+          -0.0423,
+          0.0986
+        ]
+      }
+    }
+  }
+}

@@ -51,3 +51,16 @@ The original findings above are kept for the record, but they don't support the 
 - The held-back 2026 season (Dec 2025) and the live 2027 forecast are clean by construction.
 - Code baselines (LightGBM, priors, base and last price) don't use an LLM, so this doesn't affect them.
 - This is enforced in `src/eval/contamination.py` and tested in `tests/test_l2_eval.py`.
+
+## 5. Named vs anonymised check (21 Nov 2026), qwen2.5:7b
+
+The single-prompt LLM baseline (docs/L2-baselines.md) asked about every called player twice: once with the real name and once as "Player N". If the model remembered the results, the named answers should be clearly better.
+
+| Season | Named minus anon: log-price error (95% CI) | Named minus anon: buyer top-3 (95% CI) |
+|---|---|---|
+| 2023 (Dec 2022) | +0.018 [−0.008, +0.042] | 0.00 [−0.05, +0.05] |
+| 2024 (Dec 2023) | −0.003 [−0.044, +0.035] | +0.03 [−0.04, +0.10] |
+
+On sold/unsold, the anonymised version actually did better (AUC 0.77 vs 0.66, and 0.86 vs 0.70).
+
+**Reading:** no detectable recall of prices or buyers. That is absence of evidence on a small sample, not proof the model is clean, so the 2023/2024 scores keep the *possibly contaminated* label. The release-date rule (section 4) stays the guarantee.

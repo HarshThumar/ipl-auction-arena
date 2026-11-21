@@ -80,7 +80,25 @@ Matched 82 of 82 called lots by name.
 
 ## Single-prompt LLM
 
-Not scored yet: run `scripts/run_llm_baseline.py --model qwen2.5:7b` (scores on these seasons will be labelled *possibly contaminated*).
+One prompt per called player with pre-auction facts only; JSON answer. **named** has the real name, **anon** hides it. If named beats anon, the model may be recalling the real result (D1). Invalid answers fall back to base price and are counted.
+
+### qwen2.5:7b, 2023 season (Dec 2022 mini)
+
+| variant | contamination | invalid | n_lots | n_sold | sold_auc | sold_brier | buyer_top3 | spearman | log_price_mae | interval80_coverage |
+|---|---|---|---|---|---|---|---|---|---|---|
+| named | possibly_contaminated | 0 | 151 | 80 | 0.6625 | 0.2771 | 0.3375 | 0.7251 | 0.7348 | 0.0875 |
+| anon | possibly_contaminated | 0 | 151 | 80 | 0.7724 | 0.2592 | 0.3375 | 0.7114 | 0.717 | 0.05 |
+
+Named minus anon: log-price MAE 0.0179 [-0.0082, 0.0416], buyer top-3 0.0 [-0.05, 0.05] (95% CI).
+
+### qwen2.5:7b, 2024 season (Dec 2023 mini)
+
+| variant | contamination | invalid | n_lots | n_sold | sold_auc | sold_brier | buyer_top3 | spearman | log_price_mae | interval80_coverage |
+|---|---|---|---|---|---|---|---|---|---|---|
+| named | possibly_contaminated | 0 | 82 | 71 | 0.6959 | 0.1269 | 0.3099 | 0.5999 | 0.9498 | 0.0282 |
+| anon | possibly_contaminated | 0 | 82 | 71 | 0.863 | 0.1217 | 0.2817 | 0.5738 | 0.9526 | 0.0423 |
+
+Named minus anon: log-price MAE -0.0028 [-0.0436, 0.0354], buyer top-3 0.0282 [-0.0423, 0.0986] (95% CI).
 
 ## Not yet scored
 
