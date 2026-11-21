@@ -40,15 +40,15 @@ Price metrics use SOLD lots and hammer prices (D7).
 
 | baseline | lots | sold | sold AUC | sold Brier | buyer top-3 | Spearman | log-price MAE | 80% coverage |
 |---|---|---|---|---|---|---|---|---|
-| base_price | 151 | 80 | 0.5233 | 0.271 | 0.3625 | 0.7696 | 0.5302 | 0.9625 |
-| last_price | 151 | 80 | 0.5233 | 0.271 | 0.35 | 0.7136 | 0.6093 | 0.8 |
+| base_price | 151 | 80 | 0.509 | 0.2612 | 0.3625 | 0.7696 | 0.5302 | 0.9625 |
+| last_price | 151 | 80 | 0.509 | 0.2612 | 0.35 | 0.7136 | 0.6093 | 0.8 |
 
 ### 2024 season (Dec 2023 mini)
 
 | baseline | lots | sold | sold AUC | sold Brier | buyer top-3 | Spearman | log-price MAE | 80% coverage |
 |---|---|---|---|---|---|---|---|---|
-| base_price | 82 | 71 | 0.5346 | 0.1752 | 0.338 | 0.6534 | 0.8679 | 0.7746 |
-| last_price | 82 | 71 | 0.5346 | 0.1752 | 0.2817 | 0.6455 | 0.8394 | 0.7183 |
+| base_price | 82 | 71 | 0.3169 | 0.1969 | 0.338 | 0.6534 | 0.8679 | 0.7746 |
+| last_price | 82 | 71 | 0.3169 | 0.1969 | 0.2817 | 0.6455 | 0.8394 | 0.7183 |
 
 ## AuctionIQ (rule-based, MIT)
 
@@ -60,11 +60,11 @@ Its own code, commit `487c8b8`, run out of tree; its per-player outputs stay pri
 
 ### 2023 season (Dec 2022 mini)
 
-Matched 146 of 151 called lots by name (unmatched: Abdul Basith, G Ajitesh, LR Chetan, Mohammed Azharudeen, R Sanjay).
+Matched 147 of 151 called lots by name (unmatched: Abdul Basith, G Ajitesh, LR Chetan, R Sanjay).
 
 | model | pool | lots | sold | sold AUC | sold Brier | buyer top-3 | Spearman | log-price MAE | 80% coverage |
 |---|---|---|---|---|---|---|---|---|---|
-| value model | called | 146 | 79 | 0.6605 | 0.3216 | – | 0.807 | 0.6521 | 0.1899 |
+| value model | called | 147 | 79 | 0.6616 | 0.3195 | – | 0.807 | 0.6521 | 0.1899 |
 | value model | list | 405 | 80 | 0.8315 | 0.1225 | – | 0.8106 | 0.6482 | 0.1875 |
 
 ### 2024 season (Dec 2023 mini)

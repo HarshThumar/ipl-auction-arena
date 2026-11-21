@@ -3,20 +3,19 @@
   "seasons": {
     "2023": {
       "called_lots": 151,
-      "matched": 146,
+      "matched": 147,
       "unmatched": [
         "Abdul Basith",
         "G Ajitesh",
         "LR Chetan",
-        "Mohammed Azharudeen",
         "R Sanjay"
       ],
       "value_model": {
         "called": {
-          "n_lots": 146,
+          "n_lots": 147,
           "n_sold": 79,
-          "sold_auc": 0.6605,
-          "sold_brier": 0.3216,
+          "sold_auc": 0.6616,
+          "sold_brier": 0.3195,
           "buyer_top3": null,
           "spearman": 0.807,
           "log_price_mae": 0.6521,

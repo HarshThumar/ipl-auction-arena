@@ -181,8 +181,8 @@
       "base_price": {
         "n_lots": 151,
         "n_sold": 80,
-        "sold_auc": 0.5233,
-        "sold_brier": 0.271,
+        "sold_auc": 0.509,
+        "sold_brier": 0.2612,
         "buyer_top3": 0.3625,
         "spearman": 0.7696,
         "log_price_mae": 0.5302,
@@ -191,8 +191,8 @@
       "last_price": {
         "n_lots": 151,
         "n_sold": 80,
-        "sold_auc": 0.5233,
-        "sold_brier": 0.271,
+        "sold_auc": 0.509,
+        "sold_brier": 0.2612,
         "buyer_top3": 0.35,
         "spearman": 0.7136,
         "log_price_mae": 0.6093,
@@ -203,8 +203,8 @@
       "base_price": {
         "n_lots": 82,
         "n_sold": 71,
-        "sold_auc": 0.5346,
-        "sold_brier": 0.1752,
+        "sold_auc": 0.3169,
+        "sold_brier": 0.1969,
         "buyer_top3": 0.338,
         "spearman": 0.6534,
         "log_price_mae": 0.8679,
@@ -213,8 +213,8 @@
       "last_price": {
         "n_lots": 82,
         "n_sold": 71,
-        "sold_auc": 0.5346,
-        "sold_brier": 0.1752,
+        "sold_auc": 0.3169,
+        "sold_brier": 0.1969,
         "buyer_top3": 0.2817,
         "spearman": 0.6455,
         "log_price_mae": 0.8394,
