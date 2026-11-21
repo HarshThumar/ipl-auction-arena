@@ -24,6 +24,7 @@ import pandas as pd
 from src.eval import contamination, lot_baselines as lb
 
 TEAMS = ["CSK", "DC", "GT", "KKR", "LSG", "MI", "PBKS", "RCB", "RR", "SRH"]
+MIN_BASE_LAKH = 20.0  # lowest base price in the 2023-24 rules; floor when a base price is not recorded
 
 SCHEMA = {
     "type": "object",
@@ -51,6 +52,8 @@ def team_table(state: dict) -> str:
 
 def build_prompt(lot: dict, season: int, teams: str, anon_id: int | None = None) -> str:
     name = f"Player {anon_id}" if anon_id is not None else lot["player"]
+    bl = lot.get("base_lakh")
+    base_text = f"{int(bl)} lakh" if bl is not None and pd.notna(bl) else "not recorded"
     lp = lot.get("last_price")
     last = (f"{int(lp)} lakh (his most recent IPL auction price since 2022)"
             if lp is not None and pd.notna(lp) else "not recorded (records start with the 2022 auction)")
@@ -60,7 +63,7 @@ def build_prompt(lot: dict, season: int, teams: str, anon_id: int | None = None)
         f"Role: {lot['role'] if pd.notna(lot['role']) else 'unknown'}\n"
         f"Overseas: {'yes' if lot['overseas'] else 'no'}\n"
         f"Capped: {'yes' if lot['capped'] else 'no'}\n"
-        f"Base price: {int(lot['base_lakh'])} lakh\n"
+        f"Base price: {base_text}\n"
         f"Last IPL price: {last}\n\n"
         "Predict:\n"
         "- p_sold: probability (0 to 1) that he is sold\n"
@@ -115,7 +118,8 @@ def predict(client, m: pd.DataFrame, season: int, state: dict, variant: str, see
     for i, lot in lots.iterrows():
         prompt = build_prompt(lot.to_dict(), season, teams, anon_id=i + 1 if variant == "anon" else None)
         res = client.generate_json(prompt, schema=SCHEMA, seed=seed, num_predict=160, system=SYSTEM)
-        pred, ok = parse(res.data, float(lot["base_lakh"]), purse_rank)
+        base = float(lot["base_lakh"]) if pd.notna(lot["base_lakh"]) else MIN_BASE_LAKH  # 5 gaps in 2023
+        pred, ok = parse(res.data, base, purse_rank)
         invalid += not ok
         rows.append({"player": lot["player"], "sold": lot["sold"], "winner": lot["winner"],
                      "hammer_lakh": lot["hammer_lakh"], **pred})

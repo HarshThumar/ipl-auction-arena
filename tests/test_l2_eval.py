@@ -301,3 +301,16 @@ def test_llm_refuses_gemini(tmp_path):
     m["nationality"], m["role"], m["capped"] = "India", "batter", "capped"
     with pytest.raises(cg.ContaminationError):
         lm.predict(FakeClient(model="gemini-2.5-flash"), m, 2023, _state(), "named")
+
+
+def test_llm_missing_base_price_not_invented(tmp_path):
+    from src.eval import llm_baseline as lm
+
+    m = _synthetic_master(tmp_path)
+    m["nationality"], m["role"], m["capped"] = "India", "batter", "capped"
+    m.loc[(m.season == 2023) & (m.player == "D"), "base_lakh"] = np.nan
+    fc = FakeClient(reply={"p_sold": 0.5, "price_lakh_p10": 5, "price_lakh_median": 10,
+                           "price_lakh_p90": 15, "likely_buyers": []})
+    df, _ = lm.predict(fc, m, 2023, _state(), "named", log=lambda *_: None)
+    assert "Base price: not recorded" in fc.prompts[-1]
+    assert df.set_index("player").loc["D", "point"] == lm.MIN_BASE_LAKH
