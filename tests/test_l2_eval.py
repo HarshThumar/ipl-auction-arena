@@ -243,3 +243,61 @@ def test_auctioniq_section_without_scores(tmp_path, monkeypatch):
 
     monkeypatch.setattr(run, "AUCTIONIQ", tmp_path / "missing.json")
     assert "Not scored yet" in "\n".join(run.auctioniq_section())
+
+
+# ---------- single-prompt LLM baseline ----------
+
+class FakeClient:
+    def __init__(self, model="qwen2.5:7b", reply=None):
+        self.model, self.reply, self.prompts, self.hits, self.calls = model, reply, [], 0, 0
+
+    def generate_json(self, prompt, **kw):
+        from src.llm.ollama_client import LLMResult
+
+        self.prompts.append(prompt)
+        self.calls += 1
+        return LLMResult("", self.reply, False, "k")
+
+
+def _state():
+    return {"teams": {t: {"purse_left_lakh": 1000 + i, "slots_left": 5, "overseas_slots_left": 2}
+                      for i, t in enumerate(TEAMS)}}
+
+
+def test_llm_parse_cleans_and_falls_back():
+    from src.eval.llm_baseline import parse
+
+    rank = TEAMS[::-1]
+    p, ok = parse({"p_sold": 70, "price_lakh_p10": 900, "price_lakh_median": 50, "price_lakh_p90": 300,
+                   "likely_buyers": ["mi", "XYZ", "CSK"]}, base=100, purse_rank=rank)
+    assert ok and p["p_sold"] == 0.7
+    assert (p["lo"], p["point"], p["hi"]) == (100, 300, 900)  # sorted, floored at base
+    assert p["ranking"][:2] == ["MI", "CSK"] and len(p["ranking"]) == 10
+    p, ok = parse(None, base=100, purse_rank=rank)
+    assert not ok and p["point"] == 100 and p["ranking"] == rank
+
+
+def test_llm_prompt_hides_name_and_outcome(tmp_path):
+    from src.eval import llm_baseline as lm
+
+    m = _synthetic_master(tmp_path)
+    m["nationality"], m["role"], m["capped"] = "India", "batter", "capped"
+    fc = FakeClient(reply={"p_sold": 0.6, "price_lakh_p10": 100, "price_lakh_median": 200,
+                           "price_lakh_p90": 400, "likely_buyers": ["RR"]})
+    df, meta = lm.predict(fc, m, 2023, _state(), "anon", log=lambda *_: None)
+    assert meta["contamination"] == "possibly_contaminated" and meta["n_invalid"] == 0
+    joined = "\n".join(fc.prompts)
+    assert "Player 1" in joined and not any(n in joined for n in ("Player: A\n", "Player: D\n"))
+    assert "500" not in joined and "9999" not in joined  # 2023 hammer and the future 2024 price
+    assert "300 lakh" in joined  # A's 2022 price is allowed (known before the 2023 auction)
+    lm.predict(fc, m, 2023, _state(), "named", log=lambda *_: None)
+    assert "Player: A\n" in fc.prompts[-3]
+
+
+def test_llm_refuses_gemini(tmp_path):
+    from src.eval import llm_baseline as lm
+
+    m = _synthetic_master(tmp_path)
+    m["nationality"], m["role"], m["capped"] = "India", "batter", "capped"
+    with pytest.raises(cg.ContaminationError):
+        lm.predict(FakeClient(model="gemini-2.5-flash"), m, 2023, _state(), "named")

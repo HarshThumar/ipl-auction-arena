@@ -78,7 +78,10 @@ Matched 82 of 82 called lots by name.
 | simulation (tuning set) | called | 82 | 71 | 0.4085 | 0.3775 | – | 0.6676 | 0.7636 | 0.7324 |
 | simulation (tuning set) | list | 332 | 72 | 0.81 | 0.1167 | 0.38 | 0.6659 | 0.7651 | 0.7361 |
 
+## Single-prompt LLM
+
+Not scored yet: run `scripts/run_llm_baseline.py --model qwen2.5:7b` (scores on these seasons will be labelled *possibly contaminated*).
+
 ## Not yet scored
 
-- **Single-prompt LLM**: `qwen2.5:7b` was released Sep 2024, after both scored auctions, so its score here must be labelled *possibly contaminated* (`src/eval/contamination.py`).
 - **JioStar pundit mock**: covers the Dec 2025 mini only, so it is scored at L5 with the held-back season.
