@@ -22,6 +22,10 @@ RULES = ROOT / "data" / "reference" / "rules_by_season.yaml"
 MODEL_RELEASES = {
     "qwen2:7b": (dt.date(2024, 6, 7), "https://qwenlm.github.io/blog/qwen2/"),
     "qwen2.5:7b": (dt.date(2024, 9, 19), "https://qwenlm.github.io/blog/qwen2.5/"),
+    "qwen/qwen2.5-1.5b-instruct": (dt.date(2024, 9, 19), "https://qwenlm.github.io/blog/qwen2.5/"),
+    "qwen/qwen2.5-0.5b-instruct": (dt.date(2024, 9, 19), "https://qwenlm.github.io/blog/qwen2.5/"),
+    "qwen2.5-1.5b-instruct": (dt.date(2024, 9, 19), "https://qwenlm.github.io/blog/qwen2.5/"),
+    "qwen2.5-0.5b-instruct": (dt.date(2024, 9, 19), "https://qwenlm.github.io/blog/qwen2.5/"),
     "llama3.1:8b": (dt.date(2024, 7, 23), "https://ai.meta.com/blog/meta-llama-3-1/"),
 }
 
